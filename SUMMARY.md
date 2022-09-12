@@ -9,5 +9,5 @@
 * [🧐 알고리즘 개념](cs/undefined-1/README.md)
   * [Page 3](cs/undefined-1/page-3.md)
 * [🧠 운영체제](cs/undefined-2/README.md)
-  * [Page 1](cs/undefined-2/page-1.md)
+  * [운영체제란](cs/undefined-2/undefined.md)
 * [🖥 리눅스](cs/undefined-3.md)
