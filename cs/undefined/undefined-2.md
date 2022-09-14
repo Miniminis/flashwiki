@@ -2,7 +2,7 @@
 
 ### 동기식 입출력(synchronous I/O)과 비동기식 입출력(asynchronous I/O)
 
-<figure><img src="../../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (5) (1).png" alt=""><figcaption></figcaption></figure>
 
 | 구분     | 동기식 입출력(synchronous I/O)                                                           | 비동기식 입출력(asynchronous I/O)                               |
 | ------ | ---------------------------------------------------------------------------------- | -------------------------------------------------------- |
@@ -42,7 +42,7 @@
 
 ### 프로그램의 실행(메모리 load)
 
-<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
 
 * 프로그램이 실행되면 각 실행파일별로 별도의 virtual memory 공간이 생기며 각각의 프로세스는 해당 공간 내에서 저장되고 조회된다.
 * physical memory 영역에서는 virtual memory 의 모든 것을 저장하지 않는다. 메모리가 낭비될 수 있기 때문에 최대한의 효율을 위해 현재 실행되고 있는 부분의 데이터만 저장한다.
@@ -52,11 +52,11 @@
 
 ### 커널 주소 공간의 내용
 
-<figure><img src="../../.gitbook/assets/image (9).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (9) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### 사용자 프로그램이 사용하는 함수
 
-<figure><img src="../../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (8) (1).png" alt=""><figcaption></figcaption></figure>
 
 * 사용자 정의 함수
   * 자신의 프로그램에서 정의한 함수
