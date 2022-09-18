@@ -10,6 +10,7 @@
   * [프로그램의 실행](cs/undefined/undefined-2.md)
   * [프로세스](cs/undefined/undefined-3.md)
   * [쓰레드](cs/undefined/undefined-4.md)
+  * [프로세스의 생성과 종료](cs/undefined/undefined-5.md)
 * [🖥 프로그래밍의 기초 (Go)](cs/go/README.md)
   * [트랜지스터](cs/go/undefined.md)
   * [논리소자](cs/go/undefined-1.md)
