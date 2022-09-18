@@ -19,5 +19,6 @@
   * [프로그래밍 언어](cs/go/undefined-4.md)
   * [컴파일러와 동적언어](cs/go/undefined-5.md)
   * [golang](cs/go/golang.md)
+  * [Hello, world](cs/go/hello-world.md)
 * [🧐 알고리즘](cs/undefined-1/README.md)
   * [recursion 1](cs/undefined-1/recursion-1.md)
