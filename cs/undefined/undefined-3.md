@@ -32,7 +32,7 @@
 
 #### 한 장으로 보는 프로세스의 문맥 변경 과정
 
-<figure><img src="../../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (5) (1).png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../../.gitbook/assets/image (13).png" alt=""><figcaption></figcaption></figure>
 
@@ -80,7 +80,7 @@
 * device queue : I/O device의 처리를 기다리는 프로세스의 집합
 * 프로세스들은 각 큐들을 오가며 수행된다.
 
-<figure><img src="../../.gitbook/assets/image (9).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (9) (2).png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
 
@@ -113,4 +113,4 @@
 * Blocked : 자신이 요청한 이벤트가 만족되면 ready 상태로 변한다.
 * Suspended : 외부에서 resume 해주어야 active 된다.
 
-<figure><img src="../../.gitbook/assets/image (12).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (12) (1).png" alt=""><figcaption></figcaption></figure>
