@@ -22,5 +22,6 @@
   * [컴파일러와 동적언어](cs/go/undefined-5.md)
   * [golang](cs/go/golang.md)
   * [Hello, world](cs/go/hello-world.md)
+  * [변수](cs/go/undefined-6.md)
 * [🧐 알고리즘](cs/undefined-1/README.md)
   * [recursion 1](cs/undefined-1/recursion-1.md)
