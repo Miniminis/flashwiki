@@ -18,7 +18,7 @@
 * 프로세스의 도착 순서대로 스케줄링된다.
 * 단점은 짧은 수행시간을 가진 프로세스라도 늦게 도착하면 오랜 시간을 대기해야한다는 것이다.
 
-<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
 
 #### SJF : shortest job first
 
@@ -156,4 +156,4 @@
 * simulation
   * 알고리즘을 모의 프로그램으로 작성 후, trace(시뮬레이션 프로그램에 input으로 들어갈 데이터)를 입력으로 하여 결과를 비교한다.
 
-<figure><img src="../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (3) (3).png" alt=""><figcaption></figcaption></figure>

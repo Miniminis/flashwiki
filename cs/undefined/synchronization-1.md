@@ -1,4 +1,4 @@
-# 프로세스 synchronization
+# 프로세스 synchronization 1
 
 ### 데이터의 접근
 
@@ -62,4 +62,4 @@
 * 문제점
   * 하나의 프로세스가 critical section 에 있을 때, 다른 모든 프로세스는 critical section 에 들어갈 수 없어야 한다.
 
-<figure><img src="../../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (6) (3).png" alt=""><figcaption></figcaption></figure>
