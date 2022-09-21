@@ -14,7 +14,7 @@
     * Kernel stack
       * 여러 프로세스들이 공유하는 공간이기에 프로세스별로 별도로 관리된다.
 
-<figure><img src="../../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (7) (2).png" alt=""><figcaption></figcaption></figure>
 
 
 

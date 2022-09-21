@@ -25,7 +25,7 @@
 * 하지만 동일한 일을 하는 프로세스가 여러개가 있다고 하면, 그때마다 주소공간이 별도로 생성된다면, 메모리가 낭비되게 된다. 이 경우, 주소 공간을 하나만 띄워두고, 각 프로세스마다 다른 코드 부분을 실행할 수 있도록 하면 된다. 이 개념이 바로 쓰레드이다.
 * 이 경우, 운영체제 내 PCB에서는 다른 부분은 모두 공유하되, 현재 프로세스의 실행 위치를 기억하는 program counter, register 등은 분리해서 독립적으로 가지고 있게 된다.
 
-<figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (2).png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../../.gitbook/assets/image (1) (2) (1).png" alt=""><figcaption></figcaption></figure>
 

@@ -25,7 +25,7 @@
 
 
 
-<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 * mov : 옮겨라 (=값을 이동해라)
 * dword : 4바이트

@@ -13,6 +13,8 @@
   * [프로세스의 생성과 종료](cs/undefined/undefined-5.md)
   * [프로세스 시스템 콜과 프로세스간의 협력](cs/undefined/undefined-6.md)
   * [CPU 스케줄링](cs/undefined/cpu.md)
+  * [CPU 스케줄링 알고리즘](cs/undefined/cpu-1.md)
+  * [프로세스 synchronization](cs/undefined/synchronization.md)
 * [🖥 프로그래밍의 기초 (Go)](cs/go/README.md)
   * [트랜지스터](cs/go/undefined.md)
   * [논리소자](cs/go/undefined-1.md)
