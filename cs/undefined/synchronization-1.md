@@ -1,65 +1,59 @@
-# 프로세스 synchronization 1
+# 프로세스 synchronization 해결을 위한 초기의 방법들
 
-### 데이터의 접근
+### 프로세스 간 동기화 문제를 해결하기 위한 초기의 방법론
 
-* 보통 프로그램은 다음과 같은 과정의 반복일 것이다.
-  1. storage box 에 데이터가 저장되어있고
-  2. 연산할 데이터를 읽어와서
-  3. 연산을 진행한 다음
-  4. 연산 결과를 다시 storage 에 저장한다.
-* 이때, 바로 syncronization 문제가 발생하게 된다. → `Race Condition` 경쟁상태의 가능성!
-  * 같은 storage 에 여러 실행 박스들이 접근하는 경우
-* 운영체제 커널 레벨에서 충분히 발생할 수 있는 문제이다.
+<figure><img src="../../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
+### 프로그램적 해결법의 충족조건
 
-<figure><img src="../../.gitbook/assets/image (22).png" alt=""><figcaption></figcaption></figure>
+1. mutual exclusion 상호배제
+   1. 프로세스 Pi 가 critical section 부분을 수행중이면 다른 모든 프로세스들은 그들의 critical section 에 들어가면 안된다.
+2. progress
+   1. 아무도 critical section 에 있지 않은 상태에서 critical section 에 들어가고자 하는 프로세스가 있으면 critical section 에 들어가게 해주어야 한다.
+3. bounded waiting 유한대기
+   1. 프로세스가 critical section 에 들어가려고 요청한 후 부터 그 요청이 허용될 때까지 다른 프로세스들이 critical section 에 들어가는 횟수에 한계가 있어야 한다.
+   2. 요청한 후에 특정시간 이내에는 들어갈 수 있어야 한다.
+
+#### 가정
+
+* 모든 프로세스의 수행속도는 0보다 크다.
+* 프로세스들 간의 상대적인 수행속도는 가정하지 않는다.
+
+#### 첫번째 알고리즘 - turn 변수 사용
+
+* mutual exclusion 은 충족하지만, progress 는 충족하지 못한다.
+* 과잉보호가 발생하게 됨. 반드시 교대로 한번씩 들어가야 하는데, 그가 turn 을 내 값으로 바꿔줘야만 내가 들어갈 수 있다.
+* 특정 프로세스가 더 빈번히 critical section 을 들어가야 한다면 어떻게 될까?
+
+<figure><img src="../../.gitbook/assets/image (15).png" alt=""><figcaption></figcaption></figure>
+
+#### 두번째 알고리즘 - 플래그
+
+* 플래그가 동시에 켜질 때, 서로 플래그가 켜진 상태기 때문에 아무도 while 문 안으로 진입하지 못하는 문제가 발생할 수 있다.
+
+<figure><img src="../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
+
+#### 세번째 알고리즘 - 피터슨 알고리즘 - 플래그와 turn 변수 모두 사용
+
+* mutual exclusion, progress, bounded waiting 의 세 가지 조건을 모두 만족하는 알고리즘이다.
+* 둘다 critical section 에 들어가고자 할 때, turn 을 따진다.
+* 둘다 들어가고 싶지 않다면, turn 대로 들어간다.
+* 발생할 수 있는 문제점 : busy waiting = spin lock
+
+<figure><img src="../../.gitbook/assets/image (4) (2).png" alt=""><figcaption></figcaption></figure>
 
 
 
-### OS 운영체제에서 race condition 경쟁상태는 언제 발생하는가
+### Synchronization Hardware
 
-#### 1. 커널모드를 running 할 때, interrupt 가 발생하여 인터럽트 처리루틴이 수행되는 경우
+* 고급언어에서는 필연적으로 instruction 이 여러 개로 나누어지기 때문에 이런 알고리즘들을 고민해야한다.
+  * 데이터를 읽는 명령과 쓰는 명령을 동시에 수행할 수 없기 때문에 발생하는 문제들이다.
+* 하지만 하나의 instruction 으로 데이터을 읽고 쓰는 것을 동시에 수행할 수 있다면, 사실 고민할 문제가 아니다.
+* 하드웨어적으로 test & modify 를 atomic 하게 수행할 수 있도록 지원하는 경우, 앞의 문제는 간단히 해결될 수 있다.
+* test and set a : a의 값을 읽고 쓰는 것을 동시에 수행하는 명령
 
-* count ++ 를 수행하는 경우, load, inc, store 등 여러 단계에 걸쳐서 연산이 수행되는데,
-* 연산 도중에 인터럽트가 발생할 경우, 연산 결과에 오염이 발생할 수 있다.
-* 해결방법
-  * kernel 모드에서 연산 수행할 때, 인터럽트를 막는 방법이 있다.
-
-<figure><img src="../../.gitbook/assets/image (10).png" alt=""><figcaption></figcaption></figure>
-
-#### 2. process 가 system call 을 하여 kernal mode 로 수행중인데 context switch 가 발생하는 경우
-
-<figure><img src="../../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
-
-<figure><img src="../../.gitbook/assets/image (25).png" alt=""><figcaption></figcaption></figure>
-
-#### 3. multiprocessor 에서 shared memory 내의 kernal data
-
-<figure><img src="../../.gitbook/assets/image (19).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (6) (4).png" alt=""><figcaption></figcaption></figure>
 
 
 
-### Process Synchronization 문제
-
-* 공유 데이터의 동시접근은 데이터의 불일치 문제를 발생시킬 수 있다.
-* 일관성 유지를 위해서는 협력 프로세스 간의 실행 순서를 정해주는 매커니즘이 필요하다.
-* race condition
-  * 여러 프로세스들이 동시에 공유 데이터를 접근하는 상황
-  * 데이터의 최종 연산 결과는 마지막에 그 데이터를 다룬 프로세스에 따라 달라지게 된다.
-* race condition 을 막기 위해서는 concurrent process 는 동기화 synchronize 되어야 한다.
-
-#### Race condition
-
-* 프로세스간 context switch 자체가 문제가 아니라 shared data 를 접근하는 경우가 문제가 되는 것이다.
-
-<figure><img src="../../.gitbook/assets/image (21).png" alt=""><figcaption></figcaption></figure>
-
-### The Critical-Section Problem
-
-* n개의 프로세스가 공유 데이터를 동시에 사용하기를 원하는 경우
-* 각 프로세스의 code segment 에는 공유 데이터를 접근하는 코드인 critical section 이 존재한다.
-* 문제점
-  * 하나의 프로세스가 critical section 에 있을 때, 다른 모든 프로세스는 critical section 에 들어갈 수 없어야 한다.
-
-<figure><img src="../../.gitbook/assets/image (6) (3).png" alt=""><figcaption></figcaption></figure>
+> 하지만 프로그래머가 이런 일을 계속 프로그램 내에서 하는 것은 굉장히 불편한 일이다. 이때 우리는 semaphore 를 이용할 수 있다.

@@ -8,7 +8,7 @@ description: Introduction to Operating Systems
 
 * 운영체제는 컴퓨터 하드웨어 바로 위에 설치되어 컴퓨터의 하드웨어와 사용자 및 다른 모든 소프트웨어를 연결하는 소프트웨어 계층이다.
 
-#### ![](<../../.gitbook/assets/image (1) (1) (1).png>)
+#### ![](<../../.gitbook/assets/image (1) (1) (1) (1).png>)
 
 #### 좁은 의미의 운영체제 vs. 넓은 의미의 운영체제
 

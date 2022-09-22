@@ -13,7 +13,7 @@
 
 ### fork() 시스템 콜
 
-<figure><img src="../../.gitbook/assets/image (12).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (12) (2).png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../../.gitbook/assets/image (19) (1).png" alt=""><figcaption></figcaption></figure>
 
@@ -80,7 +80,7 @@
   * thread 간의 협력
     * thread 는 사실상 하나의 프로세스이므로, 프로세스 간 협력으로 보기에는 어렵지만 동일한 process 를 구성하는 thread 들 간에는 주소공간을 공유하므로 협력이 가능하다.
 
-<figure><img src="../../.gitbook/assets/image (9).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (9) (3).png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../../.gitbook/assets/image (6) (2).png" alt=""><figcaption></figcaption></figure>
 

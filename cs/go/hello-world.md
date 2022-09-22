@@ -1,6 +1,6 @@
 # Hello, world
 
-<figure><img src="../../.gitbook/assets/image (16).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (16) (1).png" alt=""><figcaption></figcaption></figure>
 
 * go언어는 제일 오래된 C언어와 닯아있다.
 * C언어의 좋은 점을 다시 리뉴얼해서 만든 느낌

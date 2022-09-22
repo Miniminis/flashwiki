@@ -36,7 +36,7 @@
   * 추정만 가능하다.
   * 과거의 CPU burst time 을 이용해서 추정한다.
 
-<figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (3).png" alt=""><figcaption></figcaption></figure>
 
 #### Priority Scheduling
 
@@ -83,7 +83,7 @@
 * 우선순위대로 나열하자면 다음과 같다.
   * system → interactive → interactive editing → batch → student
 
-<figure><img src="../../.gitbook/assets/image (17).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (17) (2).png" alt=""><figcaption></figcaption></figure>
 
 #### Multilevel Feedback Queue
 
