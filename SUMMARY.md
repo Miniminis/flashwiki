@@ -2,7 +2,11 @@
 
 * [🦥 flash library](README.md)
 
-## 🏗 컴퓨터 공학 기초 <a href="#cs" id="cs"></a>
+## 🗣 Techtalk
+
+* [Page 3](techtalk/page-3.md)
+
+## 🏗 computer science <a href="#cs" id="cs"></a>
 
 * [🧠 운영체제](cs/undefined-2/README.md)
   * [운영체제란](cs/undefined-2/undefined.md)
@@ -27,5 +31,16 @@
   * [golang](cs/go/golang.md)
   * [Hello, world](cs/go/hello-world.md)
   * [변수](cs/go/undefined-6.md)
-* [🧐 알고리즘](cs/undefined-1/README.md)
-  * [recursion 1](cs/undefined-1/recursion-1.md)
+
+## 🍡 Datatype and Algorithm
+
+* [🧐 알고리즘](datatype-and-algorithm/undefined/README.md)
+  * [recursion 1](datatype-and-algorithm/undefined/recursion-1.md)
+
+## ☕ Java
+
+* [Page 1](java/page-1.md)
+
+## 🍃 Spring
+
+* [Page 2](spring/page-2.md)
