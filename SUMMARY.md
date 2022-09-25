@@ -31,6 +31,7 @@
   * [golang](cs/go/golang.md)
   * [Hello, world](cs/go/hello-world.md)
   * [변수](cs/go/undefined-6.md)
+  * [변수 2](cs/go/2.md)
 
 ## 🍡 Datatype and Algorithm
 

@@ -31,7 +31,7 @@
 
 * 플래그가 동시에 켜질 때, 서로 플래그가 켜진 상태기 때문에 아무도 while 문 안으로 진입하지 못하는 문제가 발생할 수 있다.
 
-<figure><img src="../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (3).png" alt=""><figcaption></figcaption></figure>
 
 #### 세번째 알고리즘 - 피터슨 알고리즘 - 플래그와 turn 변수 모두 사용
 

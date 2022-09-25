@@ -11,7 +11,7 @@
   * 같은 storage 에 여러 실행 박스들이 접근하는 경우
 * 운영체제 커널 레벨에서 충분히 발생할 수 있는 문제이다.
 
-<figure><img src="../../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (5) (3).png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../../.gitbook/assets/image (22) (1).png" alt=""><figcaption></figcaption></figure>
 

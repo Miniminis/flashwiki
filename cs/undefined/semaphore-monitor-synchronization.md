@@ -139,7 +139,7 @@
 
 <figure><img src="../../.gitbook/assets/image (22).png" alt=""><figcaption><p>식사하는 철학자 문제 in semaphore code</p></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption><p>식사하는 철학자 문제 in monitor code </p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1).png" alt=""><figcaption><p>식사하는 철학자 문제 in monitor code </p></figcaption></figure>
 
 
 
