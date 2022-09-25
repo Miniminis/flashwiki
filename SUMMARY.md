@@ -1,10 +1,10 @@
 # Table of contents
 
-* [🦥 flash library](README.md)
+* [🧙 miniwiki](README.md)
 
-## 🗣 Techtalk
+## 🗣 minitalk
 
-* [Page 3](techtalk/page-3.md)
+* [Page 3](minitalk/page-3.md)
 
 ## 🏗 computer science <a href="#cs" id="cs"></a>
 

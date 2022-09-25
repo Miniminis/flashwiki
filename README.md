@@ -1,6 +1,6 @@
 ---
-description: 개발자 플래시의 개발블로그
+description: dev wiki of developer mini
 ---
 
-# 🦥 flash's library
+# 🧙 miniwiki
 
