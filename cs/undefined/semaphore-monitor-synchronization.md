@@ -43,7 +43,7 @@
 * P 연산 : 자원획득
 * V 연산 : 자원 반환
 
-<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (3).png" alt=""><figcaption></figcaption></figure>
 
 ### 문제 2. readers and writers problem
 
@@ -70,7 +70,7 @@
   * reader queue 에 우선순위를 두어, 어느정도 선까지 도착한 reader 만 허용하고, db 자원을 반납해 writer 가 들어올 수 있도록 해준다.
   * 마치 신호등이 있어서 끊임없이 오는 차들을 잠시 막고 사람들이 틈틈히 건너갈 수 있도록!
 
-<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (19).png" alt=""><figcaption></figcaption></figure>
 
 ### 문제 3. 식사하는 철학자 문제, dining-phillosophers problem
 
@@ -121,13 +121,38 @@
 * x.signal() 은 정확하게 하나의 suspend 된 프로세스를 resume 한다. suspend 된 프로세스가 없으면 아무일도 일어나지 않는다.
 * waiting 을 하는 줄이 하나의 목적에 따라서 여러갈래로 나뉜다.
 
-<figure><img src="../../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (4) (1).png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../../.gitbook/assets/image (16).png" alt=""><figcaption></figcaption></figure>
 
-#### bounded-buffer problem 비교 : semaphore vs. monitor
+### 비교 1. bounded-buffer problem : semaphore vs. monitor
 
-![](<../../.gitbook/assets/image (17).png>)![](<../../.gitbook/assets/image (2).png>)
+<figure><img src="../../.gitbook/assets/image (13).png" alt=""><figcaption><p>bounded-buffer problem in semaphore version</p></figcaption></figure>
+
+
+
+<figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption><p>bounded-buffer problem in monitor version</p></figcaption></figure>
+
+
+
+### 비교 2. 식사하는 철학자 문제 : semaphore vs. monitor
+
+<figure><img src="../../.gitbook/assets/image (22).png" alt=""><figcaption><p>식사하는 철학자 문제 in semaphore code</p></figcaption></figure>
+
+<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption><p>식사하는 철학자 문제 in monitor code </p></figcaption></figure>
+
+
+
+### 비교 : semaphore vs. monitor
+
+> 사실 semaphore 와 monitor 버전의 코드는 상호 변환이 용이하다.
+
+|      | semaphore                             | monitor                                |
+| ---- | ------------------------------------- | -------------------------------------- |
+| 값    | 있음                                    | 없음                                     |
+| 동시접근 | 자원을 획득하기 위해 프로그래머가 P연산, V연산을 해주어야 한다. | monitor 차원에서 지원해주어 프로그래머가 신경쓰지 않아도 된다. |
+
+
 
 
 
