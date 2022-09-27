@@ -1,14 +1,13 @@
 # Table of contents
 
-* [🧙 miniwiki](README.md)
+* [🧙 DEV WIKI OF FLASH](README.md)
 
-## 🗣 minitalk
+## 🗣 devtalk
 
-* [Page 3](minitalk/page-3.md)
+* [Page 3](devtalk/page-3.md)
 
 ## 🏗 computer science <a href="#cs" id="cs"></a>
 
-* [Page 4](cs/page-4.md)
 * [🧠 운영체제](cs/undefined-2/README.md)
   * [운영체제란](cs/undefined-2/undefined.md)
   * [컴퓨터 시스템의 구조](cs/undefined/undefined-1.md)

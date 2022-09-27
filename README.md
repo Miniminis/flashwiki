@@ -1,6 +1,6 @@
 ---
-description: dev wiki of developer mini
+description: dev wiki of developer flash
 ---
 
-# 🧙 miniwiki
+# 🧙 DEV WIKI OF FLASH
 
