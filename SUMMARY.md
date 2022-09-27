@@ -8,6 +8,7 @@
 
 ## 🏗 computer science <a href="#cs" id="cs"></a>
 
+* [Page 4](cs/page-4.md)
 * [🧠 운영체제](cs/undefined-2/README.md)
   * [운영체제란](cs/undefined-2/undefined.md)
   * [컴퓨터 시스템의 구조](cs/undefined/undefined-1.md)
@@ -21,6 +22,7 @@
   * [프로세스 synchronization 문제](cs/undefined/synchronization.md)
   * [프로세스 synchronization 해결을 위한 초기의 방법들](cs/undefined/synchronization-1.md)
   * [semaphore 와 monitor 로 synchronization 해결하기](cs/undefined/semaphore-monitor-synchronization.md)
+  * [deadlock 데드락](cs/undefined/deadlock.md)
 * [🖥 프로그래밍의 기초 (Go)](cs/go/README.md)
   * [트랜지스터](cs/go/undefined.md)
   * [논리소자](cs/go/undefined-1.md)

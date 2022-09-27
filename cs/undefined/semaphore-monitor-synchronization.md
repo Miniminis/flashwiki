@@ -123,7 +123,7 @@
 
 <figure><img src="../../.gitbook/assets/image (4) (1).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (16).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (16) (2).png" alt=""><figcaption></figcaption></figure>
 
 ### 비교 1. bounded-buffer problem : semaphore vs. monitor
 
@@ -131,7 +131,7 @@
 
 
 
-<figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption><p>bounded-buffer problem in monitor version</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (2).png" alt=""><figcaption><p>bounded-buffer problem in monitor version</p></figcaption></figure>
 
 
 
@@ -139,7 +139,7 @@
 
 <figure><img src="../../.gitbook/assets/image (22).png" alt=""><figcaption><p>식사하는 철학자 문제 in semaphore code</p></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (1) (1).png" alt=""><figcaption><p>식사하는 철학자 문제 in monitor code </p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption><p>식사하는 철학자 문제 in monitor code </p></figcaption></figure>
 
 
 
