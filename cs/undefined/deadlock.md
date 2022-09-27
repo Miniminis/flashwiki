@@ -47,7 +47,7 @@
 * 그래프에 cycle 이 존재할 때도, 자원이 하나 이상 있다면, deadlock 이 아니다.
 * **즉, 그래프에 cycle 이 존재하고, 자원이 하나밖에 없을 때, deadlock 이 발생한다.**
 
-<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
 
@@ -87,31 +87,100 @@
 
 > 하지만 위의 방법들은 발생하는 빈도수가 많지 않은 deadlock 상황을 지나치게 대비하여 자원 이용률이 저하되고, starvation 문제가 생길 수 있다.
 
+
+
 ### Dedlock avoidance
 
 * 프로세스가 시작될 때, 필요한 모든 자원을 미리 전부 조사하여 deadlock 가능성이 없는 안전한 경우에만 자원을 할당한다.
 * 가장 단순하고 일반적인 모델은 프로세스들이 필요로하는 각 자원별 최대 사용량을 미리 선언하도록 하는 방법이다.
-* safe state : 시스템 내의 프로세스들에 대한 safe sequence 가 존재하는 상태
+* safe state
+  * 시스템 내의 프로세스들에 대한 `safe sequence` 가 존재하는 상태
 * safe sequence
   * 프로세스의 sequence 가 safe 하려면 프로세스 별 자원요청이 `가용자원 + 모든 프로세스의 보유자원`에 의해 충족되어야 한다.
   * 조건을 만족하면, 다음 방법으로 모든 프로세스의 수행을 보장한다.
     * 프로세스의 자원요청이 즉시 충족될 수 없으면, 모든 프로세스들이 종료될 때까지 기다린다.
     * Pi-1가 종료되면, Pi의 자원요청을 만족시켜 수행한다.
+* safe 와 unsafe 의 의미
+  * unsafe state 에 있다고해서 반드시 deadlock 이 발생하는 것은 아니다. 발생할 가능성이 생기는 것이다.
+  * safe state 에 있다면, 무조건 deadlock 이 발생하지 않는다.
 
-<figure><img src="../../.gitbook/assets/image (16).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (16) (3).png" alt=""><figcaption></figcaption></figure>
 
 #### 자원이 1개밖에 없는 경우 - resouce allocation graph algorithm
 
-<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (2).png" alt=""><figcaption></figcaption></figure>
 
 
 
 #### 자원이 여러개 있는 경우 - bankers algorithm
 
+* Need 만큼의 양이 확보되지 않는 이상 자원 요청을 받아들이지 않는다.
+* 굉장히 보수적이고 엄격한 알고리즘이다.
+* 예를 들어 지금 상황에서 P0가 A 자원 1개를 요청할 경우, 받아들여지지 않는다. 최대 7개까지 요청할 가능성이 있기 떄문이다.
+* P1의 경우, A자원을 최대 1개 더 요청할 수 있는데, 이는 available 한 자원 내의 범위이다. 따라서 P1이 A자원을 요청할 경우에는 무조건 받아들여진다.
+* 결국, 프로세스들 사이에 sequence 가 생기게 되는데, 이 경우, 절대 deadlock 이 생기지 않게 된다.
+* 이 알고리즘에 따른 방법은 deadlock 을 예방할 수 있지만, 굉장히 비효율적이게 된다. 자원이 남아돌아도 할당하지 않는 경우가 많이 발생하기 때문이다.
+
+<figure><img src="../../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
+
+
+
+#### 문제 풀어보기
+
 <figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
 
+> 위의 두 방법은 deadlock 을 예방할 수 있는 방법이고, \
+> 아래의 두 방법은 deadlock 이 발생하도록 두고, 시스템에 문제가 생겼을 때만, 조치를 취하는 방법이다. \
+> → deadlock 은 거의 발생하지 않기 때문에 이 방법이 효율적이긴 하다.
+
 ### Dedlock detection and recovery
+
+* 모든 알고리즘에 대해서 그래프를 그리는 것보다 bankers 알고리즘처럼 테이블을 그려서 계산하는 것이 훨씬 간단하고 효율적이다.
+* 자원할당 그래프에 대해서 프로세스+자원의 조합으로 이루어진 버전을 `프로세스 간 그래프(wait-for graph)`로 바꾸면 훨씬 간단해진다.
+  * 그래프를 그려서 cycle 이 발생하는지 점검하면 된다.
+  * 이 방법은 최대 O(n^2)의 시간이 소요된다.
+    * n개의 프로세스가 존재하고
+    * 각 프로세스로부터 뻗어나올 수 있는 그래프의 개수는 n-1개이니까
+    * 최대 n \* (n-1) 개의 그래프를 탐색하면 된다. → n^2의 시간 소요
+
+<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+
+
+
+#### 아래의 경우, sequence 가 존재하기 때문에 deadlock 이 발생하지 않는다.
+
+<figure><img src="../../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+
+#### 만약 P2가 자원 C를 하나 더 요청한다면?
+
+* deadlock 이 발생하게 된다.
+* deadlock 발생 가능성을 확인하는 방법
+  * 가용 자원의 개수를 확인하고, 요청하지 않은 것은 가용자원으로 치고
+  * 가용 자원으로 프로세스를 해결 가능한지 확인한다.
+
+<figure><img src="../../.gitbook/assets/image (16).png" alt=""><figcaption></figcaption></figure>
+
+#### deadlock 발생시 recovery 방법
+
+1. deadlock 에 연루된 프로세스를 강제 종료시킨다. 여기에도 두 가지 방법이 있다.
+   1. 모든 프로세스를 강제 종료시키는 방법과
+   2. deadlock 상황이 해결될 때까지 프로세스를 하나씩 죽이면서 종료시키는 방법이다.
+2. deadlock 에 연루된 프로세스로부터 자원을 빼앗는 방법
+   1. 최소한의 비용으로 자원을 뺏을 수 있는 희생양 victim 을 선정하고
+   2. safe state 로 rollback 하여 프로세스를 다시 시작한다.
+   3. 이때, starvation 문제가 발생할 수 있다.
+      1. 동일한 프로세스가 계속해서 victim 으로 선정되는 경우, 해당 프로세스는 계속 자원을 받지 못하고 대기하게 된다.
+      2. rollback 횟수도 비용으로 같이 산정되어야 한다.
+   4. 따라서 비용 뿐만아니라, 몇번 자원을 빼앗겼는지 등을 같이 종합적으로 고려하는 것이 좋다.
 
 
 
 ### Dedlock ignorance
+
+* deadlock 이 발생하지 않는다고 가정하고 아무일도 안하는 방법이다.
+* 애초에 deadlock 은 매우 드물게 발생한다. 따라서 이에 대비하여 어떠한 조치를 미리 취하는 것이 오히려 더 큰 overhead 라고 판단한다.
+* 이 방법에 따르면, deadlock 상황을 인지한 사용자가 비정상적임을 느끼고 직접 process 를 kill 하여 문제상황을 해결한다.
+* unix, windows 등 대부분의 OS들이 채택한 방법이기도 하다.
+
+
+
