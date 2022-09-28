@@ -22,6 +22,7 @@
   * [프로세스 synchronization 해결을 위한 초기의 방법들](cs/undefined/synchronization-1.md)
   * [semaphore 와 monitor 로 synchronization 해결하기](cs/undefined/semaphore-monitor-synchronization.md)
   * [deadlock 데드락](cs/undefined/deadlock.md)
+  * [메모리 관리](cs/undefined/undefined-7.md)
 * [🖥 프로그래밍의 기초 (Go)](cs/go/README.md)
   * [트랜지스터](cs/go/undefined.md)
   * [논리소자](cs/go/undefined-1.md)

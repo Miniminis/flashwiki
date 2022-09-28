@@ -25,13 +25,13 @@
 * 과잉보호가 발생하게 됨. 반드시 교대로 한번씩 들어가야 하는데, 그가 turn 을 내 값으로 바꿔줘야만 내가 들어갈 수 있다.
 * 특정 프로세스가 더 빈번히 critical section 을 들어가야 한다면 어떻게 될까?
 
-<figure><img src="../../.gitbook/assets/image (15).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (15) (2).png" alt=""><figcaption></figcaption></figure>
 
 #### 두번째 알고리즘 - 플래그
 
 * 플래그가 동시에 켜질 때, 서로 플래그가 켜진 상태기 때문에 아무도 while 문 안으로 진입하지 못하는 문제가 발생할 수 있다.
 
-<figure><img src="../../.gitbook/assets/image (1) (1) (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (3) (1).png" alt=""><figcaption></figcaption></figure>
 
 #### 세번째 알고리즘 - 피터슨 알고리즘 - 플래그와 turn 변수 모두 사용
 
@@ -40,7 +40,7 @@
 * 둘다 들어가고 싶지 않다면, turn 대로 들어간다.
 * 발생할 수 있는 문제점 : busy waiting = spin lock
 
-<figure><img src="../../.gitbook/assets/image (4) (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (4) (2) (1).png" alt=""><figcaption></figcaption></figure>
 
 
 

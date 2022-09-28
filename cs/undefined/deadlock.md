@@ -47,7 +47,7 @@
 * 그래프에 cycle 이 존재할 때도, 자원이 하나 이상 있다면, deadlock 이 아니다.
 * **즉, 그래프에 cycle 이 존재하고, 자원이 하나밖에 없을 때, deadlock 이 발생한다.**
 
-<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
 
@@ -127,7 +127,7 @@
 
 #### 문제 풀어보기
 
-<figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (2).png" alt=""><figcaption></figcaption></figure>
 
 > 위의 두 방법은 deadlock 을 예방할 수 있는 방법이고, \
 > 아래의 두 방법은 deadlock 이 발생하도록 두고, 시스템에 문제가 생겼을 때만, 조치를 취하는 방법이다. \
@@ -143,13 +143,13 @@
     * 각 프로세스로부터 뻗어나올 수 있는 그래프의 개수는 n-1개이니까
     * 최대 n \* (n-1) 개의 그래프를 탐색하면 된다. → n^2의 시간 소요
 
-<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
 
 
 #### 아래의 경우, sequence 가 존재하기 때문에 deadlock 이 발생하지 않는다.
 
-<figure><img src="../../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (4) (2).png" alt=""><figcaption></figcaption></figure>
 
 #### 만약 P2가 자원 C를 하나 더 요청한다면?
 
