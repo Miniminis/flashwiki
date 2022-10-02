@@ -74,9 +74,9 @@
   * 만약 virtual memory 범위 이내의 주소값일 경우에는 physical memory에서 해당 logical address 가 차지하는 공간의 시작점인 14000을 `relocation register` 로 두고, 그 값을 더해준다.
   * 그렇게하면, logical address 346가 실제 메모리 공간에서 위치하는 주소값인 14346 을 얻게 된다.
 
-<figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (4).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (4) (1).png" alt=""><figcaption></figcaption></figure>
 
 
 
@@ -121,7 +121,7 @@
   * complie binding 이나 load time binding 에서는 원래의 메모리 주소로 swap in 해야하며, runtime binding 에서는 빈 곳 아무데나 로드하면 된다.
   * swap time 은 대부분 swap 되는 양에 비례한 transfer time 이다.
 
-<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
 
 #### 4. dynamic linking
 
@@ -139,94 +139,3 @@
   * 이 방법 역시 하드웨어적으로 뒷받침이 되어야 가능하다.
   * shared library 라고 불리기도 한다.
 
-### 물리적 메모리의 할당
-
-* 메모리는 일반적으로 두 영역으로 나뉘어 사용된다.
-  * OS 상주 영역에는 아주 낮은 주소 영역에 interrupt vector 와 함께 존재한다.
-  * 사용자 프로세스 영역에는 높은 주소 영역을 사용한다.
-* 이 사용자 프로세스 영역에 메모리를 할당하는 방법에는 다시 또 두 가지가 있다.
-  * continuous allocation은 각각의 프로세스가 메모리의 연속적인 공간에 적재가 된다.
-    * fixed partition allocation
-    * variable partition allocation
-  * noncontinuous allocation 은 하나의 프로세스가 메모리의 여러 영역에 나뉘어 올라간다.
-    * paging
-    * segmentation
-    * paged segmentation
-
-### continuous allocation
-
-* fixed partition allocation 고정분할방식
-  * fixed partition allocation 을 따르면 메모리의 공간이 몇개의 영구적 partition으로 분할된다.
-  * 파티션의 크기가 모두 동일한 방식과 서로 다른 방식이 존재하며
-  * 파티션당 하나의 프로그램이 적재될 수 있다.
-  * 융통성이 없어서 동시에 메모리에 로드되는 프로그램의 수가 제한적이게 되며, 최대 수행 가능한 프로그램의 크기도 제한된다.
-  * 프로그램이 파티션과 맞지 않다면, 외부조각 external fragment 이나 내부 조각 internal fragment이 생기게 된다.
-* variable partition allocation 가변분할방식
-  * 프로그램이 실행될 때마다 차곡차곡 메모리에 올려두는 방식으로
-  * 프로그램의 크기를 고려해서 할당된다. 분할의 크기와 개수가 동적으로 변한다.
-  * 이 방법을 위해서는 기술적으로 관리 기법이 갖추어져야한다.
-  * 가변분할방식도 프로그램 실행에 따라서 외부조각이 발생할 수 있는데 예를 들면 아래와 같은 상황이다.
-    * 프로그램 B의 수행이 끝나도 프로그램D가 B가 있던 공간에 들어가지 못하기 때문에, C뒤에 위치하게 된다. 이때 외부조각이 발생할 수 있다.
-
-<figure><img src="../../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
-
-
-
-#### hole
-
-* 가용메모리 공간
-* 다양한 크기의 hole 들이 여러 메모리 공간에 흩어져 있다.
-* 프로세스가 도착하면 수용 가능한 hole 을 할당한다.
-* 따라서 운영체제는 다음의 정보를 항상 숙지하고 있다. → 1) 할당 공간 2) 가용공간 hole
-
-<figure><img src="../../.gitbook/assets/image (15).png" alt=""><figcaption></figcaption></figure>
-
-
-
-#### dynamic storage allocation problem
-
-* 가변분할 방식에서 size 가 n인 요청을 만족하는 가장 적절한 hole을 찾는 문제
-* 해결방법에는 3가지가 있다.
-  * first fit : size n을 만족하는 hole 중 가장 최초로 찾아지는 것에 할당하는 방법
-  * best fit : size n을 만족하는 hole 중 가장 작은 것에 할당하는 방법
-    * hole들의 리스트가 크기순으로 정렬되지 않는 경우, 모든 hole 들을 탐색해야한다.
-    * 많은 수의 아주 작은 hole 들이 생성될 수 있다.
-  * worst fit : size n을 만족하는 가장 큰 hole에 할당하는 방법
-    * 모든 리스트를 탐색해야하며
-    * 큰 hole 들이 생성된다.
-* 당연하게도 first fit 은 시간적으로, best fit 은 공간 이용률 측면에서 각각 가장 유리하며, worst fit은 가장 비효율적인 것이 실험 결과 나타났다.
-
-#### compaction
-
-* external fragmentation 외부조각 문제를 해결하기 위해서 사용중인 메모리 영역을 한 군데로 몰고 hole 들을 다른 한 곳으로 모아 아주 큰 hole 을 만드는 방법이다.
-* 비용이 매우 많이 들며, 최소한의 이동으로 메모리를 compaction 하는 방법은 매우 복잡하다.
-* 당연하지만, compaction 기법은 프로세스의 주소가 실행되는 시간에 동적으로 재배치가 가능한 경우에만 사용 가능하다.
-
-
-
-### noncontinuous allocation
-
-* paging
-* segmentation
-* paged segmentation
-
-#### paging
-
-* 프로세스의 virtual memory 를 동일한 사이즈의 page 단위로 나눈다.
-* virtual memory 의 내용이 page 단위로 noncontinous 하게 저장된다.
-* 일부는 backing storage 에, 일부는 physical memory 에 저장된다.
-* basic method
-  * physical memory 를 동일한 크기의 frame 으로 나눈다.
-  * local memory 를 동일한 크기의 page 로 나눈다. → frame 과 같은 크기!
-  * 모든 가용 frame 들을 관리한다.
-  * page table 을 사용하여 logical address를 physical address 로 변환한다.
-    * page 단위로 나누어지기 때문에 더이상 두 개의 register 로는 불가하다.
-  * external fragment 는 발생하지 않지만, 여전히 internal fragmentation 이 발생할수는 있다.
-
-#### segmentation
-
-* 의미단위로 범위를 나눈 것. 예를 들면 메모리 내의 코드, 스택 등의 공간
-
-#### paged segmentation
-
-* paging + segmentation

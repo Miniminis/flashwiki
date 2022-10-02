@@ -32,7 +32,7 @@
 * 해결방법
   * 생산자와 소비자는 각각 5가지 정도의 작업을 순차적으로 수행하여 문제를 예방한다.
 
-<figure><img src="../../.gitbook/assets/image (9).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (9) (4).png" alt=""><figcaption></figcaption></figure>
 
 #### sudo code
 
@@ -87,7 +87,7 @@
   * 비대칭 : 짝수 철학자는 왼쪽 젓가락부터 잡고, 홀수 철학자는 오른쪽 젓가락부터 잡을 수 있도록 한다.
 * 식사하는 철학자의 경우, semaphore 보다 monitor 코드가 더 이해하기에 쉽다.
 
-<figure><img src="../../.gitbook/assets/image (12).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (12) (3).png" alt=""><figcaption></figcaption></figure>
 
 #### 권한을 두어 해결하는 방법의 예시 코드
 
@@ -121,7 +121,7 @@
 * x.signal() 은 정확하게 하나의 suspend 된 프로세스를 resume 한다. suspend 된 프로세스가 없으면 아무일도 일어나지 않는다.
 * waiting 을 하는 줄이 하나의 목적에 따라서 여러갈래로 나뉜다.
 
-<figure><img src="../../.gitbook/assets/image (4) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (4) (1) (2).png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../../.gitbook/assets/image (16) (2).png" alt=""><figcaption></figcaption></figure>
 

@@ -42,7 +42,7 @@
 
 ### 프로그램의 실행(메모리 load)
 
-<figure><img src="../../.gitbook/assets/image (8) (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (8) (2) (1).png" alt=""><figcaption></figcaption></figure>
 
 * 프로그램이 실행되면 각 실행파일별로 별도의 virtual memory 공간이 생기며 각각의 프로세스는 해당 공간 내에서 저장되고 조회된다.
 * physical memory 영역에서는 virtual memory 의 모든 것을 저장하지 않는다. 메모리가 낭비될 수 있기 때문에 최대한의 효율을 위해 현재 실행되고 있는 부분의 데이터만 저장한다.
