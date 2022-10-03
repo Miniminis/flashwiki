@@ -135,7 +135,7 @@
 * page table 자체를 page 로 구성한다.
 * 사용되지 않는 주소 공간에 대한 outer page table의 엔트리 값은 null 이다.
 
-<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
 
@@ -183,7 +183,7 @@
 * 단점 : 테이블 전체를 탐색해야한다.
 * 해결 : associative register 를 사용한다. (하지만 너무 비싸다;;)
 
-<figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (5).png" alt=""><figcaption></figcaption></figure>
 
 
 
@@ -197,15 +197,13 @@
   * 각 프로세스들은 독자적으로 메모리에 올린다.
   * private data 는 logical address space 의 아무 곳에 와도 무방하다.
 
-<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (3).png" alt=""><figcaption></figcaption></figure>
 
 
 
 #### segmentation
 
 <figure><img src="../../.gitbook/assets/image (12).png" alt=""><figcaption></figcaption></figure>
-
-
 
 * 의미단위로 범위를 나눈 것. 예를 들면 메모리 내의 코드, 스택 등의 공간
   * 의미단위로 범위를 나누기 때문에 segment의 크기가 균일하지 않다.
@@ -234,14 +232,42 @@
     * shared segment
     * same segment number
     * segment 는 의미 단위이기 때문에 공유와 보안에 있어서 paging 보다 훨씬 유리하다.
+  * paging 기법과 비교해보았을 때, 훨씬 페이징 테이블 개수가 적어서 메모리 낭비가 적다.
+    * paging : 100만개
+    * segment : 5개
 * 단점
   * allocation : first fit, best fit
     * 의미 단위로 길이가 유동적인 세그먼트들이 쌓이기 때문에 가장 첫번째로 쌓인 것이 잘 쌓이게 된다.
   * external fragmentation 이 발생한다.
-    * segment 길이가 동일하지 않으므로, 가변 분할 방식에서와 동일한 문제점들이 발생하게 된다.
+    * segment 길이가 동일하지 않으므로, 가변 분할 방식에서와 동일한 문제점들이 발생하게 된다. → hole
+    * allocation 문제가 발생할 수 있다.
 
+<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
+<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
 #### paged segmentation
 
 * paging + segmentation
+* paging 기법과 segmentation 기법의 장점을 가져와 융합해놓은 방법으로
+* segment table 에는 segment 자체의 base address 가 아니라, segment 를 구성하는 page table 의 base address 를 가지고 있다.
+* 실제 컴퓨터에는 segment 로만 이루어진 경우는 거의 없고 사실상 paging 기법을 같이 사용하고 있다.
+
+<figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+
+
+
+### 지금까지…
+
+* 지금까지 우리는 다양한 물리적 메모리의 관리 기법에 대해서 알아보았다.
+* 물리적 메모리 관리에서 가장 핵심이 되는 것은 결국 논리적 주소를 물리적 메모리 주소로 변환하는 과정이었다. → `주소변환`
+* 하지만 이 모든 과정에서 운영체제가 하는 일은 거의 없었다. 모두 하드웨어가 수행하는 일들이었다.
+* 왜 하드웨어에 의지할 수 밖에 없을까?
+  * 하나의 프로세스가 CPU를 가지고 논리적 메모리 주소에서 물리적 메모리 주소로 변환을 하는 과정에는 사실상 운영체제가 끼어들 필요가 없다.
+  * 운영체제의 개입이 필요하다는 말은 프로세스가 사용자 → 운영체제로 넘어간다는 것을 의미하는데, 메모리를 참조할 때마다 운영체제와 사용자 사이를 이동해야한다는 것은 말이 안된다.
+  * 따라서 이 모든 과정은 하드웨어적으로 이루어질 수 밖에 없다.
+  * 운영체제가 끼어들어야 하는 케이스는 바로 I/O 접근 때였다.
+* 그렇다면 운영체제는 무엇을 하는가…?
+  * 물리적 메모리 주소 변환에서는 사실상 운영체제가 하는 일은 없다.
+  * 하지만 virtual memory 관리에서는 운영체제의 역할이 늘어난다.
+
