@@ -25,7 +25,7 @@
 * 과잉보호가 발생하게 됨. 반드시 교대로 한번씩 들어가야 하는데, 그가 turn 을 내 값으로 바꿔줘야만 내가 들어갈 수 있다.
 * 특정 프로세스가 더 빈번히 critical section 을 들어가야 한다면 어떻게 될까?
 
-<figure><img src="../../.gitbook/assets/image (15) (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (15) (2) (1).png" alt=""><figcaption></figcaption></figure>
 
 #### 두번째 알고리즘 - 플래그
 

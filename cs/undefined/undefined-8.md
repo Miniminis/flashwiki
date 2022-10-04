@@ -40,7 +40,7 @@
 * 프로세스가 도착하면 수용 가능한 hole 을 할당한다.
 * 따라서 운영체제는 다음의 정보를 항상 숙지하고 있다. → 1) 할당 공간 2) 가용공간 hole
 
-<figure><img src="../../.gitbook/assets/image (15).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (15) (2).png" alt=""><figcaption></figcaption></figure>
 
 
 
@@ -119,7 +119,7 @@
 
 #### 2단계 페이징 테이블 - two level paging table
 
-<figure><img src="../../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (5) (4).png" alt=""><figcaption></figcaption></figure>
 
 * 사용하는 이유
   * 컴퓨터에서 어떤 시스템이 존재할 때, 그 존재의 이유는 보통 두 가지이다.
@@ -135,7 +135,7 @@
 * page table 자체를 page 로 구성한다.
 * 사용되지 않는 주소 공간에 대한 outer page table의 엔트리 값은 null 이다.
 
-<figure><img src="../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (3) (6).png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
 
@@ -244,7 +244,7 @@
 
 <figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (10).png" alt=""><figcaption></figcaption></figure>
 
 #### paged segmentation
 
@@ -253,7 +253,7 @@
 * segment table 에는 segment 자체의 base address 가 아니라, segment 를 구성하는 page table 의 base address 를 가지고 있다.
 * 실제 컴퓨터에는 segment 로만 이루어진 경우는 거의 없고 사실상 paging 기법을 같이 사용하고 있다.
 
-<figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (2).png" alt=""><figcaption></figcaption></figure>
 
 
 

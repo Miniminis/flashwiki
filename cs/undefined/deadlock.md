@@ -127,7 +127,7 @@
 
 #### 문제 풀어보기
 
-<figure><img src="../../.gitbook/assets/image (2) (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (2) (2).png" alt=""><figcaption></figcaption></figure>
 
 > 위의 두 방법은 deadlock 을 예방할 수 있는 방법이고, \
 > 아래의 두 방법은 deadlock 이 발생하도록 두고, 시스템에 문제가 생겼을 때만, 조치를 취하는 방법이다. \
@@ -158,7 +158,7 @@
   * 가용 자원의 개수를 확인하고, 요청하지 않은 것은 가용자원으로 치고
   * 가용 자원으로 프로세스를 해결 가능한지 확인한다.
 
-<figure><img src="../../.gitbook/assets/image (16).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (16) (2).png" alt=""><figcaption></figcaption></figure>
 
 #### deadlock 발생시 recovery 방법
 
