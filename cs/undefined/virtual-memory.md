@@ -1,4 +1,4 @@
-# virtual memory
+# Virtual Memory
 
 ### Demand Paging
 
@@ -34,7 +34,7 @@
   4. 이 프로세스가 CPU 를 잡고 다시 running 한다.
   5. 아까 중단되었던 instruction 을 재개한다.
 
-<figure><img src="../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (3) (1).png" alt=""><figcaption></figcaption></figure>
 
 
 
@@ -103,7 +103,7 @@
 
 
 
-<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
 
 * 7번째 케이스에서 가장 오래전에 참조된 3번을 5번으로 replace 한다.
 
@@ -151,15 +151,3 @@
 
 
 
-### 다양한 caching 환경
-
-* caching 기법
-  * 한정된 빠른 공간 (=캐시)에 요청된 데이터를 저장해두엇다가 후속 요청시 캐쉬로부터 직접 서비스 하는 방식
-  * paging system 외에도 cache memory, buffer caching, web caching 등 다양한 분야에서 사용된다.
-* cache 운영 시간 제약
-  * 교체 알고리즘에서 삭제할 항목을 결정하는 일에 지나치게 많은 시간이 걸리는 경우, 실제 시스템에서 사용할 수 없다.
-  * buffer caching 이나 web caching 의 경우, O(1) \~ O(log n) 정도 까지만 허용된다.
-  * paging system 의 경우
-    * page fault 인 경우에만 OS 가 관여한다.
-    * 페이지가 이미 메모리에 존재하는 경우, 참조시각 등의 정보를 OS 가 알 수 없다.
-    * O(1) LRU 의 list 조작 조차 불가능하다.

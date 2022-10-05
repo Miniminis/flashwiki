@@ -100,7 +100,7 @@
 
 
 
-<figure><img src="../../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (4) (2).png" alt=""><figcaption></figcaption></figure>
 
 * 속도 향상을 위해서 `associative register` OR `translation look-aside` buffer 라고 불리는 고속의 lookup hardware cache 를 사용한다.
   * associative resiters (TLD) : parallel search 가 가능하다. page table 테이블 중 일부만 존재한다. 없으면 page table 로 이동함
@@ -137,7 +137,7 @@
 
 <figure><img src="../../.gitbook/assets/image (3) (6).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (8) (4).png" alt=""><figcaption></figcaption></figure>
 
 #### multi-level paging and performance
 
@@ -242,7 +242,7 @@
     * segment 길이가 동일하지 않으므로, 가변 분할 방식에서와 동일한 문제점들이 발생하게 된다. → hole
     * allocation 문제가 발생할 수 있다.
 
-<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../../.gitbook/assets/image (10).png" alt=""><figcaption></figcaption></figure>
 

@@ -143,13 +143,13 @@
     * 각 프로세스로부터 뻗어나올 수 있는 그래프의 개수는 n-1개이니까
     * 최대 n \* (n-1) 개의 그래프를 탐색하면 된다. → n^2의 시간 소요
 
-<figure><img src="../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (4).png" alt=""><figcaption></figcaption></figure>
 
 
 
 #### 아래의 경우, sequence 가 존재하기 때문에 deadlock 이 발생하지 않는다.
 
-<figure><img src="../../.gitbook/assets/image (4) (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (4) (2) (2).png" alt=""><figcaption></figcaption></figure>
 
 #### 만약 P2가 자원 C를 하나 더 요청한다면?
 

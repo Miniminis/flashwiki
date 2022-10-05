@@ -30,7 +30,7 @@
 
 #### 2. process 가 system call 을 하여 kernal mode 로 수행중인데 context switch 가 발생하는 경우
 
-<figure><img src="../../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (7) (3).png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../../.gitbook/assets/image (25).png" alt=""><figcaption></figcaption></figure>
 
