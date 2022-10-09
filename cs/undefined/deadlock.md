@@ -108,7 +108,7 @@
 
 #### 자원이 1개밖에 없는 경우 - resouce allocation graph algorithm
 
-<figure><img src="../../.gitbook/assets/image (1) (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (2) (3).png" alt=""><figcaption></figcaption></figure>
 
 
 
@@ -127,7 +127,7 @@
 
 #### 문제 풀어보기
 
-<figure><img src="../../.gitbook/assets/image (2) (2) (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (2) (2) (1).png" alt=""><figcaption></figcaption></figure>
 
 > 위의 두 방법은 deadlock 을 예방할 수 있는 방법이고, \
 > 아래의 두 방법은 deadlock 이 발생하도록 두고, 시스템에 문제가 생겼을 때만, 조치를 취하는 방법이다. \

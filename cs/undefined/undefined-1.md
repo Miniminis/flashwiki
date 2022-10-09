@@ -8,7 +8,7 @@
 * CPU : 매 클럭 사이클마다 메모리에서 인스트럭션을 읽어서 실행한다.
 * 메모리 : CPU의 작업 공간
 
-<figure><img src="../../.gitbook/assets/image (3) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (3) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 #### device controller
 

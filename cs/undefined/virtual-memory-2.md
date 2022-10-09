@@ -13,13 +13,13 @@
     * 페이지가 이미 메모리에 존재하는 경우, 참조시각 등의 정보를 OS 가 알 수 없다.
     * O(1) LRU 의 list 조작 조차 불가능하다.
 
-<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
 
 
 
 ### paging system 에서는 그럼 replacement 를 위해 어떤 알고리즘을 사용하는가
 
-<figure><img src="../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (3) (1).png" alt=""><figcaption></figcaption></figure>
 
 #### Clock algorithm
 
@@ -84,7 +84,7 @@
   * multi-programmind degree 를 조절해주어야 한다.
   * 이를 위해 working-set, PFF 알고리즘을 사용한다.
 
-<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (2).png" alt=""><figcaption></figcaption></figure>
 
 
 
@@ -126,7 +126,7 @@
 
 ### PFF, Page Fault Frequency scheme
 
-<figure><img src="../../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (7) (4).png" alt=""><figcaption></figcaption></figure>
 
 
 

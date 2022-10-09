@@ -253,7 +253,7 @@
 * segment table 에는 segment 자체의 base address 가 아니라, segment 를 구성하는 page table 의 base address 를 가지고 있다.
 * 실제 컴퓨터에는 segment 로만 이루어진 경우는 거의 없고 사실상 paging 기법을 같이 사용하고 있다.
 
-<figure><img src="../../.gitbook/assets/image (2) (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (2) (2).png" alt=""><figcaption></figcaption></figure>
 
 
 
