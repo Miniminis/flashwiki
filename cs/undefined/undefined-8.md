@@ -80,7 +80,7 @@
 
 #### paging
 
-<figure><img src="../../.gitbook/assets/image (9).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (9) (5).png" alt=""><figcaption></figcaption></figure>
 
 * 프로세스의 virtual memory 를 동일한 사이즈의 page 단위로 나눈다.
 * virtual memory 의 내용이 page 단위로 noncontinous 하게 저장된다.
@@ -203,7 +203,7 @@
 
 #### segmentation
 
-<figure><img src="../../.gitbook/assets/image (12).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (12) (1).png" alt=""><figcaption></figcaption></figure>
 
 * 의미단위로 범위를 나눈 것. 예를 들면 메모리 내의 코드, 스택 등의 공간
   * 의미단위로 범위를 나누기 때문에 segment의 크기가 균일하지 않다.
@@ -244,7 +244,7 @@
 
 <figure><img src="../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (10).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (10) (4).png" alt=""><figcaption></figcaption></figure>
 
 #### paged segmentation
 

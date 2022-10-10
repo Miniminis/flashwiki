@@ -103,7 +103,7 @@
 
 
 
-<figure><img src="../../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (8) (5).png" alt=""><figcaption></figcaption></figure>
 
 * 7번째 케이스에서 가장 오래전에 참조된 3번을 5번으로 replace 한다.
 

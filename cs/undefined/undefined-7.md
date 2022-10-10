@@ -121,7 +121,7 @@
   * complie binding 이나 load time binding 에서는 원래의 메모리 주소로 swap in 해야하며, runtime binding 에서는 빈 곳 아무데나 로드하면 된다.
   * swap time 은 대부분 swap 되는 양에 비례한 transfer time 이다.
 
-<figure><img src="../../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (6) (5).png" alt=""><figcaption></figcaption></figure>
 
 #### 4. dynamic linking
 

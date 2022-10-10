@@ -108,7 +108,7 @@
 * working set 에 속한 page 는 메모리에 유지하고, 속하지 않는 것은 바로 버린다.
 * 다시 말하자면, 참조된 후 A만큼의 시간동안 해당 page 를 메모리에 유지한 후 버리게 된다.
 
-<figure><img src="../../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (4) (4).png" alt=""><figcaption></figcaption></figure>
 
 
 

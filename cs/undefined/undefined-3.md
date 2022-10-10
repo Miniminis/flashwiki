@@ -113,4 +113,4 @@
 * Blocked : 자신이 요청한 이벤트가 만족되면 ready 상태로 변한다.
 * Suspended : 외부에서 resume 해주어야 active 된다.
 
-<figure><img src="../../.gitbook/assets/image (12) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (12) (1) (1).png" alt=""><figcaption></figcaption></figure>

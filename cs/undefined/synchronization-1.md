@@ -2,7 +2,7 @@
 
 ### 프로세스 간 동기화 문제를 해결하기 위한 초기의 방법론
 
-<figure><img src="../../.gitbook/assets/image (6) (5).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (6) (5) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### 프로그램적 해결법의 충족조건
 
