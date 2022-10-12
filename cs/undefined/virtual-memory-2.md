@@ -19,7 +19,7 @@
 
 ### paging system 에서는 그럼 replacement 를 위해 어떤 알고리즘을 사용하는가
 
-<figure><img src="../../.gitbook/assets/image (3) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (3) (1) (2).png" alt=""><figcaption></figcaption></figure>
 
 #### Clock algorithm
 

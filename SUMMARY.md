@@ -28,6 +28,7 @@
   * [Virtual Memory 2](cs/undefined/virtual-memory-2.md)
   * [File System](cs/undefined/file-system.md)
   * [File Systems Implementation](cs/undefined/file-systems-implementation.md)
+  * [Disk Management & Scheduling](cs/undefined/disk-management-and-scheduling.md)
 * [🖥 프로그래밍의 기초 (Go)](cs/go/README.md)
   * [트랜지스터](cs/go/undefined.md)
   * [논리소자](cs/go/undefined-1.md)
