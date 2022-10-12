@@ -29,7 +29,7 @@
   * 가변분할방식도 프로그램 실행에 따라서 외부조각이 발생할 수 있는데 예를 들면 아래와 같은 상황이다.
     * 프로그램 B의 수행이 끝나도 프로그램D가 B가 있던 공간에 들어가지 못하기 때문에, C뒤에 위치하게 된다. 이때 외부조각이 발생할 수 있다.
 
-<figure><img src="../../.gitbook/assets/image (5) (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (5) (3) (2).png" alt=""><figcaption></figcaption></figure>
 
 
 
@@ -242,7 +242,7 @@
     * segment 길이가 동일하지 않으므로, 가변 분할 방식에서와 동일한 문제점들이 발생하게 된다. → hole
     * allocation 문제가 발생할 수 있다.
 
-<figure><img src="../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (5).png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../../.gitbook/assets/image (10) (4).png" alt=""><figcaption></figcaption></figure>
 

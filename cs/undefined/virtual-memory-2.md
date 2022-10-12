@@ -13,7 +13,7 @@
     * 페이지가 이미 메모리에 존재하는 경우, 참조시각 등의 정보를 OS 가 알 수 없다.
     * O(1) LRU 의 list 조작 조차 불가능하다.
 
-<figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (6).png" alt=""><figcaption></figcaption></figure>
 
 
 

@@ -168,7 +168,7 @@
   * 서로 다른 결과값이 같은 entry 로 매핑되는 문제
   * hash 함수에서 흔히 발생하는 문제
 
-<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (11).png" alt=""><figcaption></figcaption></figure>
 
 
 
@@ -202,17 +202,16 @@
   * NFS client
   * NFS server
 
+
+
 ### page cache vs. buffer cache
+
+<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
 #### page cache
 
 * virtual memory 의 paging system 에서 사용하는 page frame 을 caching 의 관점에서 설명하는 용어
 * memory-mapped i/o 를 쓰는 경우, file 의 i/o 에서도 page cache 를 사용한다.
-
-#### memory-mapped i/o
-
-* file의 일부를 virtual memory 에 mapping 시킨다.
-* 매핑시킨 영역에 대한 메모리 접근 연산은 파일의 입출력을 수행하게 한다.
 
 #### buffer cache
 
@@ -222,6 +221,54 @@
 * 모든 프로세스가 공용으로 사용된다.
 * replacement algorithm이 필요하다. LRU, LFU 등
 
+
+
+<figure><img src="../../.gitbook/assets/image (32).png" alt=""><figcaption></figcaption></figure>
+
 #### unified buffer cache
 
 * 최근의 OS 에서는 기존의 buffer cache 가 page cache 에 통합된다.
+* buffer cache 를 위한 별도의 공간을 분리해두지 않고, page cache 에서 필요할 때마다 할당해서 쓴다.
+* unified buffer cache 를 이용하지 않을 때
+  * I/O read() & write() 를 실행하면, buffer cache를 거쳐서 캐시 내 존재하면 바로 응답하고, 없다면, file system 에서 가져와 buffer cache 에 등록한 뒤, 응답해준다.
+  * memory-mapped I/O 를 실행하면, page cache 를 일단 검사한 뒤, 없다면 buffer cache 를 검사하고, 그곳에도 없을 때, file system 에 접근하여 가져온다.
+* unified buffer cache 를 이용할 때
+  * 통합된 버퍼 캐시를 사용할때는 이러한 과정이 보다 단순해진다.
+  * page cache 를 buffer cache 로 쓰기 때문에 실행 프로세스가 한결 간단해진다.
+
+
+
+<figure><img src="../../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
+
+<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+
+#### memory-mapped i/o
+
+* file의 일부를 virtual memory 에 mapping 시킨다.
+* 매핑시킨 영역에 대한 메모리 접근 연산을 통해 파일의 입출력을 수행할 수 있다.
+* 위의 그림에서 보면, 프로세스 내부의 `code` 영역이 memory-mapped i/o 를 사용하는 가장 대표적인 예이다.
+  * 프로세스가 실행될 때, 물리적 메모리로 로드되고, 프로세스가 스위칭 되면, 대부분의 데이터는 swap area 로 이동하여 임시 보관된다.
+  * 하지만 code 영역은 이미 실행파일 자체에서 모든 것이 쓰여진 완성된 형태의 read only 영역이다. 따라서 프로세스가 스위칭 되는 당시의 상태를 저장하는 swap area 에 저장할 필요가 없이, virtual memory 자체에 매핑되어 읽으면 된다.
+  * virtual memory 에 없는 내용일 경우, 페이지 폴트가 발생할 것이다. file system 인 실행파일에서 필요한 코드의 내용을 또 일정부분 불러와 virtual memory 와 매핑시켜 읽으면 된다.
+
+
+
+<figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+
+> 결국, 사용자가 file system 에 접근하는 방법에는 두 가지 인터페이스가 있다.
+
+1. I/O read() & write() 함수를 이용하는 경우이고,
+2. memory-mapped I/O 를 이용하는 경우이다.
+
+#### I/O read() & write() 함수를 이용하는 경우
+
+unifed buffer cache 에서 1번을 이용할 경우에는 physical memory 에 매핑된 데이터 자체가 이미 buffer cache 이므로, 요청된 내용이 존재하면 그 부분을 `copy` 하여 프로세스에게 응답한다. 기존 물리적 메모리에 있는 정보를 매핑하는 것이 아니라 복사해서 전달하기 때문에, 데이터 일관성 문제가 발생할 여지가 없고 운영체제가 중간에 항상 중재를 하기 때문에 관리에 좀 더 수월하다는 장점이 있다.
+
+#### memory-mapped I/O 를 이용하는 경우
+
+2번일 경우에는 physical memory 에 올려져있는 데이터를 `virtual memory 에 매핑`하여 사용한다. 이 경우, 일단 메모리에 올려진 데이터는 운영체제를 시스템 콜로 호출하지 않고 자신의 메모리 영역 내에서 응답할 수 있기 때문에 빠르고 물리 메모리에서 나의 가상 매모리로 데이터를 복사하는 시간이나 노력을 들이지 않을 수 있다.
+
+단점이 있다면, physical memory 를 다른 프로세스들과 공유해서 이용하므로, 데이터의 일관성 문제가 발생할 수 있다.
+
+
+
