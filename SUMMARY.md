@@ -1,6 +1,6 @@
 # Table of contents
 
-* [🧙 About Flash Library](README.md)
+* [🧙 Flash's Dev Note](README.md)
 
 ## 🗣 devtalk
 
