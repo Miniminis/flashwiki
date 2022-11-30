@@ -67,6 +67,7 @@
 
 * [Page 2](spring/page-2.md)
 
+
 ## 🏰 Infrastructure
 
 * [AWS IAM](infrastructure/aws/aws-iam.md)
@@ -77,7 +78,7 @@
 ## ✍ WRITINGS
 
 * [💥 philosophy](writings/philosophy/README.md)
-  * [<마인드트리> 개발자가 말하는 감정에도 분석이 필요한 이유](writings/philosophy/less-than-greater-than.md)
+  * [<마인드트리> 개발자가 말하는 감정에도 분석이 필요한 이유](writings/philosophy/mindtree.md)
 * [🎯 daily review](writings/daily-review/README.md)
   * [Page 6](writings/daily-review/page-6.md)
 * [📅 annual review](writings/annual-review/README.md)
@@ -86,9 +87,9 @@
 ## 💼 BUSINESS
 
 * [🌟 insight](business/insight/README.md)
-  * [<프로덕트 오너> PO가 데이터 기반으로 일할 수 밖에 없는 이유](business/insight/less-than-greater-than-po.md)
-  * [<프로덕트 오너> PO의 시간관리법](business/insight/less-than-greater-than-po-1.md)
-  * [<역행자> 역행자의 7단계 모델 복습](business/insight/less-than-greater-than-7.md)
+  * [<프로덕트 오너> PO가 데이터 기반으로 일할 수 밖에 없는 이유](business/insight/bookcord-po-02.md)
+  * [<프로덕트 오너> PO의 시간관리법](business/insight/bookcord-po-01.md)
+  * [<역행자> 역행자의 7단계 모델 복습](business/insight/bookcord-retrograde.md)
 
 ## 💰 FINANCE
 
@@ -98,4 +99,4 @@
 ## 🎨 ART
 
 * [📚 bookcord](art/bookcord/README.md)
-  * [< 여행의 이유 > 내가 여행하는 이유](art/bookcord/less-than-greater-than.md)
+  * [< 여행의 이유 > 내가 여행하는 이유](art/bookcord/book-whyitravel.md)
