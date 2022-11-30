@@ -2,7 +2,7 @@
 
 <figure><img src="../../.gitbook/assets/image (144).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (104) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (104) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### 프로세스의 특성 분류
 
