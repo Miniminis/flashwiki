@@ -4,36 +4,46 @@
 
 ## 🗣 DEVTALK
 
-* [🗣 TechTalk](devtalk/techtalk/README.md)
+* [👾 TechTalk](devtalk/techtalk/README.md)
+* [🧚 Open Source](devtalk/opensource/README.md)
+  * [나의 첫 opensource contribution 경험기](devtalk/opensource/opensource-hexo.md)
+* [🎁 Event](devtalk/event/README.md)
+  * [sudo - CTO's Tech Talk 2022 컨퍼런스 1일차](devtalk/event/event-fc-sudo-20220115.md)
+  * [sudo - CTO's Tech Talk 2022 컨퍼런 2일차](devtalk/event/event-fc-sudo-20220116.md)
 * [👨‍🏫 TIL](devtalk/til/README.md)
   * [<코드숨> 1주차 회고](devtalk/til/review-codesoom-20220327.md)
   * [<코드숨> 2주차 회고](devtalk/til/review-codesoom-20220403.md)
   * [<코드숨> 3주차 회고](devtalk/til/review-codesoom-20220410.md)
 
+## ‼️ Trouble Shooting
+
+* [logging](troubleshooting/logging/README.md)
+  * [log4j 보안 이슈](troubleshooting/logging/log4j-security-issue.md)
+
 
 ## 🏗 computer science <a href="#cs" id="cs"></a>
 
-* [🧠 운영체제 Operating System](cs/undefined-2/README.md)
-  * [운영체제란, Introduction to Operating Systems](cs/undefined-2/undefined.md)
-  * [컴퓨터 시스템의 구조, Structure of Computer System](cs/undefined-2/undefined-1.md)
-  * [프로그램의 실행, Program Execution](cs/undefined-2/undefined-2.md)
-  * [프로세스, Process](cs/undefined-2/undefined-3.md)
-  * [쓰레드, Thread](cs/undefined-2/undefined-4.md)
-  * [프로세스의 생성과 종료, Start and End of Process](cs/undefined-2/undefined-5.md)
-  * [프로세스 시스템 콜과 프로세스간의 협력, System call and Interprocess Communication](cs/undefined-2/undefined-6.md)
-  * [CPU Scheduling](cs/undefined-2/cpu.md)
-  * [CPU Scheduling Algorithm](cs/undefined-2/cpu-1.md)
-  * [Process Synchronization Problem](cs/undefined-2/synchronization.md)
-  * [Initial Attempts to Solve Process Synchronization Problem](cs/undefined-2/synchronization-1.md)
-  * [semaphore 와 monitor 로 synchronization 해결하기](cs/undefined-2/semaphore-monitor-synchronization.md)
-  * [데드락, Deadlock](cs/undefined-2/deadlock.md)
-  * [메모리 관리, Memory Management](cs/undefined-2/undefined-7.md)
-  * [Memory Allocation](cs/undefined-2/undefined-8.md)
-  * [Virtual Memory](cs/undefined-2/virtual-memory.md)
-  * [Virtual Memory 2](cs/undefined-2/virtual-memory-2.md)
-  * [File System](cs/undefined-2/file-system.md)
-  * [File Systems Implementation](cs/undefined-2/file-systems-implementation.md)
-  * [Disk Management & Scheduling](cs/undefined-2/disk-management-and-scheduling.md)
+* [🧠 운영체제 Operating System](cs/operatingsystem/README.md)
+  * [운영체제란, Introduction to Operating Systems](cs/operatingsystem/undefined.md)
+  * [컴퓨터 시스템의 구조, Structure of Computer System](cs/operatingsystem/undefined-1.md)
+  * [프로그램의 실행, Program Execution](cs/operatingsystem/undefined-2.md)
+  * [프로세스, Process](cs/operatingsystem/undefined-3.md)
+  * [쓰레드, Thread](cs/operatingsystem/undefined-4.md)
+  * [프로세스의 생성과 종료, Start and End of Process](cs/operatingsystem/undefined-5.md)
+  * [프로세스 시스템 콜과 프로세스간의 협력, System call and Interprocess Communication](cs/operatingsystem/undefined-6.md)
+  * [CPU Scheduling](cs/operatingsystem/cpu.md)
+  * [CPU Scheduling Algorithm](cs/operatingsystem/cpu-1.md)
+  * [Process Synchronization Problem](cs/operatingsystem/synchronization.md)
+  * [Initial Attempts to Solve Process Synchronization Problem](cs/operatingsystem/synchronization-1.md)
+  * [semaphore 와 monitor 로 synchronization 해결하기](cs/operatingsystem/semaphore-monitor-synchronization.md)
+  * [데드락, Deadlock](cs/operatingsystem/deadlock.md)
+  * [메모리 관리, Memory Management](cs/operatingsystem/undefined-7.md)
+  * [Memory Allocation](cs/operatingsystem/undefined-8.md)
+  * [Virtual Memory](cs/operatingsystem/virtual-memory.md)
+  * [Virtual Memory 2](cs/operatingsystem/virtual-memory-2.md)
+  * [File System](cs/operatingsystem/file-system.md)
+  * [File Systems Implementation](cs/operatingsystem/file-systems-implementation.md)
+  * [Disk Management & Scheduling](cs/operatingsystem/disk-management-and-scheduling.md)
 * [🖥 프로그래밍의 기초 (Go)](cs/go/README.md)
   * [트랜지스터, Trangister](cs/go/undefined.md)
   * [논리소자, Logic Element](cs/go/undefined-1.md)
@@ -84,21 +94,37 @@
   * [9. 코딩테스트에서 자주 출제되는 기타 알고리즘](datatype-and-algorithm/2021/algorithm-thisiscote-09.md)
   * [10. 개발형 코딩테스트](datatype-and-algorithm/2021/algorithm-thisiscote-10.md)
 
-## ☕ Java
-
-* [Page 1](java/page-1.md)
-
-## 🍃 Spring
-
-* [Page 2](spring/page-2.md)
-
-
 ## 🏰 Infrastructure
 
 * [🏭 AWS](infrastructure/aws/README.md)
   * [AWS IAM](infrastructure/aws/aws-iam.md)
   * [AWS CodePipeline - Source, CodeBuild](infrastructure/aws/aws-codepipeline-01.md)
   * [AWS CodePipeline - CodeDeploy](infrastructure/aws/aws-codepipeline-02.md)
+  
+## ☕ Java
+
+* [Page 1](java/page-1.md)
+
+## 🍃 Spring
+
+* [QueryDSL](spring/querydsl/README.md)
+  * [querydsl 을 쓰는 이유](spring/querydsl/querydsl-good-01.md)
+  * [JPA querydsl에서 json array 로 된 컬럼에 조건 적용하기](spring/querydsl/querydsl-json-column.md)
+  * [querydsl 에서 mysql order by field() 사용하기](spring/querydsl/querydsl-orderybyfield.md)
+* [transaction](spring/transaction/README.md)
+  * [특정 매소드만 transaction 처리하기](spring/transaction/transactional.md)
+
+
+## 📀 Database
+
+* [Mysql](database/mysql/README.md)
+  * [이것이 MySQL이다](database/mysql/thisismysql-sqls.md)
+
+
+## 🪄 Test
+
+* [TDD](test/tdd/README.md)
+  * [TDD 기본개념/장점/핵심/예시/연습](test/tdd/tdd-cleancode-01.md)
 
 
 ## ✍ WRITINGS
@@ -112,6 +138,7 @@
   * [<삶의 문제> 지도 다시 꺼내보기, 개발자로서의 커리어, 꿈꾸는 삶과 꿈꾸는 일](writings/philosophy/probleminlife-01.md)
   * [<삶의 문제> 삶에서 내가 해결하고 싶은 문제 (1) ](writings/philosophy/probleminlife-02.md)
   * [<삶의 문제> 삶에서 내가 해결하고 싶은 문제 (2)](writings/philosophy/probleminlife-03.md)
+  * [<리뷰> 매번 시간계획을 망치는 MBTI 'P형 인간'을 위한 5단계 인생관리법](writings/philosophy/insight-entp-timemanagement.md)
 * [🎯 daily review](writings/daily-review/README.md)
   * [2021년 44주차](writings/daily-review/review-20211104.md)
   * [2022년 3주차](writings/daily-review/review-20220121.md)
@@ -126,17 +153,28 @@
   * [2022년 7월 셋째주](writings/daily-review/review-20220717.md)
   * [2022년 8월 셋째주](writings/daily-review/review-20220821.md)
 * [📅 annual review](writings/annual-review/README.md)
-  * [Page 9](writings/annual-review/page-9.md)
+  * [2021년 회고](writings/annual-review/year-review-2021.md)
 
 ## 💼 BUSINESS
 
 * [🌟 insight](business/insight/README.md)
-  * [<프로덕트 오너> PO가 데이터 기반으로 일할 수 밖에 없는 이유](business/insight/bookcord-po-02.md)
-  * [<프로덕트 오너> PO의 시간관리법](business/insight/bookcord-po-01.md)
+  * [<노코드로 PMF 찾는 방법> 웨비나 후기 ](business/insight/how-to-find-pmf-with-no-code.md)
+  * [<PO SESSION> 토스 리더가 말하는 PO가 꼭 알아야할 개념 (1)](business/insight/20220508-toss-po-session-01.md)
+  * [<PO SESSION> 토스 리더가 말하는 PO가 꼭 알아야할 개념 (2)](business/insight/20220518-toss-po-session-02.md)
+  * [드로우 마이 브랜드](business/insight/drawmybrand.md)
   * [<역행자> 역행자의 7단계 모델 복습](business/insight/bookcord-retrograde.md)
   * [<역행자> 운명을 거스르는 역행자의 7단계 모델](business/insight/bookcord-retrograde-02.md)
-  * [드로우 마이 브랜드](business/insight/drawmybrand.md)
+  * [<프로덕트 오너> PO가 데이터 기반으로 일할 수 밖에 없는 이유](business/insight/bookcord-po-02.md)
+  * [<프로덕트 오너> PO의 시간관리법](business/insight/bookcord-po-01.md)
   * [파리에서 도시락을 파는 여자](business/insight/selling-sushi-in-paris.md)
+* [🐝 service](business/service/README.md)
+  * [밑미(Meetme)](business/service/service-meetme.md)
+* [🎬 side project](business/sideproject/README.md)
+  * [얼리버드 모닝클럽](business/sideproject/earlybirdclub/README.md)
+    * [홍보를 곁들인 2주일 운영후기](business/sideproject/earlybirdclub/early-bird-club-2nd-week.md)
+  * [마인드 트리 프로젝트](business/sideproject/mindtree/README.md)
+    * [<마인드트리> 셀프 마음챙김 프로젝트 (1) problem map 작성하기](business/sideproject/mindtree/mindtreeproject-01.md)
+    * [<마인드트리> 개발자가 말하는 감정에도 분석이 필요한 이유](business/sideproject/mindtree/mindtreeproject-02.md)
 
 ## 💰 FINANCE
 
