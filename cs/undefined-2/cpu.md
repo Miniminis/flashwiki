@@ -1,8 +1,8 @@
-# CPU 스케줄링
+# CPU Scheduling
 
 <figure><img src="../../.gitbook/assets/image (144).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (71).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (104) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### 프로세스의 특성 분류
 

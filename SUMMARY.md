@@ -2,6 +2,13 @@
 
 * [🧙 flashwiki](README.md)
 
+## ✍ WRITINGS
+
+* [🎯 daily review](writings/daily-review/README.md)
+  * [Page 6](writings/daily-review/page-6.md)
+* [📅 annual review](writings/annual-review/README.md)
+  * [Page 9](writings/annual-review/page-9.md)
+
 ## 🗣 devtalk
 
 * [Page 3](devtalk/page-3.md)
@@ -55,3 +62,13 @@
 ## 🍃 Spring
 
 * [Page 2](spring/page-2.md)
+
+## 👩💼 BUSINESS
+
+* [🌟 Insight](business/insight/README.md)
+  * [Page 8](business/insight/page-8.md)
+
+## 💰 FINANCE
+
+* [Page 5](finance/page-5/README.md)
+  * [Page 7](finance/page-5/page-7.md)
