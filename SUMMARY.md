@@ -48,7 +48,16 @@
 * [🔧 엔지니어 대한민국](datatype-and-algorithm/undefined-1/README.md)
   * [Page 4](datatype-and-algorithm/undefined-1/page-4.md)
 * [🧐 이것이 코딩테스트다 2021](datatype-and-algorithm/2021/README.md)
-  * [Page 8](datatype-and-algorithm/2021/page-8.md)
+  * [1. 출제 경향 & 파이썬 문법 부수기](datatype-and-algorithm/2021/algorithm-thisiscote-01.md)
+  * [2. 그리디 알고리즘 & 구현](datatype-and-algorithm/2021/algorithm-thisiscote-02.md)
+  * [3. BFS & DFS](datatype-and-algorithm/2021/algorithm-thisiscote-03.md)
+  * [4. 정렬 알고리즘](datatype-and-algorithm/2021/algorithm-thisiscote-04.md)
+  * [5. 이진탐색](datatype-and-algorithm/2021/algorithm-thisiscote-05.md)
+  * [6. 다이나믹 프로그래밍](datatype-and-algorithm/2021/algorithm-thisiscote-06.md)
+  * [7. 최단경로 알고리즘](datatype-and-algorithm/2021/algorithm-thisiscote-07.md)
+  * [8. 기타 그래프 이론](datatype-and-algorithm/2021/algorithm-thisiscote-08.md)
+  * [9. 코딩테스트에서 자주 출제되는 기타 알고리즘](datatype-and-algorithm/2021/algorithm-thisiscote-09.md)
+  * [10. 개발형 코딩테스트](datatype-and-algorithm/2021/algorithm-thisiscote-10.md)
 
 ## ☕ Java
 
