@@ -1,14 +1,14 @@
-# 컴퓨터 시스템의 구조
+# 컴퓨터 시스템의 구조, Structure of Computer System
 
 ### 컴퓨터의 구조
 
-<figure><img src="../../.gitbook/assets/image (101).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (7) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 * 컴퓨터 시스템은 CPU와 Memory 로 구성된 컴퓨터와 I/O 장치들로 이루어져있다.
 * CPU : 매 클럭 사이클마다 메모리에서 인스트럭션을 읽어서 실행한다.
 * 메모리 : CPU의 작업 공간
 
-<figure><img src="../../.gitbook/assets/image (50).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (3) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 #### device controller
 

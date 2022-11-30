@@ -43,10 +43,12 @@
 
 ## 🍡 Datatype and Algorithm
 
-* [🧐 알고리즘](datatype-and-algorithm/undefined/README.md)
+* [🧐 영리한 프로그래밍을 위한 알고리즘 강좌](datatype-and-algorithm/undefined/README.md)
   * [recursion 1](datatype-and-algorithm/undefined/recursion-1.md)
 * [🔧 엔지니어 대한민국](datatype-and-algorithm/undefined-1/README.md)
   * [Page 4](datatype-and-algorithm/undefined-1/page-4.md)
+* [🧐 이것이 코딩테스트다 2021](datatype-and-algorithm/2021/README.md)
+  * [Page 11](datatype-and-algorithm/2021/page-11.md)
 
 ## ☕ Java
 

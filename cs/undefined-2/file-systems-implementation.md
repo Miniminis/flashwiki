@@ -91,7 +91,7 @@
 
 ### FAT file system
 
-<figure><img src="../../.gitbook/assets/image (61).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (8) (6).png" alt=""><figcaption></figcaption></figure>
 
 * boot block
 * FAT
@@ -226,9 +226,9 @@
   * 통합된 버퍼 캐시를 사용할때는 이러한 과정이 보다 단순해진다.
   * page cache 를 buffer cache 로 쓰기 때문에 실행 프로세스가 한결 간단해진다.
 
-<figure><img src="../../.gitbook/assets/image (127).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (5) (3).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (32).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 #### memory-mapped i/o
 
@@ -239,7 +239,7 @@
   * 하지만 code 영역은 이미 실행파일 자체에서 모든 것이 쓰여진 완성된 형태의 read only 영역이다. 따라서 프로세스가 스위칭 되는 당시의 상태를 저장하는 swap area 에 저장할 필요가 없이, virtual memory 자체에 매핑되어 읽으면 된다.
   * virtual memory 에 없는 내용일 경우, 페이지 폴트가 발생할 것이다. file system 인 실행파일에서 필요한 코드의 내용을 또 일정부분 불러와 virtual memory 와 매핑시켜 읽으면 된다.
 
-<figure><img src="../../.gitbook/assets/image (139).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
 
 > 결국, 사용자가 file system 에 접근하는 방법에는 두 가지 인터페이스가 있다.
 

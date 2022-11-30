@@ -13,9 +13,9 @@
 
 ### fork() 시스템 콜
 
-<figure><img src="../../.gitbook/assets/image (102).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (12) (2).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (49).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (19) (1).png" alt=""><figcaption></figcaption></figure>
 
 * 부모 프로세스에서는 program counter 가 fork() 시점을 가리키고 있기 때문에 복제된 자식 프로세스는 fork() 를 한 이후 코드부터 실행된다.
   * 화면상 fork() 이전의 printf() 문은 부모 프로세스에서만 출력된다.
@@ -25,9 +25,9 @@
 
 ### exec() 시스템 콜
 
-<figure><img src="../../.gitbook/assets/image (73).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (3) (2).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (20) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (17) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 * 한번 execlp() 함수가 호출되면, 돌이킬 수 없다.
 * 꼭 fork() 이후에만 써야하는 것은 아니다. execlp() 만 단독으로 실행할 수도 있다.
@@ -80,6 +80,6 @@
   * thread 간의 협력
     * thread 는 사실상 하나의 프로세스이므로, 프로세스 간 협력으로 보기에는 어렵지만 동일한 process 를 구성하는 thread 들 간에는 주소공간을 공유하므로 협력이 가능하다.
 
-<figure><img src="../../.gitbook/assets/image (55).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (9) (3).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (6) (2).png" alt=""><figcaption></figcaption></figure>

@@ -18,7 +18,7 @@
 
 #### Block and wakeup 방식으로 구현됨
 
-<figure><img src="../../.gitbook/assets/image (92).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (10) (3).png" alt=""><figcaption></figcaption></figure>
 
 ### 문제 1. Bounded Buffer Problem
 
@@ -32,7 +32,7 @@
 * 해결방법
   * 생산자와 소비자는 각각 5가지 정도의 작업을 순차적으로 수행하여 문제를 예방한다.
 
-<figure><img src="../../.gitbook/assets/image (40).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (79).png" alt=""><figcaption></figcaption></figure>
 
 #### sudo code
 
@@ -43,7 +43,7 @@
 * P 연산 : 자원획득
 * V 연산 : 자원 반환
 
-<figure><img src="../../.gitbook/assets/image (133).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (3) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### 문제 2. readers and writers problem
 
@@ -70,7 +70,7 @@
   * reader queue 에 우선순위를 두어, 어느정도 선까지 도착한 reader 만 허용하고, db 자원을 반납해 writer 가 들어올 수 있도록 해준다.
   * 마치 신호등이 있어서 끊임없이 오는 차들을 잠시 막고 사람들이 틈틈히 건너갈 수 있도록!
 
-<figure><img src="../../.gitbook/assets/image (53).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (19) (3).png" alt=""><figcaption></figcaption></figure>
 
 ### 문제 3. 식사하는 철학자 문제, dining-phillosophers problem
 
@@ -87,7 +87,7 @@
   * 비대칭 : 짝수 철학자는 왼쪽 젓가락부터 잡고, 홀수 철학자는 오른쪽 젓가락부터 잡을 수 있도록 한다.
 * 식사하는 철학자의 경우, semaphore 보다 monitor 코드가 더 이해하기에 쉽다.
 
-<figure><img src="../../.gitbook/assets/image (77).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (12) (3).png" alt=""><figcaption></figcaption></figure>
 
 #### 권한을 두어 해결하는 방법의 예시 코드
 
@@ -105,7 +105,7 @@
 * 정확성의 입증이 어렵다.
 * 자발적 협력이 필요하다.
 
-<figure><img src="../../.gitbook/assets/image (72).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (27) (1).png" alt=""><figcaption></figcaption></figure>
 
 #### monitor
 
@@ -121,21 +121,21 @@
 * x.signal() 은 정확하게 하나의 suspend 된 프로세스를 resume 한다. suspend 된 프로세스가 없으면 아무일도 일어나지 않는다.
 * waiting 을 하는 줄이 하나의 목적에 따라서 여러갈래로 나뉜다.
 
-<figure><img src="../../.gitbook/assets/image (99).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (4) (1) (2).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (142).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (16) (2) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### 비교 1. bounded-buffer problem : semaphore vs. monitor
 
-<figure><img src="../../.gitbook/assets/image (28) (1) (1).png" alt=""><figcaption><p>bounded-buffer problem in semaphore version</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (134).png" alt=""><figcaption><p>bounded-buffer problem in semaphore version</p></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (124).png" alt=""><figcaption><p>bounded-buffer problem in monitor version</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (2) (1).png" alt=""><figcaption><p>bounded-buffer problem in monitor version</p></figcaption></figure>
 
 ### 비교 2. 식사하는 철학자 문제 : semaphore vs. monitor
 
 <figure><img src="../../.gitbook/assets/image (23).png" alt=""><figcaption><p>식사하는 철학자 문제 in semaphore code</p></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (64).png" alt=""><figcaption><p>식사하는 철학자 문제 in monitor code</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (1) (3).png" alt=""><figcaption><p>식사하는 철학자 문제 in monitor code</p></figcaption></figure>
 
 ### 비교 : semaphore vs. monitor
 

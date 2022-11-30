@@ -1,8 +1,8 @@
-# 프로그램의 실행
+# 프로그램의 실행, Program Execution
 
 ### 동기식 입출력(synchronous I/O)과 비동기식 입출력(asynchronous I/O)
 
-<figure><img src="../../.gitbook/assets/image (105).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (5) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 | 구분     | 동기식 입출력(synchronous I/O)                                                           | 비동기식 입출력(asynchronous I/O)                               |
 | ------ | ---------------------------------------------------------------------------------- | -------------------------------------------------------- |
@@ -14,7 +14,7 @@
 
 ### I/O 의 여러가지 방법
 
-<figure><img src="../../.gitbook/assets/image (13).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (11) (1).png" alt=""><figcaption></figcaption></figure>
 
 | 구분 | special instruction                                       | memory mapped I/O                                |
 | -- | --------------------------------------------------------- | ------------------------------------------------ |
@@ -22,7 +22,7 @@
 
 ### 저장장치의 계층구조
 
-<figure><img src="../../.gitbook/assets/image (78).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (6) (1).png" alt=""><figcaption></figcaption></figure>
 
 | 구분     | Primary(Executable)        | Secondary              |
 | ------ | -------------------------- | ---------------------- |
@@ -36,7 +36,7 @@
 
 ### 프로그램의 실행(메모리 load)
 
-<figure><img src="../../.gitbook/assets/image (75).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (8) (2) (1).png" alt=""><figcaption></figcaption></figure>
 
 * 프로그램이 실행되면 각 실행파일별로 별도의 virtual memory 공간이 생기며 각각의 프로세스는 해당 공간 내에서 저장되고 조회된다.
 * physical memory 영역에서는 virtual memory 의 모든 것을 저장하지 않는다. 메모리가 낭비될 수 있기 때문에 최대한의 효율을 위해 현재 실행되고 있는 부분의 데이터만 저장한다.
@@ -44,11 +44,11 @@
 
 ### 커널 주소 공간의 내용
 
-<figure><img src="../../.gitbook/assets/image (137).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (9) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### 사용자 프로그램이 사용하는 함수
 
-<figure><img src="../../.gitbook/assets/image (83).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (8) (1).png" alt=""><figcaption></figcaption></figure>
 
 * 사용자 정의 함수
   * 자신의 프로그램에서 정의한 함수
@@ -61,4 +61,4 @@
 
 ### 프로그램이 실행되는 과정
 
-<figure><img src="../../.gitbook/assets/image (67).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (10) (1).png" alt=""><figcaption></figcaption></figure>

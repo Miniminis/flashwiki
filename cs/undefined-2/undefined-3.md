@@ -1,4 +1,4 @@
-# 프로세스
+# 프로세스, Process
 
 ### 프로세스의 개념
 
@@ -14,7 +14,7 @@
     * Kernel stack
       * 여러 프로세스들이 공유하는 공간이기에 프로세스별로 별도로 관리된다.
 
-<figure><img src="../../.gitbook/assets/image (43).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (7) (2).png" alt=""><figcaption></figcaption></figure>
 
 ### 프로세스의 상태
 
@@ -30,9 +30,9 @@
 
 #### 한 장으로 보는 프로세스의 문맥 변경 과정
 
-<figure><img src="../../.gitbook/assets/image (60).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (5) (1).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (63).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (13) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### Process Control Block, PCB
 
@@ -47,7 +47,7 @@
   * 파일 관련
     * open file descriptors
 
-<figure><img src="../../.gitbook/assets/image (14).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (15) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### 문맥교환, context switch
 
@@ -61,7 +61,7 @@
 * 비록, (1)의 경우에 문맥교환이 발생하지 않더라도 CPU 수행 정보 등 context 의 일부를 PCB에 저장해야하지만,
 * 문맥 교환을 해야하는 (2)의 경우에는 훨씬 더 많은 context 정보를 저장해야하는 부담이 생긴다. (cache memory flush)
 
-<figure><img src="../../.gitbook/assets/image (48).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (14) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### 프로세스를 스케줄링 하기 위한 큐
 
@@ -70,9 +70,9 @@
 * device queue : I/O device의 처리를 기다리는 프로세스의 집합
 * 프로세스들은 각 큐들을 오가며 수행된다.
 
-<figure><img src="../../.gitbook/assets/image (10).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (9) (2).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (108).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (1) (2).png" alt=""><figcaption></figcaption></figure>
 
 ### 스케줄러, scheduler
 
@@ -101,4 +101,4 @@
 * Blocked : 자신이 요청한 이벤트가 만족되면 ready 상태로 변한다.
 * Suspended : 외부에서 resume 해주어야 active 된다.
 
-<figure><img src="../../.gitbook/assets/image (114).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (12) (1) (1).png" alt=""><figcaption></figcaption></figure>

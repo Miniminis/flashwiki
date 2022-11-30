@@ -1,4 +1,4 @@
-# 메모리 할당기법
+# Memory Allocation
 
 ### 물리적 메모리의 할당
 
@@ -29,7 +29,7 @@
   * 가변분할방식도 프로그램 실행에 따라서 외부조각이 발생할 수 있는데 예를 들면 아래와 같은 상황이다.
     * 프로그램 B의 수행이 끝나도 프로그램D가 B가 있던 공간에 들어가지 못하기 때문에, C뒤에 위치하게 된다. 이때 외부조각이 발생할 수 있다.
 
-<figure><img src="../../.gitbook/assets/image (57).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (5) (3) (2).png" alt=""><figcaption></figcaption></figure>
 
 #### hole
 
@@ -38,7 +38,7 @@
 * 프로세스가 도착하면 수용 가능한 hole 을 할당한다.
 * 따라서 운영체제는 다음의 정보를 항상 숙지하고 있다. → 1) 할당 공간 2) 가용공간 hole
 
-<figure><img src="../../.gitbook/assets/image (95).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (15) (2).png" alt=""><figcaption></figcaption></figure>
 
 #### dynamic storage allocation problem
 
@@ -70,7 +70,7 @@
 
 #### paging
 
-<figure><img src="../../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (9) (5).png" alt=""><figcaption></figcaption></figure>
 
 * 프로세스의 virtual memory 를 동일한 사이즈의 page 단위로 나눈다.
 * virtual memory 의 내용이 page 단위로 noncontinous 하게 저장된다.
@@ -88,7 +88,7 @@
   * page table length register 는 테이블의 크기를 보관한다.
   * 따라서 모든 메모리 접근 연산에는 2번의 memory access 가 필요한데, 한번은 page table 에 접근하기 위해서, 1번은 실제 데이터와 인스트럭션에 접근하기 위해서 필요하다.
 
-<figure><img src="../../.gitbook/assets/image (36).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (4) (2).png" alt=""><figcaption></figcaption></figure>
 
 * 속도 향상을 위해서 `associative register` OR `translation look-aside` buffer 라고 불리는 고속의 lookup hardware cache 를 사용한다.
   * associative resiters (TLD) : parallel search 가 가능하다. page table 테이블 중 일부만 존재한다. 없으면 page table 로 이동함
@@ -105,7 +105,7 @@
 
 #### 2단계 페이징 테이블 - two level paging table
 
-<figure><img src="../../.gitbook/assets/image (115).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (5) (4).png" alt=""><figcaption></figcaption></figure>
 
 * 사용하는 이유
   * 컴퓨터에서 어떤 시스템이 존재할 때, 그 존재의 이유는 보통 두 가지이다.
@@ -121,9 +121,9 @@
 * page table 자체를 page 로 구성한다.
 * 사용되지 않는 주소 공간에 대한 outer page table의 엔트리 값은 null 이다.
 
-<figure><img src="../../.gitbook/assets/image (89).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (3) (6).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (110).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (8) (4).png" alt=""><figcaption></figcaption></figure>
 
 #### multi-level paging and performance
 
@@ -167,7 +167,7 @@
 * 단점 : 테이블 전체를 탐색해야한다.
 * 해결 : associative register 를 사용한다. (하지만 너무 비싸다;;)
 
-<figure><img src="../../.gitbook/assets/image (85).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (5).png" alt=""><figcaption></figcaption></figure>
 
 #### shared page
 
@@ -179,11 +179,11 @@
   * 각 프로세스들은 독자적으로 메모리에 올린다.
   * private data 는 logical address space 의 아무 곳에 와도 무방하다.
 
-<figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (3).png" alt=""><figcaption></figcaption></figure>
 
 #### segmentation
 
-<figure><img src="../../.gitbook/assets/image (11).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (12) (1).png" alt=""><figcaption></figcaption></figure>
 
 * 의미단위로 범위를 나눈 것. 예를 들면 메모리 내의 코드, 스택 등의 공간
   * 의미단위로 범위를 나누기 때문에 segment의 크기가 균일하지 않다.
@@ -222,9 +222,9 @@
     * segment 길이가 동일하지 않으므로, 가변 분할 방식에서와 동일한 문제점들이 발생하게 된다. → hole
     * allocation 문제가 발생할 수 있다.
 
-<figure><img src="../../.gitbook/assets/image (69).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (5).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (132).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (10) (4).png" alt=""><figcaption></figcaption></figure>
 
 #### paged segmentation
 
@@ -233,7 +233,7 @@
 * segment table 에는 segment 자체의 base address 가 아니라, segment 를 구성하는 page table 의 base address 를 가지고 있다.
 * 실제 컴퓨터에는 segment 로만 이루어진 경우는 거의 없고 사실상 paging 기법을 같이 사용하고 있다.
 
-<figure><img src="../../.gitbook/assets/image (107).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (2) (2).png" alt=""><figcaption></figcaption></figure>
 
 ### 지금까지…
 

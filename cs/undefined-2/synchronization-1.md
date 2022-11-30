@@ -1,8 +1,8 @@
-# 프로세스 synchronization 해결을 위한 초기의 방법들
+# Initial Attempts to Solve Process Synchronization Problem
 
 ### 프로세스 간 동기화 문제를 해결하기 위한 초기의 방법론
 
-<figure><img src="../../.gitbook/assets/image (128).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (6) (5) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### 프로그램적 해결법의 충족조건
 
@@ -25,13 +25,13 @@
 * 과잉보호가 발생하게 됨. 반드시 교대로 한번씩 들어가야 하는데, 그가 turn 을 내 값으로 바꿔줘야만 내가 들어갈 수 있다.
 * 특정 프로세스가 더 빈번히 critical section 을 들어가야 한다면 어떻게 될까?
 
-<figure><img src="../../.gitbook/assets/image (90).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (15) (2) (1).png" alt=""><figcaption></figcaption></figure>
 
 #### 두번째 알고리즘 - 플래그
 
 * 플래그가 동시에 켜질 때, 서로 플래그가 켜진 상태기 때문에 아무도 while 문 안으로 진입하지 못하는 문제가 발생할 수 있다.
 
-<figure><img src="../../.gitbook/assets/image (122).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (3) (1).png" alt=""><figcaption></figcaption></figure>
 
 #### 세번째 알고리즘 - 피터슨 알고리즘 - 플래그와 turn 변수 모두 사용
 
@@ -40,7 +40,7 @@
 * 둘다 들어가고 싶지 않다면, turn 대로 들어간다.
 * 발생할 수 있는 문제점 : busy waiting = spin lock
 
-<figure><img src="../../.gitbook/assets/image (54).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (4) (2) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### Synchronization Hardware
 
@@ -50,6 +50,6 @@
 * 하드웨어적으로 test & modify 를 atomic 하게 수행할 수 있도록 지원하는 경우, 앞의 문제는 간단히 해결될 수 있다.
 * test and set a : a의 값을 읽고 쓰는 것을 동시에 수행하는 명령
 
-<figure><img src="../../.gitbook/assets/image (129).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (6) (4).png" alt=""><figcaption></figcaption></figure>
 
 > 하지만 프로그래머가 이런 일을 계속 프로그램 내에서 하는 것은 굉장히 불편한 일이다. 이때 우리는 semaphore 를 이용할 수 있다.

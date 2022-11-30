@@ -32,7 +32,7 @@
   4. 이 프로세스가 CPU 를 잡고 다시 running 한다.
   5. 아까 중단되었던 instruction 을 재개한다.
 
-<figure><img src="../../.gitbook/assets/image (120).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (3) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 > 하지만 page fault 시에 디스크에서 값을 읽어오는 작업은 매우 시간이 오래걸리는 작업이다.
 
@@ -58,7 +58,7 @@
     * 주어진 page reference string 에 대해 page fault 를 얼마나 내는지 조사를 한다.
     * reference string의 예시 : 1, 2, 3, 4, 1, 2, 5, 1, 2, 3, 4, 5
 
-<figure><img src="../../.gitbook/assets/image (17).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (5) (5).png" alt=""><figcaption></figcaption></figure>
 
 ### optimal algorithm
 
@@ -91,7 +91,7 @@
 
 * 가장 오래 전체 참조된 것을 지운다.
 
-<figure><img src="../../.gitbook/assets/image (24).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (8) (5).png" alt=""><figcaption></figcaption></figure>
 
 * 7번째 케이스에서 가장 오래전에 참조된 3번을 5번으로 replace 한다.
 
@@ -114,7 +114,7 @@
 * LRU 는 가장 오래전체 참조된 것을 지우기 때문데 1번 페이지를 삭제할 것이다.
 * LFU 는 가장 참조 횟수가 적은 것을 replace 대상으로 삼기 때문에 4번 페이지를 삭제한다.
 
-<figure><img src="../../.gitbook/assets/image (123).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (2).png" alt=""><figcaption></figcaption></figure>
 
 ### LRU 와 LFU 의 구현
 

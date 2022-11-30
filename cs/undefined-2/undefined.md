@@ -2,13 +2,13 @@
 description: Introduction to Operating Systems
 ---
 
-# 운영체제란
+# 운영체제란, Introduction to Operating Systems
 
 ### 운영체제란
 
 * 운영체제는 컴퓨터 하드웨어 바로 위에 설치되어 컴퓨터의 하드웨어와 사용자 및 다른 모든 소프트웨어를 연결하는 소프트웨어 계층이다.
 
-#### ![](<../../.gitbook/assets/image (84).png>)
+#### ![](<../../.gitbook/assets/image (1) (1) (1) (1).png>)
 
 #### 좁은 의미의 운영체제 vs. 넓은 의미의 운영체제
 
@@ -128,7 +128,7 @@ description: Introduction to Operating Systems
 
 운영체제는 크게 보자면, CPU, Memory, Disk, I/O device 로 구성되어있다. 각 단계별로 운영체제가 고민해야하는 지점들이 존재한다.
 
-<figure><img src="../../.gitbook/assets/image (31).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 #### CPU
 

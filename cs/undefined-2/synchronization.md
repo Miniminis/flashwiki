@@ -11,9 +11,9 @@
   * 같은 storage 에 여러 실행 박스들이 접근하는 경우
 * 운영체제 커널 레벨에서 충분히 발생할 수 있는 문제이다.
 
-<figure><img src="../../.gitbook/assets/image (29).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (5) (3) (1).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (125).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (22) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### OS 운영체제에서 race condition 경쟁상태는 언제 발생하는가
 
@@ -24,17 +24,17 @@
 * 해결방법
   * kernel 모드에서 연산 수행할 때, 인터럽트를 막는 방법이 있다.
 
-<figure><img src="../../.gitbook/assets/image (21).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (10) (2).png" alt=""><figcaption></figcaption></figure>
 
 #### 2. process 가 system call 을 하여 kernal mode 로 수행중인데 context switch 가 발생하는 경우
 
-<figure><img src="../../.gitbook/assets/image (141).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (7) (3).png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../../.gitbook/assets/image (131).png" alt=""><figcaption></figcaption></figure>
 
 #### 3. multiprocessor 에서 shared memory 내의 kernal data
 
-<figure><img src="../../.gitbook/assets/image (15).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (19) (2).png" alt=""><figcaption></figcaption></figure>
 
 ### Process Synchronization 문제
 
@@ -49,7 +49,7 @@
 
 * 프로세스간 context switch 자체가 문제가 아니라 shared data 를 접근하는 경우가 문제가 되는 것이다.
 
-<figure><img src="../../.gitbook/assets/image (21) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (1) (2) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### The Critical-Section Problem
 
@@ -58,4 +58,4 @@
 * 문제점
   * 하나의 프로세스가 critical section 에 있을 때, 다른 모든 프로세스는 critical section 에 들어갈 수 없어야 한다.
 
-<figure><img src="../../.gitbook/assets/image (117).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (6) (3).png" alt=""><figcaption></figcaption></figure>
