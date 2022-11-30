@@ -1,21 +1,20 @@
 ---
-description: 개발자 플래시의 개발노트입니다 🙇
+description: Developing softwares for everyone's fair shake
 ---
 
-# 🧙 Flash's Dev Note
+# 🧙 flashwiki
 
 ## About Flash
 
 * Software Engineer at Holostanding, 2021.02 - 2022.10
 * Software Engineer at CrePASS, 2019.11 - 2021.01
 * Project Manager at World Together Kenya, 2018.02 - 2019.03
+* Intern at Concern Worldwide Korea, 2017.07 - 2017.08
 
 
 
-## 안녕하세요, 플래시입니다.
+## Hi, i am flash🦥
 
-아프리카 케냐에서 국제개발협력 사업의 PM으로 1년간 일을 하다가 현지에서 IT 기업들이 바꾼 일상의 모습을 목격한 뒤, 개발 공부를 시작했습니다. 그리고는 벌써 3년째 스타트업에서 소프트웨어 개발자로 일을 하며 소외된 사람들이 직면한 여러 사회적 문제들을 해결해나가고 있습니다. 더 나은 내일을 만들어갈 기술의 힘을 믿습니다.&#x20;
+In the past, i was working as a Project Manager at World Together Kenya, a Korea-based NGO. However, during my one-year-stay in Kenya, I became to witness the enormous positive influence of IT corporations and the changes that they bring about to local people. Since then, I have self-studied software development, and currently I am working as a Software Developer for about three years.
 
-이 개발노트는 그런 기술의 힘을 더 단단히 하기 위해 만들어졌습니다. 매일 공부하는 개발 내용을 정리하고, 저에게도 어려웠던 개념들을 쉽게 풀어내어 같은 어려움을 겪고 있는 다른 개발자 분들에게도 조금이나마 도움이 되었으면 합니다.&#x20;
-
-오늘도 전 세계에서 고군분투하는 개발자 분들, 다같이 화이팅입니다💪
+I am making products and developing softwares for everyone's fair shake on the earth. To make the world where people in Africa can get a good education through remote system, the world where people who have difficulties in reading can read with the help of a good software, and the world where people who work in rural area can participate in conference held in big cities, I will shorten the distances between people and make more opportunities using software development. I believe in the power of IT technology that makes better future.&#x20;
