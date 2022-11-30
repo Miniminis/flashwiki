@@ -2,7 +2,7 @@
 
 * [🧙 flashwiki](README.md)
 
-## 🗣 devtalk
+## 🗣 DEVTALK
 
 * [Page 3](devtalk/page-3.md)
 
@@ -66,6 +66,13 @@
 ## 🍃 Spring
 
 * [Page 2](spring/page-2.md)
+
+## 🏰 Infrastructure
+
+* [AWS IAM](infrastructure/aws/aws-iam.md)
+* [AWS CodePipeline - Source, CodeBuild](infrastructure/aws/aws-codepipeline-01.md)
+* [AWS CodePipeline - CodeDeploy](infrastructure/aws/aws-codepipeline-02.md)
+
 
 ## ✍ WRITINGS
 
