@@ -4,7 +4,12 @@
 
 ## 🗣 DEVTALK
 
-* [Page 3](devtalk/page-3.md)
+* [🗣 TechTalk](devtalk/techtalk/README.md)
+* [👨‍🏫 TIL](devtalk/til/README.md)
+  * [<코드숨> 1주차 회고](devtalk/til/review-codesoom-20220327.md)
+  * [<코드숨> 2주차 회고](devtalk/til/review-codesoom-20220403.md)
+  * [<코드숨> 3주차 회고](devtalk/til/review-codesoom-20220410.md)
+
 
 ## 🏗 computer science <a href="#cs" id="cs"></a>
 
@@ -101,7 +106,18 @@
 * [💥 philosophy](writings/philosophy/README.md)
   * [<마인드트리> 개발자가 말하는 감정에도 분석이 필요한 이유](writings/philosophy/mindtree.md)
 * [🎯 daily review](writings/daily-review/README.md)
-  * [Page 6](writings/daily-review/page-6.md)
+  * [2021년 44주차](writings/daily-review/review-20211104.md)
+  * [2022년 3주차](writings/daily-review/review-20220121.md)
+  * [2022년 2월의 여정 소개](writings/daily-review/review-20220202.md)
+  * [2022년 2월 회고 & 3월 여정 소개](writings/daily-review/review-20220228.md)
+  * [2022년 3월 3주차](writings/daily-review/review-20220320.md)
+  * [2022년 3월 회고 & 4월 여정 소개](writings/daily-review/review-20220403.md)
+  * [2022년 4월 2주차](writings/daily-review/review-20220411.md)
+  * [2022년 4월 3,4주차](writings/daily-review/review-20220424.md)
+  * [2022년 5월](writings/daily-review/review-20220528-monthly.md)
+  * [2022년 7월 둘째주](writings/daily-review/review-20220709.md)
+  * [2022년 7월 셋째주](writings/daily-review/review-20220717.md)
+  * [2022년 8월 셋째주](writings/daily-review/review-20220821.md)
 * [📅 annual review](writings/annual-review/README.md)
   * [Page 9](writings/annual-review/page-9.md)
 
