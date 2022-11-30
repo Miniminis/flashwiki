@@ -40,6 +40,26 @@
   * [hello, world](cs/go/hello-world.md)
   * [variable](cs/go/undefined-6.md)
   * [variable 2](cs/go/2.md)
+* [🖥 컴퓨터 구조](cs/computerarchitecture/README.md)
+  * [컴퓨터의 구성](cs/computerarchitecture/computer-01.md)
+  * [컴퓨터의 역사](cs/computerarchitecture/computer-02.md)
+  * [컴퓨터 구성요소의 기능 및 이해](cs/computerarchitecture/computer-03.md)
+  * [중앙처리장치 - 마이크로 명령 - 입출력과 인터럽트](cs/computerarchitecture/computer-04.md)
+  * [중앙처리장치 - 기본 컴퓨터 프로그래밍](cs/computerarchitecture/computer-05.md)
+  * [중앙처리장치 - 프로그래밍 언어와 실행](cs/computerarchitecture/computer-06.md)
+  * [파이프라인과 벡터처리 - 데이터의 종속성 - 병렬처리와 파이프라인](cs/computerarchitecture/computer-07.md)
+  * [파이프라인과 벡터처리 - 파이프라인 구조 - 데이터/구조](cs/computerarchitecture/computer-08.md)
+  * [파이프라인과 백터처리 - 산술&명령어 파이프라인](cs/computerarchitecture/computer-09.md)
+  * [파이프라인과 벡터처리 - 파이프라인 CPU의 성능분석](cs/computerarchitecture/computer-10.md)
+  * [메모리 구조 - 메모리 시스템의 이해](cs/computerarchitecture/computer-11.md)
+  * [메모리 구조 - 효율적인 메모리 관리 정책](cs/computerarchitecture/computer-12.md)
+  * [메모리 구조 - 컴퓨터 성능 개선을 위한 메모리 관리](cs/computerarchitecture/computer-13.md)
+  * [입출력구조 - 시스템 BUS 구성 및 제어 ](cs/computerarchitecture/computer-14.md)
+  * [입출력 구조 - 입출력(I/O) 연결과 주소 지정](cs/computerarchitecture/computer-15.md)
+  * [입출력 구조 - 입출력 수행과 인터럽트](cs/computerarchitecture/computer-16.md)
+  * [병렬컴퓨터 구조와 성능분석 - 멀티 프로세서](cs/computerarchitecture/computer-17.md)
+  * [병렬 컴퓨터 구조와 성능 분석 - 시스템 성능 분석과 개선](cs/computerarchitecture/computer-18.md)
+
 
 ## 🍡 Datatype and Algorithm
 
@@ -70,9 +90,10 @@
 
 ## 🏰 Infrastructure
 
-* [AWS IAM](infrastructure/aws/aws-iam.md)
-* [AWS CodePipeline - Source, CodeBuild](infrastructure/aws/aws-codepipeline-01.md)
-* [AWS CodePipeline - CodeDeploy](infrastructure/aws/aws-codepipeline-02.md)
+* [🏭 AWS](infrastructure/aws/README.md)
+  * [AWS IAM](infrastructure/aws/aws-iam.md)
+  * [AWS CodePipeline - Source, CodeBuild](infrastructure/aws/aws-codepipeline-01.md)
+  * [AWS CodePipeline - CodeDeploy](infrastructure/aws/aws-codepipeline-02.md)
 
 
 ## ✍ WRITINGS
