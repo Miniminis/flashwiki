@@ -8,7 +8,7 @@ description: Introduction to Operating Systems
 
 * 운영체제는 컴퓨터 하드웨어 바로 위에 설치되어 컴퓨터의 하드웨어와 사용자 및 다른 모든 소프트웨어를 연결하는 소프트웨어 계층이다.
 
-#### ![](<../../.gitbook/assets/image (1) (1) (1) (1).png>)
+#### ![](<../../.gitbook/assets/image (84).png>)
 
 #### 좁은 의미의 운영체제 vs. 넓은 의미의 운영체제
 
@@ -36,8 +36,6 @@ description: Introduction to Operating Systems
 * 동시에 접속한 사용자 혹은 동시에 실행되고 있는 프로그램들이 각자 자신의 컴퓨터에서 독자적으로 수행되는 것 같은 착각을 제공한다.
   * \= 실제로는 중앙의 큰 하나의 컴퓨터에서 실행되지만 이 곳에 접속한 서로 다른 사용자들은 마치 동시에 독자적으로 수행되는 것 같이 착각을 하게 된다.
 * 하드웨어를 직접 다루는 복잡한 부분을 운영체제가 대행한다.
-
-
 
 ### 운영체제 분류
 
@@ -80,8 +78,6 @@ description: Introduction to Operating Systems
   * 작업이 완전히 종료될 때까지 기다려야 한다.
   * 예시) 초기 punch card 처리 시스템
 
-
-
 ### 몇 가지 용어
 
 운영체제를 공부하다보면, 몇 가지 용어를 자주 만나게 된다.
@@ -94,8 +90,6 @@ description: Introduction to Operating Systems
 위의 용어는 모두 하나의 CPU 에서 여러개의 프로그램을 처리할 때 쓰는 용어이다. 하지만 아래의 용어는 하나의 컴퓨터에 여러개의 CPU가 붙어있는 상태에서 쓰인다.
 
 * multiprocessor : 하나의 컴퓨터에 CPU (processor)가 여러개 붙어있음을 의미하다.
-
-
 
 ### 운영체제의 예
 
@@ -130,13 +124,11 @@ description: Introduction to Operating Systems
   * Handheld device 를 위한 OS
     * PalmOS, Pocket PC, Tiny OS
 
-
-
 ### 운영체제의 구조
 
 운영체제는 크게 보자면, CPU, Memory, Disk, I/O device 로 구성되어있다. 각 단계별로 운영체제가 고민해야하는 지점들이 존재한다.
 
-<figure><img src="../../.gitbook/assets/image (2) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (31).png" alt=""><figcaption></figcaption></figure>
 
 #### CPU
 
@@ -177,9 +169,6 @@ description: Introduction to Operating Systems
 * 네트워킹
 * 명령어 해석기 (command line interpreter)
 
-
-
 ### 공부하는 태도
 
 운영체제는 사실 직접 뭔가를 만져보고 조작하면서 공부할 수 없기에 다소 어렵고 딱딱하게 느껴질 수 있다. 내가 사용자가 아니라 직접 운영체제가 되어 무엇을 해야하는지 생각하면서 강의를 수강하면 한결 재미있게 공부할 수 있을 것이다.
-
