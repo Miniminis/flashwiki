@@ -105,6 +105,13 @@
 
 * [💥 philosophy](writings/philosophy/README.md)
   * [<마인드트리> 개발자가 말하는 감정에도 분석이 필요한 이유](writings/philosophy/mindtree.md)
+  * [비전공자, 문과생, NGO 활동가의 개발자 전직기](writings/philosophy/essay-become-developer-01.md)
+  * [지도 위의 29살](writings/philosophy/essay-flashmap-2022.md)
+  * [당신은 왜 프로그래밍을 공부하는가?](writings/philosophy/essay-whylearnprogramming.md)
+  * [10억 모으기 프로젝트 구상](writings/philosophy/howtoeatandlive-list.md)
+  * [<삶의 문제> 지도 다시 꺼내보기, 개발자로서의 커리어, 꿈꾸는 삶과 꿈꾸는 일](writings/philosophy/probleminlife-01.md)
+  * [<삶의 문제> 삶에서 내가 해결하고 싶은 문제 (1) ](writings/philosophy/probleminlife-02.md)
+  * [<삶의 문제> 삶에서 내가 해결하고 싶은 문제 (2)](writings/philosophy/probleminlife-03.md)
 * [🎯 daily review](writings/daily-review/README.md)
   * [2021년 44주차](writings/daily-review/review-20211104.md)
   * [2022년 3주차](writings/daily-review/review-20220121.md)
