@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang=ko>
+<head>
+    <!-- so meta -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="HandheldFriendly" content="True">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5" />
+    <meta name="description" content="모든 사람들이 주어진 조건에 의한 제약없이 좋아하는 일을 하며 살아가는 세상을 만들고 있는 플래시입니다.   Introduce370일동안 지구 반대편 아프리카 케냐에서 지역개발사업의 Project Manager로 일을 하다가 우연한 계기로 개발을 배웠습니다. 현재는 3년차 개발자로 핀테크, 프롭테크 등의 영역에서 두 곳의 스타트업을 거쳐 모바일 앱, 웹">
+<meta property="og:type" content="website">
+<meta property="og:title" content="플래시 flash 🦥">
+<meta property="og:url" content="https://blog.mhson.world/about/index.html">
+<meta property="og:site_name" content="flashlog">
+<meta property="og:description" content="모든 사람들이 주어진 조건에 의한 제약없이 좋아하는 일을 하며 살아가는 세상을 만들고 있는 플래시입니다.   Introduce370일동안 지구 반대편 아프리카 케냐에서 지역개발사업의 Project Manager로 일을 하다가 우연한 계기로 개발을 배웠습니다. 현재는 3년차 개발자로 핀테크, 프롭테크 등의 영역에서 두 곳의 스타트업을 거쳐 모바일 앱, 웹">
+<meta property="og:locale" content="ko_KR">
+<meta property="article:published_time" content="2022-08-14T04:27:27.424Z">
+<meta property="article:modified_time" content="2022-08-14T04:27:27.132Z">
+<meta property="article:author" content="flash, 플래시">
+<meta property="article:tag" content="flash, flashlog, 플래시, 개발">
+<meta name="twitter:card" content="summary">
+    
+    
+      
+        
+          <link rel="shortcut icon" href="/images/memogy.png">
+        
+      
+      
+        
+          <link rel="icon" type="image/png" href="/images/memogy.png" sizes="192x192">
+        
+      
+      
+        
+          <link rel="apple-touch-icon" sizes="180x180" href="/images/memogy.png">
+        
+      
+    
+    <!-- title -->
+    <title>플래시 flash 🦥</title>
+    <!-- styles -->
+    
+<link rel="stylesheet" href="/css/style.css">
+
+    <!-- persian styles -->
+    
+    <!-- rss -->
+    
+    
+      <link rel="alternate" href="/true" title="flashlog" type="application/atom+xml" />
+    
+	<!-- mathjax -->
+	
+<meta name="generator" content="Hexo 5.4.0"></head>
+
+<body class="max-width mx-auto px3 ltr">
+    
+    <div class="content index py4">
+        
+          <header id="header">
+  <a href="/">
+  
+    
+      <div id="logo" style="background-image: url(/images/memogy.png);"></div>
+    
+  
+    <div id="title">
+      <h1>flashlog</h1>
+    </div>
+  </a>
+  <div id="nav">
+    <ul>
+      <li class="icon">
+        <a href="#" aria-label="Menu"><i class="fas fa-bars fa-2x"></i></a>
+      </li>
+      <!--
+     --><li><a href="/about/">About</a></li><!--
+   --><!--
+     --><li><a href="/project/">Projects</a></li><!--
+   --><!--
+     --><li><a href="/archives/">Writing</a></li><!--
+   --><!--
+     --><li><a href="/categories/">Category</a></li><!--
+   --><!--
+     --><li><a href="/search/">Search</a></li><!--
+   -->
+    </ul>
+  </div>
+</header>
+
+        
+        <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+  
+
+  <div class="content" itemprop="articleBody">
+      
+          <blockquote>
+<p>모든 사람들이 주어진 조건에 의한 제약없이 좋아하는 일을 하며 살아가는 세상을 만들고 있는 플래시입니다.</p>
+</blockquote>
+<hr>
+<h1 id="Introduce"><a href="#Introduce" class="headerlink" title="Introduce"></a>Introduce</h1><p>370일동안 지구 반대편 아프리카 케냐에서 지역개발사업의 Project Manager로 일을 하다가 <a href="https://blog.mhson.world/2019/09/30/essays/essay-whylearnprogramming/">우연한 계기</a>로 개발을 배웠습니다. 현재는 3년차 개발자로 핀테크, 프롭테크 등의 영역에서 두 곳의 스타트업을 거쳐 모바일 앱, 웹 서비스를 개발, 배포, 운영해왔습니다. 초기 스타트업의 유일한 서버개발자로 합류하여 프로덕트의 설계부터 배포 및 운영까지 팀을 기술적으로 서포트한 경험이 있습니다.</p>
+<p>항상 능력보다 어려운 과제에 도전하여 의미있는 결과들을 만들어냈습니다. 전혀 다른 분야나 모르는 것에 대한 두려움이 없어 빠르게 도전하고 빠르게 실패하며 J커브 성장을 해냅니다. 비 IT직군에서 빠르게 개발자로 전향을 한 경험이 있고, 익숙하지 않은 기술들을 빠른 속도로 학습하며 프로덕트를 만들어낸 경험을 해왔습니다.</p>
+<p>문제의 본질을 찾는 것을 중요시합니다. 본질을 알면 가장 적은 비용으로 가장 빠른 지름길을 찾을 수 있다고 믿습니다. 때문에 데이터를 보거나 개발요청을 받을때도 끊임없이 질문하려고 노력하고 있습니다. (왜 수치가 올랐는지, 어떤 문제를 해결하기위해 이 기능이 필요한지, 정말 이 기능이 문제를 해결할 수 있는지) 실제로 운영팀의 개발 요청 건에 대해 문제 해결을 위한 더 나은 방법을 제안해 수용된 경험이 있습니다.</p>
+<hr>
+<h1 id="Resume-amp-Portfolio"><a href="#Resume-amp-Portfolio" class="headerlink" title="Resume &amp; Portfolio"></a>Resume &amp; Portfolio</h1><p>아프리카 케냐에서 360일동안 Project Manager로서 국제개발협력 프로젝트를 진행하다가 한국에서 3년째 소프트웨어 개발자로 일하고 있습니다. 더 많은 내용이 궁금하시다면 아래의 링크를 통해 확인해주세요🙂 </p>
+<p>👉 <a target="_blank" rel="noopener" href="https://bit.ly/3bh50P4">이력서/포트폴리오 바로가기</a><br>👉 <a target="_blank" rel="noopener" href="https://www.linkedin.com/in/minhee-son-3b2a1016a">LinkedIn</a></p>
+<hr>
+<h1 id="코드-저장소-Github"><a href="#코드-저장소-Github" class="headerlink" title="코드 저장소 Github"></a>코드 저장소 Github</h1><p>개발 공부나 사이드 프로젝트 관련 코드는 모두 Github를 통해 관리하고 있습니다. 상세한 내용이 궁금하시다면, 아래의 링크를 클릭해주세요🖱</p>
+<p>👉 <a target="_blank" rel="noopener" href="https://github.com/miniminis">Github</a></p>
+<hr>
+<h1 id="ENTP의-생각저장소-Twitter"><a href="#ENTP의-생각저장소-Twitter" class="headerlink" title="ENTP의 생각저장소 Twitter"></a>ENTP의 생각저장소 Twitter</h1><p>뼛속까지 ENTP로 태어나 문맥없이 갑자기 떠오르는 생각이 참 많습니다. 굉장히 짧은 순간에 다양한 생각을 하곤 하는데, 그 생각들을 그대로 흘려보내는 것이 아쉬워 생각저장소를 만들었습니다. </p>
+<p>👉 <a target="_blank" rel="noopener" href="https://twitter.com/flash4735">Twitter</a></p>
+<hr>
+<h1 id="일상의-조각을-기록하는-Kakao-Brunch"><a href="#일상의-조각을-기록하는-Kakao-Brunch" class="headerlink" title="일상의 조각을 기록하는 Kakao Brunch"></a>일상의 조각을 기록하는 Kakao Brunch</h1><p>글을 잘 쓰는 것과 상관없이 <strong>모든 사람들은 글을 통해 세상을 더 낫게 만들 수 있다고 믿습니다.</strong> 순간의 감정, 일상의 조각마다 느낀 인사이트 등 다양한 주제에 대해서 전하고 싶은 이야기들을 기록합니다.</p>
+<p>👉 <a target="_blank" rel="noopener" href="https://brunch.co.kr/@miniblackgoat">Brunch</a></p>
+<hr>
+<h1 id="Side-Project"><a href="#Side-Project" class="headerlink" title="Side Project"></a>Side Project</h1><p>본업 이외에도 꾸준히 사이드 프로젝트를 통해 크고 작은 문제들을 해결해나가고 있습니다. 진행한 프로젝트들에 대해 궁금하시다면, 아래의 링크를 클릭해주세요🌞</p>
+<p>👉 <a href="https://blog.mhson.world/project/">Side Project 둘러보기</a></p>
+<p>함께하는 사이드 프로젝트는 언제나 환영입니다! 프로젝트를 함께하고 싶다면 언제든지 <a target="_blank" rel="noopener" href="https://open.kakao.com/me/flash">이쪽</a>으로 연락주세요🤗</p>
+<hr>
+<h1 id="Community"><a href="#Community" class="headerlink" title="Community"></a>Community</h1><ul>
+<li>2022.02 ~ 국제개발협력 청년 플랫폼 &lt;<a target="_blank" rel="noopener" href="https://www.notion.so/a498308da70c49a88046538e9cacc512">공적인 사적모임</a>&gt;<ul>
+<li>국제개발협력 뉴스레터 <a target="_blank" rel="noopener" href="https://page.stibee.com/archives/76249">김치앤칩스</a>의 필진으로 참여</li>
+<li>&lt;<a target="_blank" rel="noopener" href="https://www.notion.so/NGO-0d9f5f4719234807a128d5bde229809b">NGO는 아니지만 국제개발협력합니다</a>&gt; 인터뷰 시리즈 제작중</li>
+</ul>
+</li>
+<li>2022.01 ~ 새벽 커뮤니티 &lt;<a target="_blank" rel="noopener" href="https://discord.gg/PyJauKJRgg">Early Bird Morning Club</a>&gt;<ul>
+<li>매일 새벽 4시부터 8시까지 새벽을 각자 또 함께 하는 새벽 커뮤니티 리딩</li>
+<li>디스코드 서버 누적 참여자 수 45명</li>
+<li><a href="https://blog.mhson.world/2022/03/12/sideprojects/early-bird-club-2nd-week">혼자서 기획, 제작, 모집</a>까지 하여 현재도 활발히 운영중</li>
+</ul>
+</li>
+</ul>
+<hr>
+<h1 id="Interview"><a href="#Interview" class="headerlink" title="Interview"></a>Interview</h1><ul>
+<li>2018.02 <a target="_blank" rel="noopener" href="https://m.blog.naver.com/PostView.naver?isHttpsRedirect=true&blogId=wtngo&logNo=221203337899">(월드투게더 해외파견간사 인터뷰) 케냐 그리고 베트남, #꿈 에 살다올게요 !</a></li>
+</ul>
+<hr>
+<h1 id="Writing"><a href="#Writing" class="headerlink" title="Writing"></a>Writing</h1><ul>
+<li>2018.08 산업통상자원부 네이버 공식 블로그에 글 기고<ul>
+<li><a target="_blank" rel="noopener" href="https://blog.naver.com/mocienews/221340764713">비닐봉지 쓰면 4천 만 원 벌금 무는 나라가 있다?</a></li>
+</ul>
+</li>
+<li>2018.03 ~ 브런치 작가로 활동하며 케냐에서의 1년을 담은 &lt;<a target="_blank" rel="noopener" href="https://brunch.co.kr/magazine/africarurallife">본투비서울사람의 아프리카시골라이프</a>&gt; 매거진 연재<ul>
+<li>누적 구독자 108명</li>
+<li>랭킹 Top 3 글의 누적 조회수 30만 기록</li>
+<li>네이버, 카카오 뷰, 카카오 브런치 등의 플랫폼에서 메인 노출</li>
+</ul>
+</li>
+</ul>
+<hr>
+<h1 id="Skill"><a href="#Skill" class="headerlink" title="Skill"></a>Skill</h1><ul>
+<li>Back-End : Java, SpringBoot, AWS(EC2, RDS, S3, Route53, CodePipeline 등)</li>
+<li>Database : Mysql</li>
+</ul>
+<hr>
+<h1 id="Language"><a href="#Language" class="headerlink" title="Language"></a>Language</h1><ul>
+<li>English : 글을 읽고 작성할 수 있고 일상적 소통이 가능 (TOEIC 975점, IELTS 7.0)</li>
+<li>Chinese : HSK 5급까지 시험봤지만 사용해 본 지는 오래됨</li>
+<li>Kiswahili : 케냐에 거주하는 동안 간단한 인사와 소개말 정도를 배움</li>
+</ul>
+<hr>
+<h1 id="Education"><a href="#Education" class="headerlink" title="Education"></a>Education</h1><ul>
+<li>2019 Bitcamp, 풀스택 자바 웹 개발자 과정 수료</li>
+<li>2015 Queens College, ESL(English as a Second Language) Course 수료</li>
+<li>2013-2019 이화여자대학교, 사학&amp;국제학 학사</li>
+</ul>
+<hr>
+<h1 id="Goal"><a href="#Goal" class="headerlink" title="Goal"></a>Goal</h1><blockquote>
+<p>모든 사람들이 국가, 언어, 성별, 인종에 대한 제약없이 좋아하는 일을 하며 살아가는 세상을 만드는 것</p>
+</blockquote>
+<p><a href="https://blog.mhson.world/2022/05/07/essays/probleminlife-02/">삶을 살면서 해결하고 싶은 문제를 고민</a>해보았습니다. 수많은 새벽 시간 동안 혼자서 글을 쓰고 생각하며 마침내 나온 것이 바로 위의 문장이었고, 앞으로 저는 이 목표를 달성하기 위해 방해가 되는 문제들을 하나씩 해결해가며 인생을 살아가려고 합니다.  </p>
+<hr>
+<h1 id="Contact"><a href="#Contact" class="headerlink" title="Contact"></a>Contact</h1><p>저에 대해 더 궁금하시다면 아래의 방법으로 연락해주세요 🕊 </p>
+<p>👉 <a target="_blank" rel="noopener" href="https://open.kakao.com/me/flash">Kakao Open Chat</a> 으로 메시지 보내기<br>👉 <a target="_blank" rel="noopener" href="https://www.instagram.com/flash_minhee">Instagram</a> follow 후 DM(Direct Message) 보내기<br>👉 <a href="mailto:minhee4735@gmail.com">minhee4735@gmail.com</a> 으로 메일 보내기</p>
+<br>
+
+
+        
+  </div>
+</article>
+
+        
+        <footer id="footer">
+  <div class="footer-left">
+    Copyright &copy;
+    
+    
+    2018-2022
+    flash, 플래시
+  </div>
+  <div class="footer-right">
+    <nav>
+      <ul>
+        <!--
+       --><li><a href="/about/">About</a></li><!--
+     --><!--
+       --><li><a href="/project/">Projects</a></li><!--
+     --><!--
+       --><li><a href="/archives/">Writing</a></li><!--
+     --><!--
+       --><li><a href="/categories/">Category</a></li><!--
+     --><!--
+       --><li><a href="/search/">Search</a></li><!--
+     -->
+      </ul>
+    </nav>
+  </div>
+</footer>
+
+    </div>
+    <!-- styles -->
+
+
+
+  <link rel="preload" as="style" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" crossorigin="anonymous" onload="this.onload=null;this.rel='stylesheet'"/>
+
+
+    <!-- jquery -->
+ 
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" crossorigin="anonymous"></script> 
+
+
+
+
+<!-- clipboard -->
+
+
+<script src="/js/main.js"></script>
+
+<!-- search -->
+
+<!-- Google Analytics -->
+
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-5F5J9D429X"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-5F5J9D429X');
+    </script>
+
+<!-- Baidu Analytics -->
+
+<!-- Cloudflare Analytics -->
+
+<!-- Umami Analytics -->
+
+<!-- Disqus Comments -->
+
+    <script type="text/javascript">
+        var disqus_shortname = 'flash';
+
+        (function(){
+            var dsq = document.createElement('script');
+            dsq.type = 'text/javascript';
+            dsq.async = true;
+            dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+        }());
+    </script>
+
+<!-- utterances Comments -->
+
+</body>
+</html>
