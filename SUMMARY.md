@@ -4,7 +4,7 @@
 
 ## 🗣 DEVTALK
 
-* [👾 TechTalk](devtalk/techtalk/README.md)
+* [🗣 TechTalk](devtalk/techtalk/README.md)
 * [🧚 Open Source](devtalk/opensource/README.md)
   * [나의 첫 opensource contribution 경험기](devtalk/opensource/opensource-hexo.md)
 * [🎁 Event](devtalk/event/README.md)
@@ -20,11 +20,10 @@
 * [logging](troubleshooting/logging/README.md)
   * [log4j 보안 이슈](troubleshooting/logging/log4j-security-issue.md)
 
-
 ## 🏗 computer science <a href="#cs" id="cs"></a>
 
 * [🧠 운영체제 Operating System](cs/operatingsystem/README.md)
-  * [운영체제란, Introduction to Operating Systems](cs/operatingsystem/undefined.md)
+  * [운영체제란, Introduction to Operating Systems](cs/operatingsystem/introduction-to-operating-systems.md)
   * [컴퓨터 시스템의 구조, Structure of Computer System](cs/operatingsystem/undefined-1.md)
   * [프로그램의 실행, Program Execution](cs/operatingsystem/undefined-2.md)
   * [프로세스, Process](cs/operatingsystem/undefined-3.md)
@@ -69,12 +68,11 @@
   * [메모리 구조 - 메모리 시스템의 이해](cs/computerarchitecture/computer-11.md)
   * [메모리 구조 - 효율적인 메모리 관리 정책](cs/computerarchitecture/computer-12.md)
   * [메모리 구조 - 컴퓨터 성능 개선을 위한 메모리 관리](cs/computerarchitecture/computer-13.md)
-  * [입출력구조 - 시스템 BUS 구성 및 제어 ](cs/computerarchitecture/computer-14.md)
+  * [입출력구조 - 시스템 BUS 구성 및 제어](cs/computerarchitecture/computer-14.md)
   * [입출력 구조 - 입출력(I/O) 연결과 주소 지정](cs/computerarchitecture/computer-15.md)
   * [입출력 구조 - 입출력 수행과 인터럽트](cs/computerarchitecture/computer-16.md)
   * [병렬컴퓨터 구조와 성능분석 - 멀티 프로세서](cs/computerarchitecture/computer-17.md)
   * [병렬 컴퓨터 구조와 성능 분석 - 시스템 성능 분석과 개선](cs/computerarchitecture/computer-18.md)
-
 
 ## 🍡 Datatype and Algorithm
 
@@ -100,7 +98,7 @@
   * [AWS IAM](infrastructure/aws/aws-iam.md)
   * [AWS CodePipeline - Source, CodeBuild](infrastructure/aws/aws-codepipeline-01.md)
   * [AWS CodePipeline - CodeDeploy](infrastructure/aws/aws-codepipeline-02.md)
-  
+
 ## ☕ Java
 
 * [Page 1](java/page-1.md)
@@ -114,18 +112,15 @@
 * [transaction](spring/transaction/README.md)
   * [특정 매소드만 transaction 처리하기](spring/transaction/transactional.md)
 
-
 ## 📀 Database
 
 * [Mysql](database/mysql/README.md)
   * [이것이 MySQL이다](database/mysql/thisismysql-sqls.md)
 
-
 ## 🪄 Test
 
 * [TDD](test/tdd/README.md)
   * [TDD 기본개념/장점/핵심/예시/연습](test/tdd/tdd-cleancode-01.md)
-
 
 ## ✍ WRITINGS
 
@@ -136,7 +131,7 @@
   * [당신은 왜 프로그래밍을 공부하는가?](writings/philosophy/essay-whylearnprogramming.md)
   * [10억 모으기 프로젝트 구상](writings/philosophy/howtoeatandlive-list.md)
   * [<삶의 문제> 지도 다시 꺼내보기, 개발자로서의 커리어, 꿈꾸는 삶과 꿈꾸는 일](writings/philosophy/probleminlife-01.md)
-  * [<삶의 문제> 삶에서 내가 해결하고 싶은 문제 (1) ](writings/philosophy/probleminlife-02.md)
+  * [<삶의 문제> 삶에서 내가 해결하고 싶은 문제 (1)](writings/philosophy/probleminlife-02.md)
   * [<삶의 문제> 삶에서 내가 해결하고 싶은 문제 (2)](writings/philosophy/probleminlife-03.md)
   * [<리뷰> 매번 시간계획을 망치는 MBTI 'P형 인간'을 위한 5단계 인생관리법](writings/philosophy/insight-entp-timemanagement.md)
 * [🎯 daily review](writings/daily-review/README.md)
@@ -158,9 +153,9 @@
 ## 💼 BUSINESS
 
 * [🌟 insight](business/insight/README.md)
-  * [<노코드로 PMF 찾는 방법> 웨비나 후기 ](business/insight/how-to-find-pmf-with-no-code.md)
-  * [<PO SESSION> 토스 리더가 말하는 PO가 꼭 알아야할 개념 (1)](business/insight/20220508-toss-po-session-01.md)
-  * [<PO SESSION> 토스 리더가 말하는 PO가 꼭 알아야할 개념 (2)](business/insight/20220518-toss-po-session-02.md)
+  * [<노코드로 PMF 찾는 방법> 웨비나 후기](business/insight/how-to-find-pmf-with-no-code.md)
+  * [토스 리더가 말하는 PO가 꼭 알아야할 개념 (1)](business/insight/20220508-toss-po-session-01.md)
+  * [토스 리더가 말하는 PO가 꼭 알아야할 개념 (2)](business/insight/20220518-toss-po-session-02.md)
   * [드로우 마이 브랜드](business/insight/drawmybrand.md)
   * [<역행자> 역행자의 7단계 모델 복습](business/insight/bookcord-retrograde.md)
   * [<역행자> 운명을 거스르는 역행자의 7단계 모델](business/insight/bookcord-retrograde-02.md)
@@ -178,8 +173,13 @@
 
 ## 💰 FINANCE
 
-* [Page 5](finance/page-5/README.md)
-  * [Page 7](finance/page-5/page-7.md)
+* [돈의 감각을 길러주는 경제 지식 첫걸음](finance/page-5/README.md)
+  * [금리](finance/page-5/page-7.md)
+  * [환율](finance/page-5/undefined.md)
+  * [주식](finance/page-5/undefined-1.md)
+  * [채권](finance/page-5/undefined-2.md)
+  * [부동산](finance/page-5/undefined-3.md)
+  * [연금](finance/page-5/undefined-4.md)
 
 ## 🎨 ART
 
