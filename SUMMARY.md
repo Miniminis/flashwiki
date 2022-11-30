@@ -90,6 +90,9 @@
   * [<프로덕트 오너> PO가 데이터 기반으로 일할 수 밖에 없는 이유](business/insight/bookcord-po-02.md)
   * [<프로덕트 오너> PO의 시간관리법](business/insight/bookcord-po-01.md)
   * [<역행자> 역행자의 7단계 모델 복습](business/insight/bookcord-retrograde.md)
+  * [<역행자> 운명을 거스르는 역행자의 7단계 모델](business/insight/bookcord-retrograde-02.md)
+  * [드로우 마이 브랜드](business/insight/drawmybrand.md)
+  * [파리에서 도시락을 파는 여자](business/insight/selling-sushi-in-paris.md)
 
 ## 💰 FINANCE
 
