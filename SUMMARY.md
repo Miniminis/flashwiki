@@ -4,7 +4,7 @@
 
 ## 🗣 DEVTALK
 
-* [🗣 TechTalk](devtalk/techtalk/README.md)
+* [👂 TechTalk](devtalk/techtalk/README.md)
 * [🧚 Open Source](devtalk/opensource/README.md)
   * [나의 첫 opensource contribution 경험기](devtalk/opensource/opensource-hexo.md)
 * [🎁 Event](devtalk/event/README.md)
@@ -14,6 +14,8 @@
   * [<코드숨> 1주차 회고](devtalk/til/review-codesoom-20220327.md)
   * [<코드숨> 2주차 회고](devtalk/til/review-codesoom-20220403.md)
   * [<코드숨> 3주차 회고](devtalk/til/review-codesoom-20220410.md)
+* [🧓 Career](devtalk/career/README.md)
+  * [취업기 모음](devtalk/career/undefined.md)
 
 ## ‼️ Trouble Shooting
 
@@ -76,10 +78,15 @@
 
 ## 🍡 Datatype and Algorithm
 
-* [🧐 영리한 프로그래밍을 위한 알고리즘 강좌](datatype-and-algorithm/undefined/README.md)
-  * [recursion 1](datatype-and-algorithm/undefined/recursion-1.md)
-* [🔧 엔지니어 대한민국](datatype-and-algorithm/undefined-1/README.md)
-  * [Page 4](datatype-and-algorithm/undefined-1/page-4.md)
+* [👾 자료구조/알고리즘 위키](datatype-and-algorithm/undefined/README.md)
+  * [array and list](datatype-and-algorithm/undefined/array-and-list.md)
+  * [linked list](datatype-and-algorithm/undefined/linked-list.md)
+  * [string](datatype-and-algorithm/undefined/string.md)
+  * [stack](datatype-and-algorithm/undefined/stack.md)
+  * [queue](datatype-and-algorithm/undefined/queue.md)
+  * [tree](datatype-and-algorithm/undefined/tree.md)
+  * [graph](datatype-and-algorithm/undefined/graph.md)
+  * [recursion, 순환](datatype-and-algorithm/undefined/recursion-1.md)
 * [🧐 이것이 코딩테스트다 2021](datatype-and-algorithm/2021/README.md)
   * [1. 출제 경향 & 파이썬 문법 부수기](datatype-and-algorithm/2021/algorithm-thisiscote-01.md)
   * [2. 그리디 알고리즘 & 구현](datatype-and-algorithm/2021/algorithm-thisiscote-02.md)
@@ -105,6 +112,9 @@
 
 ## 🍃 Spring
 
+* [Spring Framework](spring/spring-framework/README.md)
+  * [스프링이란](spring/spring-framework/undefined.md)
+  * [오브젝트와 의존관계](spring/spring-framework/undefined-1.md)
 * [QueryDSL](spring/querydsl/README.md)
   * [querydsl 을 쓰는 이유](spring/querydsl/querydsl-good-01.md)
   * [JPA querydsl에서 json array 로 된 컬럼에 조건 적용하기](spring/querydsl/querydsl-json-column.md)

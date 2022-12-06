@@ -1,2 +1,2 @@
-# 💬 dev talk
+# 👂 TechTalk
 
