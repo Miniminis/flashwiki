@@ -190,9 +190,7 @@
   * [채권](finance/page-5/undefined-2.md)
   * [부동산](finance/page-5/undefined-3.md)
   * [연금](finance/page-5/undefined-4.md)
-  * [보수 vs. 진보](finance/page-5/vs..md)
-  * [국가 재정](finance/page-5/undefined-5.md)
-  * [우리나라의 곳간지기들](finance/page-5/undefined-6.md)
+  * [경제정책](finance/page-5/undefined-5.md)
 
 ## 🎨 ART
 
