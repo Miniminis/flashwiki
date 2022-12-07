@@ -19,6 +19,7 @@
 
 ## ‼️ Trouble Shooting
 
+* [java string.split(".") 오류](trouble-shooting/java-string.split-..md)
 * [logging](troubleshooting/logging/README.md)
   * [log4j 보안 이슈](troubleshooting/logging/log4j-security-issue.md)
 
