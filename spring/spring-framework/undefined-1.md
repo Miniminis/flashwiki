@@ -347,4 +347,192 @@ public class UserDaoTest {
 
 
 
-###
+## 4. 제어의 역전 Inversion of Control
+
+* `개선 5`까지 코트를 개선했는데, 한 가지 문제점이 있다. 바로 데이터베이스 커넥션을 설정할 떄, 어떤 구현체를 쓸를 결정하는 책임을 UserDaoTest 라는 클라이언트 사이드로 넘겼다는 점이다. UserDaoTest 는 이미 UserDao 를 테스트한다는 책임을 가지고 있는데, 다른 책임이 전가된 것이다. 따라서 UserDao 를 생성하고 어떤 구현체를 쓸지까지 결정하는 책임을 담당하는 부분을 펙토리 클래스로 분리하여 책임을 분리해본다. &#x20;
+
+```java
+public class UserDaoFactory {
+   public UserDao userDao() {
+      UserDao dao = new UserDao(connectionMaker());
+      return dao;
+   }
+
+   public ConnectionMaker connectionMaker() {
+      ConnectionMaker connectionMaker = new DConnectionMaker();
+      return connectionMaker;
+   }
+}
+
+public class UserDaoTest {
+	public static void main(String[] args) throws ClassNotFoundException, SQLException {
+		UserDao dao = new UserDaoFactory().userDao();
+		...
+	}
+}
+
+```
+
+### 설계로서의 팩토리
+
+* 위와 같이 펙토리 매소드로 분리를 하니, 전체적으로 구조가 다음과 같이 나누어지게 되었다.&#x20;
+  * 어플리케이션의 핵심 기능과 로직을 담당하는 컴포넌트 : UserDaoTest, UserDao, ConnectionMaker, DConnectionMaker
+  * 어플리케이션의 생성 및 관계설정 등 구조를 결정하는 오브젝트 : UserDaoFactory
+
+
+
+### 제어권의 이전, 제어관계의 역전
+
+* 위처럼 UserDao 나 ConnectionMaker 등의 오브젝트를 직접 생성하고 오브젝트 간의 관계를 설정해주는 역할을 하는 펙토리 메소드를 만듬으로서, UserDao 나 ConnectionMaker 는 스스로가 어떻게 생성되고 어디서 쓰이는지 전혀 알 수가 없게 되었다. 제어권이 UserDaoFactory 로 넘어가게 된 것이다.&#x20;
+* 이렇게 원래 일반적으로 프로그램의 흐름이 main() 등의 초기 매소드에서 주도권을 가지고 오브젝트의 생성 및 매소드 호출, 이후의 흐름을 결정하는 능동적인 방식이었다면 제어의 역전에서는 오브젝트가 자신이 사용할 오브젝트를 스스로 선택하지 않고 생성하지도 않는다. 어떻게 만들어지고 사용되는지도 알 수 없다. 제어권을 다른 오브젝트에게 위임하게 되는 것이다.&#x20;
+* 제어의 역전 예시
+  * `개선 2` 에서 상속을 통해 getConnection 을 서브클래스에서 다시 정의하여 쓰도록 하였는데, 이 경우, 슈퍼 클래스인 UserDao 는 getConnection 이 어떻게 정의된지도 모르는 채 add(), get() 을 통해서 기능을 수행한다. 그 반대로 서브클래스에서도 자신이 구현한 커넥션이 어떻게 쓰이는지 모르는채, add(), get() 매소드를 호출하여 사용한다.&#x20;
+  * 프레임워크
+    * 라이브러리 : 라이브러리는 어플리케이션에서 흐름을 직접 제어하고 필요한 기능을 라이브러리에서 가져다가 쓸 뿐이다. (툴킷, 엔진, 라이브러리 모두 해당함)&#x20;
+    * 프레임워크 : 하지만 프레임워크의 경우, 제어의 역전 개념이 반드시 담겨있어야 한다. 라이브러리와 반대로 어플리케이션이 프레임워크가 짜놓은 틀에서 수동적으로 동작해야한다. 프레임워크가 어플리케이션의 코드를 가져다가 쓸 뿐이다.&#x20;
+  * UserDao - DaoFactory 간의 관계
+    * DaoFactory 에서 UserDao 의 생성, ConnectionMaker의 생성과 그 둘 사이의 관계를 설정함
+    * UserDao 는 어떻게 생성되고 쓰이는지도 모른다.&#x20;
+
+## 5. Spring 의 IoC
+
+* 빈
+  * 빈, 빈 오브젝트는 스프링이 IoC 방식으로 관리하는 오브젝트라는 뜻. 관리되는 오브젝트라고 부르기도 함.&#x20;
+  * 스프링 프레임워크를 사용하는 어플리케이션에서 모든 오브젝트를 빈이라고 부르는 것이 아니라, 스프링에 의해 생성되고 제어되는 오브젝트만을 빈이라고 한다.&#x20;
+* 빈 팩토리&#x20;
+  * 스프링 IoC 를 담당하는 핵심 컨테이너. 빈을 등록, 생성, 조회, 반환, 부가적으로 빈을 관리하는 기능을 담당한다. 보통은 빈 팩토리를 바로 쓰지 않고 이를 확장한 어플리케이션 컨텍스트를 사용한다. 이곳에 getBean() 과 같은 매소드가 정의되어있다.&#x20;
+* 어플리케이션 컨텍스트
+  * 빈 팩토리를 확장한 IoC 컨테이너이다. 빈을 등록하는 등 빈 팩토리가 가진 기능을 모두 가지고 있으며, 추가적으로 스프링이 제공하는 각종 부가서비스를 제공한다. BeanFactory 를 상속한다.&#x20;
+* 설정정보/설정 메타정보
+  * 빈 펙토리나 어플리케이션 컨텍스트에서 IoC를 적용하기 위해서 참고하는 설정정보를 말한다. configuration 이라고 하며, IoC 컨테이너에 의해 관리되는 어플리케이션 오브젝트를 생성하고 구성할 떄 사용된다.&#x20;
+* 컨테이너 혹은 IoC 컨테이너
+  * IoC 방식으로 빈을 관리한다는 의미에서 어플리케이션 컨텍스트나 빈 팩토리를 컨테이너 혹은 IoC 컨테이너라고 한다.&#x20;
+* 스프링 프레임워크
+  * IoC 컨테이너, 어플리케이션 컨텍스트를 포함하여 스프링이 제공하는 모든 기능을 통틀어 말할 때, 주로 사용한다. &#x20;
+
+
+
+```java
+@Configuration
+public class DaoFactory {
+    public DaoFactory() {
+    }
+
+    @Bean
+    public UserDao userDao() {
+        UserDao dao = new UserDao(this.connectionMaker());
+        return dao;
+    }
+
+    @Bean
+    public ConnectionMaker connectionMaker() {
+        ConnectionMaker connectionMaker = new DConnectionMaker();
+        return connectionMaker;
+    }
+}
+
+
+public class UserDaoTest {
+    public UserDaoTest() {
+    }
+
+    public static void main(String[] args) throws ClassNotFoundException, SQLException {
+        AnnotationConfigApplicationContext context = new AnnotationConfigApplicationContext(new Class[]{DaoFactory.class});
+        UserDao dao = (UserDao)context.getBean("userDao", UserDao.class);
+        ...
+    }
+}
+
+```
+
+* 스프링을 사용하여 DaoFactory 를 설정정보로 사용하는 어플리케이션 컨텍스트를 만들어보았다. 어노테이션(@Configuration, @Bean) 을 통해서 설정한다.&#x20;
+* 빈을 가져올 떄, 이름을 별도로 붙여주는 이유는 (userDao) 같은 빈을 가져오더라도 이를 생성하는 방식이나 구성을 다르게 하고자 할 떄를 지원하기 위함이다.&#x20;
+
+### 어플리케이션 컨텍스트의 동작방식
+
+* @Configuration, @Bean 등을 동해 DaoFactory 에 미리 사용할 설정정보들을 ApplicationContext 에 등록한다.&#x20;
+* ApplicationContext 는 @Bean 어노테이션이 붙은 매소드의 이름을 가져와서 빈 목록을 만들두고,&#x20;
+* 클라이언트에서 어플리케이션 컨텍스트의 getBean() 매소드를 호출하면, 자신의 빈 목록에서 요청한 이름이 있는지 찾고, 있다면 전달해준다.&#x20;
+* 장점
+  * 클라이언트에서 사용할 떄, 구체적인 펙토리 클래스를 알 필요가 없다.&#x20;
+  * 어플리케이션 컨텍스트는 종합 IoC 서비스를 제공해준다.&#x20;
+    * 단순히 오브젝트 생성과 관계설정 뿐인 아니라, 오브젝트가 만들어지는 방식, 시점과 전략을 다르게 할 수 있다.&#x20;
+    * 부가적으로 자동생성, 후처리, 정보의 조합, 설정 방식의 다변화, 인터셉팅 등 다양한 것을 설정할 수 있다.&#x20;
+  * 어플리케이션 컨텍스트는 빈을 검색하는 다양한 방법을 제공한다. &#x20;
+
+
+
+## 6. 싱글톤 레지스트리와 오브젝트 스코프
+
+### ApplicationContext vs. 단순한 Factory class
+
+* 아직까지는 너무 단순해서 어플리케이션 컨텍스트나 스프링 프레임워크 없이 펙토리 클래스로만 해도 충분히 괜찮을 것 같다고 생각된다. 어떤 점에서 차이가 발생하는 것일까?&#x20;
+* 오브젝트의 동등성
+  * DaoFactory 클래스에서 userDao() 를 두 번 호출한다면, 매번 new 키워드로 새롭게 오브젝트가 생성되므로, 호출할 때마다 새로운 오브젝트가 생성되는 셈이다.&#x20;
+  * 반면 ApplicationContext 를 통해 userDao() 를 호출한다면, 이미 bean 목록에 있는 것은 다시 조회하지 않고 반환하도록 되어있기 떄문에 매번 같은 오브젝트가 반환될 것이다.&#x20;
+* 차이점은 바로 어플리케이션 컨텍스트가 싱글톤 레지스트리로서의 역할을 하고 있기 때문이다.&#x20;
+  * 스프링에서 별도 설정이 없다면 내부에서 생성된 빈 오프젝트는 기본이 싱글톤&#x20;
+* 스프링은 자바 엔터프라이즈 기술을 사용하는 서버환경이다. 스프링이 만들어질 때에는 서버 하나당 최대로 초당 수십에서 수백번씩 브라우저나 타 시스템으로부터 요청을 받아 처리할 수 있는 높은 성능이 요구되는 환경이었다고 한다. 이런 경우에, 매 요청마다 5개의 오브젝트가 만들어진다면, 초당 500개의 요청이 들어올 경우, 2500개의 오브젝트가 한번에 만들어지게 될 것이다. 성능에 당연히 부하가 발생할 수밖에 없다.&#x20;
+  * 서블릿은 자바 엔터프라이즈 기술의 가장 기본이 되는 서비스 오브젝트임!&#x20;
+  * 클래스 당 하나의 오브젝트만 만들어두고 사용자의 요청을 담당하는 여러 스레드에서 하나의 오브젝트를 공유해서 동시에 사용한다.&#x20;
+
+
+
+### 싱글톤 패턴의 문제점
+
+* 싱글톤 패턴에 따라 UserDao 를 바꿔본다면 아래와 같을 것이다.&#x20;
+* 코드가 지저분해졌고, 리펙토링한 깔끔한 코드를 버려야한다는 점 이외에도 아래와 같은 한계들이 있을 것이다.&#x20;
+* private 생성자를 가지고 있기 떄문에 상속이 불가하다. 상속을 통한 다형성은 객체지향의 장점 중 하나인데, 이것을 전혀 쓸 수가 없게 된다.&#x20;
+  * static field와 매소드가 사용되는 것 역시 객체지향 특징에 위배된다.&#x20;
+* 싱글톤은 테스트하기가 힘들다. 매우 만들어지는 방식이 제한적이기 때문에 테스트를 위해서 목 오브젝트를 만드는 것 등 테스트하는 과정이 매우 힘들다.&#x20;
+* 서버환경에서는 싱글톤이 하나만 만들어진다고 보장되는것도 아니다.&#x20;
+  * 자바 JVM 이 여러개로 분산된 환경에서는 싱글톤 패턴으로 만들었다고 해서 하나만 만들어지는 것도 아니라서 싱글톤으로서의 가치가 떨어진다.&#x20;
+* 싱글톤은 언제나 전역상태이기 때문에 바람직하지 못하다.&#x20;
+  * 싱글톤을 사용하는 클라이언트는 딱히 정해져있지 않고 중구난방으로 흩어져있다. 따라서 모든 이들이 접근하고 수정하고 공유할 수 있게 되는데, 이는 객체지향에서 가장 권장하지 않은 방식이다. 차라리 static field 와 method 로 된 클래스를 사용하는 편이 나을 것이다.&#x20;
+
+```java
+
+public class UserDao {
+    private static UserDao INSTANCE;
+    
+    private UserDao(ConnectionMaker connectionMaker) {
+        this.connectionMaker = connectionMaker;
+    }
+    
+    public static synchronized UserDao getInstance() {
+        if (INSTANCE == null) INSTANCE = new UserDao(???);
+        return INSTANCE;
+    }
+}
+
+```
+
+
+
+### 싱글톤 레지스트리
+
+* 그렇다면 스프링 프레임워크는 어떻게 오브젝트들을 싱글톤으로 관리하고 있을까. 싱글톤의 문제점들 때문에 스프링은 싱글톤 형태의 오브젝트를 만들고 관리하는 "싱글톤 레지스트리" 기능을 제공한다.&#x20;
+* 오브젝트의 생성과 등록, 관계설정을 포함한 권한을 스프링 컨테이너로 넘기면, 스프링 컨테이너는 알아서 해당 오브젝트를 싱글톤 방식으로 관리해준다. 모두 스프링 컨테이너가 오브젝트의 제어권을 가지고 있기 때문에 가능한 것이다.
+* 이렇게 되면 객체지향적 설계방식과 원칙, 디자인패턴 등을 모두 해치지 않고 싱글톤 방식으로 오브젝트를 관리할 수 있게 된다.&#x20;
+
+
+
+### 빈 스코프
+
+* 스프링이 관리하는 오브젝트인 빈이 생성되고 등록되며 적용되는 범위를 `빈 스코프`라고 한다.&#x20;
+* 기본적으로 스프링 컨테이너에서는 빈을 싱글톤 스코프를 갖도록 관리한다.&#x20;
+* 하지만 다른 스코프도 존재한다. prototype, request, session 등의 스코프는 매 요청마다 새로운 빈이 생성된다. &#x20;
+
+
+
+## 7. 의존관계 주입, Dependency Injection
+
+* IoC는 소프트웨어에서 자주 발견할 수 있는 일반적인 개념. 우리는 DaoFactory 내에서 오브젝트의 생성과 관계설정 등을 관리함으로써 IoC 컨테이너처럼 사용하였고 이러한 점을 일반화한 것이 스프링의 IoC 컨테이너라고 했다.&#x20;
+* 그런데, 이 IoC 라는 용어 자체는 사실 스프링이 제공하는 기능의 특징을 100% 다 담지 못하고 있다. 그래서 등장한 것이 Dependency Injection, 의존성 주입이다.&#x20;
+
+
+
+## 8. XML 을 통한 설정
+
+## 9. 정리&#x20;
+
