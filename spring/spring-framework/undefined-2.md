@@ -312,17 +312,275 @@ public class UserDaoTest {
   * 테스트 수행시 필요한 정보나 오브젝트를 픽스처라고 한다.&#x20;
   * 다른 테스트 메소드들에서 반복적으로 사용되는 것은 @Before 에서 세팅되도록 하면 편리하다.&#x20;
 
+```java
+public class UserDaoTest {
+    private UserDao dao;
+    private User user1;
+    private User user2;
+    private User user3;
+
+    public UserDaoTest() {
+    }
+
+    @Before
+    public void setUp() {
+        ApplicationContext context = new GenericXmlApplicationContext(new String[]{"applicationContext.xml"});
+        this.dao = (UserDao)context.getBean("userDao", UserDao.class);
+        this.user1 = new User("gyumee", "박성철", "springno1");
+        this.user2 = new User("leegw700", "이길원", "springno2");
+        this.user3 = new User("bumjin", "박범진", "springno3");
+    }
+
+    @Test
+    public void andAndGet() throws SQLException {
+        ...
+    }
+
+    @Test(
+        expected = EmptyResultDataAccessException.class
+    )
+    public void getUserFailure() throws SQLException {
+        ... 
+    }
+
+    @Test
+    public void count() throws SQLException {
+        ... 
+    }
+}
+```
+
 
 
 ## 스프링 테스트 적용
 
 * JUnit 프레임워크 덕분에 테스트가 간편해졌지만, @Before 내에서 어플리케이션 컨텍스트를 생성하는 방식은 테스트 개수가 늘어나는 만큼 반복되어 실행되므로 좋지 않다. 어차피 싱글톤으로 만들어진 UserDao 와 데이터베이스는 모두 상태를 갖고 있지 않으므로, 한번만 만들어지고 계속 반복되어 사용되어도 괜찮다.&#x20;
+* @RunWith : JUnit 프레임워크의 테스트 실행방법을 확장할 때 사용하는 어노테이션&#x20;
+* SpringJUnit4ClassRunner : JUnit 용 테스트 컨텍스트 프레임워크 확장 클래스. 테스트 진행하는 중에 사용할 어플리케이션 컨텍스트를 만들고 관리하는 작업을 진행해준다.&#x20;
+* @ContextConfiguration : 자동으로 만들어줄 어플리케이션 컨텍스트의 설정파일 위치를 지정한 것.&#x20;
+  * 하나의 테스트 클래스는 물론 여러개의 다른 테스트 클래스에서도 설정파일이 같다면 하나의 어플리케이션 콘텍스트가 만들어진다. 즉, 설정파일이 같다면 어플리케이션 콘텍스트를 공유한다. 이때문에 테스트의 속도 및 성능이 엄청나게 향상되는 것이다.&#x20;
+    * 하나의 클래스 혹은 설정파일을 공유하는 클래스들 간에서 아래와 같이 출력해서 확인해보면 됨
+      * `System.out.println(this.context);`
+      * `System.out.println(this);`
+
+```java
+@RunWith(SpringJUnit4ClassRunner.class)
+@ContextConfiguration(locations = {"/applicationContext.xml"})
+public class UserDaoTest {
+    @Autowired
+    ApplicationContext context;
+    
+    private UserDao dao;
+    private User user1;
+    private User user2;
+    private User user3;
+
+    public UserDaoTest() {
+    }
+
+    @Before
+    public void setUp() {
+        this.dao = (UserDao)this.context.getBean("userDao", UserDao.class);
+        this.user1 = new User("gyumee", "박성철", "springno1");
+        this.user2 = new User("leegw700", "이길원", "springno2");
+        this.user3 = new User("bumjin", "박범진", "springno3");
+    }
+
+    @Test
+    public void andAndGet() throws SQLException {
+        ...
+    }
+
+    @Test(expected = EmptyResultDataAccessException.class)
+    public void getUserFailure() throws SQLException {
+        ...
+    }
+
+    @Test
+    public void count() throws SQLException {
+        ...
+    }
+}
+```
+
+```java
+@RunWith(SpringJUnit4ClassRunner.class)
+@ContextConfiguration(locations = {"/applicationContext.xml"})
+public class UserDaoTest { ... }
 
 
+@RunWith(SpringJUnit4ClassRunner.class)
+@ContextConfiguration(locations = {"/applicationContext.xml"})
+public class GroupDaoTest { ... }
+
+//위의 두 테스트는 같은 application context 를 공유한다! 
+```
+
+
+
+### @Autowired
+
+* 스프링에서 DI 를 사용하기 위한 어노테이션&#x20;
+* 이 어노테이션이 붙은 인스턴스 변수가 있으면, 테스트 컨텍스트 프레임워크는 변수 타입과 일치하는 컨텍스트 내의 빈을 찾는다.&#x20;
+  * 타입이 일치하는 것이 존재하면, 인스턴스 변수에 주입
+  * 별도의 생성자나 수정자와 같은 매소드 없이도 주입 가능
+  * 별도의 DI 설정없이 필드타입 정보를 이용해 빈을 자동으로 가져올 수 있다. -> `타입에 의한 자동 와이어링`
+* 스프링 어플리케이션 컨텍스트는 초기화할 때 자기 자신도 빈으로 등록한다. ApplicationContext 역시 빈 목록에 존재하는 것이다!&#x20;
+* 컨텍스트 내에 타입이 일치하는 빈을 찾는다면 당연히 UserDao 타입도 있을 것이다. 따라서 context.getBean() 을 통해서 가져오는 것이 아니라 그냥 바로 dao 를 주입받는 방법으로 수정할 수 있다.&#x20;
+
+```java
+...
+public class UserDaoTest {
+    @Autowired
+    UserDao dao;
+}
+```
+
+### DI 와 테스트
+
+* 인터페이스를 두고 DI 를 적용해야하는 이유 3가지
+  * 소프트웨어 개발에서 절대 변하지 않는 것이란 없다. 추후 변경을 위해 작은 작업은 무리가 되지 않는다.&#x20;
+  * 클래스 구현방식은 변하지 않더라도 다른 기능이 추가될 여지는 있다. 그런 기능의 추가와 제거를 손쉽게 하는데 인터페이스를 두고 설계하는 것이 깔끔하다.&#x20;
+  * 테스트가 용이하기 때문이다. 테스트는 최소한의 단위로 진행할 수 있어야 하는데, DI 는 그것을 가능하게 해준다.&#x20;
+
+### 테스트에 DI 를 이용하는 방법 3가지&#x20;
+
+1. 테스트 코드에 의한 DI&#x20;
+   1. 테스트 코드 setUp 시에 테스트용으로 오브젝트를 직접 만든다.&#x20;
+   2. 어플리케이션 컨텍스트의 구성이나 상태를 테스트 내에서 변경하지 않는 것이 원칙이다. 왜냐하면 테스트 클래스들 간에 모두 공유하여 사용 되기 떄문이다.&#x20;
+   3. @DirtiesContext 어노테이션을 통해 그 문제를 해결할 수 있지만, 이 경우, 어플리케이션 컨텍스트가 매번 만들어지게 된다.&#x20;
+2. 별도의 설정파일을 이용한 DI 설정
+   1. 테스트 환경을 위한 별도의 설정파일을 생성하여 Configuration 에서 설정해주는 것이다.&#x20;
+3. 컨텍스트 없이 DI 테스트 &#x20;
+   1. 사실 DI 는 컨테이너 없이도 가능한 작업이다. 아래와 같이 컨테이너를 사용하지 않고 직접 오브젝트를 생성하고 테스트용 DataSource 오브젝트를 만들어 직접 DI 를 해주는 방법도 있다.&#x20;
+   2. 하지만 이 경우, JUnit 에서 매번 새로운 테스트 오브젝트를 만들기 때문에 UserDao 가 계속 중복되어 생성된다.&#x20;
+
+
+
+```java
+//1. 테스트 코드에 의한 DI 
+@DirtiesContext        
+//이 클래스의 테스트에서만 어플리케이션 컨텍스트의 상태를 변경한다는 것을 알려준다. 이 어노테이션이 붙으면 테스트 컨텍스트는 어플리케이션 컨텍스트 공유를 허용하지 않는다. 
+public class UserDaoTest {
+
+    @Autowired
+    private UserDao dao;
+    ...
+    
+    @Before
+    public void setUp() {
+        DataSource dataSource = new SingleConnectionDataSource("jdbc:mysql://localhost/testdb", "spring", "book", true);
+        dao.setDataSource(dataSource);
+    }
+}
+
+//2. 별도의 설정파일을 이용한 DI 설정
+@RunWith(SpringJUnit4ClassRunner.class)
+@ContextConfiguration(locations = {"/test-applicationContext.xml"})
+public class UserDaoTest {
+
+    @Autowired
+    private UserDao dao;
+    ...
+}
+
+//3. 컨텍스트 없이 DI 테스트  
+public class UserDaoTest {
+
+    private UserDao dao;
+    ...
+    
+    @Before
+    public void setUp() {
+        dao = new UserDao();
+        DataSource dataSource = new SingleConnectionDataSource("jdbc:mysql://localhost/testdb", "spring", "book", true);
+        dao.setDataSource(dataSource);
+    }
+}
+```
+
+```xml
+<!--  -->
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+   xsi:schemaLocation="http://www.springframework.org/schema/beans 
+                  http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+   <bean id="dataSource" class="org.springframework.jdbc.datasource.SimpleDriverDataSource">
+      <property name="driverClass" value="com.mysql.jdbc.Driver" />
+      <property name="url" value="jdbc:mysql://localhost/springbook?characterEncoding=UTF-8" />
+      <property name="username" value="spring" />
+      <property name="password" value="book" />
+   </bean>
+   
+   <bean id="userDao" class="springbook.user.dao.UserDao">
+      <property name="dataSource" ref="dataSource" />
+   </bean>
+</beans>
+```
 
 
 
 ## 학습 테스트로 배우는 스프링
+
+* 자신이 만든 코드 뿐만 아니라 타인이 만든 프레임워크나 다른 개발팀에서 만들어서 제공한 라이브러리 등에 대해서 테스트를 작성하는 것&#x20;
+
+### 학습 테스트의 장점
+
+* 다양한 조건에서 기능을 손쉽게 확인할 수 있음
+* 학습 테스트 코드를 개발 중에 참고 가능&#x20;
+* 프레임워크나 제품을 업그레이드할 때 호환성 검증을 도와준다.&#x20;
+  * 프레임워크나 상용 제품이 업데이트 될 때, API 상에 미묘한 변화가 발생하여 기존의 잘되던 기능에 오류가 발생할 수 있다.&#x20;
+  * 변경을 적용하기 전에 미리 학습테스트로 체크해보면 좋다.&#x20;
+* 테스트 작성에 대한 좋은 훈련이 된다.&#x20;
+* 새로운 기술을 공부하는 과정이 즐거워진다.
+
+```java
+@RunWith(SpringJUnit4ClassRunner.class)
+@ContextConfiguration({"junit.xml"})
+public class JUnitTest {
+    @Autowired
+    ApplicationContext context;
+    static Set<JUnitTest> testObjects = new HashSet();
+    static ApplicationContext contextObject = null;
+
+    public JUnitTest() {
+    }
+
+    @Test
+    public void test1() {
+        Assert.assertThat(testObjects, CoreMatchers.not(JUnitMatchers.hasItem(this)));
+        testObjects.add(this);
+
+        Assert.assertThat(contextObject == null || contextObject == this.context, CoreMatchers.is(true));
+        contextObject = this.context;
+    }
+
+    @Test
+    public void test2() {
+        Assert.assertThat(testObjects, CoreMatchers.not(JUnitMatchers.hasItem(this)));
+        testObjects.add(this);
+        
+        Assert.assertTrue(contextObject == null || contextObject == this.context);
+        contextObject = this.context;
+    }
+
+    @Test
+    public void test3() {
+        Assert.assertThat(testObjects, CoreMatchers.not(JUnitMatchers.hasItem(this)));
+        testObjects.add(this);
+        
+        Assert.assertThat(contextObject, JUnitMatchers.either(CoreMatchers.is(CoreMatchers.nullValue())).or(CoreMatchers.is(contextObject)));
+        contextObject = this.context;
+    }
+}
+```
+
+&#x20;
+
+### 버그테스트
+
+* 오류가 발생한 경우, 버그테스트를 만들어 두면 편하다. 실패하는 테스트를 만든 뒤, 해당 테스트가 통과되면 버그를 해결한 셈이 된다.&#x20;
 
 
 
