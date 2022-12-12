@@ -28,7 +28,7 @@
 
 ### linked allocation
 
-<figure><img src="../../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (4) (3).png" alt=""><figcaption></figcaption></figure>
 
 * 파일의 시작위치만 디렉토리가 가지고 있고, 그 다음 위치들은 해당 파일 내에 접근하여 확인할 수 있다.
 * 장점
@@ -198,7 +198,7 @@
 
 ### page cache vs. buffer cache
 
-<figure><img src="../../.gitbook/assets/image (14) (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (14).png" alt=""><figcaption></figcaption></figure>
 
 #### page cache
 
