@@ -194,6 +194,7 @@
   * [연금](finance/page-5/undefined-4.md)
   * [경제정책](finance/page-5/undefined-5.md)
   * [규제](finance/page-5/undefined-6.md)
+  * [경제위기](finance/page-5/undefined-7.md)
 
 ## 🎨 ART
 
