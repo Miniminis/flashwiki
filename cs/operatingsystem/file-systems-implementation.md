@@ -143,10 +143,6 @@
 * 프로그램들이 종종 여러개의 연속적인 block 을 할당하고 반납한다는 성질에 착안한다.
 * (first free block, 연속적인 free blocks) 쌍 형태로 관리한다.
 
-
-
-
-
 ### directory implementation, 디렉토리는 어떻게 구현되는가
 
 * linear list
@@ -169,8 +165,6 @@
   * hash 함수에서 흔히 발생하는 문제
 
 <figure><img src="../../.gitbook/assets/image (11).png" alt=""><figcaption></figcaption></figure>
-
-
 
 #### file metadata 보관위치
 
@@ -202,11 +196,9 @@
   * NFS client
   * NFS server
 
-
-
 ### page cache vs. buffer cache
 
-<figure><img src="../../.gitbook/assets/image (14).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (14) (2).png" alt=""><figcaption></figcaption></figure>
 
 #### page cache
 
@@ -221,8 +213,6 @@
 * 모든 프로세스가 공용으로 사용된다.
 * replacement algorithm이 필요하다. LRU, LFU 등
 
-
-
 <figure><img src="../../.gitbook/assets/image (32).png" alt=""><figcaption></figcaption></figure>
 
 #### unified buffer cache
@@ -236,8 +226,6 @@
   * 통합된 버퍼 캐시를 사용할때는 이러한 과정이 보다 단순해진다.
   * page cache 를 buffer cache 로 쓰기 때문에 실행 프로세스가 한결 간단해진다.
 
-
-
 <figure><img src="../../.gitbook/assets/image (5) (3).png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
@@ -250,8 +238,6 @@
   * 프로세스가 실행될 때, 물리적 메모리로 로드되고, 프로세스가 스위칭 되면, 대부분의 데이터는 swap area 로 이동하여 임시 보관된다.
   * 하지만 code 영역은 이미 실행파일 자체에서 모든 것이 쓰여진 완성된 형태의 read only 영역이다. 따라서 프로세스가 스위칭 되는 당시의 상태를 저장하는 swap area 에 저장할 필요가 없이, virtual memory 자체에 매핑되어 읽으면 된다.
   * virtual memory 에 없는 내용일 경우, 페이지 폴트가 발생할 것이다. file system 인 실행파일에서 필요한 코드의 내용을 또 일정부분 불러와 virtual memory 와 매핑시켜 읽으면 된다.
-
-
 
 <figure><img src="../../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
 
@@ -269,6 +255,3 @@ unifed buffer cache 에서 1번을 이용할 경우에는 physical memory 에 �
 2번일 경우에는 physical memory 에 올려져있는 데이터를 `virtual memory 에 매핑`하여 사용한다. 이 경우, 일단 메모리에 올려진 데이터는 운영체제를 시스템 콜로 호출하지 않고 자신의 메모리 영역 내에서 응답할 수 있기 때문에 빠르고 물리 메모리에서 나의 가상 매모리로 데이터를 복사하는 시간이나 노력을 들이지 않을 수 있다.
 
 단점이 있다면, physical memory 를 다른 프로세스들과 공유해서 이용하므로, 데이터의 일관성 문제가 발생할 수 있다.
-
-
-
