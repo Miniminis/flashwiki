@@ -118,6 +118,7 @@
   * [오브젝트와 의존관계](spring/spring-framework/undefined-1.md)
   * [테스트](spring/spring-framework/undefined-2.md)
   * [템플릿](spring/spring-framework/undefined-3.md)
+  * [예외](spring/spring-framework/undefined-4.md)
 * [QueryDSL](spring/querydsl/README.md)
   * [querydsl 을 쓰는 이유](spring/querydsl/querydsl-good-01.md)
   * [JPA querydsl에서 json array 로 된 컬럼에 조건 적용하기](spring/querydsl/querydsl-json-column.md)
