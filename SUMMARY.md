@@ -10,7 +10,7 @@
 * [🎁 Event](devtalk/event/README.md)
   * [sudo - CTO's Tech Talk 2022 컨퍼런스 1일차](devtalk/event/event-fc-sudo-20220115.md)
   * [sudo - CTO's Tech Talk 2022 컨퍼런 2일차](devtalk/event/event-fc-sudo-20220116.md)
-* [👨‍🏫 TIL](devtalk/til/README.md)
+* [🏫 TIL](devtalk/til/README.md)
   * [<코드숨> 1주차 회고](devtalk/til/review-codesoom-20220327.md)
   * [<코드숨> 2주차 회고](devtalk/til/review-codesoom-20220403.md)
   * [<코드숨> 3주차 회고](devtalk/til/review-codesoom-20220410.md)
