@@ -1006,5 +1006,61 @@ public class Calculator {
 
 ## 스프링의 JdbcTemplate
 
+```java
+public class UserDao {
+    private JdbcTemplate jdbcTemplate;
+    private RowMapper<User> userMapper = new RowMapper<User>() {
+        public User mapRow(ResultSet rs, int rowNum) throws SQLException {
+            User user = new User();
+            user.setId(rs.getString("id"));
+            user.setName(rs.getString("name"));
+            user.setPassword(rs.getString("password"));
+            return user;
+        }
+    };
 
+    public UserDao() {
+    }
+
+    public void setDataSource(DataSource dataSource) {
+        this.jdbcTemplate = new JdbcTemplate(dataSource);
+    }
+
+    public void add(User user) {
+        this.jdbcTemplate.update("insert into users(id, name, password) values(?,?,?)", new Object[]{user.getId(), user.getName(), user.getPassword()});
+    }
+
+    public User get(String id) {
+        return (User)this.jdbcTemplate.queryForObject("select * from users where id = ?", new Object[]{id}, this.userMapper);
+    }
+
+    public void deleteAll() {
+        this.jdbcTemplate.update("delete from users");
+    }
+
+    public int getCount() {
+        return this.jdbcTemplate.queryForInt("select count(*) from users");
+    }
+
+    public List<User> getAll() {
+        return this.jdbcTemplate.query("select * from users order by id", this.userMapper);
+    }
+}
+```
+
+## 정리
+
+* JDBC 와 같은 예외가 발생할 가능성이 있고 공유 리소스의 반환이 필요한 코드는 반드시 try, catch, finally 블록으로 관리해야한다.&#x20;
+* 일정한 작업 흐름이 반복되면서, 그 중 일부 기능만 바뀌는 코드가 존재한다면 전략 패턴을 적용한다. 바뀌지 않는 부분은 콘텍스트로, 바뀌는 부분은 전략으로 만들고 인터페이스를 통해 유연하게 전략을 젼경할 수 있도록 구성한다.&#x20;
+* 같은 어플리케이션 안에서 여러가지 종류의 전략을 다이내믹하게 구성하고 사용해야한다면, 컨텍스트를 이용하는 클라이언트 메소드에서 직접 전략을 정의하고 제공하게 만든다.&#x20;
+* 클라이언트 메소드 안에 익명 내부 클래스를 사용해서 전략 오브젝트를 구현하면 코드도 간결해지고 메소드의 정보를 직접 사용할 수 있어서 편리하다. 컨텍스트가 하나 이상의 클라이언트 오브젝트에서 사용된다면, 클래스를 분리해서 공유하도록 만든다.&#x20;
+* 컨텍스트는 별도의 빈으로 등록해서 DI 받거나 클라이언트 클래스에서 직접 생성해서 사용한다. 클래스 내부에서 컨텍스트를 사용할 때, 컨텍스트가 의존하는 외부의 오브젝트가 있다면, 코드를 이용해서 직접 DI 해줄수있다.&#x20;
+* 단일 전략 메소드를 갖는 전략 패턴이면서 익명 내부 클래스를 사용해서 매번 전략을 새로 만들어 사용하고, 컨텍스트 호출과 동시에 전략 DI 를 수행하는 방식을 템플릿/콜백 패턴이라고 한다.&#x20;
+* 콜백의 코드에도 일정한 패턴이 반복된다면, 콜백을 템플릿에 넣고 재활용하는 것이 편리하다.&#x20;
+* 템플릿과 콜백의 타입이 다양하게 바뀔 수 있다면 제네릭스를 이용한다.&#x20;
+* 스프링은 JDBC 코드 작성을 위해 JdbcTemplate 을 기반으로 하는 다양한 템플릿과 콜백을 제공한다.&#x20;
+* 템플릿은 한번에 하나 이상의 콜백을 사용할 수 있고, 하나의 콜백을 여러 번 호출할 수 있다.&#x20;
+* 템플릿/콜백을 설계할 때에는 템플릿과 콜백 사이에 주고 받는 정보에 관심을 둬야한다.&#x20;
+
+&#x20;
 
