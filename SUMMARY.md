@@ -80,6 +80,10 @@
 ## 🍡 Datatype and Algorithm
 
 * [👾 자료구조/알고리즘 위키](datatype-and-algorithm/undefined/README.md)
+  * [Math](datatype-and-algorithm/undefined/math/README.md)
+    * [소수찾기, 에라토스테네스의 체](datatype-and-algorithm/undefined/math/undefined/README.md)
+      * [백준 8393 합](datatype-and-algorithm/undefined/math/undefined/8393.md)
+      * [백준 1929 소수구하기](datatype-and-algorithm/undefined/math/undefined/1929.md)
   * [array and list](datatype-and-algorithm/undefined/array-and-list.md)
   * [linked list](datatype-and-algorithm/undefined/linked-list.md)
   * [string](datatype-and-algorithm/undefined/string.md)
