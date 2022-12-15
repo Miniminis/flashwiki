@@ -82,7 +82,7 @@
 
 #### SCAN
 
-<figure><img src="../../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (5) (2).png" alt=""><figcaption></figcaption></figure>
 
 * 기본적으로 디스크의 스케줄링 알고리즘은 scan 이다.
 * disk head 의 이동거리 측면에서 효율적이고 다른 알고리즘보다 공정하다.
@@ -118,8 +118,6 @@
 * file 의 할당 방법에 따라 디스크 요청이 영향을 받는다.
 * 디스크 스케줄링 알고리즘은 필요할 경우, 다른 알고리즘으로 쉽게 교체할 수 있도록 OS 와 별도의 모듈로 작성되는 것이 바람직하다.
 
-
-
 ### Swap-space management
 
 #### disk 를 사용하는 이유
@@ -136,8 +134,6 @@
 
 <figure><img src="../../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
 
-
-
 ### RAID
 
 * rebundant array of independent disks
@@ -150,6 +146,3 @@
     * 동일 정보를 여러 디스크에 중복적으로 저장하기 때문에 하나의 디스크가 고장났을 때, 다른 디스크에서 읽어올 수 있다. → mirroring, shadowing
     * 단순한 중복 저장이 아니라 일부 디스크에 parity 를 저장하여 공간의 효율성을 높일 수 있다.
       * parity : 단순히 중복하여 저장하는 것이 아니라, 중복을 최소화하고 문제가 생겼을 때 복구할 수 있을 정도로만 저장해주는 방법
-
-
-
