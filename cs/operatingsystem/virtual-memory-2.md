@@ -15,8 +15,6 @@
 
 <figure><img src="../../.gitbook/assets/image (2) (6).png" alt=""><figcaption></figcaption></figure>
 
-
-
 ### paging system 에서는 그럼 replacement 를 위해 어떤 알고리즘을 사용하는가
 
 <figure><img src="../../.gitbook/assets/image (3) (1) (2).png" alt=""><figcaption></figcaption></figure>
@@ -84,9 +82,7 @@
   * multi-programmind degree 를 조절해주어야 한다.
   * 이를 위해 working-set, PFF 알고리즘을 사용한다.
 
-<figure><img src="../../.gitbook/assets/image (1) (2).png" alt=""><figcaption></figcaption></figure>
-
-
+<figure><img src="../../.gitbook/assets/image (1) (2) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### Working-Set Model
 
@@ -110,8 +106,6 @@
 
 <figure><img src="../../.gitbook/assets/image (4) (4).png" alt=""><figcaption></figcaption></figure>
 
-
-
 #### working set algorithm
 
 * process 들의 working set size 의 합이 page frame 보다 큰 경우,
@@ -127,8 +121,6 @@
 ### PFF, Page Fault Frequency scheme
 
 <figure><img src="../../.gitbook/assets/image (7) (4).png" alt=""><figcaption></figcaption></figure>
-
-
 
 * page-fault rate 의 상한값과 하한값을 둔다.
   * page fault rate 이 상한값을 넘으면 frame 을 더 할당한다.
@@ -148,6 +140,3 @@
     * locality 활용 측면에서는 좋지 않다.
 * trend
   * larger page size
-
-
-

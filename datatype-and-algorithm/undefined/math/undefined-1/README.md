@@ -1,132 +1,128 @@
 ---
-description: 에라토스테네스의 체
+description: 유클리드 호제법
 ---
 
-# 소수찾기
+# 최대공약수, 최소공배수
 
-## 소수를 찾는 3가지 방법
+> 최대공약수를 구하는 다양한 알고리즘이 있지만, 유클리드 호제법이 가장 일반적이고 효율적이다.&#x20;
 
-1. 기본 판별법 : O(N²)
-2. 제곱근을 이용한 기본 판별법 : O(N√N)
-3. 에라토스테네스의 체 : O(N ㏒ (㏒ N))
+## 개념정리 - 최대공약수, 최소공배수&#x20;
 
-> 따라서 에라토스테네스의 체가 가장 효율적이고 일반적인 알고리즘이라고 할 수 있다. \
-> [참고](https://st-lab.tistory.com/80)
+* 유튜브에 수학채널 쑤튜브라는 친절한 유튜브 채널을 발견했다. 아래의 링크에서 최대공약수와 최소공배수의 개념을 일단 복습하자.&#x20;
+
+{% embed url="https://youtube.com/watch?v=Obs-HC5j5bI&feature=shares" %}
+
+<figure><img src="../../../../.gitbook/assets/image (5).png" alt=""><figcaption><p>수학채널 쑤튜브 </p></figcaption></figure>
+
+* 결국, 최대공약수는 두 수의 약수들 중 공통적으로 가지고 있는 약수 중 최대값을 의미한다.&#x20;
+  * 다른 방식으로 말하자면, 두 수가 각각 나눗셈을 했을 때, 공통으로 나누어 떨어지는 수 중에 가장 큰 수
+* 최소공배수는 두 수에 공통으로 존재하는 배수 중 가장 작은 수를 의미한다.&#x20;
+  * 두 수 A, B에 대하여 A \* B / (A와 B의 최대공약수)&#x20;
+  * A = ga, B=gb, 최소공배수 = g\*a\*b 가 되는데, A\*B = g\*g\*a\*b 이므로 최대공약수인 g를 한번 나누어주는 것이다.&#x20;
 
 
 
-## N이 소수인지 아닌지 판단하기
+## 유클리드 호제법
 
-* 2부터 n-1까지 순회하며 n 의 약수가 있는지 확인하는 것
-* 약수가 만약 하나도 없다면 n 은 소수가 된다.
-* 합성수 n = p \* q 로 표현될 떄, 한 수는 항상 n 의 1/2 이하, 다른 한 수는 항상 n 의 1/2 이상이라는 점을 기억하여, n-1까지 순화히지 않고, n의 1/2 까지만 순회하도록 했다.
+> 출처 : 위키피디아&#x20;
+
+* 2개의 자연수(또는 정식) a, b에 대해서 a를 b로 나눈 나머지를 r이라 하면(단, a>b), a와 b의 최대공약수는 b와 r의 최대공약수와 같다.&#x20;
+* 이 방법을 이용하여 이 성질에 따라, b를 r로 나눈 나머지 r'를 구하고, 다시 r을 r'로 나눈 나머지를 구하는 과정을 반복하여 나머지가 0이 되었을 때 나누는 수가 a와 b의 최대공약수이다.
+
+
+
+## 최대공약수 구하기 1. 유클리드 호제법 + 재귀
 
 ```java
+package practice.algorithm.math;
 
-public class Main {
-
+public class GDCRecursion {
     public static void main(String[] args) {
 
-        int n = 53;
-        for (int i = 2; i*i <= n; i++) {
-            if (n % i != 0) {
-                System.out.println(false);
-            }
+        int a = 24;
+        int b = 28;
+
+        //유클리드 호제법은 a > b 를 충족해야한다.
+        if (a < b) {
+            int temp = a;
+            a = b;
+            b = temp;
         }
 
-        System.out.println(true);
+        System.out.println(gdc(a, b));
     }
-}
 
-```
-
-
-
-## 소수 구하기 - 에라토스테니스의 체
-
-* 에라토스테네스의 체 방법
-  * 2부터 소수를 구하고자 하는 구간의 모든 수를 나열한다.
-  * 소수가 되는 수의 배수를 지우면 남는 것은 소수만 된다.
-  * 우선 2는 제외한 2의 배수를 모두 지운다.
-  * 다음수인 3도 자기자신을 제외한 3의 배수를 모두 지운다.
-  * 4는 이미 2의 배수로 지워졌다.
-  * 그 다음수인 5 역시 자기 자신인 5를 제외한 5의 배수를 지운다.
-  * 위의 과정을 반복한다.
-  * 만약에 n=120 이라면 11\*11 = 121 이므로 11보다 작은 배수들만 지워도 충분히 구할 수 있다.
-* 문제유형
-  * 특정 범위의 두 수 n, m 사이에 있는 수들 중 소수를 모두 찾으시오
-* 특징
-  * 소수 구하는 다양한 방법 중에서 가장 대중적이면서 효율이 좋다고 한다.
-
-```java
-package practice.algorithm;
-
-import java.util.Arrays;
-
-public class Main {
-
-    public static void main(String[] args) {
-
-        int n = 120;
-        boolean[] isPrime = new boolean[n+1];   //0 부터 n 까지의 수에 대한 상태를 저장
-        Arrays.fill(isPrime, true);
-
-        isPrime[0] = isPrime[1] = false;
-        for (int i = 2; i*i <= n; i++) {
-            if (isPrime[i]) {
-                for (int j = i*i; j <= n; j += i) {
-                    isPrime[j] = false;
-                }
-            }
-        }
-
-        for (int i = 1; i <= n; i++) {
-            if (isPrime[i]) System.out.print(i + " ");
-            //2 3 5 7 11 13 17 19 23 29 31 37 41 43 47 53 59 61 67 71 73 79 83 89 97 101 103 107 109 113 
-        }
-
+    private static int gdc(int a, int b) {
+        if (b == 0) return a;
+        return gdc(b, a % b);
     }
 }
 ```
 
-
-
-## 소인수 구하기
-
-* 소인수 : 곱하여 특정 수가 되는 것들 중, 소수인 것
-  * 예를 들면 10의 소인수를 구할 때, 10의 인수 1, 2, 5, 10 중에서 소수인 2, 5를 소인수라고 한다.
-* 한 합성수를 소수들의 곱으로 표현하는 방법을 찾는 소인수 분해
-* 2부터 시작해 n 이 소인수가 될 수 있는 수들을 하나하나 순회하면서, n 의 약수를 찾을 떄마다 n 을 이 숫자로 나눈다.
+## 최대공약수 구하기 2. 유클리드 호제법 + 반복문
 
 ```java
-package practice.algorithm;
+package practice.algorithm.math;
 
-import java.util.ArrayList;
-import java.util.List;
-
-public class Main {
-
+public class GDCLoop {
     public static void main(String[] args) {
 
-        int n = 120;
-        List<Integer> list = new ArrayList<>();
+        int a = 24;
+        int b = 28;
 
-        for (int i = 2; i*i <= n; i++) {
-            while (n%i == 0) {
-                list.add(n);
-                n /= i;
-            }
+        //유클리드 호제법은 a > b 를 충족해야한다.
+        if (a < b) {
+            int temp = a;
+            a = b;
+            b = temp;
         }
 
-        if (n>1) {
-            list.add(n);
+        System.out.println(gdc(a, b));
+    }
+
+    private static int gdc(int a, int b) {
+        while (b != 0) {
+            int r = a % b;
+            a = b;
+            b = r;
         }
 
-        for (int num : list) {
-            System.out.print(num + " ");
-        }
-        System.out.println();
+        return a;   //b == 0 이다.
     }
 }
-
 ```
+
+## 최소공배수 구하기 &#x20;
+
+```java
+package practice.algorithm.math;
+
+public class LCM {
+    public static void main(String[] args) {
+
+        int a = 8;
+        int b = 10;
+
+        //유클리드 호제법은 a > b 를 충족해야한다.
+        if (a < b) {
+            int temp = a;
+            a = b;
+            b = temp;
+        }
+
+        System.out.println(lcm(a, b));
+    }
+
+    private static int lcm(int a, int b) {
+        return a * b / gdc(a, b);
+    }
+
+    private static int gdc(int a, int b) {
+        if (b == 0) return a;
+        return gdc(b, a % b);
+    }
+
+
+}
+```
+
