@@ -143,6 +143,7 @@
   * [서비스 추상화 2](spring/spring-framework/2.md)
   * [AOP 1](spring/spring-framework/aop-1.md)
   * [AOP 2](spring/spring-framework/aop-2.md)
+  * [스프링 핵심 기술의 응용](spring/spring-framework/undefined-5.md)
 * [QueryDSL](spring/querydsl/README.md)
   * [querydsl 을 쓰는 이유](spring/querydsl/querydsl-good-01.md)
   * [JPA querydsl에서 json array 로 된 컬럼에 조건 적용하기](spring/querydsl/querydsl-json-column.md)
