@@ -1645,20 +1645,482 @@ public class EmbeddedDbSqlRegistry implements UpdatableSqlRegistry {
 
 
 
-## 스프링 3.1의 DI
-
-
-
-
-
-## 정리
-
-
-
 {% hint style="info" %}
-💡 이 장을 거치면서 우리가 한 작업들
+💡 지금까지 우리가 한 작업들의 의미&#x20;
 {% endhint %}
 
 * SQL 문을 XML 파일로 일관되게 관리하여 데이터베이스 수정에 DAO가 독립적이도록 만듬
 * XML파일로 관리하던 SQL 문들을 자바 오브젝트로 가져오는 방법으로 다양한 OXM 서비스를 이용할 수 있는데, 이러한 기술들을 한 단계 위로 추상화한 스프링 OXM 추상화 서비스를 이용하여 기술에 구애받지 않도록 자유도를 높인 것
 * XML 파일 리소스를 가져오는 방법을 프로젝트 내부 뿐만 아니라, 프로젝트 내 다른 디렉토리, 외부폴더, 웹 등 다양한 소스로부터 가져올 수 있도록 자유도를 높이는 작업
+
+
+
+## 스프링 3.1의 DI
+
+* 스프링은 지금까지 1.0부터 3.1 까지 발전하는 동안 놀라울 정도의 구 버전 호환성을 보여주었다. 모두 스프링이 견지하고 있는 핵심 철학을 고수한 덕부닝다.&#x20;
+* 객체지향적인 코드의 장점인 유연성과 확장성을 스프링 스스로가 충분히 지켜왔기 때문에 스프링 프레임워크 자체도 DI 원칙을 충분히 따라서 만들어졌기 때문에 기존 설계와 코드에 영향을 주지 않고도 꾸준히 새로운 기능을 추가하고 확장해나갈 수 있었다.&#x20;
+
+### 자바 언어 변화와 스프링
+
+* 자바 언어의 변화에 따라 스프링도 영향을 받았다. 대표적으로는 아래의 두 가지
+  * 에노테이션의 메타정보 활용
+  * 정책과 관례를 이용한 프로그래밍&#x20;
+
+### 에노테이션의 메타정보 활용
+
+* 자바 5부터 등장한 에노테이션 기법은 점차 XML 메타정보 설정 방법을 대체해가기 시작한다.&#x20;
+* 에노테이션은 사실 기존의 자바 프로그래밍 방식으로 활용하기가 어렵다.&#x20;
+  * 자바 코드가 실행되는 과정에서 직접 참여하지 못하고&#x20;
+  * 그 자체로 상속이나 오버라이딩이 가능하지도 않다.&#x20;
+  * 동작하는 코드도 넣을 수 없고&#x20;
+  * 코드에서 간단히 참조하거나 활용할 수 없다.&#x20;
+  * 복잡한 리플렉션 API 를 이용해 에노테이션의 메타정보를 조회하고&#x20;
+  * 에노테이션 내에 설정된 값을 가져와서 참고하는 방법이 전부이다.&#x20;
+  * 클래스 타입에 영향을 주지도 못하고 일반코드에서도 활용되지 못하기 때문에 일반적인 객체지향 프로그래밍 스타일의 코드나 패턴 등에 적용할 수도 없다.&#x20;
+* 그럼에도 불구하고 에노테이션 기법은 왜 널리 퍼지게 되었을까?&#x20;
+  * 다음과 같은 방식으로 구성되는 어플리케이션 방식에 잘 어울리기 때문이다.&#x20;
+    * 어플리케이션 = 핵심로직을 담은 자바코드 + 이를 지원하는 IoC 방식의 프레임워크 + 프레임워크가 참조하는 메타정보
+* 장점
+  * 에노테이션 하나를 자바 코드에 넣는 것만으로도 이를 참고하는 코드에서 다양한 부가 정보를 얻을 수 있다.
+    * XML로 표현하려면 모든 내용을 명시적으로 길게 작성해야한다.&#x20;
+  * XML 방식은 텍스트를 기입하는 것이기 때문에 오타의 가능성도 많다.&#x20;
+  * 리펙토링도 에노테이션 방식은 참조하는 관련 코드를 일괄적으로 바꿔주기가 훨씬 쉽다.
+* 단점
+  * 자바코드에 존재하기 때문에 변경시 다시 컴파일 하는 과정이 필요하다. (XML 은 필요없음)&#x20;
+  * 외부에 설정정보 변경을 위해 소스코드를 제공해야한다.&#x20;
+* DI 패턴의 변화과정
+  * 초기에는 객체지향 언어의 기본에 충실하게 작성된 자바 코드 형태
+  * 프레임워크의 발전과 함께 자바 코드 + 프레임워크 + XML 메타정보
+  * 스프링 3.1부터는 핵심로직을 담은 자바코드 + DI 프레임워크 + DI 를 위한 메타데이터로서의 자바코드&#x20;
+
+
+
+### 정책과 관례를 이용한 프로그래밍
+
+* 명시적으로 동작내용을 기술하는 것 대신에 코드 없이도 미리 약속한 규칙이나 관례를 따라서 프로그램이 동작하도록 만드는 프로그래밍 스타일이 유행하기 시작했다. -> 에노테이션도 그의 일종.&#x20;
+* &#x20;예를 들어 `@Transactional`을 살펴보자.&#x20;
+  * 만약에 한 오브젝트가 클래스, 인터페이스, 메소드 를 포함해 네 군데에 달려있다면, 트랜잭션 적용은 어떻게 되는 걸까?&#x20;
+  * 명확하게 하려면 중첩 설정이 되어있는 경우, `@Transactional(order=1)` 과 같이 적용 우선순위를 직접 지정할 수 있다.&#x20;
+  * 하지만 스프링에서는 미리 4단계의 우선순위를 가진 대체 정책을 정해두었다. 이 정책을 기억하고 코드를 작성해야한다. 그렇지 않으면, 코드 레벨에서는 이를 알 수 있는 방법이 없다.&#x20;
+  * 이런 문제의 경우는 디버깅도 너무 어렵다 ㅠㅠㅠ&#x20;
+
+
+
+{% hint style="info" %}
+이후부터는 그동안의 코드를 스프링 3.1 버전의 DI 스타일로 바꾸는 과정을 보여주고 설명한다.&#x20;
+{% endhint %}
+
+### 1) 자바 코드를 이용한 빈 설정
+
+* DI 관련 정보를 스프링 3.1로 바꾸는 작업&#x20;
+* 테스트 용으로 만들어진 기존의 XML 에서 어플리케이션이 운영환경에서 동작할 때 필요로 하는 DI 정보를 분리해내는 일
+
+#### 1-1. 테스트 코드에서 DI 정보가 XML 에 담겨있다고 생각되는 부분 모두 자바코드로 설정 바꾸기
+
+```java
+//Configuration 어노테이션으로 DI 설정정보 세팅할 클래스 만들기 
+@Configuration
+@ImportResource("/test-applicationContext.xml")
+public class TestApplicationContext { ... }
+
+//@ContextConfiguration(locations="/test-applicationContext.xml")
+@ContextConfiguration(classes=TestApplicationContext.class)
+public class UserDaoTest { ... }
+
+
+```
+
+#### 1-2. annotation-config 제거
+
+* @PostConstruct 어노테이션이 붙은 매소드를 빈 후처리기에 등록해주어 초기화 이후에 바로 실행될 수 있도록 하기 위한 설정이었다.&#x20;
+* 그러니 @Configuration 으로 설정 방식이 변경되면서, 자동으로 등록할 수 있게 되었다.&#x20;
+
+#### 1-3.  bean 전환하기, 전용 태그 전환하기&#x20;
+
+* dataSource, transactionManager 등을 포함하여 모든 bean 태그를 자바 코드로 변환해준다.
+* `<tx:annotation-driven />` -> `@EnableTransactionManagement`
+
+```java
+@Configuration
+@EnableTransactionManagement
+public class TestApplicationContext {
+	/**
+	 * DB����� Ʈ�����
+	 */
+	
+	@Bean
+	public DataSource dataSource() {
+		SimpleDriverDataSource ds = new SimpleDriverDataSource();
+		ds.setDriverClass(Driver.class);
+		ds.setUrl("jdbc:mysql://localhost/springbook?characterEncoding=UTF-8");
+		ds.setUsername("spring");
+		ds.setPassword("book");
+		return ds;
+	}
+	
+	@Bean
+	public PlatformTransactionManager transactionManager() {
+		DataSourceTransactionManager tm = new DataSourceTransactionManager();
+		tm.setDataSource(dataSource());
+		return tm;
+	}
+	
+	/**
+	 * ���ø����̼� ���� & �׽�Ʈ�� ��
+	 */
+	
+	@Autowired SqlService sqlService;
+	
+	@Bean 
+	public UserDao userDao() {
+		UserDaoJdbc dao = new UserDaoJdbc();
+		dao.setDataSource(dataSource());
+		dao.setSqlService(this.sqlService);
+		return dao;
+	}
+	
+	@Bean
+	public UserService userService() {
+		UserServiceImpl service = new UserServiceImpl();
+		service.setUserDao(userDao());
+		service.setMailSender(mailSender());
+		return service;
+	}
+	
+	@Bean
+	public UserService testUserService() {
+		TestUserService testService = new TestUserService();
+		testService.setUserDao(userDao());
+		testService.setMailSender(mailSender());
+		return testService;
+	}
+	
+	@Bean
+	public MailSender mailSender() {
+		return new DummyMailSender();
+	}
+	
+	/**
+	 * SQL����
+	 */
+	
+	@Bean
+	public SqlService sqlService() {
+		OxmSqlService sqlService = new OxmSqlService();
+		sqlService.setUnmarshaller(unmarshaller());
+		sqlService.setSqlRegistry(sqlRegistry());
+		return sqlService;
+	}
+	
+	@Bean
+	public SqlRegistry sqlRegistry() {
+		EmbeddedDbSqlRegistry sqlRegistry = new EmbeddedDbSqlRegistry();
+		sqlRegistry.setDataSource(embeddedDatabase());
+		return sqlRegistry;
+	}
+	
+	@Bean
+	public Unmarshaller unmarshaller() {
+		Jaxb2Marshaller marshaller = new Jaxb2Marshaller();
+		marshaller.setContextPath("springbook.user.sqlservice.jaxb");
+		return marshaller;
+	}
+	
+	@Bean 
+	public DataSource embeddedDatabase() {
+		return new EmbeddedDatabaseBuilder()
+			.setName("embeddedDatabase")
+			.setType(HSQL)
+			.addScript("classpath:springbook/user/sqlservice/updatable/sqlRegistrySchema.sql")
+			.build();
+	}
+}
+```
+
+### 2) 빈 스캐닝과 자동와이어링 (@Autowired)
+
+* 스프링은 @Autowired 가 붙은 수정자 메소드가 있으면 파라미터의 타입을 보고 주입 가능한 타입의 빈을 모두 찾는다.&#x20;
+  * 만약 주입 가능한 타입의 빈이 1개라면, 수정자 메소드를 호출해서 넣어준다.
+  * 두개 이상이 나오면, 그 중에서 프로퍼티와 동일한 이름의 빈이 있는지 찾는다.&#x20;
+  * DataSource 의 경우는 빈이 2개이다. 하나는 userDao 빈이 사용하는 dataSource, 다른 하나는 SQL 서비스 용으로 만든 embeddedDataSource 이다.&#x20;
+    * 그 중에서 dataSource 빈이 프로퍼티 이름과 일치하므로 이를 넣어준다.&#x20;
+  * 타입과 이름을 모두 비교해도 찾아낼 수 없다면 주입할 빈이 없다는 에러가 난다.&#x20;
+* 어차피 목 오브젝트를 이용해서 테스트를 하기 어려운 경우에는 스프링 컨테이너 안에서 DI 이루어진 후에 테스트를 수행하는 방법이 적절하니까, 필드에 바로 @Autowired 를 적용해도 좋다. 하지만 비즈니스 로직을 가지고 있어서 목 오브젝트를 이용하여 적절하게 테스트 간으한 것들은 어노테이션을 이용하더라도 수정자 메소드를 남겨주는 것이 좋다.&#x20;
+
+### 3) @Component 를 이용한 자동 빈 등록&#x20;
+
+* @Component 는 빈으로 등록될 후보 클래스에 붙여주는 일종의 마커이다.&#x20;
+* @ComponentScan 을 이용하여 특정 패키지 아래에서만 @Component 에노테이션이 달린 클래스를 찾겠다고 범위 설정을 해준다. 전체 범위를 스캔하려면 부담이 많이 가기 때문이다.&#x20;
+  * `@ComponentScan(basePackages="springbook.user")`
+    * basePackage 는 여러 개를 넣어도 된다.&#x20;
+* 새로운 어노테이션을 만들어 사용할수도 있다. @SnsConnector 라는 에노테이션을 정의할 때, @Component 어노테이션을 붙이면, 클래스마다 @Component 를 따로 붙여주지 않아도 자동으로 빈 등록 대상으로 만들 수 있다.&#x20;
+* @Repository : @Component 를 메타 어노테이션으로 가지고 있다. DAO 기능을 제공하는 클래스에는 이를 사용하도록 권장되고 있다.&#x20;
+* 다시 한 번 말하지만 @Autowired 는 타입을 기준으로 먼저 찾고, 이름을 기준으로 다시 최종 후보를 찾는다.&#x20;
+* @Service : @Repository 처럼 비즈니스 로직을 담고 있는 서비스 계층의 빈을 구분하기 위해 사용된다.&#x20;
+  * 보통 서비스 계층은 트랜잭션의 경계가 되는 곳이라서 @Transactional 과 함께 사용되는 경우가 많다.&#x20;
+  * 만약에 클래스 이름과 다르게 빈을 등록하고 싶다면, @Service("userService") 와 같이 이름을 명확하게 지정해주면 된다.&#x20;
+
+
+
+### 4) 컨텍스트 분리와 @Import&#x20;
+
+* 성격이 다른 DI 정보를 분리할 필요가 있다.&#x20;
+* 테스트용 컨텍스트 분리
+  * 테스트 용은 TestAppContext, 운영용은 AppContext 로 클래스를 분리한다.&#x20;
+  * 하나 이상의 설정 클래스가 테스트에서 사용되게 하려면 모두 나열해주면 된다.&#x20;
+    * @ContextConfiguration(classes={AppContext.class, TestAppContext.class})&#x20;
+* @Import&#x20;
+  * AppContext 중에서도 SQL 과 관련된 빈들은 다른 Context 로 분리하여 관리한다. SqlServiceContext&#x20;
+  * 그리고 SqlServiceContext 가 AppContext 에 포함되어 적용되도록 한다.&#x20;
+    * ```java
+      @Import(SqlServiceContext.class)
+      public class AppContext { ... }
+      ```
+
+### 5) @Profile and @ActiveProfile&#x20;
+
+* 현재 상황을 보면 아래와 같다.&#x20;
+  * mailSender 빈의 경우 TestAppContext 에만 적용되어있다.&#x20;
+  * 테스트를 위해서는 더미 클래스를 이용해야한다.&#x20;
+  * 하지만 AppContext 에서도 메일 빈이 필요하다. 그렇다고 여기서 또 다른 mailSender 를 정의하면, UserServiceTest 처럼 두 가지의 설정을 모두 사용하는 곳에서는 충돌이 일어난다.&#x20;
+* 생각해볼 수 있는 방법은 아래처럼 구분하는 것이다.&#x20;
+  * 테스트 환경에서는 @ContextConfiguration 에 AppContext + TestAppContext 를 설정하고&#x20;
+  * 운영 환경에서는 AppContext + ProductionAppContext 를 설정하는 것이다.&#x20;
+    * ProductionAppContext 에는 운영 환경에서 필요하지만 테스트에는 필요없는 빈이나 설정을 담는다.&#x20;
+* 하지만 이건 너무 귀찮다. 방법이 없을까?&#x20;
+  * @Profile : 각 컨텍스트에 실행 환경 정보를 세팅한다. test, production 등&#x20;
+  * @ActiveProfile : 지금 실행하는 이 클래스에 적용할 환경정보를 설정한다. test 로 설정하면 테스트 환경으로 실행된다.&#x20;
+* 아래와 같이 static 중첩 클래스로 넣은 @Configuration 은 스프링이 자동으로 포함시켜준다. 따라서 아래의 AppContext 에서는 SqlServiceContext 만 설정해주면 된다.&#x20;
+
+```java
+@Configuration
+@EnableTransactionManagement
+@ComponentScan(basePackages="springbook.user")
+@Import(SqlServiceContext.class)
+public class AppContext {      //default context 
+   @Bean
+   public DataSource dataSource() {
+      SimpleDriverDataSource ds = new SimpleDriverDataSource();
+      ds.setDriverClass(Driver.class);
+      ds.setUrl("jdbc:mysql://localhost/springbook?characterEncoding=UTF-8");
+      ds.setUsername("spring");
+      ds.setPassword("book");
+      return ds;
+   }
+   
+   @Bean
+   public PlatformTransactionManager transactionManager() {
+      DataSourceTransactionManager tm = new DataSourceTransactionManager();
+      tm.setDataSource(dataSource());
+      return tm;
+   }
+   
+   @Configuration
+   @Profile("production")
+   public static class ProductionAppContext {
+      @Bean
+      public MailSender mailSender() {
+         JavaMailSenderImpl mailSender = new JavaMailSenderImpl();
+         mailSender.setHost("localhost");
+         return mailSender;
+      }
+   }
+   
+   @Configuration
+   @Profile("test")
+   public static class TestAppContext {
+      @Bean
+      public UserService testUserService() {
+         return new TestUserService();
+      }
+      
+      @Bean
+      public MailSender mailSender() {
+         return new DummyMailSender();
+      }
+   }
+
+}
+
+```
+
+```java
+@RunWith(SpringJUnit4ClassRunner.class)
+@ActiveProfiles("test")
+@ContextConfiguration(classes=AppContext.class)
+public class UserServiceTest { ... }
+```
+
+
+
+#### 위와 같은 설정이 제대로 적용되고 있는지 확인하려면 빈 등록 정보를 확인하면 된다.&#x20;
+
+* 스프링 컨테이너는 모두 BeanFactory 라는 인터페이스를 구현하고 있다.&#x20;
+* 이 인터페이스를 구현한 클래스 중에 DefaultListableBeanFactory 가 있다. 거의 대부분의 스프링 컨테이너는 이 클래스를 이용해서 빈을 등록하고 관리한다.&#x20;
+* 게다가 이 오브젝트는 @Autowired 로 주입받아서 이용하 수 있다.
+* 내부에는 getBeanDefinitionNames() 라는 메소드가 있어서 컨테이너에 등록된 모든 빈 이름을 가져올 수 있고, 빈 이름을 이용해서 실제 빈과 빈 클래스 정보도 조회해볼 수 있다.&#x20;
+* 아래의 코드에서 @ActiveProfile 을 적용하여, 테스트 환경과 운영 환경의 빈 생성이 다른지 확인하면 된다. &#x20;
+
+```java
+@Autowired DefaultListableBeanFactory bf;
+
+@Test
+public void beans() {
+    for (String n : bf.getBeanDefinitionNames()) {
+        System.out.println(n + " \t" + bf.getBean(n).getClass().getName());
+    }
+}
+```
+
+
+
+### 6) 프로퍼티 소스&#x20;
+
+* dataSource 에 쓰이는 정보는 환경별로 다르게 프로퍼티가 적용되어야 한다. 이런 정보들은 소스코드 내에서 관리하지 않고, 외부 파일로 빼두어 관리하는 편이 좋다.&#x20;
+  * ```properties
+    //database.properties
+    db.driverClass=com.mysql.jdbc.Driver
+    db.url=jdbc:mysql://localhost/springbook?characterEncoding=UTF-8
+    db.username=spring
+    db.password=book
+    ```
+* 이제 환경에 맞게 다른 프로퍼티 파일을 가져오도록 소스코드를 수정해주면 된다.&#x20;
+
+```java
+
+@Configuration
+@EnableTransactionManagement
+@ComponentScan(basePackages="springbook.user")
+@EnableSqlService
+@PropertySource("/database.properties")
+public class AppContext implements SqlMapConfig {
+	@Value("${db.driverClass}") Class<? extends Driver> driverClass;
+	@Value("${db.url}") String url;
+	@Value("${db.username}") String username;
+	@Value("${db.password}") String password;
+
+	...
+	
+	@Bean
+	public DataSource dataSource() {
+		SimpleDriverDataSource ds = new SimpleDriverDataSource();
+		
+		ds.setDriverClass(this.driverClass);
+		ds.setUrl(this.url);
+		ds.setUsername(this.username);
+		ds.setPassword(this.password);
+		
+		return ds;
+	}
+	
+	...
+}
+```
+
+
+
+### 7) 빈 설정의 재사용과 @Enable\* &#x20;
+
+```java
+@Import(value=SqlServiceContext.class)
+public @interface EnableSqlService {
+}
+
+@Configuration
+public class SqlServiceContext { ... }
+
+...
+@EnableSqlService
+public class AppContext implements SqlMapConfig { ... }
+```
+
+
+
+### 8) 최종본
+
+```java
+@Configuration
+@EnableTransactionManagement
+@ComponentScan(basePackages="springbook.user")
+@EnableSqlService
+@PropertySource("/database.properties")
+public class AppContext implements SqlMapConfig {
+   @Value("${db.driverClass}") Class<? extends Driver> driverClass;
+   @Value("${db.url}") String url;
+   @Value("${db.username}") String username;
+   @Value("${db.password}") String password;
+   
+   @Override
+   public Resource getSqlMapResouce() {
+      return new ClassPathResource("sqlmap.xml", UserDao.class);
+   }
+   
+   @Bean
+   public static PropertySourcesPlaceholderConfigurer placeholderConfigurer() {
+      return new PropertySourcesPlaceholderConfigurer();
+   }
+   
+   @Bean
+   public DataSource dataSource() {
+      SimpleDriverDataSource ds = new SimpleDriverDataSource();
+      
+      ds.setDriverClass(this.driverClass);
+      ds.setUrl(this.url);
+      ds.setUsername(this.username);
+      ds.setPassword(this.password);
+      
+      return ds;
+   }
+   
+   @Bean
+   public PlatformTransactionManager transactionManager() {
+      DataSourceTransactionManager tm = new DataSourceTransactionManager();
+      tm.setDataSource(dataSource());
+      return tm;
+   }
+   
+   @Configuration
+   @Profile("production")
+   public static class ProductionAppContext {
+      @Bean
+      public MailSender mailSender() {
+         JavaMailSenderImpl mailSender = new JavaMailSenderImpl();
+         mailSender.setHost("localhost");
+         return mailSender;
+      }
+   }
+   
+   @Configuration
+   @Profile("test")
+   public static class TestAppContext {
+      @Bean
+      public UserService testUserService() {
+         return new TestUserService();
+      }
+      
+      @Bean
+      public MailSender mailSender() {
+         return new DummyMailSender();
+      }
+   }
+}
+```
+
+
+
+## 정리
+
+* 스프링 사용자라면 객체지향적인 설계와 DI 를 효과적으로 활용하는 방법이 익숙해야한다. 스프링이 제공해주지 않는 기능도 직접 구현할 수 있어야 하고, 그때에도 적극적으로 DI 와 서비스 추상화, AOP 등을 활용할 수 있어야 한다.&#x20;
+* SQL 처럼 변경될 수 있는 텍스트 정보는 외부 리소스에 담아두고 가져오게 만들면 편리하다.&#x20;
+* 성격이 다른 코드가 한데 섞여있는 클래스라면, 먼저 인터페이스를 정의해서 코드를 각 인터페이스별로 분리하는게 좋다. 다른 인터페이스에 속한 기능은 인터페이스를 통해 접근하게 만들고, 간단히 자기 참조 빈으로 의존관계를 만들어 검증한다. 검증을 마쳤으면 아예 클래스를 분리해도 좋다.&#x20;
+* 자주 사용되는 의존 오브젝트는 디폴트로 미리 정의해두면 편리하다.&#x20;
+* XML 과 오브젝트 매핑은 스프링의 OXM 추상화 기능을 활용한다.&#x20;
+* 특정 의존 오브젝트를 고정시켜 기능을 특화하려면 멤버 클래스로 만드는 것이 편리하다. 기존에 만들어진 기능과 중복되는 부분은 위임을 통해 중복을 제거하는게 좋다.&#x20;
+* 외부 파일이나 리소스를 사용하는 코드에서는 스프링 리소스 추상화와 리소스 로더를 사용한다.&#x20;
+* DI 를 의식하면서 코드를 작성하면 객체지향 설계에 도움이 된다.&#x20;
+* DI 에는 인터페이스를 사용한다. 인터페이스를 사용하면 인터페이스 분리 원칙을 잘 지키는데도 도움이 된다.&#x20;
+* 클라이언트에 따라서 인터페이스를 분리할 때, 새로운 인터페이스를 만드는 방법과 인터페이스를 상속하는 방법 두가지를 사용할 수 있다.&#x20;
+* 어플리케이션에 내장하는 DB 를 사용할 때에는 스프링 내장형 DB 추상화 기능과 전용태그를 사용하면 편리하다.&#x20;
+
+
+
