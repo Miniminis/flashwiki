@@ -22,6 +22,7 @@
   * [<코드숨> 2주차 회고](devtalk/til/review-codesoom-20220403.md)
   * [<코드숨> 1주차 회고](devtalk/til/review-codesoom-20220327.md)
 * [🧓 Career](devtalk/career/README.md)
+  * [비전공자에서 2억받는 아마존 엔지니어가 되기까지](devtalk/career/2.md)
   * [취업기 모음](devtalk/career/undefined.md)
 
 ## ‼️ Trouble Shooting
