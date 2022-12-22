@@ -145,7 +145,7 @@ public class UserServiceTest {
 )
 public class UserServiceTest {
 
-		@Test
+    @Test
     public void upgradeLevels() throws Exception {
         UserServiceImpl userServiceImpl = new UserServiceImpl();
         UserServiceTest.MockUserDao mockUserDao = new UserServiceTest.MockUserDao(this.users, (UserServiceTest.MockUserDao)null);
@@ -153,6 +153,7 @@ public class UserServiceTest {
 
         UserServiceTest.MockMailSender mockMailSender = new UserServiceTest.MockMailSender();
         userServiceImpl.setMailSender(mockMailSender);
+        
         userServiceImpl.upgradeLevels();
 
         List<User> updated = mockUserDao.getUpdated();
@@ -167,7 +168,7 @@ public class UserServiceTest {
         Assert.assertThat((String)request.get(1), CoreMatchers.is(((User)this.users.get(3)).getEmail()));
     }
 
-		static class MockMailSender implements MailSender {
+    static class MockMailSender implements MailSender {
         private List<String> requests = new ArrayList();
 
         MockMailSender() {
@@ -274,7 +275,7 @@ public class UserServiceTest {
 )
 public class UserServiceTest {
 
-		@Test
+    @Test
     public void mockUpgradeLevels() throws Exception {
         UserServiceImpl userServiceImpl = new UserServiceImpl();
         UserDao mockUserDao = (UserDao)Mockito.mock(UserDao.class);
@@ -395,7 +396,7 @@ public class DynamicProxyTest {
         }
     }
 
-		//직접 구현했을 때
+    //직접 구현했을 때
     static class HelloUppercase implements DynamicProxyTest.Hello {
         DynamicProxyTest.Hello hello;
 
@@ -416,7 +417,7 @@ public class DynamicProxyTest {
         }
     }
 
-		//invokationHandler 로 구현했을 때 
+    //invokationHandler 로 구현했을 때 
     static class UppercaseHandler implements InvocationHandler {
         Object target;
 
@@ -545,15 +546,15 @@ public class FactoryBeanTest {
 )
 public class UserServiceTest {
 
-		@Test
+    @Test
     @DirtiesContext
     public void upgradeAllOrNothing() throws Exception {
         UserServiceTest.TestUserService testUserService = new UserServiceTest.TestUserService(((User)this.users.get(3)).getId(), (UserServiceTest.TestUserService)null);
         testUserService.setUserDao(this.userDao);
         testUserService.setMailSender(this.mailSender);
         
-				//factoryBean 내부에서 만들어지는 proxy 객체와 그에 주입되는 UserServiceImpl을 테스트용으로 만든 TestUserService 로 교체해주기 위한 작업
-				TxProxyFactoryBean txProxyFactoryBean = (TxProxyFactoryBean)this.context.getBean("&userService", TxProxyFactoryBean.class);
+	//factoryBean 내부에서 만들어지는 proxy 객체와 그에 주입되는 UserServiceImpl을 테스트용으로 만든 TestUserService 로 교체해주기 위한 작업
+	TxProxyFactoryBean txProxyFactoryBean = (TxProxyFactoryBean)this.context.getBean("&userService", TxProxyFactoryBean.class);
         txProxyFactoryBean.setTarget(testUserService);
         UserService txUserService = (UserService)txProxyFactoryBean.getObject();
 
