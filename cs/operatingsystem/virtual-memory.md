@@ -17,8 +17,6 @@
 
 <figure><img src="../../.gitbook/assets/image (27).png" alt=""><figcaption></figcaption></figure>
 
-
-
 ### page fault
 
 * invalid page 에 접근하면 MMU 가 trap 을 발생시킨다. → page fault trap
@@ -35,8 +33,6 @@
   5. 아까 중단되었던 instruction 을 재개한다.
 
 <figure><img src="../../.gitbook/assets/image (3) (1) (1).png" alt=""><figcaption></figcaption></figure>
-
-
 
 > 하지만 page fault 시에 디스크에서 값을 읽어오는 작업은 매우 시간이 오래걸리는 작업이다.
 
@@ -64,8 +60,6 @@
 
 <figure><img src="../../.gitbook/assets/image (5) (5).png" alt=""><figcaption></figcaption></figure>
 
-
-
 ### optimal algorithm
 
 * replacement algorithm 중 가장 최적의 알고리즘
@@ -76,9 +70,7 @@
 * 다른 알고리즘의 성능에 대한 upper bound 를 제공한다.
   * belady’s optimal algorithm, MIN, OPT 등으로 불린다.
 
-
-
-<figure><img src="../../.gitbook/assets/image (16).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (16) (2).png" alt=""><figcaption></figcaption></figure>
 
 * 7번 케이스의 경우, 1-2-3-4 가 이미 메모리에 올라와있는 상태에서 5번을 넣어야 할 경우, 4번이 가장 미래에 참조되므로 4번을 5번으로 replace 한다.
 
@@ -95,13 +87,9 @@
 
 <figure><img src="../../.gitbook/assets/image (19).png" alt=""><figcaption></figcaption></figure>
 
-
-
 ### LRU, Least Recently Used algorithm
 
 * 가장 오래 전체 참조된 것을 지운다.
-
-
 
 <figure><img src="../../.gitbook/assets/image (8) (5).png" alt=""><figcaption></figcaption></figure>
 
@@ -128,8 +116,6 @@
 
 <figure><img src="../../.gitbook/assets/image (2) (2).png" alt=""><figcaption></figcaption></figure>
 
-
-
 ### LRU 와 LFU 의 구현
 
 * LRU : linked list 형태로 구현된다.
@@ -143,11 +129,6 @@
     * 최악의 경우, 최상단에서 최하단까지 이동할 수도 있는데, 그렇다고 하더라도 log n의 시간정도만 소요되므로 매우 효율적이라고 할 수 있다.
     * O(log N)
 
-
-
 <figure><img src="../../.gitbook/assets/image (30).png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../../.gitbook/assets/image (15).png" alt=""><figcaption></figcaption></figure>
-
-
-

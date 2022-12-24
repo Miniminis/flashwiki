@@ -49,7 +49,7 @@
 
 ### indexed allocation
 
-<figure><img src="../../.gitbook/assets/image (12).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (12) (1).png" alt=""><figcaption></figcaption></figure>
 
 * 디렉토리 내에서 index block 의 위치를 가지고 있고
 * 해당 인덱스로 접근하면 모든 파일들의 내용에 접근 가능하다.

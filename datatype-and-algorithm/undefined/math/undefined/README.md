@@ -7,7 +7,7 @@
 * 참고
   * [https://bcp0109.tistory.com/14](https://bcp0109.tistory.com/14)
 
-<figure><img src="../../../../.gitbook/assets/image (6).png" alt=""><figcaption><p>출처) <a href="https://bcp0109.tistory.com/14">https://bcp0109.tistory.com/14</a></p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (6) (5).png" alt=""><figcaption><p>출처) <a href="https://bcp0109.tistory.com/14">https://bcp0109.tistory.com/14</a></p></figcaption></figure>
 
 ```java
 package practice.algorithm.math;

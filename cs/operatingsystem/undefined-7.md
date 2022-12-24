@@ -1,4 +1,4 @@
-# 메모리 관리
+# 메모리 관리, Memory Management
 
 ### 메모리 주소
 
@@ -41,8 +41,6 @@
 
 <figure><img src="../../.gitbook/assets/image (23).png" alt=""><figcaption></figcaption></figure>
 
-
-
 #### 1. compile time binding
 
 * 컴파일 시점 바인딩의 경우, 이미 컴파일 시점에 물리적 메모리 주소도 같이 결정된다. 즉, logical address 가 곧 physical address 인 셈이다.
@@ -77,10 +75,6 @@
 <figure><img src="../../.gitbook/assets/image (2) (4).png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../../.gitbook/assets/image (4) (1).png" alt=""><figcaption></figcaption></figure>
-
-
-
-
 
 ### 관련 용어 살펴보기
 
@@ -121,7 +115,7 @@
   * complie binding 이나 load time binding 에서는 원래의 메모리 주소로 swap in 해야하며, runtime binding 에서는 빈 곳 아무데나 로드하면 된다.
   * swap time 은 대부분 swap 되는 양에 비례한 transfer time 이다.
 
-<figure><img src="../../.gitbook/assets/image (6) (5).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (6) (5) (2).png" alt=""><figcaption></figcaption></figure>
 
 #### 4. dynamic linking
 
@@ -138,4 +132,3 @@
     * 없으면 디스크에서 읽어온다.
   * 이 방법 역시 하드웨어적으로 뒷받침이 되어야 가능하다.
   * shared library 라고 불리기도 한다.
-

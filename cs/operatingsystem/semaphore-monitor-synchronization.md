@@ -123,25 +123,19 @@
 
 <figure><img src="../../.gitbook/assets/image (4) (1) (2).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (16) (2) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (16) (2) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### 비교 1. bounded-buffer problem : semaphore vs. monitor
 
 <figure><img src="../../.gitbook/assets/image (13).png" alt=""><figcaption><p>bounded-buffer problem in semaphore version</p></figcaption></figure>
 
-
-
 <figure><img src="../../.gitbook/assets/image (2) (2) (1).png" alt=""><figcaption><p>bounded-buffer problem in monitor version</p></figcaption></figure>
-
-
 
 ### 비교 2. 식사하는 철학자 문제 : semaphore vs. monitor
 
 <figure><img src="../../.gitbook/assets/image (22).png" alt=""><figcaption><p>식사하는 철학자 문제 in semaphore code</p></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (1) (1) (1) (3).png" alt=""><figcaption><p>식사하는 철학자 문제 in monitor code </p></figcaption></figure>
-
-
+<figure><img src="../../.gitbook/assets/image (1) (1) (1) (3).png" alt=""><figcaption><p>식사하는 철학자 문제 in monitor code</p></figcaption></figure>
 
 ### 비교 : semaphore vs. monitor
 
@@ -151,8 +145,3 @@
 | ---- | ------------------------------------- | -------------------------------------- |
 | 값    | 있음                                    | 없음                                     |
 | 동시접근 | 자원을 획득하기 위해 프로그래머가 P연산, V연산을 해주어야 한다. | monitor 차원에서 지원해주어 프로그래머가 신경쓰지 않아도 된다. |
-
-
-
-
-

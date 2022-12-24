@@ -1,4 +1,4 @@
-# 메모리 할당기법
+# Memory Allocation
 
 ### 물리적 메모리의 할당
 
@@ -31,8 +31,6 @@
 
 <figure><img src="../../.gitbook/assets/image (5) (3) (2).png" alt=""><figcaption></figcaption></figure>
 
-
-
 #### hole
 
 * 가용메모리 공간
@@ -41,8 +39,6 @@
 * 따라서 운영체제는 다음의 정보를 항상 숙지하고 있다. → 1) 할당 공간 2) 가용공간 hole
 
 <figure><img src="../../.gitbook/assets/image (15) (2).png" alt=""><figcaption></figcaption></figure>
-
-
 
 #### dynamic storage allocation problem
 
@@ -57,17 +53,11 @@
     * 큰 hole 들이 생성된다.
 * 당연하게도 first fit 은 시간적으로, best fit 은 공간 이용률 측면에서 각각 가장 유리하며, worst fit은 가장 비효율적인 것이 실험 결과 나타났다.
 
-
-
 #### compaction
 
 * external fragmentation 외부조각 문제를 해결하기 위해서 사용중인 메모리 영역을 한 군데로 몰고 hole 들을 다른 한 곳으로 모아 아주 큰 hole 을 만드는 방법이다.
 * 비용이 매우 많이 들며, 최소한의 이동으로 메모리를 compaction 하는 방법은 매우 복잡하다.
 * 당연하지만, compaction 기법은 프로세스의 주소가 실행되는 시간에 동적으로 재배치가 가능한 경우에만 사용 가능하다.
-
-
-
-
 
 ### 2) noncontinuous allocation
 
@@ -98,8 +88,6 @@
   * page table length register 는 테이블의 크기를 보관한다.
   * 따라서 모든 메모리 접근 연산에는 2번의 memory access 가 필요한데, 한번은 page table 에 접근하기 위해서, 1번은 실제 데이터와 인스트럭션에 접근하기 위해서 필요하다.
 
-
-
 <figure><img src="../../.gitbook/assets/image (4) (2).png" alt=""><figcaption></figcaption></figure>
 
 * 속도 향상을 위해서 `associative register` OR `translation look-aside` buffer 라고 불리는 고속의 lookup hardware cache 를 사용한다.
@@ -109,8 +97,6 @@
     * 만약 해당 page 번호가 존재하는 경우, 곧바로 frame 번호를 얻게 된다.
     * 하지만 존재하지 않은 경우, main memory 에 있는 page table로부터 frame 번호를 얻는다.
     * TLB 는 context switch 때 flush (remove old entiries) 된다. → 프로세스별로 별도로 존재하기 때문에
-
-
 
 <figure><img src="../../.gitbook/assets/image (29).png" alt=""><figcaption></figcaption></figure>
 
@@ -167,8 +153,6 @@
 
 <figure><img src="../../.gitbook/assets/image (28).png" alt=""><figcaption></figcaption></figure>
 
-
-
 #### inverted page table
 
 * page table 이 매우 큰 이유
@@ -185,8 +169,6 @@
 
 <figure><img src="../../.gitbook/assets/image (2) (5).png" alt=""><figcaption></figcaption></figure>
 
-
-
 #### shared page
 
 * shared code
@@ -199,11 +181,9 @@
 
 <figure><img src="../../.gitbook/assets/image (1) (3).png" alt=""><figcaption></figcaption></figure>
 
-
-
 #### segmentation
 
-<figure><img src="../../.gitbook/assets/image (12) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (12) (1) (2).png" alt=""><figcaption></figcaption></figure>
 
 * 의미단위로 범위를 나눈 것. 예를 들면 메모리 내의 코드, 스택 등의 공간
   * 의미단위로 범위를 나누기 때문에 segment의 크기가 균일하지 않다.
@@ -255,8 +235,6 @@
 
 <figure><img src="../../.gitbook/assets/image (2) (2) (2).png" alt=""><figcaption></figcaption></figure>
 
-
-
 ### 지금까지…
 
 * 지금까지 우리는 다양한 물리적 메모리의 관리 기법에 대해서 알아보았다.
@@ -270,4 +248,3 @@
 * 그렇다면 운영체제는 무엇을 하는가…?
   * 물리적 메모리 주소 변환에서는 사실상 운영체제가 하는 일은 없다.
   * 하지만 virtual memory 관리에서는 운영체제의 역할이 늘어난다.
-

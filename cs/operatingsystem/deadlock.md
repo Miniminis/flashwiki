@@ -1,4 +1,4 @@
-# deadlock 데드락
+# 데드락, Deadlock
 
 ### Deadlock
 
@@ -18,8 +18,6 @@
     * binary semaphores A and B
     * P0 : P(A); P(B);
     * P1 : P(B); P(A);
-
-
 
 ### Deadlock 이 발생하는 4가지 조건
 
@@ -50,8 +48,6 @@
 <figure><img src="../../.gitbook/assets/image (1) (1) (2).png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../../.gitbook/assets/image (6) (6).png" alt=""><figcaption></figcaption></figure>
-
-
 
 ### Deadlock 의 처리방법
 
@@ -87,8 +83,6 @@
 
 > 하지만 위의 방법들은 발생하는 빈도수가 많지 않은 deadlock 상황을 지나치게 대비하여 자원 이용률이 저하되고, starvation 문제가 생길 수 있다.
 
-
-
 ### Dedlock avoidance
 
 * 프로세스가 시작될 때, 필요한 모든 자원을 미리 전부 조사하여 deadlock 가능성이 없는 안전한 경우에만 자원을 할당한다.
@@ -110,8 +104,6 @@
 
 <figure><img src="../../.gitbook/assets/image (1) (2) (3).png" alt=""><figcaption></figcaption></figure>
 
-
-
 #### 자원이 여러개 있는 경우 - bankers algorithm
 
 * Need 만큼의 양이 확보되지 않는 이상 자원 요청을 받아들이지 않는다.
@@ -123,14 +115,12 @@
 
 <figure><img src="../../.gitbook/assets/image (2) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
-
-
 #### 문제 풀어보기
 
 <figure><img src="../../.gitbook/assets/image (2) (2) (2) (1).png" alt=""><figcaption></figcaption></figure>
 
-> 위의 두 방법은 deadlock 을 예방할 수 있는 방법이고, \
-> 아래의 두 방법은 deadlock 이 발생하도록 두고, 시스템에 문제가 생겼을 때만, 조치를 취하는 방법이다. \
+> 위의 두 방법은 deadlock 을 예방할 수 있는 방법이고,\
+> 아래의 두 방법은 deadlock 이 발생하도록 두고, 시스템에 문제가 생겼을 때만, 조치를 취하는 방법이다.\
 > → deadlock 은 거의 발생하지 않기 때문에 이 방법이 효율적이긴 하다.
 
 ### Dedlock detection and recovery
@@ -145,8 +135,6 @@
 
 <figure><img src="../../.gitbook/assets/image (1) (1) (4).png" alt=""><figcaption></figcaption></figure>
 
-
-
 #### 아래의 경우, sequence 가 존재하기 때문에 deadlock 이 발생하지 않는다.
 
 <figure><img src="../../.gitbook/assets/image (4) (2) (2).png" alt=""><figcaption></figcaption></figure>
@@ -158,7 +146,7 @@
   * 가용 자원의 개수를 확인하고, 요청하지 않은 것은 가용자원으로 치고
   * 가용 자원으로 프로세스를 해결 가능한지 확인한다.
 
-<figure><img src="../../.gitbook/assets/image (16) (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (16) (2) (1).png" alt=""><figcaption></figcaption></figure>
 
 #### deadlock 발생시 recovery 방법
 
@@ -173,14 +161,9 @@
       2. rollback 횟수도 비용으로 같이 산정되어야 한다.
    4. 따라서 비용 뿐만아니라, 몇번 자원을 빼앗겼는지 등을 같이 종합적으로 고려하는 것이 좋다.
 
-
-
 ### Dedlock ignorance
 
 * deadlock 이 발생하지 않는다고 가정하고 아무일도 안하는 방법이다.
 * 애초에 deadlock 은 매우 드물게 발생한다. 따라서 이에 대비하여 어떠한 조치를 미리 취하는 것이 오히려 더 큰 overhead 라고 판단한다.
 * 이 방법에 따르면, deadlock 상황을 인지한 사용자가 비정상적임을 느끼고 직접 process 를 kill 하여 문제상황을 해결한다.
 * unix, windows 등 대부분의 OS들이 채택한 방법이기도 하다.
-
-
-
