@@ -129,7 +129,7 @@
   * 따라서 현실에서 사용하기에는 쉽지 않다.
 * 하지만 공간의 낭비가 없다.
 
-<figure><img src="../../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (6) (3).png" alt=""><figcaption></figcaption></figure>
 
 #### grouping
 

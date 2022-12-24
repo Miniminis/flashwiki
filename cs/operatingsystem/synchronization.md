@@ -1,4 +1,4 @@
-# 프로세스 synchronization 문제
+# Process Synchronization Problem
 
 ### 데이터의 접근
 
@@ -14,8 +14,6 @@
 <figure><img src="../../.gitbook/assets/image (5) (3) (1).png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../../.gitbook/assets/image (22) (1).png" alt=""><figcaption></figcaption></figure>
-
-
 
 ### OS 운영체제에서 race condition 경쟁상태는 언제 발생하는가
 
@@ -37,8 +35,6 @@
 #### 3. multiprocessor 에서 shared memory 내의 kernal data
 
 <figure><img src="../../.gitbook/assets/image (19) (2).png" alt=""><figcaption></figcaption></figure>
-
-
 
 ### Process Synchronization 문제
 
@@ -62,4 +58,4 @@
 * 문제점
   * 하나의 프로세스가 critical section 에 있을 때, 다른 모든 프로세스는 critical section 에 들어갈 수 없어야 한다.
 
-<figure><img src="../../.gitbook/assets/image (6) (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (6) (3) (1).png" alt=""><figcaption></figcaption></figure>

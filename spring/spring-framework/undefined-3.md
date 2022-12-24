@@ -234,7 +234,7 @@ public class UserDao() {
 
 따라서, UserDao 는 아래와 같은 구조로 리펙토링 되어야 할 것이다.&#x20;
 
-<figure><img src="../../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (4) (4).png" alt=""><figcaption></figcaption></figure>
 
 ```java
 public class UserDao {

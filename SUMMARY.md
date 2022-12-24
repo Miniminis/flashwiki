@@ -193,6 +193,7 @@
   * [2022년 3주차](writings/daily-review/review-20220121.md)
   * [2021년 44주차](writings/daily-review/review-20211104.md)
 * [📅 annual review](writings/annual-review/README.md)
+  * [2022년 회고](writings/annual-review/2022.md)
   * [2021년 회고](writings/annual-review/year-review-2021.md)
 
 ## 💼 BUSINESS

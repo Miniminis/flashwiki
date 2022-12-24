@@ -82,7 +82,7 @@
   * multi-programmind degree 를 조절해주어야 한다.
   * 이를 위해 working-set, PFF 알고리즘을 사용한다.
 
-<figure><img src="../../.gitbook/assets/image (1) (2) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (2) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### Working-Set Model
 
@@ -104,7 +104,7 @@
 * working set 에 속한 page 는 메모리에 유지하고, 속하지 않는 것은 바로 버린다.
 * 다시 말하자면, 참조된 후 A만큼의 시간동안 해당 page 를 메모리에 유지한 후 버리게 된다.
 
-<figure><img src="../../.gitbook/assets/image (4) (4).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (4) (4) (1).png" alt=""><figcaption></figcaption></figure>
 
 #### working set algorithm
 

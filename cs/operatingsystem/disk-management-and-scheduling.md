@@ -1,6 +1,6 @@
 # Disk Management & Scheduling
 
-<figure><img src="../../.gitbook/assets/image (1) (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (2) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### 디스크의 구조
 
@@ -74,7 +74,7 @@
 
 #### FCFS
 
-<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (2).png" alt=""><figcaption></figcaption></figure>
 
 #### SSTF
 
@@ -132,7 +132,7 @@
 * swap space 는 공간 효율성보다는 속도 효율성이 훨씬 중요하다. 일반 파일보다 훨씬 짧은 시간만 존재하고 자주 참조되기 때문이다.
 * 그래서 블록의 크기 및 저장 방식이 일반 파일 시스템과 다르다.
 
-<figure><img src="../../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (8) (2).png" alt=""><figcaption></figcaption></figure>
 
 ### RAID
 
