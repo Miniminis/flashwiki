@@ -1,4 +1,4 @@
-# 프로세스
+# 프로세스, Process
 
 ### 프로세스의 개념
 
@@ -16,8 +16,6 @@
 
 <figure><img src="../../.gitbook/assets/image (7) (2).png" alt=""><figcaption></figcaption></figure>
 
-
-
 ### 프로세스의 상태
 
 * 프로세스는 상태가 변경되며 수행된다.
@@ -32,11 +30,9 @@
 
 #### 한 장으로 보는 프로세스의 문맥 변경 과정
 
-<figure><img src="../../.gitbook/assets/image (5) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (5) (1) (2).png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../../.gitbook/assets/image (13) (1).png" alt=""><figcaption></figcaption></figure>
-
-
 
 ### Process Control Block, PCB
 
@@ -53,8 +49,6 @@
 
 <figure><img src="../../.gitbook/assets/image (15) (1).png" alt=""><figcaption></figcaption></figure>
 
-
-
 ### 문맥교환, context switch
 
 * CPU를 한 프로세스에서 다른 프로세스로 넘겨주는 과정
@@ -67,11 +61,7 @@
 * 비록, (1)의 경우에 문맥교환이 발생하지 않더라도 CPU 수행 정보 등 context 의 일부를 PCB에 저장해야하지만,
 * 문맥 교환을 해야하는 (2)의 경우에는 훨씬 더 많은 context 정보를 저장해야하는 부담이 생긴다. (cache memory flush)
 
-&#x20;
-
 <figure><img src="../../.gitbook/assets/image (14) (1).png" alt=""><figcaption></figcaption></figure>
-
-
 
 ### 프로세스를 스케줄링 하기 위한 큐
 
@@ -83,8 +73,6 @@
 <figure><img src="../../.gitbook/assets/image (9) (2).png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../../.gitbook/assets/image (2) (1) (2).png" alt=""><figcaption></figcaption></figure>
-
-
 
 ### 스케줄러, scheduler
 

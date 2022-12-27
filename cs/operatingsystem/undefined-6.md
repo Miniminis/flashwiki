@@ -1,4 +1,4 @@
-# 프로세스 시스템 콜과 프로세스간의 협력
+# 프로세스 시스템 콜과 프로세스간의 협력, System call and Interprocess Communication
 
 ### copy on write (cow)
 
@@ -25,7 +25,7 @@
 
 ### exec() 시스템 콜
 
-<figure><img src="../../.gitbook/assets/image (3) (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (3) (2) (1).png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../../.gitbook/assets/image (17) (1).png" alt=""><figcaption></figcaption></figure>
 
@@ -83,4 +83,3 @@
 <figure><img src="../../.gitbook/assets/image (9) (3).png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../../.gitbook/assets/image (6) (2).png" alt=""><figcaption></figcaption></figure>
-
