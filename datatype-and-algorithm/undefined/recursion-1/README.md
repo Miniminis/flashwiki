@@ -1,4 +1,4 @@
-# recursion 1
+# Recursion
 
 ### Recursion 순환
 
@@ -34,8 +34,8 @@ Hello ...
 
 두 가지의 조건을 충족한다면, recursion 은 무한루프에 빠지지 않는다.
 
-* base case : 적어도 하나의 recursion에 빠지지 않는 경우가 존재해야한다.
-* recursive case : recursion 을 반복하다보면 결국 base case 로 수렴해야한다.
+* **base case : 적어도 하나의 recursion에 빠지지 않는 경우가 존재해야한다.**
+* **recursive case : recursion 을 반복하다보면 결국 base case 로 수렴해야한다.**
 
 ```java
 package practice.algorithm;
@@ -53,7 +53,7 @@ public class Main {
         }
 
         System.out.println("Hello ...");
-        func(a-1);        //recursive case : 결국 0으로 수렴한다. 
+        func(a-1);        //recursive     case : 결국 0으로 수렴한다. 
     }
 
 }
@@ -219,4 +219,4 @@ public class Main {
 ```
 
 * m≥n 인 두 양의 정수 m과 n에 대해서 m이 n의 배수이면, gcd(m, n) = n이고
-* 그렇지 않으면 gcd(m, n) = gcd(n, m\&n)이다.
+* 그렇지 않으면 gcd(m, n) = gcd(n, m%n)이다.
