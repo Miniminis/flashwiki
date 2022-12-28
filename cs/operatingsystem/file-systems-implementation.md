@@ -66,7 +66,7 @@
 
 ### UNIX 파일 시스템의 구조
 
-<figure><img src="../../.gitbook/assets/image (9).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (9) (1).png" alt=""><figcaption></figcaption></figure>
 
 * boot block
   * 모든 컴퓨터의 파일시스템에 동일하게 첫번째로 존재한다.
@@ -164,7 +164,7 @@
   * 서로 다른 결과값이 같은 entry 로 매핑되는 문제
   * hash 함수에서 흔히 발생하는 문제
 
-<figure><img src="../../.gitbook/assets/image (11) (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (11).png" alt=""><figcaption></figcaption></figure>
 
 #### file metadata 보관위치
 
@@ -239,7 +239,7 @@
   * 하지만 code 영역은 이미 실행파일 자체에서 모든 것이 쓰여진 완성된 형태의 read only 영역이다. 따라서 프로세스가 스위칭 되는 당시의 상태를 저장하는 swap area 에 저장할 필요가 없이, virtual memory 자체에 매핑되어 읽으면 된다.
   * virtual memory 에 없는 내용일 경우, 페이지 폴트가 발생할 것이다. file system 인 실행파일에서 필요한 코드의 내용을 또 일정부분 불러와 virtual memory 와 매핑시켜 읽으면 된다.
 
-<figure><img src="../../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 > 결국, 사용자가 file system 에 접근하는 방법에는 두 가지 인터페이스가 있다.
 

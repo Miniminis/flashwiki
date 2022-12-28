@@ -113,7 +113,7 @@
 * 결국, 프로세스들 사이에 sequence 가 생기게 되는데, 이 경우, 절대 deadlock 이 생기지 않게 된다.
 * 이 알고리즘에 따른 방법은 deadlock 을 예방할 수 있지만, 굉장히 비효율적이게 된다. 자원이 남아돌아도 할당하지 않는 경우가 많이 발생하기 때문이다.
 
-<figure><img src="../../.gitbook/assets/image (2) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (1) (1) (2).png" alt=""><figcaption></figcaption></figure>
 
 #### 문제 풀어보기
 
