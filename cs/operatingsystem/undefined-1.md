@@ -1,4 +1,4 @@
-# 컴퓨터 시스템의 구조
+# 컴퓨터 시스템의 구조, Structure of Computer System
 
 ### 컴퓨터의 구조
 
@@ -8,7 +8,7 @@
 * CPU : 매 클럭 사이클마다 메모리에서 인스트럭션을 읽어서 실행한다.
 * 메모리 : CPU의 작업 공간
 
-<figure><img src="../../.gitbook/assets/image (3) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (3) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 #### device controller
 
@@ -83,8 +83,6 @@
 결국 CPU 는 Program Counter 라는 레지스터에 적힌 메모리 주소로 이동하여 데이터를 조회하여 연산을 수행하고 그 결과를 다시 메모리에 적는 일을 반복적으로 수행할 뿐이다.
 {% endhint %}
 
-
-
 ### 입출력(I/O)의 수행
 
 * 앞서 말한대로 모든 입출력 명령은 특권 명령으로써, 오직 운영체제만 그 권한을 가지기 때문에 커널모드에서만 수행될 수 있다.
@@ -97,8 +95,6 @@
 * 제어권이 인터럽트 벡터가 가리키는 인터럽트 서비스 루틴으로 이동하며
 * 올바른 I/O 요청인지 확인 후 이를 수행한다.
 * I/O 완료 시에 제어권을 시스템 콜 다음 명령으로 옮기게 된다.
-
-
 
 ### 인터럽트(interrupt)
 

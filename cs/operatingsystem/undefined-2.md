@@ -1,4 +1,4 @@
-# 프로그램의 실행
+# 프로그램의 실행, Program Execution
 
 ### 동기식 입출력(synchronous I/O)과 비동기식 입출력(asynchronous I/O)
 
@@ -12,8 +12,6 @@
 | 공통점    | 두 경우 모두, I/O가 종료되었다는 것은 인터럽트를 이용해서 알려준다.                                           |                                                          |
 | 예시     |                                                                                    | 보통 데이터를 삽입하는 write 의 경우, 비동기식으로 진행된다.                    |
 
-
-
 ### I/O 의 여러가지 방법
 
 <figure><img src="../../.gitbook/assets/image (11) (1).png" alt=""><figcaption></figcaption></figure>
@@ -21,8 +19,6 @@
 | 구분 | special instruction                                       | memory mapped I/O                                |
 | -- | --------------------------------------------------------- | ------------------------------------------------ |
 | 특징 | 메인 메모리에 접근하는 방법과 별도로 I/O 디바이스에 접근하기 위한 주소와 명령어가 별도로 존재한다. | 메인 메모리에 접근하는 것과 같은 방식으로 I/O디바이스에도 주소와 명령어로 접근한다. |
-
-
 
 ### 저장장치의 계층구조
 
@@ -38,8 +34,6 @@
 
 * Cashing
 
-
-
 ### 프로그램의 실행(메모리 load)
 
 <figure><img src="../../.gitbook/assets/image (8) (2) (1).png" alt=""><figcaption></figcaption></figure>
@@ -48,11 +42,9 @@
 * physical memory 영역에서는 virtual memory 의 모든 것을 저장하지 않는다. 메모리가 낭비될 수 있기 때문에 최대한의 효율을 위해 현재 실행되고 있는 부분의 데이터만 저장한다.
 * 당장 사용하지 않는 데이터는 메인 메모리의 연장영역인 swap area 에 저장해둔다.
 
-
-
 ### 커널 주소 공간의 내용
 
-<figure><img src="../../.gitbook/assets/image (9) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (9) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### 사용자 프로그램이 사용하는 함수
 
@@ -67,9 +59,6 @@
   * 운영체제 프로그램의 함수
   * 커널 함수의 호출 = 시스템콜
 
-
-
 ### 프로그램이 실행되는 과정
 
 <figure><img src="../../.gitbook/assets/image (10) (1).png" alt=""><figcaption></figcaption></figure>
-
