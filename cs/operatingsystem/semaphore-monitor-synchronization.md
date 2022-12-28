@@ -127,7 +127,7 @@
 
 ### 비교 1. bounded-buffer problem : semaphore vs. monitor
 
-<figure><img src="../../.gitbook/assets/image (13).png" alt=""><figcaption><p>bounded-buffer problem in semaphore version</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (13) (2).png" alt=""><figcaption><p>bounded-buffer problem in semaphore version</p></figcaption></figure>
 
 <figure><img src="../../.gitbook/assets/image (2) (2) (1).png" alt=""><figcaption><p>bounded-buffer problem in monitor version</p></figcaption></figure>
 

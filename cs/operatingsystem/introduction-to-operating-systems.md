@@ -128,7 +128,7 @@
 
 ### 운영체제의 구조
 
-<figure><img src="../../.gitbook/assets/image (3) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
 
 운영체제는 크게 보자면, CPU, Memory, Disk, I/O device 로 구성되어있다. 각 단계별로 운영체제가 고민해야하는 지점들이 존재한다.
 

@@ -15,7 +15,7 @@
 
 <figure><img src="../../.gitbook/assets/image (12) (2).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (19) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (19) (1).png" alt=""><figcaption></figcaption></figure>
 
 * 부모 프로세스에서는 program counter 가 fork() 시점을 가리키고 있기 때문에 복제된 자식 프로세스는 fork() 를 한 이후 코드부터 실행된다.
   * 화면상 fork() 이전의 printf() 문은 부모 프로세스에서만 출력된다.

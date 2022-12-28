@@ -32,7 +32,7 @@
   4. 이 프로세스가 CPU 를 잡고 다시 running 한다.
   5. 아까 중단되었던 instruction 을 재개한다.
 
-<figure><img src="../../.gitbook/assets/image (3) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (3) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 > 하지만 page fault 시에 디스크에서 값을 읽어오는 작업은 매우 시간이 오래걸리는 작업이다.
 
@@ -85,7 +85,7 @@
   * FIFO anomaly (belady’s anomaly)
   * more frames ≠ less page faults
 
-<figure><img src="../../.gitbook/assets/image (19) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (19).png" alt=""><figcaption></figcaption></figure>
 
 ### LRU, Least Recently Used algorithm
 
