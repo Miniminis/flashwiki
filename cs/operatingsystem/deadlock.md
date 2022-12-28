@@ -45,7 +45,7 @@
 * 그래프에 cycle 이 존재할 때도, 자원이 하나 이상 있다면, deadlock 이 아니다.
 * **즉, 그래프에 cycle 이 존재하고, 자원이 하나밖에 없을 때, deadlock 이 발생한다.**
 
-<figure><img src="../../.gitbook/assets/image (1) (1) (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (2) (2).png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../../.gitbook/assets/image (6) (6).png" alt=""><figcaption></figcaption></figure>
 

@@ -91,7 +91,7 @@
 
 #### C-SCAN
 
-<figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (7).png" alt=""><figcaption></figcaption></figure>
 
 * 비록 head 의 이동거리는 길어질 수 있지만, 큐 내부의 요청들의 대기 시간이 균일하고 공정해진다.
 
