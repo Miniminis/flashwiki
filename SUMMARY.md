@@ -11,6 +11,7 @@
   * [sudo - CTO's Tech Talk 2022 컨퍼런스 1일차](devtalk/event/event-fc-sudo-20220115.md)
   * [sudo - CTO's Tech Talk 2022 컨퍼런 2일차](devtalk/event/event-fc-sudo-20220116.md)
 * [🏫 TIL](devtalk/til/README.md)
+  * [2022.12.29](devtalk/til/2022.12.29.md)
   * [2022.12.28](devtalk/til/2022.12.28.md)
   * [2022.12.27](devtalk/til/2022.12.27.md)
   * [2022.12.22](devtalk/til/2022.12.22.md)
