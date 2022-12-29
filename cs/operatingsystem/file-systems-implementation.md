@@ -28,7 +28,7 @@
 
 ### linked allocation
 
-<figure><img src="../../.gitbook/assets/image (4) (3) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (4) (3).png" alt=""><figcaption></figcaption></figure>
 
 * 파일의 시작위치만 디렉토리가 가지고 있고, 그 다음 위치들은 해당 파일 내에 접근하여 확인할 수 있다.
 * 장점
@@ -129,7 +129,7 @@
   * 따라서 현실에서 사용하기에는 쉽지 않다.
 * 하지만 공간의 낭비가 없다.
 
-<figure><img src="../../.gitbook/assets/image (6) (3) (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (6) (3).png" alt=""><figcaption></figcaption></figure>
 
 #### grouping
 
