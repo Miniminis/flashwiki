@@ -44,7 +44,7 @@
 
 ### 커널 주소 공간의 내용
 
-<figure><img src="../../.gitbook/assets/image (9) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (9) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### 사용자 프로그램이 사용하는 함수
 

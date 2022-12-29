@@ -30,7 +30,7 @@ description: 이화여자대학교 반효경 교수님의 강의를 듣고 정�
 
 ### 운영체제란 무엇인가?
 
-<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (36).png" alt=""><figcaption></figcaption></figure>
 
 * 운영체제
   * 컴퓨터 하드웨어 바로 위에 설치되어 사용자 및 다른 모든 소프트웨어와 하드웨어를 연결하는 소프트웨어 계층
@@ -38,7 +38,7 @@ description: 이화여자대학교 반효경 교수님의 강의를 듣고 정�
   * 컴퓨터 하드웨어와의 인터렉션
   * 다른 소프트웨어 및 사용자와의 인터렉션
 
-<figure><img src="../../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (7) (5).png" alt=""><figcaption></figcaption></figure>
 
 * 운영체제의 목표
   * 컴퓨터 시스템을 편리하게 사용할 수 있는 환경을 제공한다. (다른 소프트웨어 및 사용자와의 인터렉션)

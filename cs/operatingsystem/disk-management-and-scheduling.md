@@ -74,7 +74,7 @@
 
 #### FCFS
 
-<figure><img src="../../.gitbook/assets/image (1) (2) (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (2).png" alt=""><figcaption></figcaption></figure>
 
 #### SSTF
 
@@ -91,7 +91,7 @@
 
 #### C-SCAN
 
-<figure><img src="../../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
 
 * 비록 head 의 이동거리는 길어질 수 있지만, 큐 내부의 요청들의 대기 시간이 균일하고 공정해진다.
 
@@ -108,7 +108,7 @@
 
 #### C-LOOK
 
-<figure><img src="../../.gitbook/assets/image (17) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (17).png" alt=""><figcaption></figcaption></figure>
 
 * C-SCAN 의 변형인데 역시 특점 지점 이후로 남아있는 요청이 없으면 바로 그자리에서 다른 방향으로 턴을 한다.
 

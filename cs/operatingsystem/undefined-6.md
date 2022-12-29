@@ -27,7 +27,7 @@
 
 <figure><img src="../../.gitbook/assets/image (3) (2) (1).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (17) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (17) (1).png" alt=""><figcaption></figcaption></figure>
 
 * 한번 execlp() 함수가 호출되면, 돌이킬 수 없다.
 * 꼭 fork() 이후에만 써야하는 것은 아니다. execlp() 만 단독으로 실행할 수도 있다.
