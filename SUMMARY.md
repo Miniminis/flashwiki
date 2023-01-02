@@ -121,6 +121,8 @@
     * [백준1927 최소힙](datatype-and-algorithm/undefined/heap/1927.md)
   * [Deque](datatype-and-algorithm/undefined/deque.md)
   * [Tree](datatype-and-algorithm/undefined/tree.md)
+  * [Dynamic Programming](datatype-and-algorithm/undefined/dynamic-programming/README.md)
+    * [행렬 경로 문제](datatype-and-algorithm/undefined/dynamic-programming/undefined.md)
   * [Graph](datatype-and-algorithm/undefined/graph.md)
   * [Recursion](datatype-and-algorithm/undefined/recursion-1.md)
     * [N Queens problem](datatype-and-algorithm/undefined/recursion-1/n-queens-problem.md)

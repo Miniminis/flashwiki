@@ -4,7 +4,7 @@
 
 상하좌우, 대각선으로 맞닿아있는 셀들을 하나의 묶음으로 보고, 그 덩어리가 총 몇개인지 구하는 문제
 
-<figure><img src="../../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (2) (8).png" alt=""><figcaption></figcaption></figure>
 
 ## 풀이
 

@@ -8,7 +8,7 @@
 
 ### contigous allocation
 
-<figure><img src="../../.gitbook/assets/image (10).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (10) (5).png" alt=""><figcaption></figcaption></figure>
 
 * directory 는 파일의 메타데이터를 가지고 있다.
 * 위의 예를 통해서 보면, count 파일은 시작점 0번부터 길이가 2기 때문에 0, 1 에 위치하게 된다.

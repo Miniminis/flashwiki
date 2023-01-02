@@ -1,8 +1,8 @@
-# 프로세스 synchronization 해결을 위한 초기의 방법들
+# Initial Attempts to Solve Process Synchronization Problem
 
 ### 프로세스 간 동기화 문제를 해결하기 위한 초기의 방법론
 
-<figure><img src="../../.gitbook/assets/image (6) (5) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (6) (5) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### 프로그램적 해결법의 충족조건
 
@@ -42,8 +42,6 @@
 
 <figure><img src="../../.gitbook/assets/image (4) (2) (1).png" alt=""><figcaption></figcaption></figure>
 
-
-
 ### Synchronization Hardware
 
 * 고급언어에서는 필연적으로 instruction 이 여러 개로 나누어지기 때문에 이런 알고리즘들을 고민해야한다.
@@ -53,7 +51,5 @@
 * test and set a : a의 값을 읽고 쓰는 것을 동시에 수행하는 명령
 
 <figure><img src="../../.gitbook/assets/image (6) (4).png" alt=""><figcaption></figcaption></figure>
-
-
 
 > 하지만 프로그래머가 이런 일을 계속 프로그램 내에서 하는 것은 굉장히 불편한 일이다. 이때 우리는 semaphore 를 이용할 수 있다.

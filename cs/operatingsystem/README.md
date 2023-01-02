@@ -30,7 +30,7 @@ description: 이화여자대학교 반효경 교수님의 강의를 듣고 정�
 
 ### 운영체제란 무엇인가?
 
-<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
 
 * 운영체제
   * 컴퓨터 하드웨어 바로 위에 설치되어 사용자 및 다른 모든 소프트웨어와 하드웨어를 연결하는 소프트웨어 계층
