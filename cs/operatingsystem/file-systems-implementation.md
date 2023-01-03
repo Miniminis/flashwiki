@@ -164,7 +164,7 @@
   * 서로 다른 결과값이 같은 entry 로 매핑되는 문제
   * hash 함수에서 흔히 발생하는 문제
 
-<figure><img src="../../.gitbook/assets/image (11).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (11) (2).png" alt=""><figcaption></figcaption></figure>
 
 #### file metadata 보관위치
 

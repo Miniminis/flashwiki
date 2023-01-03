@@ -6,6 +6,8 @@ description: 동적계획법
 
 
 
+[https://www.inflearn.com/course/알고리즘-강좌/unit/4127](https://www.inflearn.com/course/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EA%B0%95%EC%A2%8C/unit/4127)
+
 ## 개념이해
 
 * Richard Bellman 이 고안한 알고리즘이다.&#x20;
@@ -13,7 +15,7 @@ description: 동적계획법
 * 부분 문제 반복과 최적 부분 구조를 가지고 있는 문제를 일반적인 방법에 비해 적은 시간 안에 풀 때 사용한다.
   * 최적부분구조 : 문제를 풀기 위해서 이전에 했던 계산을 계속 반복해야하는 구조 -> 재귀구조
 * 다르게 말하자면 답을 재활용 하는 것이다. 어떤 문제를 풀기 위해 작은 문제를 해결하고 그 답을 큰 문제를 풀기위해 또 다시 활용하는 것이다.&#x20;
-* 이전 문제에 대한 답을 다음 문제에서 활용한다고 해서 **기억하면서 풀기**라고도 한다.&#x20;
+* 이전 문제에 대한 답을 다음 문제에서 활용한다고 해서 **기억하면서 풀기**라고도 한다. &#x20;
 
 
 
@@ -209,7 +211,7 @@ public class BinomialMemo {
 * bottom은 현재 계산의 해가 다음 계산의 재료로 이용되는 것이 목적이다.&#x20;
 *   현재 방식의 경우, 아래와 같이, n이 행, k가 열에 존재하고, n은 k보다 같거나 큰 것을 전제로 하므로, 아래와 같이 가로 행을 위에서부터 아래까지 왼쪽에서 오른쪽으로 훑어가는 방식으로 진행할 수 있을 것이다.&#x20;
 
-    <figure><img src="../../../.gitbook/assets/image (6).png" alt=""><figcaption><p><a href="https://www.inflearn.com/course/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EA%B0%95%EC%A2%8C/unit/4125?tab=curriculum">https://www.inflearn.com/course/알고리즘-강좌/unit/4125?tab=curriculum</a></p></figcaption></figure>
+    <figure><img src="../../../.gitbook/assets/image (6) (7).png" alt=""><figcaption><p><a href="https://www.inflearn.com/course/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EA%B0%95%EC%A2%8C/unit/4125?tab=curriculum">https://www.inflearn.com/course/알고리즘-강좌/unit/4125?tab=curriculum</a></p></figcaption></figure>
 
 ```java
 package practice.algorithm.dp;
@@ -249,16 +251,60 @@ public class BinomialBottomUp {
 
 * 순환식의 값을 계산하는 기법들이다.&#x20;
 * memoization, dynamic programming 모두 동적 계획법의 일종이다.&#x20;
-* memoization 은 top-down 방식이며, 실제로 필요한 sub problem 만들 푼다.&#x20;
+* memoization 은 top-down 방식이며, 실제로 필요한 sub problem 만들어 푼다.&#x20;
 * dynamic programming 은 bottom-up 방식이며, recursion 에 수반되는 오버헤드가 없다.&#x20;
 
 
 
+## 동적 계획법의 핵심
+
+* 동적계획법은 일반적으로 최적화문제 혹은 카운팅 문제에 적용된다.&#x20;
+  * 최적화 문제 : 최소값이나 최대값 문제를 구하는 유형의 문제&#x20;
+    * 예) 경로의 최소 길이 등&#x20;
+  * 카운팅 : 특정한 조건을 만족하는 해의 개수를 구하는 유형의 문제&#x20;
+* 주어진 문제에 대한 순환식을 정의한 뒤, 이 순환식을 memoization 혹은 bottom-up 방식으로 푼다.&#x20;
+  * 결국, 동적계획법의 핵심은 순환식! 이 순환식을 먼저 세우고, memoization or bottom-up 방식으로 풀도록 하면 된다.&#x20;
+* subproblem 들을 풀어서 원래 문제를 푸는 방식. 그런 의미에서 **분할정복법**과 공통성이 있다고 할 수 있다.&#x20;
+  * 예를 들면, 행렬경로문제에서 L(i, j) 를 i, j 까지의 최단경로라고 했을 때, L(i-1, j) 와 L(i, j-1) 까지의 최단경로를 비교해서 풀었던 것처럼 하나의 거대한 문제를 subproblem 으로 나누어 풀면서 결국 원래 문제에 대한 답을 구하는 것이다.&#x20;
+  * 피보나치 수열에서 f(n) = f(n-1) + f(n-2) 방식으로 푸는 것 역시 마찬가지이다. n까지의 피보나치 수열을 이전 두 단계의 수를 통해 구하는 방식인 것이다.&#x20;
+* 분할정복법에서는 분할된 문제들이 서로 disjoint 하다.&#x20;
+  * quicksort 의 경우, pivot 아이템을 하나 정하고 그보다 작은 그룹과 큰 그룹을 나누어 각각 정렬한 뒤, 더한다는 개념
+  * 두 개의 subproblem 을 해결함으로써, 원래의 문제를 해결한다.&#x20;
+  * 이때, 두 개의 subproblem 은 서로 disjoint 하고 서로 관련이 전혀 없다.&#x20;
+* 하지만 동적 계획법에서는 그렇지 않다.&#x20;
+  * 행렬 경로 문제를 예로 들면, 마지막 (n, n) 까지의 최단 경로를 구하기 위해서 (n-1, n), (n, n-1) 까지의 최단 경로를 먼저 계산한 뒤, 그로부터 원래 문제인 (n,n) 까지의 최단 경로를 구했었다.&#x20;
+  * 이때, 각각의 subproblem 들은  서로 disjoint 하지 않았다.&#x20;
+  * 즉, 서로 overlapping 하는 subproblem 들을 해결함으로써, 원래 문제를 해결한다.&#x20;
+
+### Optimal Substructure&#x20;
+
+* 어떤 문제의 최적해가 그것의 subproblem 들의 최적해로부터 효율적으로 구해질 수 있을 때, 그 문제는 optimal substructure 를 가진다고 말한다.&#x20;
+* 분할정복법, 탐욕적 기법, 동적계획법은 모두 문제가 가진 이런 특성을 이용한다.&#x20;
+
+### 그렇다면 도대체 순환식은 어떻게 세워야하는가&#x20;
+
+* 최적해의 일부분이 그 부분에 대한 최적해인가를 고려해보면 된다.&#x20;
+* 최단경로 문제의 예를 보면, s에서 u까지 가는 최단경로를 구한다면, u와 인접한 v라는 지점까지 s \~ v 가 최단경로가 되어야 s에서 u까지의 최단경로임이 보장된다. 따라서 s에서 u까지의 최단경로를 구하기 위해서는 s에서 v까지의 최단경로를 구해야하는 것이다 (subproblem)&#x20;
+* 이 개념을 이용해서 아래와 같이 순환식을 세워볼 수 있다. &#x20;
+  *
+
+      <figure><img src="../../../.gitbook/assets/image (38).png" alt=""><figcaption></figcaption></figure>
+
+### 당연한거 아닌가요
+
+어떻게 보면, 1에서 10까지 가는데 10과 인접한 9까지의 최단 경로를 구하면, 1에서 10까지의 최단경로를 구할 수 있다는 말은 너무 당연하게 들린다. 하지만 조금만 더 생각해보면 그렇지 않다는 것을 알 수 있다.&#x20;
+
+<figure><img src="../../../.gitbook/assets/image (15).png" alt=""><figcaption></figcaption></figure>
+
+예를 들면, 최장경로를 구하는 문제를 생각해보자. 1에서 4까지 가는데 최장경로는 1 - 2- 3- 4 일것이다. 이것에는 의심의 여지가 없다.&#x20;
+
+그렇다면, 1에서 4까지 가는 최장 경로는 1에서 3까지 가는 최장경로를 통해 구할 수 있는가? 이건 그렇지 않다. 1에서 3까지가는 최장경로는 1 - 4- 2- 3 이기 때문이다. 이 경로는 1에서 4까지가는 경로의 sub 해가 될 수 없다.&#x20;
+
+_물론 문제의 조건에서 특정 노드 집합 A와 목적지인 v를 지나지 않고 s부터 v까지 가는 최장경로를 구하라고 한다면, 이 최장경로 문제 역시 DP 로 충분히 풀어낼 수 있다. 즉, 좀 더 복잡한 구조의 optimal substructure 를 가진다고 말할 수 있는 것이지, optimal substructure 자체를 가지지 않는다고 말할 수는 없다는 것이다._&#x20;
 
 
 
 
-&#x20;&#x20;
 
 
 
