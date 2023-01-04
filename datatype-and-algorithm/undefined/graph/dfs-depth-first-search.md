@@ -21,7 +21,7 @@ description: 깊이 우선 순회
 * 이 노드 v에 대하여 인접한 노드 중에서 아직 방문하지 않은 노드 u를 DFS(G, u) 진행한다.&#x20;
 * 아래처럼 재귀로 호출할 경우, 원래 노드에 방문했을 때 온 방향으로 자연스럽게 돌아갈 수 있다. 재귀의 경우, 함수가 종료되면, 호출된 그 지점으로 다시 되돌아가므로.&#x20;
 
-<figure><img src="../../../.gitbook/assets/image (6).png" alt=""><figcaption><p><a href="https://www.inflearn.com/course/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EA%B0%95%EC%A2%8C">[인프런] 영리한 프로그래밍을 위한 알고리즘 강좌 by 권오흠 교수님</a></p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (6) (8).png" alt=""><figcaption><p><a href="https://www.inflearn.com/course/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EA%B0%95%EC%A2%8C">[인프런] 영리한 프로그래밍을 위한 알고리즘 강좌 by 권오흠 교수님</a></p></figcaption></figure>
 
 
 

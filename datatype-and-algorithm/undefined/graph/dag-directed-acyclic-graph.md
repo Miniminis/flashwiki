@@ -35,7 +35,7 @@ description: 방향그래프
 * 이렇게 되면, 노드 d가 이번에는 indgree=0 이 되므로, d를 제거하고 d에서 나가는 엣지를 제거한다.&#x20;
 * 다음은 f, e, c, b 등의 순서로 사라질 것이다.&#x20;
 
-<figure><img src="../../../.gitbook/assets/image (14).png" alt=""><figcaption><p><a href="https://www.inflearn.com/course/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EA%B0%95%EC%A2%8C">[인프런] 영리한 프로그래밍을 위한 알고리즘 강좌 by 권오흠 교수님</a></p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (14) (3).png" alt=""><figcaption><p><a href="https://www.inflearn.com/course/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EA%B0%95%EC%A2%8C">[인프런] 영리한 프로그래밍을 위한 알고리즘 강좌 by 권오흠 교수님</a></p></figcaption></figure>
 
 * 문제점 1. indegree=0 인 노드가 존재하지 않으면
 * 문제점 2. indegree=0 을 어떻게 찾을 것인가
@@ -49,7 +49,7 @@ description: 방향그래프
 * 노드에서 outgoing edge 가 없는 경우라면, 위상정렬 선상에서 마지막 요소일 확률이 크다.&#x20;
 * 해당 작업보다 나중에 해야할 작업이 없다는 의미이므로!&#x20;
 
-<figure><img src="../../../.gitbook/assets/image (4).png" alt=""><figcaption><p><a href="https://www.inflearn.com/course/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EA%B0%95%EC%A2%8C">[인프런] 영리한 프로그래밍을 위한 알고리즘 강좌 by 권오흠 교수님</a></p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (4) (5).png" alt=""><figcaption><p><a href="https://www.inflearn.com/course/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EA%B0%95%EC%A2%8C">[인프런] 영리한 프로그래밍을 위한 알고리즘 강좌 by 권오흠 교수님</a></p></figcaption></figure>
 
 <figure><img src="../../../.gitbook/assets/image (42).png" alt=""><figcaption><p><a href="https://www.inflearn.com/course/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EA%B0%95%EC%A2%8C">[인프런] 영리한 프로그래밍을 위한 알고리즘 강좌 by 권오흠 교수님</a></p></figcaption></figure>
 
@@ -57,5 +57,5 @@ description: 방향그래프
 
 <figure><img src="../../../.gitbook/assets/image (29).png" alt=""><figcaption><p><a href="https://www.inflearn.com/course/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EA%B0%95%EC%A2%8C">[인프런] 영리한 프로그래밍을 위한 알고리즘 강좌 by 권오흠 교수님</a></p></figcaption></figure>
 
-<figure><img src="../../../.gitbook/assets/image (21).png" alt=""><figcaption><p><a href="https://www.inflearn.com/course/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EA%B0%95%EC%A2%8C">[인프런] 영리한 프로그래밍을 위한 알고리즘 강좌 by 권오흠 교수님</a></p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (21) (2).png" alt=""><figcaption><p><a href="https://www.inflearn.com/course/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EA%B0%95%EC%A2%8C">[인프런] 영리한 프로그래밍을 위한 알고리즘 강좌 by 권오흠 교수님</a></p></figcaption></figure>
 

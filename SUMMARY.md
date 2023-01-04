@@ -130,6 +130,8 @@
     * [matrix chain](datatype-and-algorithm/undefined/dynamic-programming/matrix-chain.md)
     * [행렬 경로 문제](datatype-and-algorithm/undefined/dynamic-programming/undefined.md)
   * [Graph](datatype-and-algorithm/undefined/graph/README.md)
+    * [MST 2 - prim 의 알고리즘](datatype-and-algorithm/undefined/graph/mst-2-prim.md)
+    * [MST 1 - Kruskal 의 알고리즘](datatype-and-algorithm/undefined/graph/mst-1-kruskal.md)
     * [MST, minumum spanning tree](datatype-and-algorithm/undefined/graph/mst-minumum-spanning-tree.md)
     * [DAG, Directed Acyclic Graph](datatype-and-algorithm/undefined/graph/dag-directed-acyclic-graph.md)
     * [DFS, Depth First Search](datatype-and-algorithm/undefined/graph/dfs-depth-first-search.md)

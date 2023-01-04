@@ -9,7 +9,7 @@ description: 최소신장트리
 * 입력 : n개의 도시가 있고, 도시와 도시를 연결하는 도로 비용이 주어진다. &#x20;
 * 출력 : 최소 비용으로 모든 도시들이 서로 연결되도록 하려고 한다.&#x20;
 
-<figure><img src="../../../.gitbook/assets/image (7).png" alt=""><figcaption><p><a href="https://www.inflearn.com/course/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EA%B0%95%EC%A2%8C">[인프런] 영리한 프로그래밍을 위한 알고리즘 강좌 by 권오흠 교수님</a></p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (7) (7).png" alt=""><figcaption><p><a href="https://www.inflearn.com/course/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EA%B0%95%EC%A2%8C">[인프런] 영리한 프로그래밍을 위한 알고리즘 강좌 by 권오흠 교수님</a></p></figcaption></figure>
 
 
 
@@ -42,7 +42,7 @@ description: 최소신장트리
 
 
 
-## 0. generic MST 알고리즘
+## generic MST 알고리즘
 
 * 어떤 MST 의 부분집합 A에 대하여 A에 새로운 엣지 (u, v)를 추가한다고 하더라도, 여전히 MST의 부분집합이 될 만큼 안전하다라고 표현할 수 있다.&#x20;
 * 어떤 엣지를 포함하는 MST에 대하여 엣지 1을 포함하는 MST 가 존재한다고 해서 "엣지 1은 MST에 반드시 소속된다"고 표현할 수 없다.&#x20;
@@ -69,20 +69,14 @@ description: 최소신장트리
 
 <figure><img src="../../../.gitbook/assets/image (43).png" alt=""><figcaption><p><a href="https://www.inflearn.com/course/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EA%B0%95%EC%A2%8C">[인프런] 영리한 프로그래밍을 위한 알고리즘 강좌 by 권오흠 교수님</a></p></figcaption></figure>
 
-<figure><img src="../../../.gitbook/assets/image.png" alt=""><figcaption><p><a href="https://www.inflearn.com/course/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EA%B0%95%EC%A2%8C">[인프런] 영리한 프로그래밍을 위한 알고리즘 강좌 by 권오흠 교수님</a></p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (20).png" alt=""><figcaption><p><a href="https://www.inflearn.com/course/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EA%B0%95%EC%A2%8C">[인프런] 영리한 프로그래밍을 위한 알고리즘 강좌 by 권오흠 교수님</a></p></figcaption></figure>
 
 {% hint style="success" %}
 **즉, A가 어떤 MST 의 부분집합이고(A를 포함하는 MST가 존재할 때), (S, V-S)는 A를 존중하는 컷이라고 한다면, 이 컷을 cross 하는 엣지들 중에서 가장 가중치가 작은 엣지(u, v)는 A에 대해서 안전하다.**&#x20;
 {% endhint %}
 
 * 결국, A가 어떤 MST의 부분집합이므로, 빨간 트리로 표시되고 있는 A는 MST를 이룬다는 것을 보장하는 상태이다.&#x20;
-* 이때, S와 V-S를 cross 하는 엣지 중에서 최소의 가중치를 가진 엣지가 바로 MST가 되는 것이다.&#x20;
-
-
-
-## 1. kruscal 알고리즘
-
-## 2. prim 알고리즘
+* 이때, S와 V-S를 cross 하는 엣지 중에서 최소의 가중치를 가진 엣지를 선택하면 MST가 될 수 있다. &#x20;
 
 
 
