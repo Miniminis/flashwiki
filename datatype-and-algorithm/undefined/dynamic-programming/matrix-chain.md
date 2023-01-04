@@ -30,12 +30,12 @@ description: 행렬의 곱셈
 
 ### optimal substructure
 
-<figure><img src="../../../.gitbook/assets/image (11).png" alt=""><figcaption><p><a href="https://www.inflearn.com/course/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EA%B0%95%EC%A2%8C/unit/4128">https://www.inflearn.com/course/알고리즘-강좌/unit/4128</a></p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (11) (2).png" alt=""><figcaption><p><a href="https://www.inflearn.com/course/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EA%B0%95%EC%A2%8C/unit/4128">https://www.inflearn.com/course/알고리즘-강좌/unit/4128</a></p></figcaption></figure>
 
 * 행렬의 곱셈 결과는 결국 행렬의 형태를 띈다.&#x20;
 * 행렬 z를 구하려면, 결국 행렬 x와 y의 곱을 해야한다. 그리고 행렬에서는 교환법칙이 성립하지 않기 때문에 이 x와 y는 1부터 k까지의 곱, k+1부터 n까지의 곱의 결과가 된다.&#x20;
 
-<figure><img src="../../../.gitbook/assets/image (43).png" alt=""><figcaption><p><a href="https://www.inflearn.com/course/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EA%B0%95%EC%A2%8C/unit/4128">https://www.inflearn.com/course/알고리즘-강좌/unit/4128</a></p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (43) (1).png" alt=""><figcaption><p><a href="https://www.inflearn.com/course/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EA%B0%95%EC%A2%8C/unit/4128">https://www.inflearn.com/course/알고리즘-강좌/unit/4128</a></p></figcaption></figure>
 
 * 결국 두 행렬의 곱에 대해서는 위와 같은 순환식을 만들 수 있을 것이다.&#x20;
 * Ai부터 Aj까지의 행렬을 곱하는데 최소로 곱셈 연산을 하는 횟수를 구하려면,&#x20;
@@ -50,7 +50,7 @@ description: 행렬의 곱셈
 
 &#x20;
 
-<figure><img src="../../../.gitbook/assets/image (42).png" alt=""><figcaption><p><a href="https://www.inflearn.com/course/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EA%B0%95%EC%A2%8C/unit/4128">https://www.inflearn.com/course/알고리즘-강좌/unit/4128</a></p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (42) (1).png" alt=""><figcaption><p><a href="https://www.inflearn.com/course/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EA%B0%95%EC%A2%8C/unit/4128">https://www.inflearn.com/course/알고리즘-강좌/unit/4128</a></p></figcaption></figure>
 
 * 그러면 이제 순환식을 계산하는 순서를 정해야한다. 이전 연산의 해가 다음 연산의 재료로 이용되기 위해서는 어떤 순서로 계산을 해야할까?&#x20;
 * 순환식을 분석해보면 되는데,&#x20;
@@ -61,7 +61,7 @@ description: 행렬의 곱셈
   * 또 다른 하나는 대각선으로부터 시작하여 점차 우상향하는 방법이 있다.&#x20;
   * _사실 코딩하기에는 밑에서 위로 계산하는 방법이 쉬운데, 대부분의 예제에서는 대각선으로 구현한 것이 많이 등장한다._&#x20;
 
-<figure><img src="../../../.gitbook/assets/image (7).png" alt=""><figcaption><p><a href="https://www.inflearn.com/course/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EA%B0%95%EC%A2%8C/unit/4128">https://www.inflearn.com/course/알고리즘-강좌/unit/4128</a></p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (7) (3).png" alt=""><figcaption><p><a href="https://www.inflearn.com/course/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EA%B0%95%EC%A2%8C/unit/4128">https://www.inflearn.com/course/알고리즘-강좌/unit/4128</a></p></figcaption></figure>
 
 * 코드로 구현해보자면 위와 같다. 먼저 대각선을 모두 0으로 채운다.&#x20;
 * 그다음 대각선을 우상향하는 방향으로 1부터 n-1 까지 순회한다. 대각선의 개수가 (i, i) 대각선을 제외하고 n-1개라는 것을 기억한다.&#x20;

@@ -106,7 +106,7 @@
   * Q1에 줄서서 기다렸다가 CPU 를 잡아서 16ms 동안 수행이 되고
   * 그 안에도 다 못끝냈다면 Q2로 쫓겨난다.
 
-<figure><img src="../../.gitbook/assets/image (24) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (24) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 #### Multiple-Processor Scheduling
 

@@ -30,7 +30,7 @@
 
 <figure><img src="../../.gitbook/assets/image (7) (3) (1).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (25) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (25) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 #### 3. multiprocessor 에서 shared memory 내의 kernal data
 
@@ -49,7 +49,7 @@
 
 * 프로세스간 context switch 자체가 문제가 아니라 shared data 를 접근하는 경우가 문제가 되는 것이다.
 
-<figure><img src="../../.gitbook/assets/image (21) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (21) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### The Critical-Section Problem
 

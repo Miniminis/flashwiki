@@ -11,7 +11,7 @@ description: 도둑이 보석을 훔쳐갈 때, 가방에 들어가는 한도 �
 * 배낭의 용량은 W이다.
 * **배낭의 용량을 초과하지 않으면서 가격이 최대가 되는 부분집합을 구하고자 한다.**&#x20;
 
-<figure><img src="../../../.gitbook/assets/image (12).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (12) (5).png" alt=""><figcaption></figcaption></figure>
 
 * 보통 이러한 문제는 greedy 적으로 제일 먼저 접근하곤 한다.&#x20;
   * 1\) 가격이 비싼 순서대로 넣거나 2) 무게가 가벼운 순서대로 넣거나 3) 단위 무게당 가격이 높은 것부터 선택하는 방식으로 접근하는데, 안타깝게도 1-3번의 방법 모두 정답을 구할 수 없다.&#x20;
@@ -27,7 +27,7 @@ description: 도둑이 보석을 훔쳐갈 때, 가방에 들어가는 한도 �
     * i번째를 선택한다면, OPT(i, w) = OPT(i-1, W-wi) + vi&#x20;
       * 단 i번째를 선택하는 경우는 배낭의 무게가 W >  wi 를 만족해야한다. 그렇지 않으면, 무조건 첫번째 케이스를 선택할 수 밖에 없다.&#x20;
 
-    <figure><img src="../../../.gitbook/assets/image (25).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../../.gitbook/assets/image (25) (1).png" alt=""><figcaption></figcaption></figure>
 
 
 
@@ -37,7 +37,7 @@ description: 도둑이 보석을 훔쳐갈 때, 가방에 들어가는 한도 �
 
 ## 코드&#x20;
 
-<figure><img src="../../../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (6) (3).png" alt=""><figcaption></figcaption></figure>
 
 
 

@@ -32,7 +32,7 @@
 * 해결방법
   * 생산자와 소비자는 각각 5가지 정도의 작업을 순차적으로 수행하여 문제를 예방한다.
 
-<figure><img src="../../.gitbook/assets/image (9) (4).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (9) (4) (1).png" alt=""><figcaption></figcaption></figure>
 
 #### sudo code
 
@@ -93,7 +93,7 @@
 
 * 일반적인 semaphore 코드는 자원의 개수를 세고 초기값을 두는경우가 많은데, 아래의 코드는 0의 상태에서 진행된다. → semaphore 코드답지 않다고 느끼는 이유
 
-<figure><img src="../../.gitbook/assets/image (26).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (26) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### Monitor
 
@@ -133,7 +133,7 @@
 
 ### 비교 2. 식사하는 철학자 문제 : semaphore vs. monitor
 
-<figure><img src="../../.gitbook/assets/image (22).png" alt=""><figcaption><p>식사하는 철학자 문제 in semaphore code</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (22) (2).png" alt=""><figcaption><p>식사하는 철학자 문제 in semaphore code</p></figcaption></figure>
 
 <figure><img src="../../.gitbook/assets/image (1) (1) (1) (3).png" alt=""><figcaption><p>식사하는 철학자 문제 in monitor code</p></figcaption></figure>
 

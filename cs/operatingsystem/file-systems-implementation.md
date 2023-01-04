@@ -66,7 +66,7 @@
 
 ### UNIX 파일 시스템의 구조
 
-<figure><img src="../../.gitbook/assets/image (9).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (9) (4).png" alt=""><figcaption></figcaption></figure>
 
 * boot block
   * 모든 컴퓨터의 파일시스템에 동일하게 첫번째로 존재한다.
@@ -120,7 +120,7 @@
 * 단점 : 디스크 내부의 부가적인 공간을 필요로 한다.
 * 장점 : 연속적인 n개의 free block 을 찾는데 효과적이다.
 
-<figure><img src="../../.gitbook/assets/image (7) (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (7) (3) (2).png" alt=""><figcaption></figcaption></figure>
 
 #### linked list
 
@@ -129,7 +129,7 @@
   * 따라서 현실에서 사용하기에는 쉽지 않다.
 * 하지만 공간의 낭비가 없다.
 
-<figure><img src="../../.gitbook/assets/image (6) (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (6) (3) (2).png" alt=""><figcaption></figcaption></figure>
 
 #### grouping
 
@@ -164,7 +164,7 @@
   * 서로 다른 결과값이 같은 entry 로 매핑되는 문제
   * hash 함수에서 흔히 발생하는 문제
 
-<figure><img src="../../.gitbook/assets/image (11) (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (11) (2) (1).png" alt=""><figcaption></figcaption></figure>
 
 #### file metadata 보관위치
 
@@ -178,11 +178,11 @@
 * file name 이 고정 크기의 entry 길이보다 길어지는 경우, entry 의 마지막 부분에 이름의 뒷부분이 위치한 곳의 포인터를 두는 방법
 * 이름의 나머지 부분은 동일한 directory file 의 일부에 존재한다.
 
-<figure><img src="../../.gitbook/assets/image (31).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (31) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### VFS and NFS
 
-<figure><img src="../../.gitbook/assets/image (21).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (21) (1).png" alt=""><figcaption></figcaption></figure>
 
 #### VFS, virtual file system
 
@@ -198,7 +198,7 @@
 
 ### page cache vs. buffer cache
 
-<figure><img src="../../.gitbook/assets/image (14).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (14) (2).png" alt=""><figcaption></figcaption></figure>
 
 #### page cache
 
@@ -213,7 +213,7 @@
 * 모든 프로세스가 공용으로 사용된다.
 * replacement algorithm이 필요하다. LRU, LFU 등
 
-<figure><img src="../../.gitbook/assets/image (32).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (32) (1).png" alt=""><figcaption></figcaption></figure>
 
 #### unified buffer cache
 

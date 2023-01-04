@@ -1,6 +1,6 @@
 # 행렬 경로 문제
 
-<figure><img src="../../../.gitbook/assets/image (10).png" alt=""><figcaption><p><a href="https://www.inflearn.com/course/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EA%B0%95%EC%A2%8C/unit/4126?tab=curriculum">https://www.inflearn.com/course/알고리즘-강좌/unit/4126?tab=curriculum</a></p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (10) (6).png" alt=""><figcaption><p><a href="https://www.inflearn.com/course/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EA%B0%95%EC%A2%8C/unit/4126?tab=curriculum">https://www.inflearn.com/course/알고리즘-강좌/unit/4126?tab=curriculum</a></p></figcaption></figure>
 
 
 
@@ -11,7 +11,7 @@
 * 순환식을 세워보면 아래와 같이 세울 수 있을 것이다.&#x20;
   *
 
-      <figure><img src="../../../.gitbook/assets/image (1).png" alt=""><figcaption><p><a href="https://www.inflearn.com/course/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EA%B0%95%EC%A2%8C/unit/4126?tab=curriculum">https://www.inflearn.com/course/알고리즘-강좌/unit/4126?tab=curriculum</a></p></figcaption></figure>
+      <figure><img src="../../../.gitbook/assets/image (1) (5).png" alt=""><figcaption><p><a href="https://www.inflearn.com/course/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EA%B0%95%EC%A2%8C/unit/4126?tab=curriculum">https://www.inflearn.com/course/알고리즘-강좌/unit/4126?tab=curriculum</a></p></figcaption></figure>
   * (1, 1) 일 경우에는 해당 위치가 최소값이 된다.&#x20;
   * 만약 j가 1일 경우는, 모든 오른쪽으로 가는 경우의 수는 없고, 반드시 아래쪽으로 가야한다. 때문에 (i-1, 1)까지의 최소값을 구하면 된다.&#x20;
   * i가 1일 경우에도 마찬가지이다. 제일 위쪽 경로가 1이게 되므로, 반드시 (1, 1)에서 출발하면 오른쪽으로 가야한다. 때문에 (1, j-1)까지의 최소합을 구하면 된다.&#x20;

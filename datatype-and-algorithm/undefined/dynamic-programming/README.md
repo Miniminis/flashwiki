@@ -288,13 +288,13 @@ public class BinomialBottomUp {
 * 이 개념을 이용해서 아래와 같이 순환식을 세워볼 수 있다. &#x20;
   *
 
-      <figure><img src="../../../.gitbook/assets/image (38).png" alt=""><figcaption></figcaption></figure>
+      <figure><img src="../../../.gitbook/assets/image (38) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### 당연한거 아닌가요
 
 어떻게 보면, 1에서 10까지 가는데 10과 인접한 9까지의 최단 경로를 구하면, 1에서 10까지의 최단경로를 구할 수 있다는 말은 너무 당연하게 들린다. 하지만 조금만 더 생각해보면 그렇지 않다는 것을 알 수 있다.&#x20;
 
-<figure><img src="../../../.gitbook/assets/image (15).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (15) (3).png" alt=""><figcaption></figcaption></figure>
 
 예를 들면, 최장경로를 구하는 문제를 생각해보자. 1에서 4까지 가는데 최장경로는 1 - 2- 3- 4 일것이다. 이것에는 의심의 여지가 없다.&#x20;
 

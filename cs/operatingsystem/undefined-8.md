@@ -98,7 +98,7 @@
     * 하지만 존재하지 않은 경우, main memory 에 있는 page table로부터 frame 번호를 얻는다.
     * TLB 는 context switch 때 flush (remove old entiries) 된다. → 프로세스별로 별도로 존재하기 때문에
 
-<figure><img src="../../.gitbook/assets/image (29).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (29) (1).png" alt=""><figcaption></figcaption></figure>
 
 * 실제 메모리에 접근하는 시간은?
   * 상당히 빠르다!
