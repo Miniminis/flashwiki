@@ -39,7 +39,7 @@
 2. load time binding
 3. runtime binding
 
-<figure><img src="../../.gitbook/assets/image (23).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (23) (2).png" alt=""><figcaption></figcaption></figure>
 
 #### 1. compile time binding
 

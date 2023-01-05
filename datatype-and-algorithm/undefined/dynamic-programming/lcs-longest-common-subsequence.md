@@ -13,7 +13,7 @@
 
 ## 순환식
 
-<figure><img src="../../../.gitbook/assets/image (24) (1).png" alt=""><figcaption><p><a href="https://www.inflearn.com/course/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EA%B0%95%EC%A2%8C/unit/4129">https://www.inflearn.com/course/알고리즘-강좌/unit/4129</a></p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (24) (1) (2).png" alt=""><figcaption><p><a href="https://www.inflearn.com/course/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EA%B0%95%EC%A2%8C/unit/4129">https://www.inflearn.com/course/알고리즘-강좌/unit/4129</a></p></figcaption></figure>
 
 * X의 맨 마지막 글자와 Y의 맨 마지막 글자가 같다면, 그 문자 i와 j 바로 직전인 i-1, j-1까지의 가장 긴 LCS 값과 맨마지막 값의 길이인 1을 더해준 값이 가장 긴 문자열이 된다.&#x20;
 * 만약 X의 맨 마지막 글자와 Y의 맨 마지막 글자가 다르다면, 둘 중 하나는 반드시 버려야 한다. 버리는 기준은 각각 맨 마지막 글자를 버렸을 때의 LCS 를 구한 뒤, 더 긴 값을 선택해주면 된다.&#x20;
@@ -29,7 +29,7 @@
 
 ## 코드
 
-<figure><img src="../../../.gitbook/assets/image (5) (1).png" alt=""><figcaption><p><a href="https://www.inflearn.com/course/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EA%B0%95%EC%A2%8C/unit/4129">https://www.inflearn.com/course/알고리즘-강좌/unit/4129</a></p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (5) (1) (1).png" alt=""><figcaption><p><a href="https://www.inflearn.com/course/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EA%B0%95%EC%A2%8C/unit/4129">https://www.inflearn.com/course/알고리즘-강좌/unit/4129</a></p></figcaption></figure>
 
 * i와 j가 각각 0일 때는 LCS 가 존재하지 않으므로 0이 된다.&#x20;
 

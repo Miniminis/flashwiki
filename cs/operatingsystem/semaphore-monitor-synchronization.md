@@ -93,7 +93,7 @@
 
 * 일반적인 semaphore 코드는 자원의 개수를 세고 초기값을 두는경우가 많은데, 아래의 코드는 0의 상태에서 진행된다. → semaphore 코드답지 않다고 느끼는 이유
 
-<figure><img src="../../.gitbook/assets/image (26) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (26) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### Monitor
 

@@ -15,7 +15,7 @@
   * 처음에는 모든 page entry 가 invalid 로 초기화 된다.
   * address translation 시에 invalid bit 이 set 되어 있으면 page fault
 
-<figure><img src="../../.gitbook/assets/image (27).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (27) (2).png" alt=""><figcaption></figcaption></figure>
 
 ### page fault
 
@@ -32,7 +32,7 @@
   4. 이 프로세스가 CPU 를 잡고 다시 running 한다.
   5. 아까 중단되었던 instruction 을 재개한다.
 
-<figure><img src="../../.gitbook/assets/image (3) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (3) (1) (1) (2).png" alt=""><figcaption></figcaption></figure>
 
 > 하지만 page fault 시에 디스크에서 값을 읽어오는 작업은 매우 시간이 오래걸리는 작업이다.
 
@@ -85,7 +85,7 @@
   * FIFO anomaly (belady’s anomaly)
   * more frames ≠ less page faults
 
-<figure><img src="../../.gitbook/assets/image (19).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (19) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### LRU, Least Recently Used algorithm
 
@@ -129,6 +129,6 @@
     * 최악의 경우, 최상단에서 최하단까지 이동할 수도 있는데, 그렇다고 하더라도 log n의 시간정도만 소요되므로 매우 효율적이라고 할 수 있다.
     * O(log N)
 
-<figure><img src="../../.gitbook/assets/image (30).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (30) (1).png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../../.gitbook/assets/image (15) (3) (1).png" alt=""><figcaption></figcaption></figure>

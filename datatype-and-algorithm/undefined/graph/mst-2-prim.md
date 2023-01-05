@@ -19,7 +19,7 @@
 * a부터 시작하여 엣지의 weight 가 최소인 것을 하나씩 선택한 위 트리 Va에 포함시켜나간다.
 * |Va| = n 이 되면 알고리즘은 종료된다. &#x20;
 
-<figure><img src="../../../.gitbook/assets/image (11).png" alt=""><figcaption><p><a href="https://www.inflearn.com/course/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EA%B0%95%EC%A2%8C">[인프런] 영리한 프로그래밍을 위한 알고리즘 강좌 by 권오흠 교수님</a></p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (11) (1).png" alt=""><figcaption><p><a href="https://www.inflearn.com/course/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EA%B0%95%EC%A2%8C">[인프런] 영리한 프로그래밍을 위한 알고리즘 강좌 by 권오흠 교수님</a></p></figcaption></figure>
 
 
 
@@ -31,7 +31,7 @@
 * 아래의 그림에서 빨간선들을 Va에 속한 S라고 하고, 나머지 노드들을 V-S 라고 했을 때, 지금 상태는 서로  컷(S, V-S)을 이루며 존중하고 있는 상태가 된다. 이 컷을 가로지르는 엣지가 현재까지는 존재하지 않는다.&#x20;
 * 이때, prim 알고리즘에 의해 컷을 가로지르는 최소 가중치의 엣지를 골라 S와 연결한다고 해도, 여전히 MST를 위반하지 않게 된다.&#x20;
 
-<figure><img src="../../../.gitbook/assets/image (50).png" alt=""><figcaption><p><a href="https://www.inflearn.com/course/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EA%B0%95%EC%A2%8C">[인프런] 영리한 프로그래밍을 위한 알고리즘 강좌 by 권오흠 교수님</a></p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (50) (1).png" alt=""><figcaption><p><a href="https://www.inflearn.com/course/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EA%B0%95%EC%A2%8C">[인프런] 영리한 프로그래밍을 위한 알고리즘 강좌 by 권오흠 교수님</a></p></figcaption></figure>
 
 ## 구현하기
 
@@ -50,7 +50,7 @@
 * 장점&#x20;
   * key 값이 최소인 노드를 찾는 식으로 바꿔 생각하면, 시간복잡도가 노드의 개수인 O(n) 으로 대폭 줄어들게 된다.&#x20;
 
-<figure><img src="../../../.gitbook/assets/image (24).png" alt=""><figcaption><p><a href="https://www.inflearn.com/course/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EA%B0%95%EC%A2%8C">[인프런] 영리한 프로그래밍을 위한 알고리즘 강좌 by 권오흠 교수님</a></p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (24) (1).png" alt=""><figcaption><p><a href="https://www.inflearn.com/course/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EA%B0%95%EC%A2%8C">[인프런] 영리한 프로그래밍을 위한 알고리즘 강좌 by 권오흠 교수님</a></p></figcaption></figure>
 
 
 
@@ -72,7 +72,7 @@
 
 
 
-<figure><img src="../../../.gitbook/assets/image (3).png" alt=""><figcaption><p><a href="https://www.inflearn.com/course/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EA%B0%95%EC%A2%8C">[인프런] 영리한 프로그래밍을 위한 알고리즘 강좌 by 권오흠 교수님</a></p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (3) (1).png" alt=""><figcaption><p><a href="https://www.inflearn.com/course/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EA%B0%95%EC%A2%8C">[인프런] 영리한 프로그래밍을 위한 알고리즘 강좌 by 권오흠 교수님</a></p></figcaption></figure>
 
 * r은 출발점
 * 처음에는 모든 key들은 무한대로, 𝛑 들은 null 로 초기화를 한다.&#x20;

@@ -4,10 +4,6 @@ description: 동적계획법
 
 # Dynamic Programming
 
-
-
-[https://www.inflearn.com/course/알고리즘-강좌/unit/4127](https://www.inflearn.com/course/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EA%B0%95%EC%A2%8C/unit/4127)
-
 ## 개념이해
 
 * Richard Bellman 이 고안한 알고리즘이다.&#x20;

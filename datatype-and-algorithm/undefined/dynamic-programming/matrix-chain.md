@@ -35,7 +35,7 @@ description: 행렬의 곱셈
 * 행렬의 곱셈 결과는 결국 행렬의 형태를 띈다.&#x20;
 * 행렬 z를 구하려면, 결국 행렬 x와 y의 곱을 해야한다. 그리고 행렬에서는 교환법칙이 성립하지 않기 때문에 이 x와 y는 1부터 k까지의 곱, k+1부터 n까지의 곱의 결과가 된다.&#x20;
 
-<figure><img src="../../../.gitbook/assets/image (43) (1).png" alt=""><figcaption><p><a href="https://www.inflearn.com/course/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EA%B0%95%EC%A2%8C/unit/4128">https://www.inflearn.com/course/알고리즘-강좌/unit/4128</a></p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (43) (1) (1).png" alt=""><figcaption><p><a href="https://www.inflearn.com/course/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EA%B0%95%EC%A2%8C/unit/4128">https://www.inflearn.com/course/알고리즘-강좌/unit/4128</a></p></figcaption></figure>
 
 * 결국 두 행렬의 곱에 대해서는 위와 같은 순환식을 만들 수 있을 것이다.&#x20;
 * Ai부터 Aj까지의 행렬을 곱하는데 최소로 곱셈 연산을 하는 횟수를 구하려면,&#x20;

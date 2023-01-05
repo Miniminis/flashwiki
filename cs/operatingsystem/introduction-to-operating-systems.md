@@ -4,7 +4,7 @@
 
 * 운영체제는 컴퓨터 하드웨어 바로 위에 설치되어 컴퓨터의 하드웨어와 사용자 및 다른 모든 소프트웨어를 연결하는 소프트웨어 계층이다.
 
-<figure><img src="../../.gitbook/assets/image (4) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (4) (1) (4).png" alt=""><figcaption></figcaption></figure>
 
 #### 좁은 의미의 운영체제 vs. 넓은 의미의 운영체제
 

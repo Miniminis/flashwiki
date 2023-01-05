@@ -151,7 +151,7 @@
   * 프로세스가 그 주소 부분을 사용하지 않거나
   * 해당 페이지가 메모리에 올라와있지 않고 swap area에 있는 경우를 의미한다.
 
-<figure><img src="../../.gitbook/assets/image (28).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (28) (1).png" alt=""><figcaption></figcaption></figure>
 
 #### inverted page table
 
@@ -183,7 +183,7 @@
 
 #### segmentation
 
-<figure><img src="../../.gitbook/assets/image (12) (1) (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (12) (1) (2) (1).png" alt=""><figcaption></figcaption></figure>
 
 * 의미단위로 범위를 나눈 것. 예를 들면 메모리 내의 코드, 스택 등의 공간
   * 의미단위로 범위를 나누기 때문에 segment의 크기가 균일하지 않다.
