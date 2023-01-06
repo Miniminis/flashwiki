@@ -65,11 +65,11 @@ description: 최소신장트리
 * 에지 (u, v)에 대해서 u가 S에 소속되어있고, v가 V-S에 소속되어있을 때, 에지 (u, v)는 컷(S, V-S)을 크로스한다고 말할 수 있다.&#x20;
 * 엣지들의 부분집합 A에 속한 어떤 엣지도 컷(S, V-S)를 크로스 하지 않을 때, 컷(S, V-S) 는 부분집합 A를 존중한다(respect)고 말한다.&#x20;
 
-<figure><img src="../../../.gitbook/assets/image (26) (1).png" alt=""><figcaption><p><a href="https://www.inflearn.com/course/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EA%B0%95%EC%A2%8C">[인프런] 영리한 프로그래밍을 위한 알고리즘 강좌 by 권오흠 교수님</a></p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (26) (1) (2).png" alt=""><figcaption><p><a href="https://www.inflearn.com/course/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EA%B0%95%EC%A2%8C">[인프런] 영리한 프로그래밍을 위한 알고리즘 강좌 by 권오흠 교수님</a></p></figcaption></figure>
 
 <figure><img src="../../../.gitbook/assets/image (43) (1).png" alt=""><figcaption><p><a href="https://www.inflearn.com/course/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EA%B0%95%EC%A2%8C">[인프런] 영리한 프로그래밍을 위한 알고리즘 강좌 by 권오흠 교수님</a></p></figcaption></figure>
 
-<figure><img src="../../../.gitbook/assets/image (20).png" alt=""><figcaption><p><a href="https://www.inflearn.com/course/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EA%B0%95%EC%A2%8C">[인프런] 영리한 프로그래밍을 위한 알고리즘 강좌 by 권오흠 교수님</a></p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (20) (2).png" alt=""><figcaption><p><a href="https://www.inflearn.com/course/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EA%B0%95%EC%A2%8C">[인프런] 영리한 프로그래밍을 위한 알고리즘 강좌 by 권오흠 교수님</a></p></figcaption></figure>
 
 {% hint style="success" %}
 **즉, A가 어떤 MST 의 부분집합이고(A를 포함하는 MST가 존재할 때), (S, V-S)는 A를 존중하는 컷이라고 한다면, 이 컷을 cross 하는 엣지들 중에서 가장 가중치가 작은 엣지(u, v)는 A에 대해서 안전하다.**&#x20;
