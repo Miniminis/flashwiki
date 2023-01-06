@@ -10,7 +10,7 @@ description: 이진 검색 트리
 * 가장 기본적으로는 배열이나 연결리스트를 사용하여 표현할 수 있다.&#x20;
   * 하지만 아래의 표에서 볼 수 있듯, 배열이나 연결리스트가 정렬되거나 정렬되지 않은 경우를 모두 통틀어서 보더라도, O(n)의 시간복잡도를 피할 수는 없다.&#x20;
 
-<figure><img src="../../../.gitbook/assets/image (18) (1).png" alt=""><figcaption><p><a href="https://www.inflearn.com/course/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EA%B0%95%EC%A2%8C">[인프런] 영리한 프로그래밍을 위한 알고리즘 강좌 by 권오흠 교수님</a></p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (18) (1) (2).png" alt=""><figcaption><p><a href="https://www.inflearn.com/course/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EA%B0%95%EC%A2%8C">[인프런] 영리한 프로그래밍을 위한 알고리즘 강좌 by 권오흠 교수님</a></p></figcaption></figure>
 
 
 
@@ -55,7 +55,7 @@ description: 이진 검색 트리
 * 반복하면 아래와 같은 순서로 탐색된다.&#x20;
   * 15 -> 6 -> 7 -> 13&#x20;
 
-<figure><img src="../../../.gitbook/assets/image (21) (1).png" alt=""><figcaption><p><a href="https://www.inflearn.com/course/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EA%B0%95%EC%A2%8C">[인프런] 영리한 프로그래밍을 위한 알고리즘 강좌 by 권오흠 교수님</a></p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (21) (1) (3).png" alt=""><figcaption><p><a href="https://www.inflearn.com/course/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EA%B0%95%EC%A2%8C">[인프런] 영리한 프로그래밍을 위한 알고리즘 강좌 by 권오흠 교수님</a></p></figcaption></figure>
 
 * 루트 노드 x, 찾는 값 k가 주어진다.&#x20;
 * 루트노드가 null 이거나 k와 같다면, 바로 x를 반환한다.&#x20;
@@ -76,7 +76,7 @@ description: 이진 검색 트리
 * 역시 시간 복잡도는 O(h) 가 된다.&#x20;
 * 모든 키들이 서로 다르다고 가정해보자.&#x20;
 
-<figure><img src="../../../.gitbook/assets/image (2) (1).png" alt=""><figcaption><p><a href="https://www.inflearn.com/course/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EA%B0%95%EC%A2%8C">[인프런] 영리한 프로그래밍을 위한 알고리즘 강좌 by 권오흠 교수님</a></p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (2) (1) (4).png" alt=""><figcaption><p><a href="https://www.inflearn.com/course/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EA%B0%95%EC%A2%8C">[인프런] 영리한 프로그래밍을 위한 알고리즘 강좌 by 권오흠 교수님</a></p></figcaption></figure>
 
 3가지 경우로 나누어 생각해본다.&#x20;
 
@@ -118,7 +118,7 @@ description: 이진 검색 트리
 
 이처럼 binary search tree 에서는 노드를 삭제하지 않는 이상 노드들은 순서의 변경 없이 항상 같은 구조를 유지하기 때문에, 큰 이상이 없는 한 가장 먼저 insert 된 노드가 루트 자리를 차지하게 된다.&#x20;
 
-<figure><img src="../../../.gitbook/assets/image (33).png" alt=""><figcaption><p><a href="https://www.inflearn.com/course/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EA%B0%95%EC%A2%8C">[인프런] 영리한 프로그래밍을 위한 알고리즘 강좌 by 권오흠 교수님</a></p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (33) (1).png" alt=""><figcaption><p><a href="https://www.inflearn.com/course/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EA%B0%95%EC%A2%8C">[인프런] 영리한 프로그래밍을 위한 알고리즘 강좌 by 권오흠 교수님</a></p></figcaption></figure>
 
 * 위의 탐색 순서를 코드로 표현한 것이다.&#x20;
 * 한 가지 기억할 점은 while 문이 한번도 실행되지 않은 경우에 대한 예외처리이다. y = null 인 경우, 트리 자체가 원래 empty 였다는 것을 의미하므로, 삽입하고자 하는 수 x자체가 그냥 루트가 된다.&#x20;
@@ -152,9 +152,9 @@ description: 이진 검색 트리
 * 또한 오른쪽 서브트리인 18트리 역시 불만이 없는데, 왜냐하면, 13의 successor 를 찾느라 오른쪽 트리의 가장 최소값을 가져왔기 때문에, 이는 무조건 18트리의 다른 모든 값들보다 같거나 작은 것을 보장하기 때문이다.&#x20;
 * 또 하나 주목할 점은, 교체 대상이 되는 15는 트리의 제일 왼쪽에 위치할 것이기 때문에 반드시 왼쪽 노드가 없다. 때문에 15를 13의 자리로 옮겨두고 나머지 자식 노드들에 대한 처리는 노드가 0개이거나 1개인 경우를 따르면 되므로 간단해진다.  &#x20;
 
-<figure><img src="../../../.gitbook/assets/image (11) (1).png" alt=""><figcaption><p><a href="https://www.inflearn.com/course/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EA%B0%95%EC%A2%8C">[인프런] 영리한 프로그래밍을 위한 알고리즘 강좌 by 권오흠 교수님</a></p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (11) (1) (2).png" alt=""><figcaption><p><a href="https://www.inflearn.com/course/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EA%B0%95%EC%A2%8C">[인프런] 영리한 프로그래밍을 위한 알고리즘 강좌 by 권오흠 교수님</a></p></figcaption></figure>
 
-<figure><img src="../../../.gitbook/assets/image (3) (1).png" alt=""><figcaption><p><a href="https://www.inflearn.com/course/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EA%B0%95%EC%A2%8C">[인프런] 영리한 프로그래밍을 위한 알고리즘 강좌 by 권오흠 교수님</a></p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (3) (1) (3).png" alt=""><figcaption><p><a href="https://www.inflearn.com/course/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EA%B0%95%EC%A2%8C">[인프런] 영리한 프로그래밍을 위한 알고리즘 강좌 by 권오흠 교수님</a></p></figcaption></figure>
 
 * 위에서부터 차례대로 살펴보자.&#x20;
 * 만약 삭제하려는 노드 z 의 왼쪽 노드나 오른쪽 노드가 null 이라면, 자식노드가 0이나 1인 경우이고, 삭제하려는 노드 자체가 삭제되는 것이므로, 해당 노드 z를 y라고 한다.&#x20;

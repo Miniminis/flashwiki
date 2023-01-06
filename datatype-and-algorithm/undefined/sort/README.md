@@ -23,9 +23,9 @@ description: 정렬
 
 * 제일 큰 값을 선택하여 맨 뒤의 요소와 자리를 바꾸면서 큰 값부터, 뒤에서부터 차례대로 정렬하는 것&#x20;
 
-<img src="../../../.gitbook/assets/image (22).png" alt="[인프런] 영리한 프로그래밍을 위한 알고리즘 강좌 by 권오흠 교수님" data-size="original">
+<img src="../../../.gitbook/assets/image (22) (1).png" alt="[인프런] 영리한 프로그래밍을 위한 알고리즘 강좌 by 권오흠 교수님" data-size="original">
 
-<figure><img src="../../../.gitbook/assets/image (18).png" alt=""><figcaption><p><a href="https://www.inflearn.com/course/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EA%B0%95%EC%A2%8C">[인프런] 영리한 프로그래밍을 위한 알고리즘 강좌 by 권오흠 교수님</a></p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (18) (1).png" alt=""><figcaption><p><a href="https://www.inflearn.com/course/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EA%B0%95%EC%A2%8C">[인프런] 영리한 프로그래밍을 위한 알고리즘 강좌 by 권오흠 교수님</a></p></figcaption></figure>
 
 * 시간복잡도&#x20;
   * 우선 for 문이 n-1 번 반복되고&#x20;
@@ -42,9 +42,9 @@ description: 정렬
 * 가장 큰 값을 맨 마지막 요소와 바꾸는 방법에서 차이가 존재한다.&#x20;
 * 마치 그물로 고기를 몰아 잡는 것과 비슷하다고 한다. 잔챙이들은 그물을 빠져나가지만, 큰 물고기들은 빠져나갈 수 없다!&#x20;
 
-<figure><img src="../../../.gitbook/assets/image (4).png" alt=""><figcaption><p><a href="https://www.inflearn.com/course/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EA%B0%95%EC%A2%8C">[인프런] 영리한 프로그래밍을 위한 알고리즘 강좌 by 권오흠 교수님</a></p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (4) (1).png" alt=""><figcaption><p><a href="https://www.inflearn.com/course/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EA%B0%95%EC%A2%8C">[인프런] 영리한 프로그래밍을 위한 알고리즘 강좌 by 권오흠 교수님</a></p></figcaption></figure>
 
-<figure><img src="../../../.gitbook/assets/image (28).png" alt=""><figcaption><p><a href="https://www.inflearn.com/course/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EA%B0%95%EC%A2%8C">[인프런] 영리한 프로그래밍을 위한 알고리즘 강좌 by 권오흠 교수님</a></p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (28) (1).png" alt=""><figcaption><p><a href="https://www.inflearn.com/course/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EA%B0%95%EC%A2%8C">[인프런] 영리한 프로그래밍을 위한 알고리즘 강좌 by 권오흠 교수님</a></p></figcaption></figure>
 
 * 시간복잡도&#x20;
   * for 루프는 n-1 번 반복되고&#x20;
@@ -65,7 +65,7 @@ description: 정렬
 
 <figure><img src="../../../.gitbook/assets/image (6).png" alt=""><figcaption><p><a href="https://www.inflearn.com/course/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EA%B0%95%EC%A2%8C">[인프런] 영리한 프로그래밍을 위한 알고리즘 강좌 by 권오흠 교수님</a></p></figcaption></figure>
 
-<figure><img src="../../../.gitbook/assets/image (16).png" alt=""><figcaption><p><a href="https://www.inflearn.com/course/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EA%B0%95%EC%A2%8C">[인프런] 영리한 프로그래밍을 위한 알고리즘 강좌 by 권오흠 교수님</a></p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (16) (1).png" alt=""><figcaption><p><a href="https://www.inflearn.com/course/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EA%B0%95%EC%A2%8C">[인프런] 영리한 프로그래밍을 위한 알고리즘 강좌 by 권오흠 교수님</a></p></figcaption></figure>
 
 * 시간복잡도&#x20;
   * for 반복 : n-1&#x20;

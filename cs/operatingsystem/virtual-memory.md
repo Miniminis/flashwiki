@@ -15,7 +15,7 @@
   * 처음에는 모든 page entry 가 invalid 로 초기화 된다.
   * address translation 시에 invalid bit 이 set 되어 있으면 page fault
 
-<figure><img src="../../.gitbook/assets/image (27) (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (27) (2) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### page fault
 
@@ -85,7 +85,7 @@
   * FIFO anomaly (belady’s anomaly)
   * more frames ≠ less page faults
 
-<figure><img src="../../.gitbook/assets/image (19) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (19) (1) (2).png" alt=""><figcaption></figcaption></figure>
 
 ### LRU, Least Recently Used algorithm
 

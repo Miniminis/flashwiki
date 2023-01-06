@@ -151,7 +151,7 @@
   * 프로세스가 그 주소 부분을 사용하지 않거나
   * 해당 페이지가 메모리에 올라와있지 않고 swap area에 있는 경우를 의미한다.
 
-<figure><img src="../../.gitbook/assets/image (28) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (28) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 #### inverted page table
 

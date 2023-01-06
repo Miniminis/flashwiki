@@ -22,15 +22,15 @@ description: 퀵 소트
 * partition() 에 의해 분할이 되고, pivot 인 q가 반환된다.&#x20;
 * quickSort()를 재귀 호출하여 각각 정렬되면 끝!&#x20;
 
-<figure><img src="../../../.gitbook/assets/image (11).png" alt=""><figcaption><p><a href="https://www.inflearn.com/course/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EA%B0%95%EC%A2%8C">[인프런] 영리한 프로그래밍을 위한 알고리즘 강좌 by 권오흠 교수님</a></p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (11) (1).png" alt=""><figcaption><p><a href="https://www.inflearn.com/course/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EA%B0%95%EC%A2%8C">[인프런] 영리한 프로그래밍을 위한 알고리즘 강좌 by 권오흠 교수님</a></p></figcaption></figure>
 
 * 피봇은 맨 마지막 값으로 고정시켜두고, 나머지 데이터들을 피봇보다 작은 파트와, 큰 파트로 나누어 정렬시킨 뒤, 제일 마지막에 그 가운데 값과 피봇을 바꿈으로써 정렬하면 된다.&#x20;
 * 지금 검사하려는 값 j를 기준으로 생각해보자. 만약 j가 피봇 x보다 크다면 어떻게 될까? 그냥 가만히 있으면 된다.&#x20;
 * 하지만 j가 피봇 x보다 작다면, pivot 보다 작은 값들 중 가장 마지막 값이었던 i 의 인덱스를 하나 증가시켜 위치를 이동시켜주고, 해당 위치의 값 즉 pivot 보다 큰 값들 중 제일 첫번째 값과 위치를 교환하면 된다. &#x20;
 
-<figure><img src="../../../.gitbook/assets/image (21).png" alt=""><figcaption><p><a href="https://www.inflearn.com/course/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EA%B0%95%EC%A2%8C">[인프런] 영리한 프로그래밍을 위한 알고리즘 강좌 by 권오흠 교수님</a></p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (21) (1).png" alt=""><figcaption><p><a href="https://www.inflearn.com/course/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EA%B0%95%EC%A2%8C">[인프런] 영리한 프로그래밍을 위한 알고리즘 강좌 by 권오흠 교수님</a></p></figcaption></figure>
 
-<figure><img src="../../../.gitbook/assets/image (3).png" alt=""><figcaption><p><a href="https://www.inflearn.com/course/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EA%B0%95%EC%A2%8C">[인프런] 영리한 프로그래밍을 위한 알고리즘 강좌 by 권오흠 교수님</a></p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (3) (1).png" alt=""><figcaption><p><a href="https://www.inflearn.com/course/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EA%B0%95%EC%A2%8C">[인프런] 영리한 프로그래밍을 위한 알고리즘 강좌 by 권오흠 교수님</a></p></figcaption></figure>
 
 <figure><img src="../../../.gitbook/assets/image (7).png" alt=""><figcaption><p><a href="https://www.inflearn.com/course/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EA%B0%95%EC%A2%8C">[인프런] 영리한 프로그래밍을 위한 알고리즘 강좌 by 권오흠 교수님</a></p></figcaption></figure>
 
@@ -55,7 +55,7 @@ description: 퀵 소트
   * 9/10 정도의 나눔 비율만 유지되더라도 시간복잡도가 O(logn)으로 확실히 줄어들게 된다.&#x20;
 * 퀵정렬이 시간복잡도 상으로 O(n^2) 이지만 빠른 이유가 바로 이것이다. 대부분의 경우 O(logn)을 유지하기 때문!&#x20;
 
-<figure><img src="../../../.gitbook/assets/image (5).png" alt=""><figcaption><p><a href="https://www.inflearn.com/course/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EA%B0%95%EC%A2%8C">[인프런] 영리한 프로그래밍을 위한 알고리즘 강좌 by 권오흠 교수님</a></p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (5) (1).png" alt=""><figcaption><p><a href="https://www.inflearn.com/course/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EA%B0%95%EC%A2%8C">[인프런] 영리한 프로그래밍을 위한 알고리즘 강좌 by 권오흠 교수님</a></p></figcaption></figure>
 
 {% hint style="info" %}
 결국 quick sort 의 성능은 partition 이 얼마나 잘 이루어지느냐에 따라 성능상 차이가 난다.&#x20;

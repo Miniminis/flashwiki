@@ -65,7 +65,7 @@
 * 인접행렬은 무방향 그래프와 달리 비대칭이다. 셀프 엣지도 있을 수 있기 때문에 대각선에도 0이 아닌 1이 올 수 있고, 한 노드에서 다른 노드로 향하는 방향 엣지가 존재하느냐에 따라서 1이 표시되기 때문에 대각선을 기준으로 대칭이 아니다.&#x20;
 * 인접 리스트는 m개의 노드를 가지게 된다. 한 노드에서 다른 노드로 향하는 경우에만 연결 리스트로 구성되기 때문에 중복없이 m개의 노드만 표시된다.&#x20;
 
-<figure><img src="../../../.gitbook/assets/image (41).png" alt=""><figcaption><p><a href="https://www.inflearn.com/course/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EA%B0%95%EC%A2%8C">[인프런] 영리한 프로그래밍을 위한 알고리즘 강좌 by 권오흠 교수님</a></p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (41) (2).png" alt=""><figcaption><p><a href="https://www.inflearn.com/course/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EA%B0%95%EC%A2%8C">[인프런] 영리한 프로그래밍을 위한 알고리즘 강좌 by 권오흠 교수님</a></p></figcaption></figure>
 
 ### 가중치 그래프의 인접행렬 표현
 

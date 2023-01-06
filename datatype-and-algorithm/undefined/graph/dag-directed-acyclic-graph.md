@@ -14,7 +14,7 @@ description: 방향그래프
     * 이 경우, A (전기공사)-> B (도배)처럼 방향을 정의할 수 있다.
   * 작업의 우선순위에서 방향 사이클이 만들어 진다면, 순회할 수 있게 되면서 작업이 영원히 완료되지 않게 된다. 즉, 성립될수가 없다.  &#x20;
 
-<figure><img src="../../../.gitbook/assets/image (31).png" alt=""><figcaption><p><a href="https://www.inflearn.com/course/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EA%B0%95%EC%A2%8C">[인프런] 영리한 프로그래밍을 위한 알고리즘 강좌 by 권오흠 교수님</a></p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (31) (2).png" alt=""><figcaption><p><a href="https://www.inflearn.com/course/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EA%B0%95%EC%A2%8C">[인프런] 영리한 프로그래밍을 위한 알고리즘 강좌 by 권오흠 교수님</a></p></figcaption></figure>
 
 
 
@@ -22,7 +22,7 @@ description: 방향그래프
 
 * DAG의 노드들을 순서화하여 정렬하는 것을 말한다. 이때 모든 에지들은 왼쪽 -> 오른쪽 순서대로 나열해야한다. 먼저 작업하는 것의 순서대로 나열하는 것!&#x20;
 
-<figure><img src="../../../.gitbook/assets/image (35).png" alt=""><figcaption><p><a href="https://www.inflearn.com/course/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EA%B0%95%EC%A2%8C">[인프런] 영리한 프로그래밍을 위한 알고리즘 강좌 by 권오흠 교수님</a></p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (35) (2).png" alt=""><figcaption><p><a href="https://www.inflearn.com/course/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EA%B0%95%EC%A2%8C">[인프런] 영리한 프로그래밍을 위한 알고리즘 강좌 by 권오흠 교수님</a></p></figcaption></figure>
 
 ### 구현하기
 
