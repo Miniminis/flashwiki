@@ -1,6 +1,6 @@
 # Table of contents
 
-* [🧙 flashwiki](README.md)
+* [🧙 이상한 나라의 개발자 할머니](README.md)
 
 ## 🗣 DEVTALK
 
