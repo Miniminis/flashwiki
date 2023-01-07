@@ -31,6 +31,7 @@
 * [🧓 Career](devtalk/career/README.md)
   * [비전공자에서 2억받는 아마존 엔지니어가 되기까지](devtalk/career/2.md)
   * [취업기 모음](devtalk/career/undefined.md)
+* [🧪 QnA](devtalk/qna.md)
 
 ## ‼️ Trouble Shooting
 
