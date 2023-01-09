@@ -141,7 +141,7 @@ description: 이진 검색 트리
 * 연결 리스트에서 요소를 삭제하는 것처럼 나의 자식과 부모를 연결시켜주는 것이다.&#x20;
 * 나의 자식을 나의 위치로 끌어올리는 것이다.&#x20;
 
-<figure><img src="../../../.gitbook/assets/image (48).png" alt=""><figcaption><p><a href="https://www.inflearn.com/course/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EA%B0%95%EC%A2%8C">[인프런] 영리한 프로그래밍을 위한 알고리즘 강좌 by 권오흠 교수님</a></p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (48) (2).png" alt=""><figcaption><p><a href="https://www.inflearn.com/course/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EA%B0%95%EC%A2%8C">[인프런] 영리한 프로그래밍을 위한 알고리즘 강좌 by 권오흠 교수님</a></p></figcaption></figure>
 
 #### case 3. 자식 노드가 2개인 경우
 

@@ -146,7 +146,7 @@
   * 가용 자원의 개수를 확인하고, 요청하지 않은 것은 가용자원으로 치고
   * 가용 자원으로 프로세스를 해결 가능한지 확인한다.
 
-<figure><img src="../../.gitbook/assets/image (16) (2) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (16) (2) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 #### deadlock 발생시 recovery 방법
 

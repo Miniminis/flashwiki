@@ -57,7 +57,7 @@
 
 ## insert
 
-<figure><img src="../../../.gitbook/assets/image (7) (1).png" alt=""><figcaption><p><a href="https://www.inflearn.com/course/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EA%B0%95%EC%A2%8C">[인프런] 영리한 프로그래밍을 위한 알고리즘 강좌 by 권오흠 교수님</a></p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (7) (1) (4).png" alt=""><figcaption><p><a href="https://www.inflearn.com/course/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EA%B0%95%EC%A2%8C">[인프런] 영리한 프로그래밍을 위한 알고리즘 강좌 by 권오흠 교수님</a></p></figcaption></figure>
 
 * 위반될 가능성이 있는 조건들&#x20;
   * 2번째 조건 : 루트 노드는 블랙이어야 한다.&#x20;
@@ -82,11 +82,11 @@
 * 최악의 경우, 이때 조상의 조상노드가 이미 레드여서 조상의 조상 p\[c] 와 c가 같은 레드 색을 갖게 되는 경우인데, 이 경우가 바로 위에서 말한 레드 트리를 한 쌍으로 루트까지 계속 올려주는 경우를 말한다.&#x20;
 * 루트까지 가게되는 경우가 최악이지만, 그 경우에도 간단하게 루트 노드의 색만 바꾸어주면 해결된다. &#x20;
 
-<figure><img src="../../../.gitbook/assets/image (44).png" alt=""><figcaption><p><a href="https://www.inflearn.com/course/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EA%B0%95%EC%A2%8C">[인프런] 영리한 프로그래밍을 위한 알고리즘 강좌 by 권오흠 교수님</a></p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (44) (2).png" alt=""><figcaption><p><a href="https://www.inflearn.com/course/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EA%B0%95%EC%A2%8C">[인프런] 영리한 프로그래밍을 위한 알고리즘 강좌 by 권오흠 교수님</a></p></figcaption></figure>
 
 #### case 2, 3. z의 삼촌이 black 인 경우
 
-<figure><img src="../../../.gitbook/assets/image (47).png" alt=""><figcaption><p><a href="https://www.inflearn.com/course/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EA%B0%95%EC%A2%8C">[인프런] 영리한 프로그래밍을 위한 알고리즘 강좌 by 권오흠 교수님</a></p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (47) (2).png" alt=""><figcaption><p><a href="https://www.inflearn.com/course/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EA%B0%95%EC%A2%8C">[인프런] 영리한 프로그래밍을 위한 알고리즘 강좌 by 권오흠 교수님</a></p></figcaption></figure>
 
 * case 2. z가 부모의 오른쪽 자식인 경우
   * p\[z] 에 대해서 left rotation 을 해서 경우 3로 바꾸어준다.&#x20;
@@ -155,7 +155,7 @@
 
 #### 케이스 1. w가 red 인 경우
 
-<figure><img src="../../../.gitbook/assets/image (45).png" alt=""><figcaption><p><a href="https://www.inflearn.com/course/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EA%B0%95%EC%A2%8C">[인프런] 영리한 프로그래밍을 위한 알고리즘 강좌 by 권오흠 교수님</a></p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (45) (2).png" alt=""><figcaption><p><a href="https://www.inflearn.com/course/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EA%B0%95%EC%A2%8C">[인프런] 영리한 프로그래밍을 위한 알고리즘 강좌 by 권오흠 교수님</a></p></figcaption></figure>
 
 * w가 red 이므로 w의 자식들은 black 일수밖에 없고,&#x20;
 * w를 black 으로, p\[x] 를 red 로 바꾼 뒤에,&#x20;

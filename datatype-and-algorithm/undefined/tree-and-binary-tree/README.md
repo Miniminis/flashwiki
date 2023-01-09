@@ -66,7 +66,7 @@ description: 트리와 이진트리
 
 ## full and complete binary tree
 
-<figure><img src="../../../.gitbook/assets/image (43).png" alt=""><figcaption><p><a href="https://www.inflearn.com/course/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EA%B0%95%EC%A2%8C">[인프런] 영리한 프로그래밍을 위한 알고리즘 강좌 by 권오흠 교수님</a></p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (43) (1).png" alt=""><figcaption><p><a href="https://www.inflearn.com/course/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EA%B0%95%EC%A2%8C">[인프런] 영리한 프로그래밍을 위한 알고리즘 강좌 by 권오흠 교수님</a></p></figcaption></figure>
 
 * full binary tree : 모든 레벨에서 노드가 꽉꽉 차있는 트리&#x20;
 * complete binary tree : 마지막 레벨을 제외하고는 노드가 가득 차있어야 하며, 비어있는 노드는 오른쪽에서부터 연속된 몇개의 노드만 해당된다.&#x20;
@@ -123,11 +123,11 @@ description: 트리와 이진트리
 * post order : 왼쪽 서브 트리 -> 오른쪽 서브 트리 -> 루트 방문
   * 위의 예시에서 보면, 2 -> 5 -> 3 -> 8 -> 7 -> 5
 
-<figure><img src="../../../.gitbook/assets/image (13) (1) (2).png" alt=""><figcaption><p><a href="https://www.inflearn.com/course/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EA%B0%95%EC%A2%8C">[인프런] 영리한 프로그래밍을 위한 알고리즘 강좌 by 권오흠 교수님</a></p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (13) (1) (2) (1).png" alt=""><figcaption><p><a href="https://www.inflearn.com/course/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EA%B0%95%EC%A2%8C">[인프런] 영리한 프로그래밍을 위한 알고리즘 강좌 by 권오흠 교수님</a></p></figcaption></figure>
 
 ### expression tree 의 순회
 
-<figure><img src="../../../.gitbook/assets/image (28) (2).png" alt=""><figcaption><p><a href="https://www.inflearn.com/course/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EA%B0%95%EC%A2%8C">[인프런] 영리한 프로그래밍을 위한 알고리즘 강좌 by 권오흠 교수님</a></p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (28) (2) (1).png" alt=""><figcaption><p><a href="https://www.inflearn.com/course/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EA%B0%95%EC%A2%8C">[인프런] 영리한 프로그래밍을 위한 알고리즘 강좌 by 권오흠 교수님</a></p></figcaption></figure>
 
 * inorder 순회하면 아래와 같이 출력된다.&#x20;
   * x + y \* a + b / c&#x20;
@@ -143,7 +143,7 @@ description: 트리와 이진트리
 * 동일 레벨에서는 왼쪽에서 오른쪽 순서로 방문하며,&#x20;
 * 큐를 이용하여 구현한다.&#x20;
 
-<figure><img src="../../../.gitbook/assets/image (46).png" alt=""><figcaption><p><a href="https://www.inflearn.com/course/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EA%B0%95%EC%A2%8C">[인프런] 영리한 프로그래밍을 위한 알고리즘 강좌 by 권오흠 교수님</a></p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (46) (2).png" alt=""><figcaption><p><a href="https://www.inflearn.com/course/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EA%B0%95%EC%A2%8C">[인프런] 영리한 프로그래밍을 위한 알고리즘 강좌 by 권오흠 교수님</a></p></figcaption></figure>
 
 * 방문 순서는 아래와 같다.&#x20;
   * 루트 노드이자 시작점인 3을 큐에 넣는다.&#x20;

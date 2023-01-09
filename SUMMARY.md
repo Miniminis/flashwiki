@@ -98,6 +98,9 @@
 ## 🍡 Datatype and Algorithm
 
 * [👾 자료구조/알고리즘 위키](datatype-and-algorithm/undefined/README.md)
+  * [Big-O](datatype-and-algorithm/undefined/big-o/README.md)
+    * [빅오표기법의 문제풀이](datatype-and-algorithm/undefined/big-o/undefined.md)
+    * [피보나치 수열의 시간복잡도](datatype-and-algorithm/undefined/big-o/undefined-1.md)
   * [Math](datatype-and-algorithm/undefined/math/README.md)
     * [순열과 조합](datatype-and-algorithm/undefined/math/undefined/README.md)
       * [백준 15649 N과 M](datatype-and-algorithm/undefined/math/undefined/15649-n-m.md)

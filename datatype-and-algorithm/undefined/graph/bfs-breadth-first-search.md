@@ -62,7 +62,7 @@ description: 너비 우선 순회
 
 ## BFS로 최단경로 구하기
 
-<figure><img src="../../../.gitbook/assets/image (2) (9).png" alt=""><figcaption><p><a href="https://www.inflearn.com/course/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EA%B0%95%EC%A2%8C">[인프런] 영리한 프로그래밍을 위한 알고리즘 강좌 by 권오흠 교수님</a></p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (2) (9) (1).png" alt=""><figcaption><p><a href="https://www.inflearn.com/course/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EA%B0%95%EC%A2%8C">[인프런] 영리한 프로그래밍을 위한 알고리즘 강좌 by 권오흠 교수님</a></p></figcaption></figure>
 
 * 에지를 경로로 간주한다.&#x20;
 * 출발점 S로부터 레벨 1인 L1까지의 길이는 당연히 1이다. S와 인접한 레벨 1은 거리가 1이기 때문이다.&#x20;

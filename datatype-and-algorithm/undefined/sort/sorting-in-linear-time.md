@@ -42,7 +42,7 @@ description: 선형시간 정렬 알고리즘
 * 그 다음 마지막 값인 0을 뽑는다. 0은 2개가 존재하니, 2번째 자리에 두면 안전하다. 다시 0에 대한 카운터를 1 줄인다.&#x20;
 * 위의 과정을 반복하면 정렬 완성이다.&#x20;
 
-<figure><img src="../../../.gitbook/assets/image (16).png" alt=""><figcaption><p><a href="https://www.inflearn.com/course/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EA%B0%95%EC%A2%8C">[인프런] 영리한 프로그래밍을 위한 알고리즘 강좌 by 권오흠 교수님</a></p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (16) (2).png" alt=""><figcaption><p><a href="https://www.inflearn.com/course/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EA%B0%95%EC%A2%8C">[인프런] 영리한 프로그래밍을 위한 알고리즘 강좌 by 권오흠 교수님</a></p></figcaption></figure>
 
 ## 시간복잡도&#x20;
 

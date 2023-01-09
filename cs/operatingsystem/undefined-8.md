@@ -38,7 +38,7 @@
 * 프로세스가 도착하면 수용 가능한 hole 을 할당한다.
 * 따라서 운영체제는 다음의 정보를 항상 숙지하고 있다. → 1) 할당 공간 2) 가용공간 hole
 
-<figure><img src="../../.gitbook/assets/image (15) (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (15) (2) (2).png" alt=""><figcaption></figcaption></figure>
 
 #### dynamic storage allocation problem
 
@@ -121,7 +121,7 @@
 * page table 자체를 page 로 구성한다.
 * 사용되지 않는 주소 공간에 대한 outer page table의 엔트리 값은 null 이다.
 
-<figure><img src="../../.gitbook/assets/image (3) (6).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (3) (6) (1).png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../../.gitbook/assets/image (8) (4).png" alt=""><figcaption></figcaption></figure>
 
