@@ -1,6 +1,6 @@
 # 피보나치 수열의 시간복잡도
 
-<figure><img src="../../../.gitbook/assets/image (8).png" alt=""><figcaption><p><a href="https://www.youtube.com/user/damazzang/videos">[유튜브] 엔지니어 대한민국</a></p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (8) (8).png" alt=""><figcaption><p><a href="https://www.youtube.com/user/damazzang/videos">[유튜브] 엔지니어 대한민국</a></p></figcaption></figure>
 
 피보나치 수열은 함수의 매 수행마다 2개씩 호출이 늘어나므로 O(2^n)의 시간복잡도를 갖는다.&#x20;
 

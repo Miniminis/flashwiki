@@ -32,6 +32,7 @@
   * [비전공자에서 2억받는 아마존 엔지니어가 되기까지](devtalk/career/2.md)
   * [취업기 모음](devtalk/career/undefined.md)
 * [🧪 QnA](devtalk/qna.md)
+* [✍ Tech Blogs](devtalk/tech-blogs.md)
 
 ## ‼️ Trouble Shooting
 
@@ -101,6 +102,7 @@
   * [Big-O](datatype-and-algorithm/undefined/big-o/README.md)
     * [빅오표기법의 문제풀이](datatype-and-algorithm/undefined/big-o/undefined.md)
     * [피보나치 수열의 시간복잡도](datatype-and-algorithm/undefined/big-o/undefined-1.md)
+  * [Bit Operation](datatype-and-algorithm/undefined/bit-operation.md)
   * [Math](datatype-and-algorithm/undefined/math/README.md)
     * [순열과 조합](datatype-and-algorithm/undefined/math/undefined/README.md)
       * [백준 15649 N과 M](datatype-and-algorithm/undefined/math/undefined/15649-n-m.md)
@@ -127,9 +129,17 @@
     * [백준11279 최대힙](datatype-and-algorithm/undefined/heap/11279.md)
     * [백준1927 최소힙](datatype-and-algorithm/undefined/heap/1927.md)
   * [Deque](datatype-and-algorithm/undefined/deque.md)
-  * [Tree and binary tree](datatype-and-algorithm/undefined/tree-and-binary-tree/README.md)
+  * [Tree and Binary tree](datatype-and-algorithm/undefined/tree-and-binary-tree/README.md)
+    * [Tries](datatype-and-algorithm/undefined/tree-and-binary-tree/tries.md)
     * [Red-Black Tree](datatype-and-algorithm/undefined/tree-and-binary-tree/red-black-tree.md)
     * [Binary Search Tree](datatype-and-algorithm/undefined/tree-and-binary-tree/binary-search-tree.md)
+  * [Graph](datatype-and-algorithm/undefined/graph/README.md)
+    * [MST 2 - prim 의 알고리즘](datatype-and-algorithm/undefined/graph/mst-2-prim.md)
+    * [MST 1 - Kruskal 의 알고리즘](datatype-and-algorithm/undefined/graph/mst-1-kruskal.md)
+    * [MST, minumum spanning tree](datatype-and-algorithm/undefined/graph/mst-minumum-spanning-tree.md)
+    * [DAG, Directed Acyclic Graph](datatype-and-algorithm/undefined/graph/dag-directed-acyclic-graph.md)
+    * [DFS, Depth First Search](datatype-and-algorithm/undefined/graph/dfs-depth-first-search.md)
+    * [BFS, Breadth First Search](datatype-and-algorithm/undefined/graph/bfs-breadth-first-search.md)
   * [Recursion](datatype-and-algorithm/undefined/recursion-1.md)
     * [N Queens problem](datatype-and-algorithm/undefined/recursion-1/n-queens-problem.md)
     * [counting cells in a blob](datatype-and-algorithm/undefined/recursion-1/counting-cells-in-a-blob.md)
@@ -155,13 +165,6 @@
     * [LCS, Longest Common Subsequence](datatype-and-algorithm/undefined/dynamic-programming/lcs-longest-common-subsequence.md)
     * [matrix chain](datatype-and-algorithm/undefined/dynamic-programming/matrix-chain.md)
     * [행렬 경로 문제](datatype-and-algorithm/undefined/dynamic-programming/undefined.md)
-  * [Graph](datatype-and-algorithm/undefined/graph/README.md)
-    * [MST 2 - prim 의 알고리즘](datatype-and-algorithm/undefined/graph/mst-2-prim.md)
-    * [MST 1 - Kruskal 의 알고리즘](datatype-and-algorithm/undefined/graph/mst-1-kruskal.md)
-    * [MST, minumum spanning tree](datatype-and-algorithm/undefined/graph/mst-minumum-spanning-tree.md)
-    * [DAG, Directed Acyclic Graph](datatype-and-algorithm/undefined/graph/dag-directed-acyclic-graph.md)
-    * [DFS, Depth First Search](datatype-and-algorithm/undefined/graph/dfs-depth-first-search.md)
-    * [BFS, Breadth First Search](datatype-and-algorithm/undefined/graph/bfs-breadth-first-search.md)
 * [🧐 이것이 코딩테스트다 2021](datatype-and-algorithm/2021/README.md)
   * [1. 출제 경향 & 파이썬 문법 부수기](datatype-and-algorithm/2021/algorithm-thisiscote-01.md)
   * [2. 그리디 알고리즘 & 구현](datatype-and-algorithm/2021/algorithm-thisiscote-02.md)
@@ -183,7 +186,7 @@
 
 ## ☕ Java
 
-* [Page 1](java/page-1.md)
+* [ArrayList 초기화 방법들](java/page-1.md)
 
 ## 🍃 Spring
 

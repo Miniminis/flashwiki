@@ -2,13 +2,14 @@
 description: 트리와 이진트리
 ---
 
-# Tree and binary tree
+# Tree and Binary tree
 
 ## 트리 tree
 
 <figure><img src="../../../.gitbook/assets/image (34) (2).png" alt=""><figcaption><p><a href="https://www.inflearn.com/course/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EA%B0%95%EC%A2%8C">[인프런] 영리한 프로그래밍을 위한 알고리즘 강좌 by 권오흠 교수님</a></p></figcaption></figure>
 
 * 계층적인 구조를 표현할 때 사용하는 자료구조이다.&#x20;
+* 그래프의 일종이라고 볼 수도 있다. 유입되는 라인이 1개이고, 방향성을 가지지 않는 그래프라고도 말할 수 있다. &#x20;
 * 사용
   * 가계도, 조직도, 디렉토리와 서브디렉토리 구조 등
 
@@ -32,6 +33,15 @@ description: 트리와 이진트리
 * 노드의 개수가 n개인 어떤 트리는 반드시 n-1개의 엣지를 갖는다.&#x20;
   * 노드의 개수가 4개이면, 반드시 3개의 연결선, 엣지를 갖는다.&#x20;
 * 루트에서 어떤 노드로 가는 경로는 유일하다. 또한 임의의 두 노드간의 경로도 유일하다. (같은 노드를 두번 이상 방문하지 않는다는 전제 하에!)&#x20;
+
+### 종류&#x20;
+
+* tree : 계층구조를 갖는 자료구조
+* binary tree : 이진트리. 최대 2개의 자식을 갖는다.&#x20;
+* binary search tree : 이진탐색트리. 루트를 기준으로 루트보다 작으면 왼쪽, 크면 오른쪽에 위치한다.&#x20;
+* complete binary tree : 완전이진트리. 마지막 레벨을 제외하고는 모든 노드가 꽉차있는 트리. 꽉 차있지 않은 마지막 레벨에서도 왼쪽부터 오른쪽으로 노드가 쌓여야한다는 특징이 있다.&#x20;
+* full binary tree : 완전이진트리. 마지막 노드를 제외하고는 모든 노드가 꽉 차있는 트리. 마지막 노드는 2개의 자식을 갖거나, 아예 갖지 않는다.&#x20;
+* perfect binary tree : 완전이진트리. 모든 노드가 꽉차있는 트리. 트리의 높이가 h일 때, 2^h -1 개의 노드를 갖는다.&#x20;
 
 
 
@@ -68,12 +78,13 @@ description: 트리와 이진트리
 
 <figure><img src="../../../.gitbook/assets/image (43) (1).png" alt=""><figcaption><p><a href="https://www.inflearn.com/course/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EA%B0%95%EC%A2%8C">[인프런] 영리한 프로그래밍을 위한 알고리즘 강좌 by 권오흠 교수님</a></p></figcaption></figure>
 
-* full binary tree : 모든 레벨에서 노드가 꽉꽉 차있는 트리&#x20;
+* perfect binary tree :  모든 레벨에서 노드가 꽉꽉 차있는 트리
+  * 높이가 h인 perfect binary tree 는 2^h-1개의 노드를 가진다.&#x20;
+* full binary tree : 자식을 2개만 갖거나 아예 갖지 않는 트리 &#x20;
 * complete binary tree : 마지막 레벨을 제외하고는 노드가 가득 차있어야 하며, 비어있는 노드는 오른쪽에서부터 연속된 몇개의 노드만 해당된다.&#x20;
   * 힙은 기본적으로 complete binary tree 여야 한다.&#x20;
-* 높이가 h인 full binary tree 는 2^h-1개의 노드를 가진다.&#x20;
 * 노드가 N개인 full or complete 이진 트리의 높이는 O(logN) 이 된다.&#x20;
-  * 일반적인 이진트리는 높이가 최악의 경우 N이 될 수 있다.&#x20;
+* 일반적인 이진트리는 높이가 최악의 경우 N이 될 수 있다.&#x20;
 
 ## 이진 트리의 표현
 
@@ -92,10 +103,10 @@ description: 트리와 이진트리
 ## 이진 트리의 순회 (traversal)&#x20;
 
 * 순회 : 이진 트리의 모든 노드를 방문하는 일&#x20;
-* 중순위 순회, inorder &#x20;
-* 선순위 순회, preorder&#x20;
-* 후순위 순회, postorder
-* 레벨 오더 순회, level-order&#x20;
+* 중순위 순회, inorder  : 왼쪽 -> 루트 -> 오른쪽&#x20;
+* 선순위 순회, preorder : 루트 -> 왼쪽 -> 오른쪽 &#x20;
+* 후순위 순회, postorder: 왼쪽 -> 오른쪽 -> 루트&#x20;
+* 레벨 오더 순회, level-order : (루트가 존재하는) 1레벨 -> 2레벨 -> 3레벨 ... &#x20;
 
 ### 중순위 순회 in-order traversal&#x20;
 
@@ -116,7 +127,7 @@ description: 트리와 이진트리
 
 * x의 왼쪽을 재귀함수로 호출하고, 현재의 노드 x를 출력한 뒤, 노드 x의 오른쪽 서브트리를 재귀로 다시 호출한다.&#x20;
 
-### 후순위 순회 post order 와 선순위순회 pre order&#x20;
+### 선순위순회 pre order와 후순위 순회 post order&#x20;
 
 * pre order : 먼저 루트 방문 -> 왼쪽 서브 트리 -> 오른쪽 서브트리
   * 위의 예에서 보면, 5 -> 3 -> 2 -> 5 -> 7 -> 8

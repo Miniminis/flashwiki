@@ -29,7 +29,7 @@ description: 이진 검색 트리
 
 * 이진 트리이면서&#x20;
 * 각 노드에 하나의 키를 저장한다.&#x20;
-* 각 노드 v에 대해서 그 노드의 왼쪽 부트리에 있는 키들은 key\[v]보다 작거나 같고, 오른쪽 부트리에 있는 키들은 같거나 크다.&#x20;
+* **각 노드 v에 대해서 그 노드의 왼쪽 부트리에 있는 키들은 key\[v]보다 작거나 같고, 오른쪽 부트리에 있는 키들은 같거나 크다.**&#x20;
 
 <figure><img src="../../../.gitbook/assets/image (12) (1).png" alt=""><figcaption><p><a href="https://www.inflearn.com/course/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EA%B0%95%EC%A2%8C">[인프런] 영리한 프로그래밍을 위한 알고리즘 강좌 by 권오흠 교수님</a></p></figcaption></figure>
 

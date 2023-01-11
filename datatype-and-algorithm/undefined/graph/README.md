@@ -1,6 +1,6 @@
 # Graph
 
-## 개념과 표현
+## 개념
 
 * 그래프 G=(V, E)&#x20;
 * V : 노드 혹은 정점&#x20;
@@ -13,13 +13,21 @@
 
 
 
-### 무방향 그래프
+## 종류
+
+* 무방향 그래프 vs. 방향 그래프
+* cyclic graph vs. acyclic graph &#x20;
+
+
+
+### 무방향 그래프, undirected graph
 
 <figure><img src="../../../.gitbook/assets/image (45) (1).png" alt=""><figcaption><p><a href="https://www.inflearn.com/course/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EA%B0%95%EC%A2%8C">[인프런] 영리한 프로그래밍을 위한 알고리즘 강좌 by 권오흠 교수님</a></p></figcaption></figure>
 
-### 방향 그래프&#x20;
+### 방향 그래프, directed graph &#x20;
 
-* 에지(u, v))는 u로부터 v로의 방향을 가진다.&#x20;
+* 에지(u, v))는 u로부터 v로의 방향을 가진다.
+* 트리도 방향 그래프의 일종이다. &#x20;
 
 
 
@@ -31,8 +39,8 @@
 
 ## 그래프의 표현
 
-1. 인접행렬&#x20;
-2. 인접리스트&#x20;
+1. 인접행렬, adjacency matrix
+2. 인접리스트, adjacency list&#x20;
 
 
 

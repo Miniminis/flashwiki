@@ -1,3 +1,3 @@
-# Java page
+# ArrayList 초기화 방법들
 
-test from remote 
+{% embed url="https://codechacha.com/ko/java-collections-arraylist-initialization/" %}
