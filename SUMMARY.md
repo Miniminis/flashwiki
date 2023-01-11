@@ -84,6 +84,7 @@
   * [File Systems Implementation](cs/operatingsystem/file-systems-implementation.md)
   * [Disk Management & Scheduling](cs/operatingsystem/disk-management-and-scheduling.md)
 * [🐧 Linux](cs/linux/README.md)
+  * [Text Manipulation](cs/linux/text-manipulation.md)
   * [linux basic commands](cs/linux/linux-basic-commands.md)
 * [🖥 프로그래밍의 기초 (Go)](cs/go/README.md)
   * [트랜지스터, Trangister](cs/go/undefined.md)
