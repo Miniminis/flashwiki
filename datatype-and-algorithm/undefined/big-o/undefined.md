@@ -16,7 +16,7 @@ description: 아래 코드들의 시간복잡도를 구한다.
 * g가 루트 n이 될 때까지 반복문을 수행하고 있다.&#x20;
 * 따라서 시간복잡도는 O(sqrt(n)) 가 된다.&#x20;
 
-<figure><img src="../../../.gitbook/assets/image (1).png" alt=""><figcaption><p><a href="https://www.youtube.com/user/damazzang/videos">[유튜브] 엔지니어 대한민국</a></p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1) (7).png" alt=""><figcaption><p><a href="https://www.youtube.com/user/damazzang/videos">[유튜브] 엔지니어 대한민국</a></p></figcaption></figure>
 
 * 만약 이진탐색트리가 균형이 맞지 않는다면, 최악의 경우, 얼마만큼의 시간복잡도를 갖게 되는가?&#x20;
 * 이진탐색트리의 경우, 최대 2개의 자식을 가진 노드가 층을 이루는 구조이다. 그런데 이때, 각 노드가 각각 하나의 자식을 가진채로 길게 한쪽으로만 늘어서 있다면, 결국 시간복잡도는 노드의 개수만큼 늘어나게 된다.&#x20;
