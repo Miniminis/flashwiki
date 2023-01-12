@@ -43,7 +43,7 @@
 ## 🏗 computer science <a href="#cs" id="cs"></a>
 
 * [🖥 컴퓨터 구조](cs/computerarchitecture/README.md)
-  * [컴퓨터](cs/computerarchitecture/undefined.md)
+  * [그래서 컴퓨터는 어떻게 동작하나요?](cs/computerarchitecture/undefined.md)
   * [컴퓨터의 구성](cs/computerarchitecture/computer-01.md)
   * [컴퓨터의 역사](cs/computerarchitecture/computer-02.md)
   * [컴퓨터 구성요소의 기능 및 이해](cs/computerarchitecture/computer-03.md)
