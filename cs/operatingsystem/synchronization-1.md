@@ -40,7 +40,7 @@
 * 둘다 들어가고 싶지 않다면, turn 대로 들어간다.
 * 발생할 수 있는 문제점 : busy waiting = spin lock
 
-<figure><img src="../../.gitbook/assets/image (4) (2) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (4) (2) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### Synchronization Hardware
 

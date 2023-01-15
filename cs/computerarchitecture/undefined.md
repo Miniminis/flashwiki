@@ -29,7 +29,7 @@
 ### 2-3. AND gate&#x20;
 
 * 두 입력값이 모두 존재하야만 켜지는 게이트&#x20;
-* ![](<../../.gitbook/assets/image (4).png>)
+* ![](<../../.gitbook/assets/image (4) (2).png>)
 
 
 

@@ -88,7 +88,7 @@
   * page table length register 는 테이블의 크기를 보관한다.
   * 따라서 모든 메모리 접근 연산에는 2번의 memory access 가 필요한데, 한번은 page table 에 접근하기 위해서, 1번은 실제 데이터와 인스트럭션에 접근하기 위해서 필요하다.
 
-<figure><img src="../../.gitbook/assets/image (4) (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (4) (2) (1).png" alt=""><figcaption></figcaption></figure>
 
 * 속도 향상을 위해서 `associative register` OR `translation look-aside` buffer 라고 불리는 고속의 lookup hardware cache 를 사용한다.
   * associative resiters (TLD) : parallel search 가 가능하다. page table 테이블 중 일부만 존재한다. 없으면 page table 로 이동함

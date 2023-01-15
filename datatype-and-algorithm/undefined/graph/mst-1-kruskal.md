@@ -49,7 +49,7 @@ description: MST 모든 노드들을 잇는 최소비용의 경로를 구하는 
   * {i}, {c} -> 서로 다른 집합이므로 또 합쳐준다.&#x20;
   *
 
-<figure><img src="../../../.gitbook/assets/image (54).png" alt=""><figcaption><p><a href="https://www.inflearn.com/course/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EA%B0%95%EC%A2%8C">[인프런] 영리한 프로그래밍을 위한 알고리즘 강좌 by 권오흠 교수님</a></p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (54) (1).png" alt=""><figcaption><p><a href="https://www.inflearn.com/course/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EA%B0%95%EC%A2%8C">[인프런] 영리한 프로그래밍을 위한 알고리즘 강좌 by 권오흠 교수님</a></p></figcaption></figure>
 
 <figure><img src="../../../.gitbook/assets/image (2) (1) (3).png" alt=""><figcaption><p><a href="https://www.inflearn.com/course/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EA%B0%95%EC%A2%8C">[인프런] 영리한 프로그래밍을 위한 알고리즘 강좌 by 권오흠 교수님</a></p></figcaption></figure>
 
@@ -69,7 +69,7 @@ description: MST 모든 노드들을 잇는 최소비용의 경로를 구하는 
   * 각각의 노드는 하나의 부모노드 주소만 가지기 때문에 일반적인 하향식 트리 구조보다 구현하기가 훨씬 간단하다.&#x20;
     * 상향식 트리구조이기 때문에 1차원 배열로 표현할 수 있다.&#x20;
 
-<figure><img src="../../../.gitbook/assets/image (60).png" alt=""><figcaption><p><a href="https://www.inflearn.com/course/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EA%B0%95%EC%A2%8C">[인프런] 영리한 프로그래밍을 위한 알고리즘 강좌 by 권오흠 교수님</a></p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (60) (1).png" alt=""><figcaption><p><a href="https://www.inflearn.com/course/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EA%B0%95%EC%A2%8C">[인프런] 영리한 프로그래밍을 위한 알고리즘 강좌 by 권오흠 교수님</a></p></figcaption></figure>
 
 ### Find-Set(v)
 
@@ -78,7 +78,7 @@ description: MST 모든 노드들을 잇는 최소비용의 경로를 구하는 
 * 이때 시간복잡도는 트리의 높이인 h만큼 소요될 수 있으니, o(h)가 되고, h는 다시 최악의 경우, 각 트리가 일렬로 나열되어 하나의 자식이 하나의 부모와 연결된 구조로 쌓여있을 경우, n이 될 수 있다.&#x20;
   * O(h) -> O(n)
 
-<figure><img src="../../../.gitbook/assets/image (55).png" alt=""><figcaption><p><a href="https://www.inflearn.com/course/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EA%B0%95%EC%A2%8C">[인프런] 영리한 프로그래밍을 위한 알고리즘 강좌 by 권오흠 교수님</a></p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (55) (1).png" alt=""><figcaption><p><a href="https://www.inflearn.com/course/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EA%B0%95%EC%A2%8C">[인프런] 영리한 프로그래밍을 위한 알고리즘 강좌 by 권오흠 교수님</a></p></figcaption></figure>
 
 ### union(u, v)
 
@@ -136,7 +136,7 @@ description: MST 모든 노드들을 잇는 최소비용의 경로를 구하는 
 * 위의 연산과정에서 최종적으로 시간복잡도에 가장 큰 영향을 미치는 것은 결국 O(mlogm)이고 이는 다시 표현하자면 O(mlogn)으로 표현할 수 있다.&#x20;
   * 엣지의 개수 m은 많아봐야 n(n-1)/2 개를 넘을 수 없으므로, mlogm = mlogn^2 = 2mlogn = mlogn &#x20;
 
-<figure><img src="../../../.gitbook/assets/image (53).png" alt=""><figcaption><p><a href="https://www.inflearn.com/course/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EA%B0%95%EC%A2%8C">[인프런] 영리한 프로그래밍을 위한 알고리즘 강좌 by 권오흠 교수님</a></p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (53) (1).png" alt=""><figcaption><p><a href="https://www.inflearn.com/course/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EA%B0%95%EC%A2%8C">[인프런] 영리한 프로그래밍을 위한 알고리즘 강좌 by 권오흠 교수님</a></p></figcaption></figure>
 
 <figure><img src="../../../.gitbook/assets/image (36) (3).png" alt=""><figcaption><p><a href="https://www.inflearn.com/course/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EA%B0%95%EC%A2%8C">[인프런] 영리한 프로그래밍을 위한 알고리즘 강좌 by 권오흠 교수님</a></p></figcaption></figure>
 

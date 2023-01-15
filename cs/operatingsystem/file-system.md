@@ -55,7 +55,7 @@
 * b의 fd를 가져오고 나면 read(fd) 연산을 통해 b의 콘텐츠를 읽어온다.
 * 이 때, 기존의 paging system 에서와는 다르게 file system의 경우, 명령어가 시스템콜로 이루어져있어서, 운영체제에 의해 파일 시스템 접근이 이루어지게 된다. 그렇기 때문에 LRU, LFU 등의 알고리즘도 사용이 가능하게 된다.
 
-<figure><img src="../../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (1) (3).png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../../.gitbook/assets/image (5) (3) (3).png" alt=""><figcaption></figcaption></figure>
 

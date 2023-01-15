@@ -135,7 +135,7 @@
 
 <figure><img src="../../.gitbook/assets/image (22) (2).png" alt=""><figcaption><p>식사하는 철학자 문제 in semaphore code</p></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (1) (1) (1) (3).png" alt=""><figcaption><p>식사하는 철학자 문제 in monitor code</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (1) (3) (1).png" alt=""><figcaption><p>식사하는 철학자 문제 in monitor code</p></figcaption></figure>
 
 ### 비교 : semaphore vs. monitor
 

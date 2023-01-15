@@ -123,7 +123,7 @@
 * 실제로 삭제된 노드 y가 red 였으면 종료한다.&#x20;
 * y가 black 인 경우, RB-DELETE-FIXUP 을 호출한다.&#x20;
 
-<figure><img src="../../../.gitbook/assets/image (49).png" alt=""><figcaption><p><a href="https://www.inflearn.com/course/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EA%B0%95%EC%A2%8C">[인프런] 영리한 프로그래밍을 위한 알고리즘 강좌 by 권오흠 교수님</a></p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (49) (2).png" alt=""><figcaption><p><a href="https://www.inflearn.com/course/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EA%B0%95%EC%A2%8C">[인프런] 영리한 프로그래밍을 위한 알고리즘 강좌 by 권오흠 교수님</a></p></figcaption></figure>
 
 ### 위반 케이스에 대한 예외처리 - RB-DELETE-FIXUP(T, x)&#x20;
 
@@ -176,7 +176,7 @@
 
 #### 케이스 3. w가 black이고 w의 왼쪽 자식이 red 인 경우
 
-<figure><img src="../../../.gitbook/assets/image (56).png" alt=""><figcaption><p><a href="https://www.inflearn.com/course/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EA%B0%95%EC%A2%8C">[인프런] 영리한 프로그래밍을 위한 알고리즘 강좌 by 권오흠 교수님</a></p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (56) (2).png" alt=""><figcaption><p><a href="https://www.inflearn.com/course/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EA%B0%95%EC%A2%8C">[인프런] 영리한 프로그래밍을 위한 알고리즘 강좌 by 권오흠 교수님</a></p></figcaption></figure>
 
 * w에 대해서 right rotation 을 한번 적용하여 w를 red로, w의 왼자식을 black 으로 바꾸는 전략이다.&#x20;
 * x의 새로운 형제w는 오른쪽 자식이 red 가 된다. 이는 4번 케이스이다.&#x20;

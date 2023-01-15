@@ -22,7 +22,7 @@ description: 아래 코드들의 시간복잡도를 구한다.
 * 이진탐색트리의 경우, 최대 2개의 자식을 가진 노드가 층을 이루는 구조이다. 그런데 이때, 각 노드가 각각 하나의 자식을 가진채로 길게 한쪽으로만 늘어서 있다면, 결국 시간복잡도는 노드의 개수만큼 늘어나게 된다.&#x20;
 * 따라서 시간복잡도는 O(n) 이 된다. &#x20;
 
-<figure><img src="../../../.gitbook/assets/image (10).png" alt=""><figcaption><p><a href="https://www.youtube.com/user/damazzang/videos">[유튜브] 엔지니어 대한민국</a></p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (10) (2).png" alt=""><figcaption><p><a href="https://www.youtube.com/user/damazzang/videos">[유튜브] 엔지니어 대한민국</a></p></figcaption></figure>
 
 * 이진탐색트리가 아닐 경우, 트리 내의 특정 요소를 찾는데 걸리는 시간은 얼마일까?&#x20;
 * 이진탐색트리가 아닌 경우, 최악의 경우, 특정 요소를 찾기 위해서는 모든 노드를 스캔해야할 수 있다.&#x20;
