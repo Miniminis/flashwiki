@@ -19,7 +19,7 @@
 
 * A와 B 두 개가 모두 켜져있어야 꺼지는 게이트&#x20;
 * AND gate 와 반대이다.
-* &#x20;![](<../../.gitbook/assets/image (1) (3) (1).png>)
+* &#x20;![](<../../.gitbook/assets/image (1) (3).png>)
 
 ### 2-2. NOT gate
 

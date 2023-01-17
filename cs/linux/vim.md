@@ -229,7 +229,7 @@ description: 전 세계 개발자가 가장 많이 쓰는 에디터 중 하나
 
 ## 10. 유용한 기능들&#x20;
 
-<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption><p>vim [file1] [file2] -d</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (50).png" alt=""><figcaption><p>vim [file1] [file2] -d</p></figcaption></figure>
 
 * 자동완성 : insert mode 에서 ctrl + p&#x20;
   * 미리 정의된 변수 등 프로그래밍 파일 내에서 유용하게 사용&#x20;
@@ -413,7 +413,7 @@ description: 전 세계 개발자가 가장 많이 쓰는 에디터 중 하나
 * ctags --list-languages
   * ctags 에서 지원되는 언어 목록&#x20;
 
-<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption><p><a href="https://www.inflearn.com/course/%EB%A6%AC%EB%88%85%EC%8A%A4-%EC%BB%A4%EB%A7%A8%EB%93%9C%EB%9D%BC%EC%9D%B8-%ED%88%B4">인프런 강의 - 리눅스 커맨드라인 툴 (Full ver.)</a></p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (51).png" alt=""><figcaption><p><a href="https://www.inflearn.com/course/%EB%A6%AC%EB%88%85%EC%8A%A4-%EC%BB%A4%EB%A7%A8%EB%93%9C%EB%9D%BC%EC%9D%B8-%ED%88%B4">인프런 강의 - 리눅스 커맨드라인 툴 (Full ver.)</a></p></figcaption></figure>
 
 
 
