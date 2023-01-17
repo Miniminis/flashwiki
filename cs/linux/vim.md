@@ -226,4 +226,261 @@ description: 전 세계 개발자가 가장 많이 쓰는 에디터 중 하나
     * 그 후 엔터를 두번 누른다.&#x20;
   * :map \<F8> oprintf("hello\n");\<ESC>
     * F8을 누르면 hello 를 츨력하고 개행한다.&#x20;
-*
+
+## 10. 유용한 기능들&#x20;
+
+<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption><p>vim [file1] [file2] -d</p></figcaption></figure>
+
+* 자동완성 : insert mode 에서 ctrl + p&#x20;
+  * 미리 정의된 변수 등 프로그래밍 파일 내에서 유용하게 사용&#x20;
+* diff mode&#x20;
+  * 서로 비슷하지만 살짝 다른 두 파일의 내용을 비교할 때 유용하게 사용
+  * vim \[file1] \[file2] -d&#x20;
+  * or vimdiff \[file1] \[file2]&#x20;
+  * diff 설정 - :diffthis&#x20;
+  * diff 해제 - :diffoff
+  * do : 왼쪽에 있는 내용 오른쪽으로 복사
+* fold&#x20;
+  * 생성 : \[visual block 모드에서] zf&#x20;
+  * 삭제 : zd OR space &#x20;
+  * 열기 : zo
+  * 닫기 : zc&#x20;
+* 괄호 쌍 이동 : \[괄호에 커서를 놓고] %
+* 마킹
+  * 위치마킹 : m\[a-z]
+  * 마킹으로 이동 : '\[a-z]
+* man page 열기 : 단어위에 커서 놓고 k
+  * section 3 에 대한 man 페이지 열 때 : 3k
+  * :!man -a : 모든 섹션으로 보기&#x20;
+* indentation&#x20;
+  * 현재중 auto indent, ==
+  * 블록에 적용시, \[비주얼모드] =
+  * 파일 전체에 적용시, gg=G
+  * :set expandtab&#x20;
+
+## 11. vim 플러그인
+
+* vim 의 기능을 확장할 수 있는 방법&#x20;
+* 운영체제에 소프트웨어 패키지를 설치해서 사용하듯, vim 도 plugin 을 설치할 수 있다. -> vim 기능의 확장!&#x20;
+* 설치방법&#x20;
+  * \~/.vim/plugin 디렉터리에 plugin 파일(.vim) 복사
+  * 플러그인 관리자&#x20;
+    * vundle&#x20;
+    * pathogen&#x20;
+    * vim-plug &#x20;
+* 플러그인은 어디에서 찾는가?&#x20;
+  * [https://www.vim.org/scripts/index.php](https://www.vim.org/scripts/index.php)
+  * [https://vimawesome.com/](https://vimawesome.com/)
+
+## 12. man&#x20;
+
+* man page 조회&#x20;
+
+### sections&#x20;
+
+섹션에 따라서 내용이 나누어져 설명되어있다.&#x20;
+
+1. general commands&#x20;
+2. system call&#x20;
+3. library functions : C standard library&#x20;
+4. special files&#x20;
+5. file formats and conventions&#x20;
+6. games and screensavers
+7. miscellanea&#x20;
+8. system administration commands and daemons&#x20;
+
+### example
+
+* man 3 pringf
+* man -a stat&#x20;
+* apropos pthread
+  * 검색에서 포함된 모든 페이지를 보여준다.&#x20;
+* whatis pthread&#x20;
+
+### command (less)&#x20;
+
+* 종료 : q&#x20;
+* 검색
+  * /pattern
+  * ?pattern&#x20;
+* 화면이동
+  * 한 페이지 앞으로 : f, ctrl-f, space&#x20;
+  * 한페이지 뒤로 : b, ctrl-b&#x20;
+  * 한 줄 앞으로 : j, e, ctrl-e
+  * 한줄 뒤로 : k, y, ctrl-y
+
+## 13. diff&#x20;
+
+* 두 파일의 차이점을 비교하고, stdout 으로 출력한다.&#x20;
+* diff 결과를 patch command 로 적용하는 것이 가능하다.&#x20;
+
+### 자주 사용되는 옵션&#x20;
+
+* \-r, --recursive&#x20;
+  * diff 뜰 때, 디렉토리 단위로하면, 모든 파일에 대해서 반복적으로 설정해주어야 한다.&#x20;
+* \-q, --brief
+  * 변경 여부만 출력 &#x20;
+* \-u, -U NUM, --unified\[=NUM]
+  * unified context 방식으로 출력한다.
+  * 기본값은 3dnl
+* \-N, --new file
+  * 없는 파일을 빈 파일로 인식한다.&#x20;
+* \-p, --show-c-function&#x20;
+  * 변화된 블럭 함수의 이름을 출력&#x20;
+
+### example
+
+* diff -uN before.c after.c
+* diff <mark style="background-color:yellow;">-urNp</mark> dir\_a dir\_b
+* diff -q dir\_a dir\_b&#x20;
+  * echo $?
+    * 변경사항 없다면 0
+    * 변경되었다면, 1
+
+```shell
+ diff -urNp diff_a diff_b
+--- diff_a	2023-01-17 16:24:35.000000000 +0900
++++ diff_b	2023-01-17 16:27:40.000000000 +0900
+@@ -6,4 +6,4 @@ hello, vim
+ hello, vim
+ hello, vim
+ hello, vim
+-hello, vim
++hello, vim...!!!!
+```
+
+
+
+## 14. patch&#x20;
+
+* patch file (diff 의 결과물)을 파일에 적용한다.&#x20;
+
+### 자주 사용되는 옵션&#x20;
+
+* \-pNum
+  * \--strip=NUM
+* \-i patchfile&#x20;
+  * \--input-patchfile&#x20;
+* \--dry-run
+  * 가상으로 실행(적용되지 않음)
+  * 실행 결과만 출력한다.&#x20;
+* \--merge&#x20;
+  * conflict 발생시 merge&#x20;
+
+### example
+
+* patch -p0 --dry-run < test.patch&#x20;
+* patch -p3 -i test.patch&#x20;
+* patch -p0 --merge -i test.patch&#x20;
+
+## 15. ctags
+
+* 소스코드를 분석하여 tag 를 파일로 저장
+  * function 이나 variable 등을 tag 로 저장하여 vim 이 탐색하기 쉽도록 해준다.&#x20;
+  * ctags 가 없다면 vim 은 주석인지, 함수인지, 변수인지 구분해내지 못한다.&#x20;
+* vim 등의 에디터에서 소스코드 탐색이 쉽도록 한다.&#x20;
+* ctags \[options] \[files...]&#x20;
+
+### 자주 사용되는 옵션&#x20;
+
+* \-R : recurse&#x20;
+* \--exclude=\[pattern]
+
+### example
+
+* ctags -R
+* ctags -R --exclude="drivers"
+
+### vim 연동 예제&#x20;
+
+* 특정 tag 파일 지정&#x20;
+  * :set tags=../tags
+* 상위로 올라가며 tag 파일 지정&#x20;
+  * :set tags=./tags;/
+* tag 찾기&#x20;
+  * :tag rte\_eal\_init
+* 여러가지 tag 중 선택
+  * :tselect rte\_eal\_init
+  * :tselect main&#x20;
+* 여러가지 tag 중 선택 + 검색&#x20;
+  * :ts /rte\_eal\_
+* 커서 위의 단어로 tag jump 단축키 : ctrl+]
+  * :tj dump\_info&#x20;
+  * 수정하기 전에 다른 키워드로 jump 하고 싶을 때&#x20;
+  * ctrl + w + ]
+    * 창을 새로 열면서 태그 점프하면 수정된 내용을 저장하지 않아도 다른 키워드 있는 파일을 볼 수 있다.&#x20;
+* tag jump 에서 되돌아오는 단축키 : ctrl+t&#x20;
+* ctags --list-languages
+  * ctags 에서 지원되는 언어 목록&#x20;
+
+<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption><p><a href="https://www.inflearn.com/course/%EB%A6%AC%EB%88%85%EC%8A%A4-%EC%BB%A4%EB%A7%A8%EB%93%9C%EB%9D%BC%EC%9D%B8-%ED%88%B4">인프런 강의 - 리눅스 커맨드라인 툴 (Full ver.)</a></p></figcaption></figure>
+
+
+
+## 16. cscope
+
+* 소스 파일을 분석하여 파일로 저장한다.&#x20;
+  * ctags 보다 파일이름, 함수 호출하는 곳 - 호출되는 곳 등 다양한 방법으로 검색이 가능하다.&#x20;
+* 자체 사용자 인터페이스 사용이 가능하다.&#x20;
+* vim 등의 에디터에서도 연동이 가능하다.&#x20;
+
+### options
+
+* \-b : 분석 파일만 빌드한다. vim 에서 연동하기 위해서 필요하다.&#x20;
+* \-R : recursive&#x20;
+
+### example
+
+* find \`pwd\` -type f -name ".\[ch]" > csope.files&#x20;
+  * 현재 디렉토리에서 이름이 .ch 로 끝나는 타입의 파일들에 대해서 검색한다.&#x20;
+* cscope -b&#x20;
+* cscope -R
+
+### interactive mode&#x20;
+
+* cscope -R&#x20;
+* find this C symbol : symbol 검색. 원형, 함수 호출하는 부분을 포함한다.&#x20;
+* find this global definition  : 함수 선언부&#x20;
+* find functions called by this function : 입력한 함수가 호출하는 함수를 검색
+* find functions calling this function : 입력한 함수를 호출하는 부분을 검색
+* find this text string : text 검색&#x20;
+* change this text string : 텍스트 대체&#x20;
+* find this egrep pattern : extended regex pattern 으로 검색
+* find this file : 파일 이름 검색&#x20;
+* find files #including this file : 특정 파일을 #include 하는 부분 검색&#x20;
+* find assignments to this symbol : 심볼에 해당하는 부분을 검색
+
+### vim 연동 예제&#x20;
+
+* : set cscopetag
+  * ctag 파일 대신에 ctrl+] 로 tag jump 한다.&#x20;
+* :cscope (add, find, help, kill, reset, show)&#x20;
+  * a  : 심볼에 해당하는 부분 검색&#x20;
+  * c : 이 함수를 호출하는 부분 검색&#x20;
+  * d : 이 함수가 호출하는 함수 검색&#x20;
+  * e : extended regex pattern 으로 검색&#x20;
+  * f : 파일 이름 검색&#x20;
+  * g : 함수 선언부&#x20;
+  * i : 특정 파일을 $include 하는 부분 검색&#x20;
+  * s : symbol 검색 (원형, 함수 호출하는 부분 포함)&#x20;
+  * t : text 검색&#x20;
+
+## 17. strace&#x20;
+
+* system call 과 signal 을 trace 한다.&#x20;
+* 어플리케이션을 개발하다보면, 알게모르게 app - linux kernal 사이를 자주 왔다갔다 한다. -> systeml call&#x20;
+
+### option&#x20;
+
+* \-p : pid 지정. 동작 중인 프로세스에 attach 한다.&#x20;
+* \-f : 생성되는 thread 도 trace 한다.&#x20;
+* \-tt : timestamp 를 같이 출력한다.&#x20;
+* \-o : stdout 대신 입력받는 파일에 저장한다.&#x20;
+
+### example
+
+* strace ls&#x20;
+* strace -tt ls&#x20;
+* strace -tt -o output ls&#x20;
+* strace -p 1234&#x20;
+  * strace -p \`pidof \[실행중인 파일 이름]\`

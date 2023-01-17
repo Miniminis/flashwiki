@@ -43,7 +43,7 @@
 * P 연산 : 자원획득
 * V 연산 : 자원 반환
 
-<figure><img src="../../.gitbook/assets/image (1) (3) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (3) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### 문제 2. readers and writers problem
 
