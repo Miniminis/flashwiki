@@ -42,7 +42,7 @@ description: 아래 코드들의 시간복잡도를 구한다.
 * 매 로직의 실행마다 n의 값이 10분의 1씩 줄어든다.&#x20;
 * 따라서 이 로직의 시간복잡도는 O(logn)이 된다.&#x20;
 
-<figure><img src="../../../.gitbook/assets/image (3).png" alt=""><figcaption><p><a href="https://www.youtube.com/user/damazzang/videos">[유튜브] 엔지니어 대한민국</a></p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (3) (6).png" alt=""><figcaption><p><a href="https://www.youtube.com/user/damazzang/videos">[유튜브] 엔지니어 대한민국</a></p></figcaption></figure>
 
 * mergesort, quicksort는 O(nlogn)의 시간복잡도를 가지고, binarySearch() 는 O(logn) 의 시간복잡도를 가진다.&#x20;
 * 위의 경우, mergesort 에서 이미 O(blogb)의 시간이 걸리고,&#x20;

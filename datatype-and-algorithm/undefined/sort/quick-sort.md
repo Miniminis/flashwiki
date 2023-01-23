@@ -55,7 +55,7 @@ description: 퀵 소트
   * 9/10 정도의 나눔 비율만 유지되더라도 시간복잡도가 O(logn)으로 확실히 줄어들게 된다.&#x20;
 * 퀵정렬이 시간복잡도 상으로 O(n^2) 이지만 빠른 이유가 바로 이것이다. 대부분의 경우 O(logn)을 유지하기 때문!&#x20;
 
-<figure><img src="../../../.gitbook/assets/image (5) (1).png" alt=""><figcaption><p><a href="https://www.inflearn.com/course/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EA%B0%95%EC%A2%8C">[인프런] 영리한 프로그래밍을 위한 알고리즘 강좌 by 권오흠 교수님</a></p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (5) (1) (5).png" alt=""><figcaption><p><a href="https://www.inflearn.com/course/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EA%B0%95%EC%A2%8C">[인프런] 영리한 프로그래밍을 위한 알고리즘 강좌 by 권오흠 교수님</a></p></figcaption></figure>
 
 {% hint style="info" %}
 결국 quick sort 의 성능은 partition 이 얼마나 잘 이루어지느냐에 따라 성능상 차이가 난다.&#x20;

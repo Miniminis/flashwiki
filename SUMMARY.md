@@ -10,8 +10,10 @@
   * [sudo - CTO's Tech Talk 2022 컨퍼런스 1일차](devtalk/event/event-fc-sudo-20220115.md)
   * [sudo - CTO's Tech Talk 2022 컨퍼런 2일차](devtalk/event/event-fc-sudo-20220116.md)
 * [🧓 Career](devtalk/career/README.md)
+  * [IT 개발자 취업기 모음](devtalk/career/it.md)
+  * [IT 대기업 100% 합격하는 방법](devtalk/career/it-100.md)
+  * [좋은 개발자와 인맥을 만든 노하우](devtalk/career/undefined.md)
   * [비전공자에서 2억받는 아마존 엔지니어가 되기까지](devtalk/career/2.md)
-  * [취업기 모음](devtalk/career/undefined.md)
 * [🧚 Open Source](devtalk/opensource/README.md)
   * [나의 첫 opensource contribution 경험기](devtalk/opensource/opensource-hexo.md)
 * [🐣 QnA](devtalk/qna.md)
@@ -24,6 +26,14 @@
 
 ## 🏗 computer science <a href="#cs" id="cs"></a>
 
+* [👩🔬 Computer Science](cs/computer-science/README.md)
+  * [라이브러리 도입시 고민해야할 점(feat. react.js vs. vue.js)](cs/computer-science/feat.-react.js-vs.-vue.js.md)
+  * [정적 타입 시스템의 필요성](cs/computer-science/undefined.md)
+  * [도커, 컨테이너](cs/computer-science/undefined-1.md)
+  * [클라우드, Saas, IaaS, PaaS](cs/computer-science/saas-iaas-paas.md)
+  * [API](cs/computer-science/api.md)
+  * [Data Format - XML](cs/computer-science/data-format-xml.md)
+  * [Data Format - JSON](cs/computer-science/data-format-json.md)
 * [🖥 컴퓨터 구조](cs/computerarchitecture/README.md)
   * [그래서 컴퓨터는 어떻게 동작하나요?](cs/computerarchitecture/undefined.md)
   * [컴퓨터의 구성](cs/computerarchitecture/computer-01.md)

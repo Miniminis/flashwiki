@@ -63,7 +63,7 @@ description: 다익스트라 알고리즘
 
 ### relaxation&#x20;
 
-<figure><img src="../../../.gitbook/assets/image (1).png" alt=""><figcaption><p><a href="https://www.inflearn.com/course/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EA%B0%95%EC%A2%8C">[인프런] 영리한 프로그래밍을 위한 알고리즘 강좌 by 권오흠 교수님</a></p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1) (1).png" alt=""><figcaption><p><a href="https://www.inflearn.com/course/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EA%B0%95%EC%A2%8C">[인프런] 영리한 프로그래밍을 위한 알고리즘 강좌 by 권오흠 교수님</a></p></figcaption></figure>
 
 * 대부분의 single-source 최단경로 알고리즘의 기본구조&#x20;
   * 초기화 : d\[s]=0, d\[v]=∞, 𝛑\[v]=NIL
@@ -84,7 +84,7 @@ description: 다익스트라 알고리즘
 2. 몇 번이나 반복해야하는가?
    1. 최악이 경우에도 n-1 번을 넘지 않는다.  &#x20;
 
-<figure><img src="../../../.gitbook/assets/image.png" alt=""><figcaption><p><a href="https://www.inflearn.com/course/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EA%B0%95%EC%A2%8C">[인프런] 영리한 프로그래밍을 위한 알고리즘 강좌 by 권오흠 교수님</a></p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (14).png" alt=""><figcaption><p><a href="https://www.inflearn.com/course/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EA%B0%95%EC%A2%8C">[인프런] 영리한 프로그래밍을 위한 알고리즘 강좌 by 권오흠 교수님</a></p></figcaption></figure>
 
 * 그래프의 모든 노드를 거쳐서 가는 경우라고 하더라도, 엣지의 개수는 n-1을 넘을 수 없다.&#x20;
   * 최단경로에 사이클은 존재하지 않기 때문에&#x20;
@@ -93,7 +93,7 @@ description: 다익스트라 알고리즘
 
 ### bellman-ford 알고리즘&#x20;
 
-<figure><img src="../../../.gitbook/assets/image (6).png" alt=""><figcaption><p><a href="https://www.inflearn.com/course/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EA%B0%95%EC%A2%8C">[인프런] 영리한 프로그래밍을 위한 알고리즘 강좌 by 권오흠 교수님</a></p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (6) (1).png" alt=""><figcaption><p><a href="https://www.inflearn.com/course/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EA%B0%95%EC%A2%8C">[인프런] 영리한 프로그래밍을 위한 알고리즘 강좌 by 권오흠 교수님</a></p></figcaption></figure>
 
 * 반복 사이클을 n-1 번으로 고정시킴&#x20;
 * n-1번 relax 연산을 반복했음에도, 여전히 d\[v] >= d\[u] + w(u, v)가 존재한다면, 그것은 음수 사이클이 존재한다는 의미이므로 최단경로를 구할 수 없다고 return&#x20;
@@ -150,3 +150,49 @@ description: 다익스트라 알고리즘
 * 우선순위 큐를 사용하지 않고 단순하게 구현할 경우 O(n^2)&#x20;
 * 이진 힙을 우선순위 큐로 사용할 경우 O(nlogn + mlogn)&#x20;
 * fibonacci heap 을 사용하면 O(nlogn+m)에도 구현이 가능하다.&#x20;
+
+
+
+## Floyd-Warshall 알고리즘 (all-to-all)
+
+<figure><img src="../../../.gitbook/assets/image (4).png" alt=""><figcaption><p><a href="https://www.inflearn.com/course/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EA%B0%95%EC%A2%8C">[인프런] 영리한 프로그래밍을 위한 알고리즘 강좌 by 권오흠 교수님</a></p></figcaption></figure>
+
+* 동적계획법 알고리즘 중 대표적
+* 가중치 방향그래프 G=(V, E), V = {1, 2, 3,..., n}
+* 모든 노드 쌍들간의 최단경로의 길이를 구한다.&#x20;
+* d^k\[i,j]
+  * 중간에 노드 집합 {1, 2, 3, ..., k}에 속한 노드들만 거쳐서 노드 i에서 j까지 가는 최단 경로의 길이&#x20;
+  * 방문 가능한 노드들이 정해져있고, 그 노드들만 이용해서 지나는 경우를 의미한다.  &#x20;
+* d^0\[i,j]
+  * 어떠한 노드도 지나지 않고, i에서 j로 이동하는 방법의 가짓수
+  * i, j 간에 간선이 존재한다면, 그것을 제공하면 되고,&#x20;
+  * 없다면, 무한대로 처리&#x20;
+* d^k\[i,j]
+  * 중간의 노드집합 {1, 2, ... k}에 속한 노드들만 거쳐서 노드 i에서 j까지 가는 최단경로는 두 가지 경우가 있다.&#x20;
+    * 노드 k를 지나는 경우와
+    * 노드 k를 지나지 않는 경우
+  * min{d^k-1\[i,j], d^k-1\[i,k] + d^k-1\[k, j]}
+* d^n\[i,j]
+  * 아무 조건 없이 i에서 j까지 가는 최단경로&#x20;
+
+<figure><img src="../../../.gitbook/assets/image (3).png" alt=""><figcaption><p><a href="https://www.inflearn.com/course/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EA%B0%95%EC%A2%8C">[인프런] 영리한 프로그래밍을 위한 알고리즘 강좌 by 권오흠 교수님</a></p></figcaption></figure>
+
+<figure><img src="../../../.gitbook/assets/image (6).png" alt=""><figcaption><p><a href="https://www.inflearn.com/course/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EA%B0%95%EC%A2%8C">[인프런] 영리한 프로그래밍을 위한 알고리즘 강좌 by 권오흠 교수님</a></p></figcaption></figure>
+
+<figure><img src="../../../.gitbook/assets/image (7).png" alt=""><figcaption><p><a href="https://www.inflearn.com/course/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EA%B0%95%EC%A2%8C">[인프런] 영리한 프로그래밍을 위한 알고리즘 강좌 by 권오흠 교수님</a></p></figcaption></figure>
+
+* 3차원 배열 d\[k]\[i]\[j]를 만들지 않고, d\[i]\[j] 의 값에 그냥 덮어 씌워도 된다.&#x20;
+* 기존의 값은 다음 값을 계산하기 위한 재료일 뿐, 굳이 보관하고 있지 않아도 된다.&#x20;
+* 발생할 수 있는 문제점
+  * n우선으로 반복 계산이 들어가기 때문에, 실제로 i, j > k인 상황에서는 k-1번째까지의 값이 아니라, k번째까지의 값이 이미 업데이트된 상태로 계산이 되게 된다.&#x20;
+  * 하지만 문제될 것이 없는 것은 d^k\[i, k] 와 d^(k-1)\[i, k] 은 항상 같다. k가 끝점이므로, k를 지나버릴수는 없기 때문이다.&#x20;
+
+
+
+### 경로찾기&#x20;
+
+<figure><img src="../../../.gitbook/assets/image (5).png" alt=""><figcaption><p><a href="https://www.inflearn.com/course/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EA%B0%95%EC%A2%8C">[인프런] 영리한 프로그래밍을 위한 알고리즘 강좌 by 권오흠 교수님</a></p></figcaption></figure>
+
+<figure><img src="../../../.gitbook/assets/image (1).png" alt=""><figcaption><p><a href="https://www.inflearn.com/course/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EA%B0%95%EC%A2%8C">[인프런] 영리한 프로그래밍을 위한 알고리즘 강좌 by 권오흠 교수님</a></p></figcaption></figure>
+
+* 실제로 i에서 j까지 가는 데에 거치게 되는 노드들, 즉 최단경로의 경로 그 자체를 출력할 수 있게 된다.&#x20;

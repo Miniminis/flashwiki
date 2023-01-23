@@ -20,7 +20,7 @@
 
 * 만약 아래와 같은 코드가 있다면, 시간복잡도가 어떻게 될까?&#x20;
 
-<figure><img src="../../../.gitbook/assets/image (7).png" alt=""><figcaption><p><a href="https://www.youtube.com/user/damazzang/videos">[유튜브] 엔지니어 대한민국</a></p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (7) (8).png" alt=""><figcaption><p><a href="https://www.youtube.com/user/damazzang/videos">[유튜브] 엔지니어 대한민국</a></p></figcaption></figure>
 
 많은 사람들이 n2^n 이라고 생각할 수 있다. 하지만, 위의 경우는 allF(n)의 결과를 반복하면 아래와 같다.&#x20;
 

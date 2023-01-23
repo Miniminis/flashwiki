@@ -42,7 +42,7 @@ description: 정렬
 * 가장 큰 값을 맨 마지막 요소와 바꾸는 방법에서 차이가 존재한다.&#x20;
 * 마치 그물로 고기를 몰아 잡는 것과 비슷하다고 한다. 잔챙이들은 그물을 빠져나가지만, 큰 물고기들은 빠져나갈 수 없다!&#x20;
 
-<figure><img src="../../../.gitbook/assets/image (4) (1).png" alt=""><figcaption><p><a href="https://www.inflearn.com/course/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EA%B0%95%EC%A2%8C">[인프런] 영리한 프로그래밍을 위한 알고리즘 강좌 by 권오흠 교수님</a></p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (4) (1) (6).png" alt=""><figcaption><p><a href="https://www.inflearn.com/course/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EA%B0%95%EC%A2%8C">[인프런] 영리한 프로그래밍을 위한 알고리즘 강좌 by 권오흠 교수님</a></p></figcaption></figure>
 
 <figure><img src="../../../.gitbook/assets/image (28) (1).png" alt=""><figcaption><p><a href="https://www.inflearn.com/course/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EA%B0%95%EC%A2%8C">[인프런] 영리한 프로그래밍을 위한 알고리즘 강좌 by 권오흠 교수님</a></p></figcaption></figure>
 
@@ -63,7 +63,7 @@ description: 정렬
   * 내가 insert 할 값을 임시 변수인 temp 에 저장한다.&#x20;
   * 이 temp 값을 정렬된 리스트의 맨 마지막 값부터 차례대로 비교한다. 값이 temp보다 크면 뒤로 shift, temp보다 작다면, 해당 index 바로 뒤로 삽입한다.&#x20;
 
-<figure><img src="../../../.gitbook/assets/image (6) (1).png" alt=""><figcaption><p><a href="https://www.inflearn.com/course/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EA%B0%95%EC%A2%8C">[인프런] 영리한 프로그래밍을 위한 알고리즘 강좌 by 권오흠 교수님</a></p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (6) (1) (4).png" alt=""><figcaption><p><a href="https://www.inflearn.com/course/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EA%B0%95%EC%A2%8C">[인프런] 영리한 프로그래밍을 위한 알고리즘 강좌 by 권오흠 교수님</a></p></figcaption></figure>
 
 <figure><img src="../../../.gitbook/assets/image (16) (1).png" alt=""><figcaption><p><a href="https://www.inflearn.com/course/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EA%B0%95%EC%A2%8C">[인프런] 영리한 프로그래밍을 위한 알고리즘 강좌 by 권오흠 교수님</a></p></figcaption></figure>
 
