@@ -26,14 +26,30 @@
 
 ## 🏗 computer science <a href="#cs" id="cs"></a>
 
-* [👩🔬 Computer Science](cs/computer-science/README.md)
-  * [라이브러리 도입시 고민해야할 점(feat. react.js vs. vue.js)](cs/computer-science/feat.-react.js-vs.-vue.js.md)
-  * [정적 타입 시스템의 필요성](cs/computer-science/undefined.md)
-  * [도커, 컨테이너](cs/computer-science/undefined-1.md)
-  * [클라우드, Saas, IaaS, PaaS](cs/computer-science/saas-iaas-paas.md)
-  * [API](cs/computer-science/api.md)
-  * [Data Format - XML](cs/computer-science/data-format-xml.md)
-  * [Data Format - JSON](cs/computer-science/data-format-json.md)
+* [디자인패턴](cs/undefined/README.md)
+  * [static 을 자주 사용하게 되었을 때의 단점](cs/undefined/static.md)
+  * [자바스크립트의 class와 static](cs/undefined/class-static.md)
+  * [프로그래밍 컨텍스트](cs/undefined/undefined.md)
+  * [의존성 주입 vs. 전략패턴](cs/undefined/vs..md)
+  * [flux pattern](cs/undefined/flux-pattern.md)
+  * [Spring MVC 패턴 적용 사례](cs/undefined/spring-mvc.md)
+  * [MVC, MVP, MVVM pattern](cs/undefined/mvc-mvp-mvvm-pattern.md)
+  * [프록시 패턴](cs/undefined/undefined-1.md)
+  * [옵저버 패턴](cs/undefined/undefined-2.md)
+  * [전략패턴](cs/undefined/undefined-3.md)
+  * [의존성주입과 의존관계역전원칙](cs/undefined/undefined-4.md)
+  * [이터레이션 패턴](cs/undefined/undefined-5.md)
+  * [팩토리 패턴](cs/undefined/undefined-6.md)
+  * [싱글톤 패턴](cs/undefined/undefined-7.md)
+  * [디자인 패턴, 라이브러리와 프레임워크의 차이](cs/undefined/undefined-8.md)
+* [👩🔬 Basic Knowledge](cs/basic-knowledge/README.md)
+  * [신기술 도입시 고민해야할 점(feat. react.js vs. vue.js)](cs/basic-knowledge/feat.-react.js-vs.-vue.js.md)
+  * [정적 타입 시스템의 필요성](cs/basic-knowledge/undefined.md)
+  * [도커, 컨테이너](cs/basic-knowledge/undefined-1.md)
+  * [클라우드, Saas, IaaS, PaaS](cs/basic-knowledge/saas-iaas-paas.md)
+  * [API](cs/basic-knowledge/api.md)
+  * [Data Format - XML](cs/basic-knowledge/data-format-xml.md)
+  * [Data Format - JSON](cs/basic-knowledge/data-format-json.md)
 * [🖥 컴퓨터 구조](cs/computerarchitecture/README.md)
   * [그래서 컴퓨터는 어떻게 동작하나요?](cs/computerarchitecture/undefined.md)
   * [컴퓨터의 구성](cs/computerarchitecture/computer-01.md)
@@ -181,6 +197,8 @@
 
 ## ☕ Java
 
+* [About Java 8](java/about-java-8/README.md)
+  * [함수형 인터페이스](java/about-java-8/undefined.md)
 * [ArrayList 초기화 방법들](java/page-1.md)
 
 ## 🍃 Spring
