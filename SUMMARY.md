@@ -1,6 +1,6 @@
 # Table of contents
 
-* [🧙 이상한 나라의 개발자 할머니](README.md)
+* [🧙 welcome to flash wiki](README.md)
 
 ## 🗣 DEVTALK
 
@@ -26,7 +26,7 @@
 
 ## 🏗 computer science <a href="#cs" id="cs"></a>
 
-* [디자인패턴](cs/undefined/README.md)
+* [🟪 디자인패턴](cs/undefined/README.md)
   * [static 을 자주 사용하게 되었을 때의 단점](cs/undefined/static.md)
   * [자바스크립트의 class와 static](cs/undefined/class-static.md)
   * [프로그래밍 컨텍스트](cs/undefined/undefined.md)
@@ -199,6 +199,7 @@
 
 * [About Java 8](java/about-java-8/README.md)
   * [함수형 인터페이스](java/about-java-8/undefined.md)
+* [synchronized](java/synchronized.md)
 * [ArrayList 초기화 방법들](java/page-1.md)
 
 ## 🍃 Spring
