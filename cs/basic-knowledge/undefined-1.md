@@ -6,7 +6,7 @@ description: Iaas 의 뛰어난 이식성과 PaaS의 저렴한 운영비용을 �
 
 ## 배포방식의 변천사&#x20;
 
-<figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption><p><a href="https://user-images.githubusercontent.com/54675591/126576855-1d6aa5c0-61fe-4ba5-9f36-a370588a3433.png">고코딩</a></p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (1).png" alt=""><figcaption><p><a href="https://user-images.githubusercontent.com/54675591/126576855-1d6aa5c0-61fe-4ba5-9f36-a370588a3433.png">고코딩</a></p></figcaption></figure>
 
 ### 1. 전통적인 배포&#x20;
 

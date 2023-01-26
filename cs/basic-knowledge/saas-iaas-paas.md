@@ -1,6 +1,6 @@
 # 클라우드, Saas, IaaS, PaaS
 
-<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption><p><a href="https://www.redhat.com/cms/managed-files/iaas-paas-saas-diagram5.1-1638x1046.png">RedHat</a></p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption><p><a href="https://www.redhat.com/cms/managed-files/iaas-paas-saas-diagram5.1-1638x1046.png">RedHat</a></p></figcaption></figure>
 
 ## 클라우드
 

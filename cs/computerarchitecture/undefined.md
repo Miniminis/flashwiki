@@ -24,7 +24,7 @@
 ### 2-2. NOT gate
 
 * 입력과 반대의 결과를 출력하는 게이트&#x20;
-* ![](<../../.gitbook/assets/image (5) (1).png>)
+* ![](<../../.gitbook/assets/image (5) (1) (6).png>)
 
 ### 2-3. AND gate&#x20;
 

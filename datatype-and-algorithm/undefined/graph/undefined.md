@@ -63,7 +63,7 @@ description: 다익스트라 알고리즘
 
 ### relaxation&#x20;
 
-<figure><img src="../../../.gitbook/assets/image (1) (1).png" alt=""><figcaption><p><a href="https://www.inflearn.com/course/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EA%B0%95%EC%A2%8C">[인프런] 영리한 프로그래밍을 위한 알고리즘 강좌 by 권오흠 교수님</a></p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption><p><a href="https://www.inflearn.com/course/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EA%B0%95%EC%A2%8C">[인프런] 영리한 프로그래밍을 위한 알고리즘 강좌 by 권오흠 교수님</a></p></figcaption></figure>
 
 * 대부분의 single-source 최단경로 알고리즘의 기본구조&#x20;
   * 초기화 : d\[s]=0, d\[v]=∞, 𝛑\[v]=NIL
@@ -72,7 +72,7 @@ description: 다익스트라 알고리즘
 
 ### 기본알고리즘&#x20;
 
-<figure><img src="../../../.gitbook/assets/image (10).png" alt=""><figcaption><p><a href="https://www.inflearn.com/course/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EA%B0%95%EC%A2%8C">[인프런] 영리한 프로그래밍을 위한 알고리즘 강좌 by 권오흠 교수님</a></p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (10) (1).png" alt=""><figcaption><p><a href="https://www.inflearn.com/course/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EA%B0%95%EC%A2%8C">[인프런] 영리한 프로그래밍을 위한 알고리즘 강좌 by 권오흠 교수님</a></p></figcaption></figure>
 
 * 모든 엣지들에 대해서 relax 연산을 했는데도 아무런 변화가 없을 때까지 반복해준다.&#x20;
   * 한번 두 노드에 대해서 relaxation 연산을 진행한다면, 다른 노드에 대해서도 다시 relax 연산으로 맞추어주어야 한다.&#x20;
@@ -155,7 +155,7 @@ description: 다익스트라 알고리즘
 
 ## Floyd-Warshall 알고리즘 (all-to-all)
 
-<figure><img src="../../../.gitbook/assets/image (4).png" alt=""><figcaption><p><a href="https://www.inflearn.com/course/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EA%B0%95%EC%A2%8C">[인프런] 영리한 프로그래밍을 위한 알고리즘 강좌 by 권오흠 교수님</a></p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (4) (1).png" alt=""><figcaption><p><a href="https://www.inflearn.com/course/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EA%B0%95%EC%A2%8C">[인프런] 영리한 프로그래밍을 위한 알고리즘 강좌 by 권오흠 교수님</a></p></figcaption></figure>
 
 * 동적계획법 알고리즘 중 대표적
 * 가중치 방향그래프 G=(V, E), V = {1, 2, 3,..., n}
@@ -191,8 +191,8 @@ description: 다익스트라 알고리즘
 
 ### 경로찾기&#x20;
 
-<figure><img src="../../../.gitbook/assets/image (5).png" alt=""><figcaption><p><a href="https://www.inflearn.com/course/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EA%B0%95%EC%A2%8C">[인프런] 영리한 프로그래밍을 위한 알고리즘 강좌 by 권오흠 교수님</a></p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (5) (1).png" alt=""><figcaption><p><a href="https://www.inflearn.com/course/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EA%B0%95%EC%A2%8C">[인프런] 영리한 프로그래밍을 위한 알고리즘 강좌 by 권오흠 교수님</a></p></figcaption></figure>
 
-<figure><img src="../../../.gitbook/assets/image (1).png" alt=""><figcaption><p><a href="https://www.inflearn.com/course/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EA%B0%95%EC%A2%8C">[인프런] 영리한 프로그래밍을 위한 알고리즘 강좌 by 권오흠 교수님</a></p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1) (1).png" alt=""><figcaption><p><a href="https://www.inflearn.com/course/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EA%B0%95%EC%A2%8C">[인프런] 영리한 프로그래밍을 위한 알고리즘 강좌 by 권오흠 교수님</a></p></figcaption></figure>
 
 * 실제로 i에서 j까지 가는 데에 거치게 되는 노드들, 즉 최단경로의 경로 그 자체를 출력할 수 있게 된다.&#x20;

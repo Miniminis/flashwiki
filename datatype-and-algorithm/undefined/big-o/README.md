@@ -16,7 +16,7 @@ description: 빅오표기법
 * 입력 데이터의 크기에 상관없이 언제나 일정한 시간이 걸리는 알고리즘을 말한다.&#x20;
   * 예) 입력값에 상관없이 특정 수를 반환하는 알고리즘&#x20;
 
-<figure><img src="../../../.gitbook/assets/image (4) (1).png" alt=""><figcaption><p><a href="https://www.youtube.com/user/damazzang/videos">[유튜브] 엔지니어 대한민국</a></p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (4) (1) (7).png" alt=""><figcaption><p><a href="https://www.youtube.com/user/damazzang/videos">[유튜브] 엔지니어 대한민국</a></p></figcaption></figure>
 
 ## O(n)
 
@@ -38,7 +38,7 @@ description: 빅오표기법
 
 * n번 반복하면서 매번 m번 반복하는 구조
 
-<figure><img src="../../../.gitbook/assets/image (9).png" alt=""><figcaption><p><a href="https://www.youtube.com/user/damazzang/videos">[유튜브] 엔지니어 대한민국</a></p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (9) (8).png" alt=""><figcaption><p><a href="https://www.youtube.com/user/damazzang/videos">[유튜브] 엔지니어 대한민국</a></p></figcaption></figure>
 
 
 
