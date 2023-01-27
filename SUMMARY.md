@@ -26,6 +26,12 @@
 
 ## 🏗 computer science <a href="#cs" id="cs"></a>
 
+* [📶 network](cs/network/README.md)
+  * [네트워크의 분류 - LAN, MAN, WAN](cs/network/lan-man-wan.md)
+  * [네트워크 토폴로지와 병목현상](cs/network/undefined.md)
+  * [네트워크 기초 3](cs/network/3.md)
+  * [네트워크의 기초 2](cs/network/2.md)
+  * [네트워크의 기초](cs/network/undefined-1.md)
 * [🟪 디자인패턴](cs/undefined/README.md)
   * [static 을 자주 사용하게 되었을 때의 단점](cs/undefined/static.md)
   * [자바스크립트의 class와 static](cs/undefined/class-static.md)
