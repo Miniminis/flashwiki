@@ -16,6 +16,8 @@
   * [비전공자에서 2억받는 아마존 엔지니어가 되기까지](devtalk/career/2.md)
 * [🧚 Open Source](devtalk/opensource/README.md)
   * [나의 첫 opensource contribution 경험기](devtalk/opensource/opensource-hexo.md)
+* [🤓 TIL](devtalk/til/README.md)
+  * [2023.01.30](devtalk/til/2023.01.30.md)
 * [🐣 QnA](devtalk/qna.md)
 
 ## ‼️ Trouble Shooting
