@@ -27,6 +27,13 @@
 ## 🏗 computer science <a href="#cs" id="cs"></a>
 
 * [📶 network](cs/network/README.md)
+  * [TCP 4way handshake and TIME\_WAIT](cs/network/tcp-4way-handshake-and-time\_wait.md)
+  * [TCP 3way handshake](cs/network/tcp-3way-handshake.md)
+  * [TCP/IP - internet layer](cs/network/tcp-ip-internet-layer.md)
+  * [TCP/IP - Transport Layer](cs/network/tcp-ip-transport-layer.md)
+  * [TCP/IP - Application Layer](cs/network/tcp-ip-application-layer.md)
+  * [TCP/IP - MTU, MSS, PMTUD](cs/network/tcp-ip-mtu-mss-pmtud.md)
+  * [TCP/IP 4계층, OSI 7 layer](cs/network/tcp-ip-4-osi-7-layer.md)
   * [네트워크의 분류 - LAN, MAN, WAN](cs/network/lan-man-wan.md)
   * [네트워크 토폴로지와 병목현상](cs/network/undefined.md)
   * [네트워크 기초 3](cs/network/3.md)
@@ -204,8 +211,10 @@
 
 ## ☕ Java
 
-* [About Java 8](java/about-java-8/README.md)
-  * [함수형 인터페이스](java/about-java-8/undefined.md)
+* [Java 8](java/java-8/README.md)
+  * [Optional](java/java-8/optional.md)
+  * [interface의 default 메소드와 static 메소드](java/java-8/interface-default-static.md)
+  * [함수형 인터페이스](java/java-8/undefined.md)
 * [synchronized](java/synchronized.md)
 * [ArrayList 초기화 방법들](java/page-1.md)
 
