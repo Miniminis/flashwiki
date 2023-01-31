@@ -1,8 +1,4 @@
----
-description: Developing softwares for everyone
----
-
-# 🧙 이상한 나라의 개발자 할머니
+# 🧙 welcome to flash wiki
 
 ## About Writer
 
@@ -25,7 +21,6 @@ I am making products and developing softwares for everyone's fair shake on the e
 
 It you have any questions or suggestions, please contact me below!  &#x20;
 
-* 😺 [Github](https://github.com/Miniminis)
-* 📸 instagram
-* 🕊 twitter&#x20;
+* 😺 [github](https://github.com/Miniminis)
+* 🎥 [youtube](https://www.youtube.com/@devgrandma)
 * 📮 minhee4735@gmail.com
