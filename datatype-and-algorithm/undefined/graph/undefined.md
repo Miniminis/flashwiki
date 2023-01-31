@@ -84,7 +84,7 @@ description: 다익스트라 알고리즘
 2. 몇 번이나 반복해야하는가?
    1. 최악이 경우에도 n-1 번을 넘지 않는다.  &#x20;
 
-<figure><img src="../../../.gitbook/assets/image (14).png" alt=""><figcaption><p><a href="https://www.inflearn.com/course/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EA%B0%95%EC%A2%8C">[인프런] 영리한 프로그래밍을 위한 알고리즘 강좌 by 권오흠 교수님</a></p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (14) (1).png" alt=""><figcaption><p><a href="https://www.inflearn.com/course/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EA%B0%95%EC%A2%8C">[인프런] 영리한 프로그래밍을 위한 알고리즘 강좌 by 권오흠 교수님</a></p></figcaption></figure>
 
 * 그래프의 모든 노드를 거쳐서 가는 경우라고 하더라도, 엣지의 개수는 n-1을 넘을 수 없다.&#x20;
   * 최단경로에 사이클은 존재하지 않기 때문에&#x20;
