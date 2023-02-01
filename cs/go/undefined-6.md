@@ -23,7 +23,7 @@
 
 * 어셈블리 디버깅을 통해서 살펴볼 수 있다.
 
-<figure><img src="../../.gitbook/assets/image (1) (1) (2) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (2) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 * mov : 옮겨라 (=값을 이동해라)
 * dword : 4바이트

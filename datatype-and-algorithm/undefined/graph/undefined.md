@@ -99,7 +99,7 @@ description: 다익스트라 알고리즘
 * n-1번 relax 연산을 반복했음에도, 여전히 d\[v] >= d\[u] + w(u, v)가 존재한다면, 그것은 음수 사이클이 존재한다는 의미이므로 최단경로를 구할 수 없다고 return&#x20;
 * 시간복잡도 : O(nm)&#x20;
 
-<figure><img src="../../../.gitbook/assets/image (52).png" alt=""><figcaption><p><a href="https://www.inflearn.com/course/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EA%B0%95%EC%A2%8C">[인프런] 영리한 프로그래밍을 위한 알고리즘 강좌 by 권오흠 교수님</a></p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (52) (1).png" alt=""><figcaption><p><a href="https://www.inflearn.com/course/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EA%B0%95%EC%A2%8C">[인프런] 영리한 프로그래밍을 위한 알고리즘 강좌 by 권오흠 교수님</a></p></figcaption></figure>
 
 #### worst scenario&#x20;
 
@@ -193,6 +193,6 @@ description: 다익스트라 알고리즘
 
 <figure><img src="../../../.gitbook/assets/image (5) (1).png" alt=""><figcaption><p><a href="https://www.inflearn.com/course/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EA%B0%95%EC%A2%8C">[인프런] 영리한 프로그래밍을 위한 알고리즘 강좌 by 권오흠 교수님</a></p></figcaption></figure>
 
-<figure><img src="../../../.gitbook/assets/image (1) (1).png" alt=""><figcaption><p><a href="https://www.inflearn.com/course/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EA%B0%95%EC%A2%8C">[인프런] 영리한 프로그래밍을 위한 알고리즘 강좌 by 권오흠 교수님</a></p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1) (1) (2).png" alt=""><figcaption><p><a href="https://www.inflearn.com/course/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EA%B0%95%EC%A2%8C">[인프런] 영리한 프로그래밍을 위한 알고리즘 강좌 by 권오흠 교수님</a></p></figcaption></figure>
 
 * 실제로 i에서 j까지 가는 데에 거치게 되는 노드들, 즉 최단경로의 경로 그 자체를 출력할 수 있게 된다.&#x20;

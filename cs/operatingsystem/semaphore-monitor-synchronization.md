@@ -18,7 +18,7 @@
 
 #### Block and wakeup 방식으로 구현됨
 
-<figure><img src="../../.gitbook/assets/image (10) (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (10) (3) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### 문제 1. Bounded Buffer Problem
 
@@ -87,7 +87,7 @@
   * 비대칭 : 짝수 철학자는 왼쪽 젓가락부터 잡고, 홀수 철학자는 오른쪽 젓가락부터 잡을 수 있도록 한다.
 * 식사하는 철학자의 경우, semaphore 보다 monitor 코드가 더 이해하기에 쉽다.
 
-<figure><img src="../../.gitbook/assets/image (12) (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (12) (3) (1).png" alt=""><figcaption></figcaption></figure>
 
 #### 권한을 두어 해결하는 방법의 예시 코드
 
@@ -127,7 +127,7 @@
 
 ### 비교 1. bounded-buffer problem : semaphore vs. monitor
 
-<figure><img src="../../.gitbook/assets/image (13) (2).png" alt=""><figcaption><p>bounded-buffer problem in semaphore version</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (13) (2) (1).png" alt=""><figcaption><p>bounded-buffer problem in semaphore version</p></figcaption></figure>
 
 <figure><img src="../../.gitbook/assets/image (2) (2) (1).png" alt=""><figcaption><p>bounded-buffer problem in monitor version</p></figcaption></figure>
 

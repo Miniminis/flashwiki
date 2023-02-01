@@ -46,7 +46,7 @@
 
 <figure><img src="../../../.gitbook/assets/image (37) (1) (1).png" alt=""><figcaption><p><a href="https://www.inflearn.com/course/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EA%B0%95%EC%A2%8C/unit/4077">https://www.inflearn.com/course/알고리즘-강좌/unit/4077</a></p></figcaption></figure>
 
-<figure><img src="../../../.gitbook/assets/image (1) (1) (2).png" alt=""><figcaption><p><a href="https://www.inflearn.com/course/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EA%B0%95%EC%A2%8C/unit/4077">https://www.inflearn.com/course/알고리즘-강좌/unit/4077</a></p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1) (1) (2) (1).png" alt=""><figcaption><p><a href="https://www.inflearn.com/course/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EA%B0%95%EC%A2%8C/unit/4077">https://www.inflearn.com/course/알고리즘-강좌/unit/4077</a></p></figcaption></figure>
 
 
 

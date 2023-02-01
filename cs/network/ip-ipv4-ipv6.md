@@ -13,7 +13,7 @@ description: IP 주소는 IPv4, IPv6 로 나뉘어진다.
 
 &#x20;
 
-<figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption><p><a href="https://www.c-sharpcorner.com/article/getting-started-with-vpc-virtual-private-cloud-part2/">https://www.c-sharpcorner.com/article/getting-started-with-vpc-virtual-private-cloud-part2/</a></p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (1).png" alt=""><figcaption><p><a href="https://www.c-sharpcorner.com/article/getting-started-with-vpc-virtual-private-cloud-part2/">https://www.c-sharpcorner.com/article/getting-started-with-vpc-virtual-private-cloud-part2/</a></p></figcaption></figure>
 
 
 
@@ -25,7 +25,7 @@ description: IP 주소는 IPv4, IPv6 로 나뉘어진다.
 * 앞의 연속되는 0은 생략가능
 * IPSec 이라는 데이터 패킷을 암호화하는 보안 네트워크 프로토콜 제품군이 내장되어있어서 보안성이 뛰어나다.&#x20;
 
-<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption><p><a href="https://www.orbit-computer-solutions.com/ipv6-address-expression-and-examples/">https://www.orbit-computer-solutions.com/ipv6-address-expression-and-examples/</a></p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1).png" alt=""><figcaption><p><a href="https://www.orbit-computer-solutions.com/ipv6-address-expression-and-examples/">https://www.orbit-computer-solutions.com/ipv6-address-expression-and-examples/</a></p></figcaption></figure>
 
 
 
@@ -50,7 +50,7 @@ description: IP 주소는 IPv4, IPv6 로 나뉘어진다.
   * 데이터를 수신하고 나면, 다시 CRC 값을 계산한 뒤, 붙여진 이전의 CRC 와 비교한다.&#x20;
   * 만약 두 값이 다르다면 전송 과정에서 오류가 덧붙여 전송된 것임을 알 수 있다.&#x20;
 
-<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption><p><a href="https://skminhaj.wordpress.com/2016/02/15/tcp-segment-vs-udp-datagram-header-format/">https://skminhaj.wordpress.com/2016/02/15/tcp-segment-vs-udp-datagram-header-format/</a></p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (62).png" alt=""><figcaption><p><a href="https://skminhaj.wordpress.com/2016/02/15/tcp-segment-vs-udp-datagram-header-format/">https://skminhaj.wordpress.com/2016/02/15/tcp-segment-vs-udp-datagram-header-format/</a></p></figcaption></figure>
 
 ### 3-3. TTL -> HOP limit&#x20;
 

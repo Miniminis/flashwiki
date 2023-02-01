@@ -6,7 +6,7 @@
 * 구체적으로 어떤 클래스의 인스턴스를 사용하는지 감출 수 있다. &#x20;
   * 클라이언트 코드에서 구체적인 클래스 의존성을 제거한다.&#x20;
 
-<figure><img src="../../.gitbook/assets/image (6).png" alt=""><figcaption><p>인프런 백기선님의 &#x3C;<a href="https://www.inflearn.com/course/%EB%94%94%EC%9E%90%EC%9D%B8-%ED%8C%A8%ED%84%B4">코딩으로 학습하는 GoF의 디자인 패턴</a>></p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (6) (2).png" alt=""><figcaption><p>인프런 백기선님의 &#x3C;<a href="https://www.inflearn.com/course/%EB%94%94%EC%9E%90%EC%9D%B8-%ED%8C%A8%ED%84%B4">코딩으로 학습하는 GoF의 디자인 패턴</a>></p></figcaption></figure>
 
 
 

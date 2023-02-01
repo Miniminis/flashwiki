@@ -4,7 +4,7 @@ description: TCP 연결 해제 과정
 
 # TCP 4way handshake and TIME\_WAIT
 
-<figure><img src="../../.gitbook/assets/image (5).png" alt=""><figcaption><p><a href="https://sjlim5092.tistory.com/37">https://sjlim5092.tistory.com/37</a></p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (5) (3).png" alt=""><figcaption><p><a href="https://sjlim5092.tistory.com/37">https://sjlim5092.tistory.com/37</a></p></figcaption></figure>
 
 ## 1. 과정
 

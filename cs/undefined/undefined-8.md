@@ -69,7 +69,7 @@ public class Mother2 {
   * 자바에서는 synchronized 키워드를 이용하여 동기화 블록을 처리한다.&#x20;
   * 해당 키워드가 붙은 영역은 한 시점에 한 쓰레드만 접근 가능하도록 보장해주며, 이미 한 쓰레드가 점유하고 있는 동안 다른 쓰레드는 모두 blocked 상태가 된다.&#x20;
   * synchronized 키워드를 어디에 배치시키느냐에 따라서 4가지 유형이 존재한다.&#x20;
-    * [synchronized.md](../../java-spring/java/synchronized.md "mention")
+    * [synchronized.md](../../java/synchronized.md "mention")
 * getInstance() 메소드 시 동기화 하는 lock 은 인스턴스 lock 인가, 클래스 lock 인가?&#x20;
   * 클래스 lock 이다. Mother class 전체에 대해서 접근 제한을 하고 있으므로 동기화의 대상이 클래스 전체이다. 따라서 이 메소드는 클래스 lock을 통해 동기화를 수행한다.&#x20;
 
