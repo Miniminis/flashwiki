@@ -179,7 +179,7 @@
   * 각 프로세스들은 독자적으로 메모리에 올린다.
   * private data 는 logical address space 의 아무 곳에 와도 무방하다.
 
-<figure><img src="../../.gitbook/assets/image (1) (3) (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (3) (2) (1).png" alt=""><figcaption></figcaption></figure>
 
 #### segmentation
 

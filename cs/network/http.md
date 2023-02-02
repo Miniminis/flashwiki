@@ -64,7 +64,7 @@ RTT 지연문제를 해결하기 위한 3가지 방법
 * 스트림&#x20;
   * 시간이 지남에 따라 사용할 수 있게 되는 일련의데이터 요소를 가리키는 데이터 흐름을 말한다.&#x20;
 
-<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption><p><a href="https://virgool.io/@erfun/http2-%DA%86%DB%8C%D9%87-%D9%88-%DA%86%D8%B7%D9%88%D8%B1-%DA%A9%D8%A7%D8%B1-%D9%85%DB%8C%DA%A9%D9%86%D9%87-gnmgbedbdc4a">https://virgool.io/@erfun/http2-چیه-و-چطور-کار-میکنه-gnmgbedbdc4a</a></p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (3).png" alt=""><figcaption><p><a href="https://virgool.io/@erfun/http2-%DA%86%DB%8C%D9%87-%D9%88-%DA%86%D8%B7%D9%88%D8%B1-%DA%A9%D8%A7%D8%B1-%D9%85%DB%8C%DA%A9%D9%86%D9%87-gnmgbedbdc4a">https://virgool.io/@erfun/http2-چیه-و-چطور-کار-میکنه-gnmgbedbdc4a</a></p></figcaption></figure>
 
 <figure><img src="../../.gitbook/assets/image (6).png" alt=""><figcaption><p><a href="https://thebook.io/080326/ch02/05/03/">https://thebook.io/080326/ch02/05/03/</a></p></figcaption></figure>
 
