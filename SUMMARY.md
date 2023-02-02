@@ -17,6 +17,7 @@
 * [🧚 open source](devtalk/opensource/README.md)
   * [나의 첫 opensource contribution 경험기](devtalk/opensource/opensource-hexo.md)
 * [🤓 til](devtalk/til/README.md)
+  * [2023.02.02](devtalk/til/2023.02.02.md)
   * [2023.01.30](devtalk/til/2023.01.30.md)
 
 ## 🐛 Trouble Shooting
