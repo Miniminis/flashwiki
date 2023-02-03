@@ -28,7 +28,7 @@
   * 요청헤더에는 다음과 같은 정보들이 담긴다.&#x20;
   * 요청 매소드, 클라이언트 OS, 브라우저 정보 등&#x20;
 
-<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (9).png" alt=""><figcaption></figcaption></figure>
 
 
 

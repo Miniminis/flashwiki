@@ -24,7 +24,7 @@
 
 <figure><img src="../../.gitbook/assets/image (5) (2).png" alt=""><figcaption><p><a href="https://www.guru99.com/subnetting-subnet-mask.html">https://www.guru99.com/subnetting-subnet-mask.html</a></p></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (7).png" alt=""><figcaption></figcaption></figure>
 
 * 서브네팅 참고 사이트
   * [https://www.ipaddressguide.com/cidr](https://www.ipaddressguide.com/cidr)

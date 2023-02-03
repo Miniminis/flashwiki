@@ -5,7 +5,7 @@
 * 브라우저는 브라우저 엔진, 렌더링엔진, 자료저장소(local storage, coockie), 네트워크 통신, JS 해석기, UI 백엔드 등 으로 이루어져있다.&#x20;
 * 이때, 렌더링 엔진이 브라우저의 렌더링을 담당한다.&#x20;
 
-<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption><p><a href="https://web.dev/howbrowserswork/">https://web.dev/howbrowserswork/</a></p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (70).png" alt=""><figcaption><p><a href="https://web.dev/howbrowserswork/">https://web.dev/howbrowserswork/</a></p></figcaption></figure>
 
 
 
