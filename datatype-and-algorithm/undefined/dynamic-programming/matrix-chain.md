@@ -61,7 +61,7 @@ description: 행렬의 곱셈
   * 또 다른 하나는 대각선으로부터 시작하여 점차 우상향하는 방법이 있다.&#x20;
   * _사실 코딩하기에는 밑에서 위로 계산하는 방법이 쉬운데, 대부분의 예제에서는 대각선으로 구현한 것이 많이 등장한다._&#x20;
 
-<figure><img src="../../../.gitbook/assets/image (7) (3).png" alt=""><figcaption><p><a href="https://www.inflearn.com/course/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EA%B0%95%EC%A2%8C/unit/4128">https://www.inflearn.com/course/알고리즘-강좌/unit/4128</a></p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (7) (3) (2).png" alt=""><figcaption><p><a href="https://www.inflearn.com/course/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EA%B0%95%EC%A2%8C/unit/4128">https://www.inflearn.com/course/알고리즘-강좌/unit/4128</a></p></figcaption></figure>
 
 * 코드로 구현해보자면 위와 같다. 먼저 대각선을 모두 0으로 채운다.&#x20;
 * 그다음 대각선을 우상향하는 방향으로 1부터 n-1 까지 순회한다. 대각선의 개수가 (i, i) 대각선을 제외하고 n-1개라는 것을 기억한다.&#x20;

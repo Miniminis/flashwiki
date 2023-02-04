@@ -120,7 +120,7 @@
 * 단점 : 디스크 내부의 부가적인 공간을 필요로 한다.
 * 장점 : 연속적인 n개의 free block 을 찾는데 효과적이다.
 
-<figure><img src="../../.gitbook/assets/image (7) (3) (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (7) (3) (2) (1).png" alt=""><figcaption></figcaption></figure>
 
 #### linked list
 
@@ -226,7 +226,7 @@
   * 통합된 버퍼 캐시를 사용할때는 이러한 과정이 보다 단순해진다.
   * page cache 를 buffer cache 로 쓰기 때문에 실행 프로세스가 한결 간단해진다.
 
-<figure><img src="../../.gitbook/assets/image (5) (3) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (5) (3) (1) (2).png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../../.gitbook/assets/image (1) (1) (6).png" alt=""><figcaption></figcaption></figure>
 

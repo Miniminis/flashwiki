@@ -269,6 +269,14 @@
 
 ## 📀 Database
 
+* [general](database/general/README.md)
+  * [트랜잭션과 무결성](database/general/undefined.md)
+  * [트랜잭션, 커밋, 롤백, 트랜잭션 전파](database/general/undefined-1.md)
+  * [ERD, entity relationship diagram](database/general/erd-entity-relationship-diagram.md)
+  * [기본 3 - 관계, 키](database/general/3.md)
+  * [기본 2 - 필드, 레코드, 타입](database/general/2.md)
+  * [기본 1 - 엔티티, 릴레이션, 속성, 도메인](database/general/1.md)
+* [commands](database/commands.md)
 * [mysql](database/mysql/README.md)
   * [이것이 MySQL이다](database/mysql/thisismysql-sqls.md)
 

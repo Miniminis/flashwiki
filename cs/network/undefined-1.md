@@ -17,9 +17,9 @@
    1. Data Link : L2 스위치, 브리지&#x20;
    2. Physical : NIC, 리피터, AP&#x20;
 
-<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption><p><a href="https://microchipdeveloper.com/tcpip:tcp-ip-five-layer-model">https://microchipdeveloper.com/tcpip:tcp-ip-five-layer-model</a></p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1).png" alt=""><figcaption><p><a href="https://microchipdeveloper.com/tcpip:tcp-ip-five-layer-model">https://microchipdeveloper.com/tcpip:tcp-ip-five-layer-model</a></p></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption><p><a href="https://velog.io/@wldus9503/%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%ACTCP">https://velog.io/@wldus9503/네트워크TCP</a></p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (5).png" alt=""><figcaption><p><a href="https://velog.io/@wldus9503/%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%ACTCP">https://velog.io/@wldus9503/네트워크TCP</a></p></figcaption></figure>
 
 ## 3. Application Layer
 
@@ -105,7 +105,7 @@ OSI 7 계층에서는 이 계층이 두 가지로 나뉘게 되는데, 그것이
 
 ### 6-4. 이더넷 프레임&#x20;
 
-<figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption><p><a href="https://mintnlatte.tistory.com/356">https://mintnlatte.tistory.com/356</a></p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (1).png" alt=""><figcaption><p><a href="https://mintnlatte.tistory.com/356">https://mintnlatte.tistory.com/356</a></p></figcaption></figure>
 
 * 데이터링크 계층은 이더넷 프레임을 통해서 전달받은 데이터의 에러를 검출하고, 캡슐화한다.&#x20;
 * Preamble : 이더넷 프레임의 시작&#x20;
