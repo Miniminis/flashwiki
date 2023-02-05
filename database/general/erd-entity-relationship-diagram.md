@@ -9,7 +9,7 @@
 
 ## 2. ERD 살펴보기&#x20;
 
-<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
 
 * 직원들은 1명 이상의 고객들을 담당한다.&#x20;
 * 직원들은 1명 이상의 직원들을 담당한다.&#x20;

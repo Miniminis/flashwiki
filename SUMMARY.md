@@ -16,9 +16,6 @@
   * [비전공자에서 2억받는 아마존 엔지니어가 되기까지](devtalk/career/2.md)
 * [🧚 open source](devtalk/opensource/README.md)
   * [나의 첫 opensource contribution 경험기](devtalk/opensource/opensource-hexo.md)
-* [🤓 til](devtalk/til/README.md)
-  * [2023.02.02](devtalk/til/2023.02.02.md)
-  * [2023.01.30](devtalk/til/2023.01.30.md)
 
 ## 🐛 Trouble Shooting
 
@@ -49,7 +46,7 @@
   * [browser rendering](cs/network/browser-rendering.md)
   * [HTTPS 와 TLS - TLS 핸드쉐이크](cs/network/https-tls-tls.md)
   * [HTTPS 와 TLS - 암호화](cs/network/https-tls.md)
-  * [HTTP](cs/network/http-2.md)
+  * [HTTP History](cs/network/http-history.md)
   * [www.naver.com 을 주소창에 입력하고 화면에 나타나기까지의 과정](cs/network/www.naver.com.md)
   * [IP 주소 - 공인 IP와 사설 IP](cs/network/ip-ip-ip.md)
   * [IP 주소 - Classless,Subnet Mask, Subnetting](cs/network/ip-classless-subnet-mask-subnetting.md)
@@ -67,7 +64,7 @@
   * [TCP/IP 4계층, OSI 7 layer](cs/network/tcp-ip-4-osi-7-layer.md)
   * [네트워크의 분류 - LAN, MAN, WAN](cs/network/lan-man-wan.md)
   * [네트워크 토폴로지와 병목현상](cs/network/undefined-8.md)
-  * [네트워크 기초 3](cs/network/3.md)
+  * [네트워크의 기초 3](cs/network/3.md)
   * [네트워크의 기초 2](cs/network/2.md)
   * [네트워크의 기초](cs/network/undefined-9.md)
 * [🟪 design pattern](cs/undefined/README.md)
@@ -283,7 +280,9 @@
 ## 🪄 Test
 
 * [tdd](test/tdd/README.md)
-  * [TDD 기본개념/장점/핵심/예시/연습](test/tdd/tdd-cleancode-01.md)
+  * [의식적인 연습과 학습 테스트](test/tdd/undefined.md)
+  * [TDD 에 집착해야하는 이유](test/tdd/tdd.md)
+  * [공부하는 자세](test/tdd/undefined-1.md)
 
 ## ✍ WRITINGS
 
