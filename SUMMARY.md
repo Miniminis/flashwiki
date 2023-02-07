@@ -277,8 +277,8 @@
 
 ## 🪄 Test
 
-* [AssertJ](test/assertj.md)
-* [JUnit](test/junit.md)
+* [assertj](test/assertj.md)
+* [junit](test/junit.md)
 * [tdd](test/tdd/README.md)
   * [의식적인 연습과 학습 테스트](test/tdd/undefined.md)
   * [TDD 에 집착해야하는 이유](test/tdd/tdd.md)
