@@ -26,7 +26,7 @@
 
 ### 2-1. ClassA
 
-<figure><img src="../../.gitbook/assets/image (50).png" alt=""><figcaption><p><a href="https://www.geeksforgeeks.org/introduction-of-classful-ip-addressing/">https://www.geeksforgeeks.org/introduction-of-classful-ip-addressing/</a></p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (50) (4).png" alt=""><figcaption><p><a href="https://www.geeksforgeeks.org/introduction-of-classful-ip-addressing/">https://www.geeksforgeeks.org/introduction-of-classful-ip-addressing/</a></p></figcaption></figure>
 
 * 첫번째 옥텟을 제외하고 한 네트워크당 2^24-2 = 16,777,214개(약 16만개)의 호스트 ID 를 가질 수 있다.&#x20;
 * 네트워크 주소의 범위는 1 - 126으로 시작
@@ -35,7 +35,7 @@
 
 ### 2-2. ClassB&#x20;
 
-<figure><img src="../../.gitbook/assets/image (4).png" alt=""><figcaption><p><a href="https://www.geeksforgeeks.org/introduction-of-classful-ip-addressing/">https://www.geeksforgeeks.org/introduction-of-classful-ip-addressing/</a></p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (4) (7).png" alt=""><figcaption><p><a href="https://www.geeksforgeeks.org/introduction-of-classful-ip-addressing/">https://www.geeksforgeeks.org/introduction-of-classful-ip-addressing/</a></p></figcaption></figure>
 
 * 앞의 두 옥텟을 제외하고 한 네트워크 당 2^16-2 = 65,534 개(약 6만개)의 호스트 ID 를 가질 수 있다.&#x20;
 * 네트워크 주소의 범위는 128-191 로 시작한다. &#x20;
@@ -49,7 +49,7 @@
 
 ## 3. 정리&#x20;
 
-<figure><img src="../../.gitbook/assets/image (12).png" alt=""><figcaption><p><a href="https://www.geeksforgeeks.org/introduction-of-classful-ip-addressing/">https://www.geeksforgeeks.org/introduction-of-classful-ip-addressing/</a></p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (12) (7).png" alt=""><figcaption><p><a href="https://www.geeksforgeeks.org/introduction-of-classful-ip-addressing/">https://www.geeksforgeeks.org/introduction-of-classful-ip-addressing/</a></p></figcaption></figure>
 
 ## 4. 기타&#x20;
 

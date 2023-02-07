@@ -81,7 +81,7 @@
 * sp : 송신자의 32비트 IP 주소&#x20;
 * dp : 수신자의 32비트 IP 주소 &#x20;
 
-<figure><img src="../../.gitbook/assets/image (63).png" alt=""><figcaption><p>wikipedia</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (63) (1).png" alt=""><figcaption><p>wikipedia</p></figcaption></figure>
 
 ### 4-2. frame&#x20;
 

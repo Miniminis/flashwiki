@@ -19,7 +19,7 @@
 
 <figure><img src="../../.gitbook/assets/image (1) (1).png" alt=""><figcaption><p><a href="https://microchipdeveloper.com/tcpip:tcp-ip-five-layer-model">https://microchipdeveloper.com/tcpip:tcp-ip-five-layer-model</a></p></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (5).png" alt=""><figcaption><p><a href="https://velog.io/@wldus9503/%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%ACTCP">https://velog.io/@wldus9503/네트워크TCP</a></p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (5) (10).png" alt=""><figcaption><p><a href="https://velog.io/@wldus9503/%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%ACTCP">https://velog.io/@wldus9503/네트워크TCP</a></p></figcaption></figure>
 
 ## 3. Application Layer
 

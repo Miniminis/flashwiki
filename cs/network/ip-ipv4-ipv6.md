@@ -37,7 +37,7 @@ description: IP 주소는 IPv4, IPv6 로 나뉘어진다.
 * IPv4 는 헤더가 가변길이이지만, IPv6 는 40바이트로 고정되어있어서 인터넷 헤더에 대한 정보도 삭제되어있다.&#x20;
   * 그밖에 여러가지 불필요한 필드들이 삭제됨 &#x20;
 
-<figure><img src="../../.gitbook/assets/image (14).png" alt=""><figcaption><p><a href="https://www.networkacademy.io/ccna/ipv6/ipv4-vs-ipv6">https://www.networkacademy.io/ccna/ipv6/ipv4-vs-ipv6</a></p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (14) (5).png" alt=""><figcaption><p><a href="https://www.networkacademy.io/ccna/ipv6/ipv4-vs-ipv6">https://www.networkacademy.io/ccna/ipv6/ipv4-vs-ipv6</a></p></figcaption></figure>
 
 ### 3-2. Checksum&#x20;
 

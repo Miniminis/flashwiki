@@ -119,7 +119,7 @@ description: Transport Layer Security
 
 * 아래의 사이트에서 등급을 보면 알 수 있다.&#x20;
 
-<figure><img src="../../.gitbook/assets/image (51).png" alt=""><figcaption><p><a href="https://www.ssllabs.com/ssltest/">https://www.ssllabs.com/ssltest/</a></p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (51) (4).png" alt=""><figcaption><p><a href="https://www.ssllabs.com/ssltest/">https://www.ssllabs.com/ssltest/</a></p></figcaption></figure>
 
 ## 10. TLS 패킷분석
 
