@@ -1,6 +1,22 @@
-# 🟪 design pattern
+---
+description: 자료구조 및 알고리즘 개념을 공부한 내용을 누적하여 저장하는 위키페이지입니다. 계속 업데이트 됩니다.
+---
 
-## 이 위키를 만들면서 참고한 자료들&#x20;
+# 👾 자료구조/알고리즘 위키
 
-* 인프런 큰돌님의 <[CS지식의 정석 | CS면접 디자인패턴 네트워크 운영체제 데이터베이스 자료구조](https://www.inflearn.com/course/%EA%B0%9C%EB%B0%9C%EC%9E%90-%EB%A9%B4%EC%A0%91-cs-%ED%8A%B9%EA%B0%95)>
-* 인프런 백기선님의 <[코딩으로 학습하는 GoF의 디자인 패턴](https://www.inflearn.com/course/%EB%94%94%EC%9E%90%EC%9D%B8-%ED%8C%A8%ED%84%B4)>
+## 자료구조, 알고리즘 코드 저장소
+
+* [https://github.com/Miniminis/algorithm-study-note](https://github.com/Miniminis/algorithm-study-note)
+* [https://github.com/Miniminis/backtobit-daily-algorithm-study](https://github.com/Miniminis/backtobit-daily-algorithm-study)
+
+
+
+### 이 위키를 만드는데 참고한 자료들
+
+* [\[인프런\] 영리한 프로그래밍을 위한 알고리즘 강좌 by 권오흠 교수님](https://www.inflearn.com/course/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EA%B0%95%EC%A2%8C)
+* [\[유튜브\] 엔지니어 대한민국](https://www.youtube.com/user/damazzang/videos)
+* [\[책\] 자바로 배우는 쉬운 자료구조 by 이지영](http://www.yes24.com/Product/Goods/9345752)
+* [\[책\] 코딩 인터뷰 완전분석 by 게일 라크만 맥도웰](http://www.yes24.com/Product/Goods/44305533)
+
+
+
