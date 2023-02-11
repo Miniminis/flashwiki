@@ -1,23 +1,27 @@
 ---
-description: 본질을 파악하여 정면으로 맞서는 개발자
+description: User Driven Developer, 사용자를 기반으로 성장하는 개발자
+cover: .gitbook/assets/marigold.jpg
+coverY: -363
 ---
 
-# 🧙 손민희
+# 📙 손민희 (MINHEE SON)
 
 ## <mark style="color:orange;">Contact</mark>
 
 * [minhee4735@gmail.com](mailto:minhee4735@gmail.com)
-* [Blog](https://wiki.mhson.world/) | [Github](https://github.com/miniminis) | [LinkedIn](https://www.linkedin.com/in/minhee-son-3b2a1016a) | Twitter | Instagram | Youtube&#x20;
+* [Blog](https://wiki.mhson.world/) | [Github](https://github.com/miniminis) | [LinkedIn](https://www.linkedin.com/in/minhee-son-3b2a1016a) | [Youtube](https://www.youtube.com/@devgrandma)&#x20;
 
 ***
 
 ## <mark style="color:orange;">Introduce</mark>
 
-370일동안 지구 반대편 아프리카 케냐에서 지역개발사업의 Project Manager로 일을 하다가 우연한 계기로 개발을 배웠습니다. 현재는 3년차 개발자로 핀테크, 프롭테크 등의 영역에서 두 곳의 스타트업을 거쳐 모바일 앱, 웹 서비스를 개발해왔습니다. 초기 스타트업의 유일한 서버개발자로 합류해 기획단계부터 참여하여 프로덕트의 설계부터 개발, 배포 및 운영까지 팀을 기술적으로 서포트한 경험이 있습니다.
+370일동안 지구 반대편 아프리카 케냐에서 지역개발사업의 Project Manager로 일을 하다가 우연한 계기로 개발을 배웠습니다. 지금은 3년차 개발자로 핀테크, 프롭테크 등의 영역에서 두 곳의 스타트업을 거쳐 모바일 앱과 웹 서비스를 개발하고 있습니다. 초기 스타트업의 유일한 서버 개발자로 합류해 기획단계부터 참여했고 시스템 설계부터 개발까지 팀을 기술적으로 서포트한 경험이 있습니다.&#x20;
 
-항상 능력보다 어려운 과제에 도전하여 의미있는 결과들을 만들어냅니다. 전혀 다른 분야나 모르는 것에 대한 두려움이 없어 빠르게 도전하고 빠르게 실패하며 J커브 성장을 해냅니다. 비 IT직군에서 빠르게 개발자로 전향을 한 경험이 있고, 익숙하지 않은 기술들을 빠른 속도로 학습하며 프로덕트를 만들어낸 경험을 해왔습니다.
+서비스의 사용자가 0명부터 5만명이 될 때까지 약 2년 동안 무수한 기술적 문제상황과 어려움을 마주했고, 이를 효과적으로 해결한 경험이 있습니다. 무수한 A/B 테스트를 통해 프로덕트를 개선했고, 이전보다 늘어난 사용자에 대응하기 위해 꾸준히 성능을 향상시켜왔습니다. 반복적인 작업은 자동화를 통해, 비효율적인 프로세스는 소통과 시스템을 통해 개선해왔습니다. &#x20;
 
-문제의 본질을 찾는 것을 중요시합니다. 본질을 알면 가장 적은 비용으로 가장 빠른 지름길을 찾을 수 있다고 믿습니다. 때문에 데이터를 보거나 개발요청을 받을때도 끊임없이 질문하려고 노력하고 있습니다. 실제로 기획자나 운영팀의 개발 요청 건에 대해 문제 해결을 위한 더 나은 방법을 제안해 수용된 경험이 있습니다.
+사용자를 기반으로 성장합니다. "모든 소프트웨어의 의미는 사용자들로부터 사용됨"에 있다고 믿으며 모든 기획적, 기술적인 의사결정은 사용자를 중심으로 진행합니다. 핵심 가치를 잘 전달하는 편리한 서비스를 지향하며 안정적이고 빠른 서비스를 만들기 위해 노력해왔습니다.
+
+How 보다는 Why 에 따라 움직입니다. 코드가 동작할 때에는 왜 그렇게 동작하는지를 궁금해햐며, 특정 기술을 도입할 때에는 유행에 휩쓸리지 않고 왜 써야하는지를 깊게 고민합니다. 기획서를 마주할 때에는 왜 특정 기능을 개발해야하는지, 해결하고자 하는 본질적인 문제가 무엇인지를 생각합니다. 실제로 더 나은 방향으로 아이디어를 제안해 기획 방향을 개선하거나 코드 한 줄 작성하지 않고 프로덕트의 문제를 해결한 경험이 있습니다.&#x20;
 
 ***
 
@@ -25,41 +29,43 @@ description: 본질을 파악하여 정면으로 맞서는 개발자
 
 ### [홀로스탠딩(Holostanding)](https://holostanding.space/)
 
-누적 사용자 42,000명이 이용하는 무보증금 원룸 중개서비스 [홀로스탠딩](https://holostanding.space/)을 만드는 프롭테크 스타트업으로 롯데벤처스, 경동인베스트 등으로부터 투자유치
+누적 사용자 55,000명이 이용하고 총 92억원의 보증금을 삭제한 무보증금 원룸 중개서비스 [홀로스탠딩](https://holostanding.space/)을 만드는 프롭테크 스타트업으로 롯데벤처스, 경동인베스트 등으로부터 투자유치&#x20;
 
 #### **Software Developer |** 2021.02-2022.10(1년 8개월)
 
-* **스타트업의 초기 멤버로 합류하여 서비스 백엔드 개발을 혼자서 담당.** 4개월 동안 Java, Spring Boot, JPA, QueryDSL, MySQL, AWS 등을 사용하여 시스템 인프라 구축, 서버 초기 환경설정, 데이터베이스 설계, API 개발 및 배포 등의 작업 수행
-  * 목표 작업기한 내에 성공적으로 서비스 런칭 및 1년 6개월간 안정적으로 운영
-  * 약 10개월간 임차인용 홀로스탠딩, 중개사용 파트너스, 임대인용 공실지우개, 내부직원용 백오피스까지 총 4개 서비스의 API를 처음부터 개발
-* 서비스 런칭 직후, TDD를 기반으로 전체 서버 코드를 리펙토링 하여 전반적인 코드의 품질을 높이고, 반복작업을 줄여 업무의 효율화를 이끌어냄
-* [AWS SES, Aligo SMS API, Spring Batch 등을 이용하여 CRM 프로세스 구축](work-and-experience/holostanding/aws-ses-aligo-sms-api-spring-batch-crm.md). 일 평균 2,000개의 SMS 및 카카오 알림톡 전송 자동화
-* 비효율적이고 시간소요가 컸던 기존의 서버 배포 프로세스를 [AWS CodePipeline 을 이용하여 CI/CD 자동화](infrastructure/aws/aws-codepipeline-01.md). 전체 배포 시간 약 5분 단축
-* [슬랙봇을 이용한 서비스 모니터링 시스템 구축](work-and-experience/holostanding/undefined.md)(SMS 전송 서비스의 잔여금액, AWS EC2 서버상태 및 배치 프로세스 결과 등). 통합된 모니터링 채널을 통해 이슈 대응속도 개선 및 모니터링 업무 로드 줄임
-* 팀원들과 함께 [온오프라인 데이터 대시보드 구축작업 진행](work-and-experience/holostanding/undefined-1.md)(필요한 지표 정의 및 데이터 조회를 위한 쿼리작업 등)
-  * 기존의 온라인, 오프라인으로 단절되었던 데이터를 통합된 대시보드 상에서 관리하도록 개선
-  * 쿼리 튜닝 및 개선
-* 팀 내 유일한 서버 개발자로서 서비스 운영 과정에서 발생하는 각종 이슈 및 장애에 신속히 대응하여 서비스를 안정적으로 운영하는데 기여
+* 0에서 1을 만든 경험&#x20;
+  * 스타트업의 초기 멤버로 합류하여 서비스의 백엔드 시스템을 혼자서 개발. 4개월 동안 Java, Spring Boot, JPA, QueryDSL, MySQL, AWS 등을 사용하여 시스템 인프라 구축, 데이터베이스 설계, API 개발 등의 작업 수행. 목표 작업기한 내에 성공적으로 서비스 런칭 및 1년 3개월간 안정적으로 운영&#x20;
+  * 약 10개월간 임차인용 홀로스탠딩, 중개사용 파트너스, 임대인용 공실지우개, 내부직원용 백오피스까지 총 4개 서비스의 API를 개발
+* 성능 향상, 속도 향상, 안정화, 문제해결
+  * TDD 를 기반으로 리펙토링하여 전반적인 코드의 품질을 높이고, 장애 가능성을 낮추는데 기여
+  * 데이터 기반 의사결정을 위한 [통합 데이터 대시보드 구축 작업에 참여](work-and-experience/holostanding/undefined-1.md)하여 온/오프라인으로 단절되었던 데이터들을 통합된 하나의 대시보드 상에서 분석할 수 있도록 개선. 대시보드에 사용된 모든 쿼리 작업을 진행
+* 비효율적인 프로세스 개선, 반복작업 자동화
+  * 비효율적이고 시간소요가 컸던 기존의 서버 배포 프로세스를 [AWS CodePipeline 을 이용하여 CI/CD 자동화](infrastructure/aws/aws-codepipeline-01.md). 전체 배포 시간 약 10분 단축&#x20;
+  * [AWS SES, Aligo SMS API, Spring Batch 등을 이용하여 CRM 프로세스 구축](work-and-experience/holostanding/aws-ses-aligo-sms-api-spring-batch-crm.md). 일 평균 2,000개의 SMS 및 카카오 알림톡 전송을 자동화&#x20;
+  * [슬랙봇을 이용한 서비스 모니터링 시스템 구축](work-and-experience/holostanding/undefined.md). 통합된 모니터링 채널을 통해 이슈 대응속도 개선 및 모니터링 업무 효율 개선&#x20;
+* 사용자 편의성 향상, 프로덕트 개선
+  * [전문가 상세페이지 내부 상담하기 버튼을 추가하는 기획을 제안](work-and-experience/holostanding/undefined-3.md)하여 목표 단계까지 전환률 향상
+  * [Admin 화면 기획에 개선안을 제안](work-and-experience/holostanding/admin.md)하여 사용성 향상 및 업무 효율성을 증진
 
 ***
 
 ### [크레파스(CrePASS)](https://www.crepass.com)
 
-비금융 빅데이터를 기반으로 개인의 신용을 평가하는 대안신용평가 플랫폼을 운영하는 핀테크 스타트업으로 신한금융투자, 스파크랩파트너스, 팁스, 미래에셋벤처투자 등으로부터 투자 유치
+비금융 빅데이터를 기반으로 개인의 신용을 평가하는 대안신용평가 플랫폼을 운영 중인 핀테크 스타트업으로 신한금융투자, 스파크랩파트너스, 팁스, 미래에셋벤처투자 등으로부터 투자 유치
 
 #### **Software Developer |** 2019.11-2021.01(1년 3개월)
 
-* **Kotlin, Android Studio 를 이용해 입사 3개월만에** [**P2P 플랫폼 서비스 <청년5.5> 안드로이드 앱**](https://play.google.com/store/apps/details?id=com.crepass.p2p\&hl=ko\&gl=US) **리뉴얼을 위한 개발 및 앱스토어 배포를 진행. 향상된 앱 사용성 및 개선된 UI를 통해 사용자 경험 개선**
-* **누적 다운로드 2,000건 이상의 모바일 신용등급 플랫폼** [**대안신용평가 서비스 CrePASS SDK**](https://m.onestore.co.kr/mobilepoc/apps/appsDetail.omp?prodId=0000738635) **를 유지보수하며 <청년 5.5> 앱 내 연동작업 진행하여 대출신청완료까지 이탈률 개선**
-* [북서울신협 <북서울신협 대안신용평가>](https://m.onestore.co.kr/mobilepoc/apps/appsDetail.omp?prodId=0000753209) 안드로이드 앱 신규 개발 및 원스토어 릴리즈 작업 진행하여 신용정보가 부족한 대출신청자에게 대안적인 신용평가 창구 제공
-* **P2P 온라인투자연계법 개정에 따른 인프라 이전작업에 참여**
-  * 기존 AWS 상에서 운영되던 서버 약 6개를 Koscom 금융 클라우드로 이전
-  * 기존 AWS RDS 로 사용 중이던 데이터베이스를 Koscom 의 Cloud DB for MySQL 로 교체 및 데이터 마이그레이션
-* 서비스의 핵심 모듈인 CrePASS SDK 내부 소스코드를 분석한 내용을 팀 내 최초로 문서화하고 팀원들과 공유하여 모듈 내 로직에 대한 전체적인 이해도 향상에 기여
-* 기존 시스템 인프라 및 서버 환경 구성정보를 문서화하고 팀원들과 공유하여 관리되고 있지 않았던 다수의 서버를 발견해 AWS 비용 절감에 기여
-* 팀 내 유일한 프론트 개발자로서 사용자의 편의성과 회사의 비즈니스적 임팩트를 함께 추구할 수 있도록 꾸준히 개선안 제안
-  * 펀딩 목록 페이지 내 정렬 기준을 최신순이 아닌 펀딩 임박한 순서로 변경 제안
-* 사내 기술스터디 및 영어스터디 참여. 학습을 위한 인터넷 강의 지원제도를 도입에 앞장서 꾸준히 학습하는 팀 분위기 조성에 기여
+* 0에서 1을 만든 경험, 사용자 편의성 향상, 프로덕트 개선
+  * Kotlin, Android Studio 를 이용해 입사 3개월만에 1만 명이 사용하는 [P2P 플랫폼 서비스 <청년5.5> 안드로이드 앱](https://play.google.com/store/apps/details?id=com.crepass.p2p\&hl=ko\&gl=US) 리뉴얼 버전을 개발. 향상된 앱 사용성 및 개선된 UI를 통해 사용자 경험을 개선
+  * 누적 다운로드 2,000건 이상의 모바일 신용등급 플랫폼 [대안신용평가 서비스 CrePASS SDK](https://m.onestore.co.kr/mobilepoc/apps/appsDetail.omp?prodId=0000738635) 를 유지보수하며 <청년 5.5> 앱 내 연동작업을 진행하여 대출신청완료까지 이탈률을 개선
+  * [북서울신협 <북서울신협 대안신용평가>](https://m.onestore.co.kr/mobilepoc/apps/appsDetail.omp?prodId=0000753209) 안드로이드 앱 신규 개발 및 원스토어 릴리즈 작업을 진행하여 신용정보가 부족한 대출신청자에게 대안적인 신용평가 창구 제공&#x20;
+  * 팀 내 유일한 안드로이드 개발자로서 사용자의 편의성과 회사의 비즈니스적 임팩트를 함께 추구할 수 있도록 꾸준히 개선안 제안. 펀딩 목록 페이지 내 정렬 기준을 최신순이 아닌 펀딩 임박한 순서로 변경할 것을 제안
+* 시스템 이전&#x20;
+  * P2P 온라인투자연계법 개정에 따른 인프라 이전작업에 참여. 기존 AWS 상에서 운영되던 서버 약 6개를 [Koscom 금융 클라우드](https://www.koscom.cloud)로 이전. 기존 AWS RDS 로 사용 중이던 데이터베이스를 Koscom 의 Cloud DB for MySQL 로 교체 및 데이터 마이그레이션&#x20;
+* 팀 문화 및 문서화&#x20;
+  * 서비스의 핵심 모듈인 CrePASS SDK 내부 소스코드를 분석한 내용을 팀 내 최초로 문서화하고 팀원들과 공유하여 모듈 내 로직에 대한 전체적인 이해도 향상에 기여
+  * 기존 시스템 인프라 및 서버 환경 구성정보를 문서화하고 팀원들과 공유하여 관리되고 있지 않았던 다수의 서버를 발견해 AWS 비용 절감에 기여
+  * 사내 기술스터디 및 영어스터디 참여. 학습을 위한 인터넷 강의 지원제도를 제안해 꾸준히 학습하는 팀 분위기 조성에 기여&#x20;
 
 ***
 
@@ -77,8 +83,7 @@ description: 본질을 파악하여 정면으로 맞서는 개발자
 * 월 1회 지역 공무원, 마을 유지, 프로젝트 수혜자로 구성된 마을 내 프로젝트 위원회 (Project Committee Meeting) 진행을 총괄하여 자발적인 주민조직을 통한 축산 관련 공동체 구성에 기여
 * 기후가 건조해지는 건기에 대비하여 사료수급을 원활히 하기 위해 작물 공동재배용 토지 구매 과정 총괄
 * 케냐지부의 NGO 등록과정에 필요한 모든 프로세스를 관할하고 젖소 대출금 상환 계좌의 명의를 개인에서 단체로 변경하여 단체의 신뢰성 강화 및 투명한 운영에 기여
-* 젖소사육에 필요한 모든 지원 과정 총괄
-  * 축사건축, 방역도구 배분, 백신접종, 착유물품 배분 등
+* 젖소사육에 필요한 모든 지원 과정 총괄 (축사건축, 방역도구 배분, 백신접종, 착유물품 배분 등)
 * 매월 130여명의 수혜자 모니터링을 통해 대출상환을 관리하고 젖소 데이터 수집 및 모니터링
 
 ***
@@ -89,8 +94,7 @@ description: 본질을 파악하여 정면으로 맞서는 개발자
 
 #### **Communication Dept Intern |** 2017.07-2017.08(2개월)
 
-* 한국지부 최초로 뉴스기사, 컨퍼런스 등 기성매체가 아닌 Youtube 플랫폼을 통한 커뮤니케이션 방법 시도
-  * 사업관련 주제의 유투버와 협업 제안
+* 한국지부 최초로 뉴스기사, 컨퍼런스 등 기성매체가 아닌 Youtube 플랫폼을 통한 커뮤니케이션 방법 시도. 사업관련 주제의 유투버들에게 협업 제안
 * 2014년 아프리카에 에볼라 질병 확산 당시 컨선월드와이드가 개발한 <[**존엄하고 안전한 매장(Safe and dignified Burials Programme)**](https://concern.or.kr/172)> 온라인 콘텐츠 제작 및 공식 홈페이지에 개재
 * 기관과 관련된 뉴스 데일리 모니터링 후 한국지부 전사 공유 작업 진행하여 매일 팀원들과 인사이트 공유
 * 매년 컨선월드와이드와 독일의 세계기아원조(Welthungerhilfe)가 함께 공동으로 발표하는 **세계기아지수** (Global Hunger Index) 및 세계기아지수리포트 관련 리서치 작업 진행
@@ -126,11 +130,11 @@ description: 본질을 파악하여 정면으로 맞서는 개발자
 * 국제개발협력 뉴스레터 [김치앤칩스](https://page.stibee.com/archives/76249)의 필진으로 참여
   * <[NGO는 아니지만 국제개발협력합니다](https://www.notion.so/0d9f5f4719234807a128d5bde229809b)> 인터뷰 시리즈 기획 및 제작하여 2022년 한해동안 총 13명의 인터뷰 진행
 
-### 2022.07 \~ 2022.08 프로덕트 메이커 스터디 <[쿨피스](https://disquiet.io/product/%EC%BF%A8%ED%94%BC%EC%8A%A4)>
+### 2022.07 \~ 2022.08 Product Maker 스터디 <[쿨피스](https://disquiet.io/product/%EC%BF%A8%ED%94%BC%EC%8A%A4)>
 
 * Building In Public 정신으로 36명의 사람들과 함께 초기멤버로 참여
-* `flash`라는 닉네임으로 [디스콰이엇](https://disquiet.io/product/%EC%BF%A8%ED%94%BC%EC%8A%A4) 플랫폼에 올라온 [서비스의 문제에 대해 고민하고 메이커의 관점에서 해결책을 제시](broken-reference)하는 활동
-* product making 전반에 대한 내용을 공부하고 [콘텐츠로 발행](https://disquiet.io/@flash)
+* `flash`라는 닉네임으로 [디스콰이엇](https://disquiet.io/product/%EC%BF%A8%ED%94%BC%EC%8A%A4) 플랫폼에서 [타 서비스가 겪고 있는 문제에 대해 고민하고 메이커의 관점에서 해결책을 제시하는 활동](work-and-experience/activity/undefined.md)
+* 서비스 개발 전반에 대한 내용을 공부하고 [콘텐츠로 발행](https://disquiet.io/@flash)
 
 ### 2022.01 \~ 2022.08 새벽 개발자 모각공 커뮤니티 <[Early Bird Morning Club](https://discord.gg/PyJauKJRgg)>
 
@@ -144,27 +148,28 @@ description: 본질을 파악하여 정면으로 맞서는 개발자
 
 * Back-End
   * Java, SpringBoot, JPA, QueryDSL
-* Infrastructure
-  * AWS(EC2, RDS, S3, Route53, CodePipeline)
+  * AWS(EC2, RDS, S3, Route53, CodePipeline 등)
 * Database
   * MySQL
 * Communication and Co-working
-  * Github, Slack, Notion
+  * Github, Bitbucket
+  * Slack, Notion
 
 
 
 ## <mark style="color:orange;">Language</mark>
 
-* English : 글을 읽고 작성할 수 있고 일상적 소통 가능 (TOEIC 975점, IELTS 7.0)
-* Chinese : HSK 5급까지 시험봤지만 사용해 본 지는 오래됨
-* Kiswahili : 케냐에 거주하는 동안 간단한 인사와 소개말 정도를 배움
+* English : 글을 읽고 작성할 수 있고 일상적 소통 가능 (TOEIC 975점, IELTS 7.0)&#x20;
+* Chinese : HSK 5급까지 도전했으나 사용한지 오래됨&#x20;
+* Kiswahili : 케냐에 거주하는 동안 간단한 인사와 소개말 정도를 배움&#x20;
 
 
 
 ## <mark style="color:orange;">Education</mark>
 
-* 2022.09 - 2022.10 NextStep Infra 공방
-* 2021.04 - 2021.05 NextStep TDD with Java
+* 2022.09 - 2022.10 NextStep Infra 공방 수강&#x20;
+* 2021.04 - 2021.05 NextStep TDD with Java 수강&#x20;
+* 2020.12 - 2021.01 Fast campus Java 웹 개발 마스터 올인원 패키지 Online 수강&#x20;
 * 2019.04 - 2019.11 Bitcamp, 풀스택 자바 웹 개발자 과정 수료
 * 2015.01 - 2015.12 Queens College, ESL(English as a Second Language) Course 수료
-* 2013.03 - 2019.08 이화여자대학교, 사학 및 국제학 학사
+* 2013.03 - 2019.08 이화여자대학교, 사학 및 국제학 학사&#x20;

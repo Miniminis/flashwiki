@@ -1,16 +1,15 @@
 # Table of contents
 
-* [🧙 손민희](README.md)
+* [📙 손민희 (MINHEE SON)](README.md)
 
 ## 💼 work and experience
 
 * [홀로스탠딩(Holostanding)](work-and-experience/holostanding/README.md)
   * [AWS SES, Aligo SMS API, Spring Batch 등을 이용하여 CRM 프로세스 자동화](work-and-experience/holostanding/aws-ses-aligo-sms-api-spring-batch-crm.md)
-  * [Bitbucket, AWS CodePipeline 이용하여 CI/CD 배포 자동화](work-and-experience/holostanding/bitbucket-aws-codepipeline-ci-cd.md)
   * [슬랙봇을 이용한 서비스 모니터링 시스템 구축](work-and-experience/holostanding/undefined.md)
   * [온오프라인 데이터 대시보드 구축](work-and-experience/holostanding/undefined-1.md)
   * [이슈 리포트 작성 문화 도입 및 초기 템플릿 구축](work-and-experience/holostanding/undefined-2.md)
-  * [전문가 상세페이지 내부 상담하기 버튼 추가 기획 제안](work-and-experience/holostanding/undefined-3.md)
+  * [전문가 상세페이지 내부 상담하기 버튼 추가 의견 제안](work-and-experience/holostanding/undefined-3.md)
   * [Admin 화면 기획에 개선 의견 제안](work-and-experience/holostanding/admin.md)
 * [Activity](work-and-experience/activity/README.md)
   * [서비스 메이커의 관점에서 타서비스의 문제 해결](work-and-experience/activity/undefined.md)
