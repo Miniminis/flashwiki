@@ -234,8 +234,6 @@
 ## ☕ Java/Spring
 
 * [java](java-spring/java/README.md)
-  * [Map 정렬 방법](java-spring/java/map.md)
-  * [ArrayList 초기화 방법들](java/page-1.md)
   * [synchronized](java/synchronized.md)
   * [java string.split(".") 오류](java-spring/java/java-string.split-..md)
 * [java 8](java/java-8/README.md)
@@ -272,7 +270,6 @@
   * [기본 1 - 엔티티, 릴레이션, 속성, 도메인](database/general/1.md)
 * [mysql](database/mysql/README.md)
   * [이것이 MySQL이다](database/mysql/thisismysql-sqls.md)
-* [commands](database/commands.md)
 
 ## 🏰 Infrastructure
 
@@ -284,8 +281,11 @@
 ## 🪄 Test
 
 * [tdd](test/tdd/README.md)
+  * [TDD, 리팩토링이란?](test/tdd/tdd.md)
+  * [\[1주차\] 자동차 경주 과제 TDD 강의](test/tdd/1-tdd.md)
+  * [가장 쉽게 TDD 시작하는 방법](test/tdd/tdd-1.md)
   * [의식적인 연습과 학습 테스트](test/tdd/undefined.md)
-  * [TDD 에 집착해야하는 이유](test/tdd/tdd.md)
+  * [TDD 에 집착해야하는 이유](test/tdd/tdd-2.md)
   * [공부하는 자세](test/tdd/undefined-1.md)
 * [assertj](test/assertj.md)
 * [junit](test/junit.md)
@@ -293,6 +293,7 @@
 ## 😎 OTHERS
 
 * [helpful commands](others/helpful-commands.md)
+* [intelliJ](others/intellij.md)
 * [git](others/git/README.md)
   * [commands](others/git/commands.md)
 * [logging](others/logging/README.md)

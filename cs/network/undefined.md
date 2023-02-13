@@ -71,7 +71,7 @@
     * 일단 서킷 브레이커가 trip 되면, open 상태가 된다.&#x20;
   * half-opened : open 상태에서 timeout 으로 설정된 시간이 지나면 장애가 해결되었는지 확인하기 위해서 half-opened 상태로 전환된다. 여기서 요청을 전송하여 응답을 확인한다. 장애가 풀리는지를 확인해서 성공하면 closed, 실패하면 다시 opened 상태로 변경&#x20;
 
-<figure><img src="../../.gitbook/assets/image (6).png" alt=""><figcaption><p><a href="https://engineering.linecorp.com/ko/blog/try-armeria-circuit-breaker">https://engineering.linecorp.com/ko/blog/try-armeria-circuit-breaker</a></p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (6) (9).png" alt=""><figcaption><p><a href="https://engineering.linecorp.com/ko/blog/try-armeria-circuit-breaker">https://engineering.linecorp.com/ko/blog/try-armeria-circuit-breaker</a></p></figcaption></figure>
 
 ### 2-5. 콘텐츠 확인&#x20;
 

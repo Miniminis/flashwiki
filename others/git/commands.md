@@ -6,4 +6,5 @@
   * ```
     ex) git clone -b javajigi --single-branch https://github.com/javajigi/java-racingcar
     ```
-
+* 참고&#x20;
+  * [https://www.slipp.net/questions/577](https://www.slipp.net/questions/577)
