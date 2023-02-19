@@ -17,13 +17,13 @@
 
 ## 🗣 DEVTALK
 
-* [👂 tech talk](devtalk/techtalk/README.md)
-* [✍ tech blogs](devtalk/tech-blogs.md)
-* [📚 tech bookcord](devtalk/tech-bookcord/README.md)
-  * [나는 LINE 개발자입니다](devtalk/tech-bookcord/line.md)
-  * [함께자라기 by 김창준](devtalk/tech-bookcord/by.md)
-  * [누워서 읽는 알고리즘 by 임백준](devtalk/tech-bookcord/by-1.md)
-* [🎁 event](devtalk/event/README.md)
+* [👂 dev-talk](devtalk/techtalk/README.md)
+* [✍ dev-reading](devtalk/dev-reading.md)
+* [📚 dev-bookcord](devtalk/dev-bookcord/README.md)
+  * [나는 LINE 개발자입니다](devtalk/dev-bookcord/line.md)
+  * [함께자라기 by 김창준](devtalk/dev-bookcord/by.md)
+  * [누워서 읽는 알고리즘 by 임백준](devtalk/dev-bookcord/by-1.md)
+* [🎁 dev-event](devtalk/event/README.md)
   * [sudo - CTO's Tech Talk 2022 컨퍼런스 1일차](devtalk/event/event-fc-sudo-20220115.md)
   * [sudo - CTO's Tech Talk 2022 컨퍼런 2일차](devtalk/event/event-fc-sudo-20220116.md)
 * [🧓 growth](devtalk/growth/README.md)
