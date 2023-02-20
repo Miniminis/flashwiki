@@ -93,7 +93,7 @@ description: 다익스트라 알고리즘
 
 ### bellman-ford 알고리즘&#x20;
 
-<figure><img src="../../../.gitbook/assets/image (6) (1).png" alt=""><figcaption><p><a href="https://www.inflearn.com/course/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EA%B0%95%EC%A2%8C">[인프런] 영리한 프로그래밍을 위한 알고리즘 강좌 by 권오흠 교수님</a></p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (6) (1) (4).png" alt=""><figcaption><p><a href="https://www.inflearn.com/course/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EA%B0%95%EC%A2%8C">[인프런] 영리한 프로그래밍을 위한 알고리즘 강좌 by 권오흠 교수님</a></p></figcaption></figure>
 
 * 반복 사이클을 n-1 번으로 고정시킴&#x20;
 * n-1번 relax 연산을 반복했음에도, 여전히 d\[v] >= d\[u] + w(u, v)가 존재한다면, 그것은 음수 사이클이 존재한다는 의미이므로 최단경로를 구할 수 없다고 return&#x20;

@@ -114,7 +114,7 @@ class DefaultDosirak extends Dosirak {
 * [코드참고](https://github.com/Miniminis/design-patterns/tree/de523dc233cdb47463ac4d7c111eee35177e55e5/src/main/java/me/whiteship/designpatterns/\_01\_creational\_patterns/\_02\_factory\_method\_practice/\_02\_after)
 * product 에 해당하는 ship도, creator 에 해당하는 factory 도 모두 팩토리 매소드 패턴을 적용하여 변경 가능성은 줄이고, 확장가능성은 높인다.&#x20;
 
-### ![](<../../.gitbook/assets/image (4) (1).png>)&#x20;
+### ![](<../../.gitbook/assets/image (4) (1) (6).png>)&#x20;
 
 ## 자세히보기&#x20;
 

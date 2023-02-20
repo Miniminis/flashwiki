@@ -32,7 +32,7 @@
    1. 리펙토링은 많이 하면 할수록 정말 즐겁다.&#x20;
    2. 리펙토링은 예술이다.&#x20;
 
-<figure><img src="../../.gitbook/assets/image (9).png" alt=""><figcaption><p>NextStep &#x3C;<a href="https://edu.nextstep.camp/c/8fWRxNWU/">TDD, 클린코드 with Java</a>></p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (9) (1).png" alt=""><figcaption><p>NextStep &#x3C;<a href="https://edu.nextstep.camp/c/8fWRxNWU/">TDD, 클린코드 with Java</a>></p></figcaption></figure>
 
 ## 4. TDD를 삶에 응용하기&#x20;
 

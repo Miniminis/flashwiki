@@ -238,6 +238,9 @@
 ## ☕ Java/Spring
 
 * [java](java-spring/java/README.md)
+  * [Class Loader](java-spring/java/class-loader.md)
+  * [JVM 의 구조](java-spring/java/jvm.md)
+  * [java, jvm, jdk and jre](java-spring/java/java-jvm-jdk-and-jre.md)
   * [synchronized](java/synchronized.md)
   * [java string.split(".") 오류](java-spring/java/java-string.split-..md)
 * [java 8](java/java-8/README.md)
