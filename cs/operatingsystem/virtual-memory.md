@@ -114,7 +114,7 @@
 * LRU 는 가장 오래전체 참조된 것을 지우기 때문데 1번 페이지를 삭제할 것이다.
 * LFU 는 가장 참조 횟수가 적은 것을 replace 대상으로 삼기 때문에 4번 페이지를 삭제한다.
 
-<figure><img src="../../.gitbook/assets/image (2) (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (2) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### LRU 와 LFU 의 구현
 

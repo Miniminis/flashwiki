@@ -38,7 +38,7 @@ java 언어로 개발을 하면서 늘 헷갈리기도 하고, 정확하게 알�
   * 이런 맥락에서 JVM 기반 언어로 Closure, Kotlin, Scala, Groovy, Jruby, Jython 등의 언어가 꼽힌다.&#x20;
 * JVM 은 결국 java byte code 를 OS 환경에 맞게 변환하여 실행하기 때문에 OS 플랫폼에 종속적이게 된다.&#x20;
 
-<figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption><p>how JIT compier work </p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (2).png" alt=""><figcaption><p>how JIT compier work </p></figcaption></figure>
 
 
 

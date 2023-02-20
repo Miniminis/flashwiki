@@ -129,7 +129,7 @@
 
 <figure><img src="../../.gitbook/assets/image (13) (2) (1).png" alt=""><figcaption><p>bounded-buffer problem in semaphore version</p></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (2) (2) (1).png" alt=""><figcaption><p>bounded-buffer problem in monitor version</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (2) (1) (1).png" alt=""><figcaption><p>bounded-buffer problem in monitor version</p></figcaption></figure>
 
 ### 비교 2. 식사하는 철학자 문제 : semaphore vs. monitor
 

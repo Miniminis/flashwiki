@@ -238,6 +238,8 @@
 ## ☕ Java/Spring
 
 * [java](java-spring/java/README.md)
+  * [바이트 코드 조작하기](java-spring/java/undefined.md)
+  * [java bytecode 를 조작해 테스트 코드 커버리지 확인하기 (feat.jacoco)](java-spring/java/java-bytecode-feat.jacoco.md)
   * [Class Loader](java-spring/java/class-loader.md)
   * [JVM 의 구조](java-spring/java/jvm.md)
   * [java, jvm, jdk and jre](java-spring/java/java-jvm-jdk-and-jre.md)
