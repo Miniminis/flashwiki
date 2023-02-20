@@ -63,7 +63,7 @@
   * 네트워크의 장애를 모니터링 하면서, 특정 서비스가 timeout으로 설정된 시간을 초과하면, 몇 번 재시도를 한다.&#x20;
   * 여전히 timeout 이 발생하면 장애 상황으로 인식되어 서킷 브레이커가 trip 된다. 그 이후의 초과적인 호출은 발생하지 않도록 한다. -> fail fast
 
-<figure><img src="../../.gitbook/assets/image (8).png" alt=""><figcaption><p><a href="http://www.msaschool.io/operation/introduction/example-domain/">http://www.msaschool.io/operation/introduction/example-domain/</a></p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (8) (1).png" alt=""><figcaption><p><a href="http://www.msaschool.io/operation/introduction/example-domain/">http://www.msaschool.io/operation/introduction/example-domain/</a></p></figcaption></figure>
 
 * 서킷 브레이커는 세 가지의 상태값을 갖는다.&#x20;
   * closed : 정상적인 상태로 요청을 수행함. 네트워크 요청의 실패율이 임계치보다 낮은 상황&#x20;

@@ -19,7 +19,7 @@
 * 선불 충전식 알림톡 서비스의 경우, 발송 가능한 메시지의 수가 특정 건수 이하로 떨어지면 슬랙봇 메시지가 전달되도록 했다.
   * 결제 담당자를 자동으로 태그하고 결제에 쓰이는 은행과 계좌번호도 메시지 내용에 담아, 메시지를 확인한 담당자가 바로 충전할 수 있도록 했다.&#x20;
 
-<figure><img src="../../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (7) (10).png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../../.gitbook/assets/image (6) (1).png" alt=""><figcaption></figcaption></figure>
 

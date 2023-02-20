@@ -22,7 +22,7 @@
 
 <figure><img src="../../.gitbook/assets/image (59).png" alt=""><figcaption><p><a href="https://www.benq.com/en-ap/business/support/faqs/application/publicdisplay-b2bfaq-k-00034.html">https://www.benq.com/en-ap/business/support/faqs/application/publicdisplay-b2bfaq-k-00034.html</a></p></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (5) (2).png" alt=""><figcaption><p><a href="https://www.guru99.com/subnetting-subnet-mask.html">https://www.guru99.com/subnetting-subnet-mask.html</a></p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (5) (2) (3).png" alt=""><figcaption><p><a href="https://www.guru99.com/subnetting-subnet-mask.html">https://www.guru99.com/subnetting-subnet-mask.html</a></p></figcaption></figure>
 
 <figure><img src="../../.gitbook/assets/image (2) (7) (4).png" alt=""><figcaption></figcaption></figure>
 

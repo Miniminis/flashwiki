@@ -37,7 +37,7 @@
 
 ### 3-2. 각 담당자별 / 지역별 KPI 측정을 위한 개별 대시보드 구축 <a href="#2-kpi" id="2-kpi"></a>
 
-<figure><img src="../../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (5) (2).png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="https://files.gitbook.com/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FVma2fZdYpzVKe3WRZJd1%2Fuploads%2FK5gqnTfsZvCH2bzxI3pT%2Fimage.png?alt=media&#x26;token=f60c67a2-c7e2-4611-a49f-2c2970e8d786" alt=""><figcaption></figcaption></figure>
 

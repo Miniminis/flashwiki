@@ -38,7 +38,7 @@ description: Transport Layer Security
 
 * Diffle-Hellman 알고리즘은 서로 공개값을 공유한 뒤, 각자의 비밀값과 혼합하고, 혼합값을 공유한 뒤, 각자의 비밀갑솨 혼합해서 공통의 암호키를 만드는 알고리즘이다.&#x20;
 
-<figure><img src="../../.gitbook/assets/image (10).png" alt=""><figcaption><p><a href="https://medium.com/@razumovsky_r/diffie-hellman-key-exchange-via-rest-b7a91c9df7b1">https://medium.com/@razumovsky_r/diffie-hellman-key-exchange-via-rest-b7a91c9df7b1</a></p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (10) (3).png" alt=""><figcaption><p><a href="https://medium.com/@razumovsky_r/diffie-hellman-key-exchange-via-rest-b7a91c9df7b1">https://medium.com/@razumovsky_r/diffie-hellman-key-exchange-via-rest-b7a91c9df7b1</a></p></figcaption></figure>
 
 ### 3-1. 타원곡선 암호화&#x20;
 

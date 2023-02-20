@@ -23,7 +23,7 @@
 
 <figure><img src="../../.gitbook/assets/image (63).png" alt=""><figcaption><p>알림톡 전송 유형별 조건과 발송시간</p></figcaption></figure>
 
-![](<../../.gitbook/assets/image (4) (1).png>)  ![](<../../.gitbook/assets/image (51).png>)
+![](<../../.gitbook/assets/image (4) (1) (6).png>)  ![](<../../.gitbook/assets/image (51).png>)
 
 ## 4. 나의 역할
 

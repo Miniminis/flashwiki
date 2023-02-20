@@ -2,7 +2,7 @@
 description: Hypertext Transfer Protocol
 ---
 
-# HTTP
+# HTTP History
 
 ## 1. HTTP1.x
 
@@ -44,7 +44,7 @@ RTT 지연문제를 해결하기 위한 3가지 방법
 * 이전의 문제점이 매번 TCP 연결을 해서 RTT 가 느려지는 것이 문제였다면, 한번만 TCP 초기화를 하고, 이후에는 keep-alive 라는 옵션으로 여러개의 파일을 송수신할 수 있게 바뀌었다.&#x20;
 * 참고로 HTTP1.0 에서도 keep-alive 옵션이 있었으나 표준화되지 않았고, HTTP1.1 부터 표준화가 되어 기본 옵션으로 설정된 것이다.&#x20;
 
-<figure><img src="../../.gitbook/assets/image (8) (1).png" alt=""><figcaption><p><a href="https://code-lab1.tistory.com/196">https://code-lab1.tistory.com/196</a></p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (8) (1) (3).png" alt=""><figcaption><p><a href="https://code-lab1.tistory.com/196">https://code-lab1.tistory.com/196</a></p></figcaption></figure>
 
 ### 1-5. 여전한 문제점 : HOL BLOCKING&#x20;
 

@@ -49,7 +49,7 @@
 
 ## 3. 정리&#x20;
 
-<figure><img src="../../.gitbook/assets/image (12) (7).png" alt=""><figcaption><p><a href="https://www.geeksforgeeks.org/introduction-of-classful-ip-addressing/">https://www.geeksforgeeks.org/introduction-of-classful-ip-addressing/</a></p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (12) (7) (1).png" alt=""><figcaption><p><a href="https://www.geeksforgeeks.org/introduction-of-classful-ip-addressing/">https://www.geeksforgeeks.org/introduction-of-classful-ip-addressing/</a></p></figcaption></figure>
 
 ## 4. 기타&#x20;
 

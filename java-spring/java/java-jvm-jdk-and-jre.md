@@ -12,7 +12,7 @@ description: 이들은 도대체 무엇이 다른가...!
 
 java 언어로 개발을 하면서 늘 헷갈리기도 하고, 정확하게 알고 있다고 생각하지 않았던 것이 바로, jvm, jdk, 그리고 jre 에 대한 설명일 것이다. 오늘은 이들이 무엇이고 어떻게 다른지 제대로 정리해보려고 한다.&#x20;
 
-<figure><img src="../../.gitbook/assets/image (4).png" alt=""><figcaption><p><a href="https://static.tildacdn.com/tild6563-3739-4565-a361-323339393332/jvm1.png">https://static.tildacdn.com/tild6563-3739-4565-a361-323339393332/jvm1.png</a></p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (4) (1).png" alt=""><figcaption><p><a href="https://static.tildacdn.com/tild6563-3739-4565-a361-323339393332/jvm1.png">https://static.tildacdn.com/tild6563-3739-4565-a361-323339393332/jvm1.png</a></p></figcaption></figure>
 
 ## 1. JVM, Java Virtual Machine&#x20;
 

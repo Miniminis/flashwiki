@@ -17,7 +17,7 @@
 
 ## 3. 해결방법
 
-<figure><img src="../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (3) (11).png" alt=""><figcaption></figcaption></figure>
 
 * 모든 팀원 전체가 이슈를 발견하면 리포트할 수 있는 프로세스를 구축했다.
   * 이슈 발견시 스크린샷 촬영

@@ -4,7 +4,7 @@ description: jacoco 같은 테스트 코드 커버리지 툴은 어떻게 만들
 
 # java bytecode 를 조작해 테스트 코드 커버리지 확인하기 (feat.jacoco)
 
-<figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (12).png" alt=""><figcaption></figcaption></figure>
 
 ## 1. 테스트코드 커버리지 플러그인들은 어떤 원리로 동작하는가&#x20;
 
