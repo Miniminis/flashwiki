@@ -4,6 +4,10 @@ description: jacoco 같은 테스트 코드 커버리지 툴은 어떻게 만들
 
 # java bytecode 를 조작해 테스트 코드 커버리지 확인하기 (feat.jacoco)
 
+{% hint style="info" %}
+인프런 백기선님의 강의 <[더 자바, 코드를 조작하는 다양한 방법](https://www.inflearn.com/course/the-java-code-manipulation/dashboard)> 을 수강하면서 공부한 내용을 정리합니다.&#x20;
+{% endhint %}
+
 <figure><img src="../../.gitbook/assets/image (2) (12).png" alt=""><figcaption></figcaption></figure>
 
 ## 1. 테스트코드 커버리지 플러그인들은 어떤 원리로 동작하는가&#x20;

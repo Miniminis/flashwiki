@@ -1,5 +1,9 @@
 # 바이트 코드 조작하기
 
+{% hint style="info" %}
+인프런 백기선님의 강의 <[더 자바, 코드를 조작하는 다양한 방법](https://www.inflearn.com/course/the-java-code-manipulation/dashboard)> 을 수강하면서 공부한 내용을 정리합니다.&#x20;
+{% endhint %}
+
 ## 1. 왜 필요한가
 
 * 자바 바이트 코드를 조작하는 기술은 생각보다 우리 주변에서 아주 널리 사용되고 있다. 이를테면 이런 곳에서.&#x20;
@@ -285,7 +289,7 @@ VM Options 칸에 아래의 명령어 추가
 
 물론, 원래 코드의 바이트 코드는 전혀 바뀌지 않았다.&#x20;
 
-<figure><img src="../../.gitbook/assets/image (9).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (9) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## 5. 정리&#x20;
 
