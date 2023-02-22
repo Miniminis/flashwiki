@@ -9,7 +9,7 @@ coverY: -363
 ## <mark style="color:orange;">Contact</mark>
 
 * [minhee4735@gmail.com](mailto:minhee4735@gmail.com)
-* [Blog](https://wiki.mhson.world/) | [Github](https://github.com/miniminis) | [LinkedIn](https://www.linkedin.com/in/minhee-son-3b2a1016a) | [Youtube](https://www.youtube.com/@devgrandma)&#x20;
+* [Blog](https://wiki.mhson.world/) | [Github](https://github.com/miniminis) | [LinkedIn](https://www.linkedin.com/in/minhee-son-3b2a1016a) | [Youtube](https://www.youtube.com/@devgrandma) | [Brunch](https://brunch.co.kr/@nomadflash) &#x20;
 
 ***
 
