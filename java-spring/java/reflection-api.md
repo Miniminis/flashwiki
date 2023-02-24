@@ -4,6 +4,10 @@ description: 언제 사용하고, 어디서 사용되는가
 
 # reflection api 정리
 
+{% hint style="info" %}
+인프런 백기선님의 강의 <[더 자바, 코드를 조작하는 다양한 방법](https://www.inflearn.com/course/the-java-code-manipulation/dashboard)> 을 수강하면서 공부한 내용을 정리합니다.&#x20;
+{% endhint %}
+
 지금까지 reflection api 를 사용하여 바이트코드에 직접 접근하여 수정도 해보고, 외부 컨테이너를 만들어 의존성 주입을 시켜주기도 하였다. 이 모든 것이 reflection api 가 제공되었기에 쉽게 진행할 수 있었다. 그렇다면, 이러한 reflection 은 우리 주변 어디에서 사용되는가?&#x20;
 
 ## 1. 사용 예시&#x20;
