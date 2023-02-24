@@ -1,4 +1,4 @@
-# string
+# String
 
 ## StringBuilder
 

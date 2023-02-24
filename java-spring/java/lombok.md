@@ -18,7 +18,7 @@
 
 ### 2-1. 라이브러리 추가하기&#x20;
 
-<figure><img src="../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
 ```gradle
 
@@ -31,7 +31,7 @@ dependencies {
 
 ### 2-2. annotation-processor 체크 (in IntelliJ)&#x20;
 
-<figure><img src="../../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
 
 ### 2-3. 코드 작성
 

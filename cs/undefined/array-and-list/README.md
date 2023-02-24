@@ -2,7 +2,7 @@
 description: 배열과 리스트
 ---
 
-# array and list
+# Array and List
 
 ## 배열과 리스트
 
@@ -53,8 +53,6 @@ description: 배열과 리스트
   * 탐색시간은 O(logN)
   * 배열을 미리 할당하지 않아도 되어서 공간활용도가 좋고
   * 키의 집합을 특정 순서대로 접근가능하다.
-
-
 
 
 

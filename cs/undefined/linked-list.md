@@ -1,4 +1,4 @@
-# linked list
+# Linked list
 
 ## 연결리스트
 
