@@ -85,7 +85,7 @@ description: 이진 검색 트리
    1. 즉, 부모를 따라서 루트까지 올라가는 동안, 처음으로 누군가의 왼쪽 자식이 되는 그런 노드를 의미한다.&#x20;
 3. 그런 노드 y가 존재하지 않을 경우에는 successor 가 존재하지 않는다고 말할 수 있다. 즉, x가 최대값이다.&#x20;
 
-<figure><img src="../../../.gitbook/assets/image (1) (6).png" alt=""><figcaption><p><a href="https://www.inflearn.com/course/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EA%B0%95%EC%A2%8C">[인프런] 영리한 프로그래밍을 위한 알고리즘 강좌 by 권오흠 교수님</a></p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1) (6) (1).png" alt=""><figcaption><p><a href="https://www.inflearn.com/course/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EA%B0%95%EC%A2%8C">[인프런] 영리한 프로그래밍을 위한 알고리즘 강좌 by 권오흠 교수님</a></p></figcaption></figure>
 
 
 

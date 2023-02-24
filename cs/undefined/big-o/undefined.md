@@ -30,7 +30,7 @@ description: 아래 코드들의 시간복잡도를 구한다.
 
 <figure><img src="../../../.gitbook/assets/image (44).png" alt=""><figcaption><p><a href="https://www.youtube.com/user/damazzang/videos">[유튜브] 엔지니어 대한민국</a></p></figcaption></figure>
 
-<figure><img src="../../../.gitbook/assets/image (17).png" alt=""><figcaption><p><a href="https://www.youtube.com/user/damazzang/videos">[유튜브] 엔지니어 대한민국</a></p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (17) (1).png" alt=""><figcaption><p><a href="https://www.youtube.com/user/damazzang/videos">[유튜브] 엔지니어 대한민국</a></p></figcaption></figure>
 
 * 배열을 복사하는 함수가 있다. 복사할 배열이 매개변수로 전달되면, 길이가 0인 배열을 초기화하고, 복사할 배열을 순회하며 매번 기준 배열에 길이를 1씩 증가한 배열을 새롭게 정의하여 요소를 추가해준다. 이 경우, 시간복잡도는 얼마이겠는가 &#x20;
 * array 길이만큼 순회를 한다 -> n&#x20;

@@ -70,7 +70,7 @@
 * device queue : I/O device의 처리를 기다리는 프로세스의 집합
 * 프로세스들은 각 큐들을 오가며 수행된다.
 
-<figure><img src="../../.gitbook/assets/image (9) (2) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (9) (2).png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../../.gitbook/assets/image (2) (1) (2) (1).png" alt=""><figcaption></figcaption></figure>
 
