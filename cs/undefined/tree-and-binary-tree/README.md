@@ -38,10 +38,22 @@ description: 트리와 이진트리
 
 * tree : 계층구조를 갖는 자료구조
 * binary tree : 이진트리. 최대 2개의 자식을 갖는다.&#x20;
-* binary search tree : 이진탐색트리. 루트를 기준으로 루트보다 작으면 왼쪽, 크면 오른쪽에 위치한다.&#x20;
-* complete binary tree : 완전이진트리. 마지막 레벨을 제외하고는 모든 노드가 꽉차있는 트리. 꽉 차있지 않은 마지막 레벨에서도 왼쪽부터 오른쪽으로 노드가 쌓여야한다는 특징이 있다.&#x20;
-* full binary tree : 완전이진트리. 마지막 노드를 제외하고는 모든 노드가 꽉 차있는 트리. 마지막 노드는 2개의 자식을 갖거나, 아예 갖지 않는다.&#x20;
-* perfect binary tree : 완전이진트리. 모든 노드가 꽉차있는 트리. 트리의 높이가 h일 때, 2^h -1 개의 노드를 갖는다.&#x20;
+* binary search tree
+  * 이진탐색트리
+  * 루트를 기준으로 루트보다 작으면 왼쪽, 크면 오른쪽에 위치한다.&#x20;
+* complete binary tree
+  * 마지막 레벨을 제외하고는 모든 노드가 꽉차있는 트리
+  * 꽉 차있지 않은 마지막 레벨에서도 왼쪽부터 오른쪽으로 노드가 쌓여야한다는 특징이 있다.&#x20;
+* full binary tree
+  * 모든 노드가 0개 혹은 2개의 자식노드를 갖는 트리&#x20;
+* perfect binary tree
+  * 모든 노드가 2개의 자식을 갖는 트리
+  * 모든 리프(맨 마지막 노드)들이 모두 같은 레벨에 있다.&#x20;
+  * 트리의 높이가 h일 때, 2^h -1 개의 노드를 갖는다.&#x20;
+* 참고
+  *
+
+      <figure><img src="../../../.gitbook/assets/image.png" alt=""><figcaption><p><a href="https://cs.stackexchange.com/questions/32397/is-there-a-difference-between-perfect-full-and-complete-tree">Complete Binary Tree vs. Full Binary Tree vs. Perfect Binary Tree</a> </p></figcaption></figure>
 
 
 

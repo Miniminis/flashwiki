@@ -40,7 +40,7 @@ description: 합병 정렬
 <figure><img src="../../../.gitbook/assets/image (25) (2).png" alt=""><figcaption><p><a href="https://www.inflearn.com/course/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EA%B0%95%EC%A2%8C">[인프런] 영리한 프로그래밍을 위한 알고리즘 강좌 by 권오흠 교수님</a></p></figcaption></figure>
 
 * 합병정렬에서는 반드시 추가 배열이 필요하다.&#x20;
-* 추가배열에 정렬된 상태로 완료되면, 이 임시 배열을 다시 원래 바열로 옮겨준다.&#x20;
+* 추가배열에 정렬된 상태로 완료되면, 이 임시 배열을 다시 원래 배 열로 옮겨준다.&#x20;
 * 시간복잡도&#x20;
   * 데이터가 n개라면, 데이터를 2/n개로 나누어 정렬하는 시간이 각각 2/n시간이다.&#x20;
   * 그리고 merge 하는 과정동안 n 번 반복하게 된다.&#x20;
