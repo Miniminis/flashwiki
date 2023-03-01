@@ -4,11 +4,5 @@ description: >-
   기초 지식을 다질 수 있는 좋은 콘텐츠입니다.
 ---
 
-# 🖥 프로그래밍의 기초 (Go)
-
-### 강의링크
-
-{% embed url="https://www.youtube.com/c/TuckerProgramming" %}
-
-
+# programming basic (Go)
 

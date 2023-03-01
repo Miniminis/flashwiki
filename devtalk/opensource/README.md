@@ -1,2 +1,2 @@
-# 🧚 Open Source
+# open source
 

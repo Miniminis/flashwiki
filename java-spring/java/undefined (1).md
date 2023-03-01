@@ -184,7 +184,7 @@ javaagent 를 이용해서 완벽하게 바이트코드를 조작해보자.&#x20
 
 * masulsa-agent&#x20;
 
-<figure><img src="../../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (6) (3).png" alt=""><figcaption></figcaption></figure>
 
 ### 4-2. premain() 함수 작성하기&#x20;
 

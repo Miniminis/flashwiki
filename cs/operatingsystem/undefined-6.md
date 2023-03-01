@@ -36,7 +36,7 @@
 
 ### wait() 시스템 콜
 
-<figure><img src="../../.gitbook/assets/image (18) (1) (1).png" alt=""><figcaption><p>자식 프로세스가 끝날때까지 부모 프로세스는 대기하게 된다.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (18) (1) (1) (1).png" alt=""><figcaption><p>자식 프로세스가 끝날때까지 부모 프로세스는 대기하게 된다.</p></figcaption></figure>
 
 ### exit() 시스템 콜
 

@@ -97,6 +97,8 @@ description: 망분리
 
 ### 3-4. Subnet
 
+<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption><p>NextSteps &#x3C;인프라 공방> 8기</p></figcaption></figure>
+
 * VPC 내에서 방을 좀 더 세부 그룹으로 나누어놓은 것
 * VPC의 CIDR 내에서 구성 가능하다.&#x20;
 * [\[홀인원 2.08.16\] IPv4 - 서브넷 마스크](https://www.youtube.com/watch?v=o-NRjtQsJx4)

@@ -6,7 +6,7 @@
 
 ## 1. 개념&#x20;
 
-<figure><img src="../../.gitbook/assets/image (1) (1).png" alt=""><figcaption><p><a href="https://velog.velcdn.com/images%2Fnewtownboy%2Fpost%2F7eb43ce0-64a3-426c-a6c0-0fb82a4e7f2f%2Fimage.png">https://velog.velcdn.com/images%2Fnewtownboy%2Fpost%2F7eb43ce0-64a3-426c-a6c0-0fb82a4e7f2f%2Fimage.png</a></p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption><p><a href="https://velog.velcdn.com/images%2Fnewtownboy%2Fpost%2F7eb43ce0-64a3-426c-a6c0-0fb82a4e7f2f%2Fimage.png">https://velog.velcdn.com/images%2Fnewtownboy%2Fpost%2F7eb43ce0-64a3-426c-a6c0-0fb82a4e7f2f%2Fimage.png</a></p></figcaption></figure>
 
 * 프록시 패턴은 위와 같이 구성된다.&#x20;
   * Proxy 클래스와 RealSubject 클래스가 공통의 부모로 인터페이스를 가지고 있다.&#x20;

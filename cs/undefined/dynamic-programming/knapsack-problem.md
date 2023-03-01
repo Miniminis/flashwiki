@@ -37,7 +37,7 @@ description: 도둑이 보석을 훔쳐갈 때, 가방에 들어가는 한도 �
 
 ## 코드&#x20;
 
-<figure><img src="../../../.gitbook/assets/image (6) (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (6) (3) (1).png" alt=""><figcaption></figcaption></figure>
 
 
 
