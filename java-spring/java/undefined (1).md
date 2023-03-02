@@ -240,11 +240,11 @@ version '1.0-SNAPSHOT'
 * `gradle jar`
 * jar 파일은 확장자를 .zip 으로 수정하면 내부 내용을 살펴볼 수 있다.&#x20;
 
-<figure><img src="../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (3) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### 4-5. 기존 application 에서 VM 옵션 추가
 
-<figure><img src="../../.gitbook/assets/image (4).png" alt=""><figcaption><p>다시 jar 로 빌드 </p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (4) (1).png" alt=""><figcaption><p>다시 jar 로 빌드 </p></figcaption></figure>
 
 agent 프로젝트를 다시 jar 로 빌드한 뒤, 원래의 어플리케이션 코드로 돌아와 기존의 bytebuddy 코드를 모두 제거한다.&#x20;
 
@@ -341,7 +341,7 @@ type 으로부터 메타데이터를 읽어온다. 메타데이터를 읽는 rea
 
 * annotationMetadata 를 읽어온다.&#x20;
 
-<figure><img src="../../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (8) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### 6-3. ClassReader&#x20;
 

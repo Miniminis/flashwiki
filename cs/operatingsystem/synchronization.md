@@ -13,7 +13,7 @@
 
 <figure><img src="../../.gitbook/assets/image (5) (3) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (22) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (22) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### OS 운영체제에서 race condition 경쟁상태는 언제 발생하는가
 
@@ -30,11 +30,11 @@
 
 <figure><img src="../../.gitbook/assets/image (7) (3) (1).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (25) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (25) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 #### 3. multiprocessor 에서 shared memory 내의 kernal data
 
-<figure><img src="../../.gitbook/assets/image (19) (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (19) (2) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### Process Synchronization 문제
 

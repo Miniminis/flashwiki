@@ -27,7 +27,7 @@ How 보다는 Why 에 따라 움직입니다. 코드가 동작할 때에는 왜 
 
 ## <mark style="color:orange;">Work Experience</mark>
 
-### [홀로스탠딩(Holostanding)](https://holostanding.space/)
+### [홀로스탠딩(Holostanding)](https://holostanding.space/) / [KRG Group](https://www.mubang.co.kr/default/)
 
 누적 사용자 55,000명이 이용하고 총 92억원의 보증금을 삭제한 무보증금 원룸 중개서비스 [홀로스탠딩](https://holostanding.space/)을 만드는 프롭테크 스타트업으로 롯데벤처스, 경동인베스트 등으로부터 투자유치&#x20;
 
@@ -38,14 +38,14 @@ How 보다는 Why 에 따라 움직입니다. 코드가 동작할 때에는 왜 
   * 약 10개월간 임차인용 홀로스탠딩, 중개사용 파트너스, 임대인용 공실지우개, 내부직원용 백오피스까지 총 4개 서비스의 API를 개발
 * 성능 향상, 속도 향상, 안정화, 문제해결
   * TDD 를 기반으로 리펙토링하여 전반적인 코드의 품질을 높이고, 장애 가능성을 낮추는데 기여
-  * 데이터 기반 의사결정을 위한 [통합 데이터 대시보드 구축 작업에 참여](work-and-experience/holostanding/undefined-1.md)하여 온/오프라인으로 단절되었던 데이터들을 통합된 하나의 대시보드 상에서 분석할 수 있도록 개선. 대시보드에 사용된 모든 쿼리 작업을 진행
+  * 데이터 기반 의사결정을 위한 [통합 데이터 대시보드 구축 작업에 참여](work-and-experience/holostanding-krg-group/undefined-1.md)하여 온/오프라인으로 단절되었던 데이터들을 통합된 하나의 대시보드 상에서 분석할 수 있도록 개선. 대시보드에 사용된 모든 쿼리 작업을 진행
 * 비효율적인 프로세스 개선, 반복작업 자동화
   * 비효율적이고 시간소요가 컸던 기존의 서버 배포 프로세스를 [AWS CodePipeline 을 이용하여 CI/CD 자동화](infrastructure/aws/aws-codepipeline-01.md). 전체 배포 시간 약 10분 단축
-  * [AWS SES, Aligo SMS API, Spring Batch 등을 이용하여 CRM 프로세스 구축](work-and-experience/holostanding/aws-ses-aligo-sms-api-spring-batch-crm.md). 일 평균 2,000개의 SMS 및 카카오 알림톡 전송을 자동화&#x20;
-  * [슬랙봇을 이용한 서비스 모니터링 시스템 구축](work-and-experience/holostanding/undefined.md). 통합된 모니터링 채널을 통해 이슈 대응속도 개선 및 모니터링 업무 효율 개선&#x20;
+  * [AWS SES, Aligo SMS API, Spring Batch 등을 이용하여 CRM 프로세스 구축](work-and-experience/holostanding-krg-group/aws-ses-aligo-sms-api-spring-batch-crm.md). 일 평균 2,000개의 SMS 및 카카오 알림톡 전송을 자동화&#x20;
+  * [슬랙봇을 이용한 서비스 모니터링 시스템 구축](work-and-experience/holostanding-krg-group/undefined.md). 통합된 모니터링 채널을 통해 이슈 대응속도 개선 및 모니터링 업무 효율 개선&#x20;
 * 사용자 편의성 향상, 프로덕트 개선
-  * [전문가 상세페이지 내부 상담하기 버튼을 추가하는 기획을 제안](work-and-experience/holostanding/undefined-3.md)하여 목표 단계까지 전환률 향상
-  * [Admin 화면 기획에 개선안을 제안](work-and-experience/holostanding/admin.md)하여 사용성 향상 및 업무 효율성을 증진
+  * [전문가 상세페이지 내부 상담하기 버튼을 추가하는 기획을 제안](work-and-experience/holostanding-krg-group/undefined-3.md)하여 목표 단계까지 전환률 향상
+  * [Admin 화면 기획에 개선안을 제안](work-and-experience/holostanding-krg-group/admin.md)하여 사용성 향상 및 업무 효율성을 증진
 
 ***
 
@@ -157,14 +157,6 @@ How 보다는 Why 에 따라 움직입니다. 코드가 동작할 때에는 왜 
 
 
 
-## <mark style="color:orange;">Language</mark>
-
-* English : 글을 읽고 작성할 수 있고 일상적 소통 가능 (TOEIC 975점, IELTS 7.0)&#x20;
-* Chinese : HSK 5급까지 도전했으나 사용한지 오래됨&#x20;
-* Kiswahili : 케냐에 거주하는 동안 간단한 인사와 소개말 정도를 배움&#x20;
-
-
-
 ## <mark style="color:orange;">Education</mark>
 
 * 2022.09 - 2022.10 NextStep Infra 공방 수강&#x20;
@@ -173,3 +165,12 @@ How 보다는 Why 에 따라 움직입니다. 코드가 동작할 때에는 왜 
 * 2019.04 - 2019.11 Bitcamp, 풀스택 자바 웹 개발자 과정 수료
 * 2015.01 - 2015.12 Queens College, ESL(English as a Second Language) Course 수료
 * 2013.03 - 2019.08 이화여자대학교, 사학 및 국제학 학사&#x20;
+
+
+
+## <mark style="color:orange;">Language</mark>
+
+* English : 글을 읽고 작성할 수 있고 일상적 소통 가능 (TOEIC 975점, IELTS 7.0)&#x20;
+* Chinese : HSK 5급까지 도전했으나 사용한지 오래됨&#x20;
+* Kiswahili : 케냐에 거주하는 동안 간단한 인사와 소개말 정도를 배움&#x20;
+

@@ -83,7 +83,7 @@
     * 모든 접근 권한에 대해 하나의 password : all-or-noting
     * 접근 권한 별 password 를 둘 경우, 암기문제, 관리문제 등이 발생할 수 있다.
 
-<figure><img src="../../.gitbook/assets/image (3) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (3) (1) (1) (3).png" alt=""><figcaption></figcaption></figure>
 
 ### File system 의 mounting
 
@@ -92,7 +92,7 @@
 
 <figure><img src="../../.gitbook/assets/image (7) (1) (2).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (20) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (20) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### Access method, 파일을 접근하는 방법
 

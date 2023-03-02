@@ -22,7 +22,7 @@
 
 ### 저장장치의 계층구조
 
-<figure><img src="../../.gitbook/assets/image (6) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (6) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 | 구분     | Primary(Executable)        | Secondary              |
 | ------ | -------------------------- | ---------------------- |
@@ -48,7 +48,7 @@
 
 ### 사용자 프로그램이 사용하는 함수
 
-<figure><img src="../../.gitbook/assets/image (8) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (8) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 * 사용자 정의 함수
   * 자신의 프로그램에서 정의한 함수

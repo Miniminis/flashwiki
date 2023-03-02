@@ -17,7 +17,7 @@
   * RealSubject 에서는 그가 맡은 단일 책임에만 집중하면 된다. (SRP)&#x20;
   * Proxy 에서는 RealSubject 에 필요한 접근제한, 로깅, 트랜잭션 등 부가적인 기능을 제공한다. &#x20;
 
-<figure><img src="../../.gitbook/assets/image (16).png" alt=""><figcaption><p><a href="https://docs.firstdecode.com/wp-content/uploads/2019/10/Pattern_MSAProxy.png">https://docs.firstdecode.com/wp-content/uploads/2019/10/Pattern_MSAProxy.png</a></p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (16) (1).png" alt=""><figcaption><p><a href="https://docs.firstdecode.com/wp-content/uploads/2019/10/Pattern_MSAProxy.png">https://docs.firstdecode.com/wp-content/uploads/2019/10/Pattern_MSAProxy.png</a></p></figcaption></figure>
 
 
 

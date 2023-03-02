@@ -22,7 +22,7 @@
   * 10으로 시작하면 ClassB
   * 110으로 시작하면 ClassC&#x20;
 
-<figure><img src="../../.gitbook/assets/image (13).png" alt=""><figcaption><p><a href="https://www.firewall.cx/networking-topics/protocols/ip-subnetting/168-subnetting-mask.html">https://www.firewall.cx/networking-topics/protocols/ip-subnetting/168-subnetting-mask.html</a></p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (13) (2).png" alt=""><figcaption><p><a href="https://www.firewall.cx/networking-topics/protocols/ip-subnetting/168-subnetting-mask.html">https://www.firewall.cx/networking-topics/protocols/ip-subnetting/168-subnetting-mask.html</a></p></figcaption></figure>
 
 ### 2-1. ClassA
 
