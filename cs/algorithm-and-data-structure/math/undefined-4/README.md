@@ -2,7 +2,7 @@
 description: 유클리드 호제법
 ---
 
-# 최대공약수, 최소공배수
+# 최대공약수 / 최소공배수
 
 > 최대공약수를 구하는 다양한 알고리즘이 있지만, 유클리드 호제법이 가장 일반적이고 효율적이다.&#x20;
 
@@ -49,12 +49,12 @@ public class GDCRecursion {
             b = temp;
         }
 
-        System.out.println(gdc(a, b));
+        System.out.println(gcd(a, b));
     }
 
-    private static int gdc(int a, int b) {
+    private static int gcd(int a, int b) {
         if (b == 0) return a;
-        return gdc(b, a % b);
+        return gcd(b, a % b);
     }
 }
 ```
