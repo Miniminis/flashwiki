@@ -31,9 +31,7 @@ h2 데이터베이스를 정말 오랜만에 써본다. 한창 JPA 배울 때는
 
 ## 4. 결과&#x20;
 
-<figure><img src="../../.gitbook/assets/image (17).png" alt=""><figcaption></figcaption></figure>
-
-
+<figure><img src="../../.gitbook/assets/image (17) (4).png" alt=""><figcaption></figcaption></figure>
 
 ## 5. 주의!&#x20;
 

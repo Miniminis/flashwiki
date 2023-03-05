@@ -273,7 +273,7 @@ public class Moja {
 
 ```
 
-<figure><img src="../../.gitbook/assets/image (12).png" alt=""><figcaption><p>오른쪽 상단 Modify Options 선택하여 VM options 추가 </p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (12) (1).png" alt=""><figcaption><p>오른쪽 상단 Modify Options 선택하여 VM options 추가 </p></figcaption></figure>
 
 <figure><img src="../../.gitbook/assets/image (10).png" alt=""><figcaption></figcaption></figure>
 

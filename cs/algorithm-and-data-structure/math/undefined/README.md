@@ -5,7 +5,7 @@
 * 서로 다른 n개의 원소에서 r개를 중복없이 순서에 상관있게 선택하는 혹은 나열하는 것을 순열(permutation) 이라고 한다.
 * 중복을 허용하면 중복 순열이라고 한다.&#x20;
 
-<figure><img src="../../../../.gitbook/assets/image (6) (5) (1).png" alt=""><figcaption><p>출처) <a href="https://bcp0109.tistory.com/14">https://bcp0109.tistory.com/14</a></p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (6) (5) (1) (1).png" alt=""><figcaption><p>출처) <a href="https://bcp0109.tistory.com/14">https://bcp0109.tistory.com/14</a></p></figcaption></figure>
 
 ```java
 //4개의 원소 중에서 2개를 뽑는 순열 

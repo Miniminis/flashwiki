@@ -95,6 +95,40 @@ description: 망분리
 * [Reserved Ip Address](https://en.wikipedia.org/wiki/Reserved\_IP\_addresses)
 * [AWS documentation - VPC](https://docs.aws.amazon.com/vpc/latest/userguide/what-is-amazon-vpc.html)&#x20;
 
+
+
+#### VPC 관련 개념 정리&#x20;
+
+DHCP
+
+* 동적으로 IP 를 할당하는 곳&#x20;
+
+라우팅 테이블
+
+* 서로 다른 대역대들 간에 통신을 할 수 있도록 정책을 관리해주는 곳
+
+ACL(Access Control List)
+
+* 네트워크에서 패킷의 흐름을 제어하기 위한 보안 기술 중 하나.&#x20;
+* 서브멧과 VPC 수준에서 설정
+* 인바운드, 아웃바운드 트래픽에 대한 제어
+* 서버의 보안을 강화하거나 특정 프로토콜이나 IP 주소를 차단하여 네트워크 보안을 유지할 수 있다.&#x20;
+
+Security Group vs ACL
+
+* 공통점 : 네트워크 보안을 강화하는 기술&#x20;
+* 차이점&#x20;
+  * scope : 보안그룹은 EC2 인스턴스 단위로 적용되자, ACL 은 서브넷 혹은 VPC 단위로 적용된다. 즉, 보안그룹은 인스턴스 간의 트래픽을 제어하지만, ACL은 서브넷이나 VPC 간의 인바운드, 아웃바운드 트래픽을 제어한다.&#x20;
+  * state : 보안그룹은 상태를 유지하고, 허용된 패킷에 대한 응답을 자동으로 허용한다. 즉, 요청 패킷에 대한 응답 패킷이 허용된 경우에는 응답 패킷도 자동으로 허용된다. 하지만 ACL 은 stateless 하며, 요청 패킷과 응답 패킷을 모두 명시적으로 허용해야한다.&#x20;
+  * 우선순위&#x20;
+    * ACL 은 규칙 순서에 따라서 우선순위를 갖지만, 보안그룹은 우선순위가 없다.&#x20;
+  * 제어방식
+    * 보안그룹은 허용 규칙만 설정할 수 있다. 하지만 ACL 은 차단규칙, 허용규칙을 모두 설정할 수 있다.&#x20;
+  * 기능&#x20;
+    * 보안그룹은 대부분 OSI 4계층에서 동작하며, IP, port, protocol 등을 기반으로 패킷을 필터링한다.&#x20;
+    * 하지만 ACL은 OSI 3계층에서 동작하며, IP주소, 프로토콜 등을 기반으로 패킷을 필터링 한다.&#x20;
+* 요즘에는 주로 ACL보다는 보안그룹만으로 네트워크 보안 설정을 하는 편이다. 규칙이 많아질수록 복잡해지며, 유지보수 하기가 어려워진다.&#x20;
+
 ### 3-4. Subnet
 
 <figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption><p>NextSteps &#x3C;인프라 공방> 8기</p></figcaption></figure>

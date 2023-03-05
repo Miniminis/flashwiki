@@ -108,7 +108,7 @@
 
 #### C-LOOK
 
-<figure><img src="../../.gitbook/assets/image (17) (4).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (17) (4) (1).png" alt=""><figcaption></figcaption></figure>
 
 * C-SCAN 의 변형인데 역시 특점 지점 이후로 남아있는 요청이 없으면 바로 그자리에서 다른 방향으로 턴을 한다.
 
