@@ -18,9 +18,9 @@
 
 * 네트워크주소 부분은 1, 호스트주소 부분은 0으로 설정하여 나눈다.&#x20;
 
-<figure><img src="../../.gitbook/assets/image (52).png" alt=""><figcaption><p><a href="https://networkencyclopedia.com/subnet-mask/">https://networkencyclopedia.com/subnet-mask/</a></p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (52) (2).png" alt=""><figcaption><p><a href="https://networkencyclopedia.com/subnet-mask/">https://networkencyclopedia.com/subnet-mask/</a></p></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (59).png" alt=""><figcaption><p><a href="https://www.benq.com/en-ap/business/support/faqs/application/publicdisplay-b2bfaq-k-00034.html">https://www.benq.com/en-ap/business/support/faqs/application/publicdisplay-b2bfaq-k-00034.html</a></p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (59) (2).png" alt=""><figcaption><p><a href="https://www.benq.com/en-ap/business/support/faqs/application/publicdisplay-b2bfaq-k-00034.html">https://www.benq.com/en-ap/business/support/faqs/application/publicdisplay-b2bfaq-k-00034.html</a></p></figcaption></figure>
 
 <figure><img src="../../.gitbook/assets/image (5) (2) (3).png" alt=""><figcaption><p><a href="https://www.guru99.com/subnetting-subnet-mask.html">https://www.guru99.com/subnetting-subnet-mask.html</a></p></figcaption></figure>
 

@@ -22,7 +22,7 @@
 
 ### 무방향 그래프, undirected graph
 
-<figure><img src="../../../.gitbook/assets/image (45) (1).png" alt=""><figcaption><p><a href="https://www.inflearn.com/course/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EA%B0%95%EC%A2%8C">[인프런] 영리한 프로그래밍을 위한 알고리즘 강좌 by 권오흠 교수님</a></p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (45) (1) (1).png" alt=""><figcaption><p><a href="https://www.inflearn.com/course/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EA%B0%95%EC%A2%8C">[인프런] 영리한 프로그래밍을 위한 알고리즘 강좌 by 권오흠 교수님</a></p></figcaption></figure>
 
 ### 방향 그래프, directed graph &#x20;
 
@@ -54,7 +54,7 @@
 * 어떤 노드 v와 인접한 모든 노드를 찾는 것은 행렬의 한 행을 모두 검사해야할 수 있으므로, O(n) 의 시간이 소요된다.&#x20;
 * 어떤 에지(u, v)가 존재하는지 검사하는 것은 두 지점의 요소가 0인지 1인지만 체크하면 되므로, O(1)의 시간이 소요된다.&#x20;
 
-<figure><img src="../../../.gitbook/assets/image (48) (1).png" alt=""><figcaption><p><a href="https://www.inflearn.com/course/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EA%B0%95%EC%A2%8C">[인프런] 영리한 프로그래밍을 위한 알고리즘 강좌 by 권오흠 교수님</a></p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (48) (1) (1).png" alt=""><figcaption><p><a href="https://www.inflearn.com/course/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EA%B0%95%EC%A2%8C">[인프런] 영리한 프로그래밍을 위한 알고리즘 강좌 by 권오흠 교수님</a></p></figcaption></figure>
 
 ### 2. 인접리스트
 
@@ -64,7 +64,7 @@
 * 어떤 노드 v에 인접한 모든 노드를 찾을 때는 O(degree(v))의 시간이 소요될 것이다. 여기서 degree(v)는 연결리스트의 길이를 의미한다.&#x20;
 * 어떤 에지 (u, v)가 존재하는지 검사하는 시간은 O(degree(u)) 의 시간이 소요된다. 예를 들면 3번과 4번이 연결되어있는지 확인하고자 한다면, 3번 연결 리스트를 모두 체크해보아야 한다. 역시 연결리스트의 길이만큼 시간이 소요되는 것이다.&#x20;
 
-<figure><img src="../../../.gitbook/assets/image (46) (1).png" alt=""><figcaption><p><a href="https://www.inflearn.com/course/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EA%B0%95%EC%A2%8C">[인프런] 영리한 프로그래밍을 위한 알고리즘 강좌 by 권오흠 교수님</a></p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (46) (1) (1).png" alt=""><figcaption><p><a href="https://www.inflearn.com/course/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EA%B0%95%EC%A2%8C">[인프런] 영리한 프로그래밍을 위한 알고리즘 강좌 by 권오흠 교수님</a></p></figcaption></figure>
 
 
 
@@ -73,7 +73,7 @@
 * 인접행렬은 무방향 그래프와 달리 비대칭이다. 셀프 엣지도 있을 수 있기 때문에 대각선에도 0이 아닌 1이 올 수 있고, 한 노드에서 다른 노드로 향하는 방향 엣지가 존재하느냐에 따라서 1이 표시되기 때문에 대각선을 기준으로 대칭이 아니다.&#x20;
 * 인접 리스트는 m개의 노드를 가지게 된다. 한 노드에서 다른 노드로 향하는 경우에만 연결 리스트로 구성되기 때문에 중복없이 m개의 노드만 표시된다.&#x20;
 
-<figure><img src="../../../.gitbook/assets/image (41) (2).png" alt=""><figcaption><p><a href="https://www.inflearn.com/course/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EA%B0%95%EC%A2%8C">[인프런] 영리한 프로그래밍을 위한 알고리즘 강좌 by 권오흠 교수님</a></p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (41) (2) (1).png" alt=""><figcaption><p><a href="https://www.inflearn.com/course/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EA%B0%95%EC%A2%8C">[인프런] 영리한 프로그래밍을 위한 알고리즘 강좌 by 권오흠 교수님</a></p></figcaption></figure>
 
 ### 가중치 그래프의 인접행렬 표현
 

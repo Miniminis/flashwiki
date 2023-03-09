@@ -14,7 +14,7 @@
 * 네트워크 주소를 매기고 그에 따라 네트워크 크기를 다르게 구분하여 클래스를 할당하는 주소체계를 말한다.&#x20;
 * 구분하는 첫기준자(1옥텟, 2옥텟, 3옥텟 등)을 서브넷마스크라고한다.&#x20;
 
-<figure><img src="../../.gitbook/assets/image (68).png" alt=""><figcaption><p><a href="https://www.geeksforgeeks.org/introduction-of-classful-ip-addressing/">https://www.geeksforgeeks.org/introduction-of-classful-ip-addressing/</a></p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (68) (1).png" alt=""><figcaption><p><a href="https://www.geeksforgeeks.org/introduction-of-classful-ip-addressing/">https://www.geeksforgeeks.org/introduction-of-classful-ip-addressing/</a></p></figcaption></figure>
 
 * 우선, 클래스 D와 E의 경우, 각각 멀티캐스트 및 예비 사용을 위해 따로 구분된 것이므로, 우리가 일반적으로 네트워크를 구성하는데 고려해야할 것은 Class A-C 이다.&#x20;
 * 각각의 클래스는 첫번째 옥텟의 값에 따라서 달라지게 되는데, 아래와 같이 나누어진다.&#x20;
@@ -42,7 +42,7 @@
 
 ### 2-3. ClassC&#x20;
 
-<figure><img src="../../.gitbook/assets/image (65).png" alt=""><figcaption><p><a href="https://www.geeksforgeeks.org/introduction-of-classful-ip-addressing/">https://www.geeksforgeeks.org/introduction-of-classful-ip-addressing/</a></p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (65) (1).png" alt=""><figcaption><p><a href="https://www.geeksforgeeks.org/introduction-of-classful-ip-addressing/">https://www.geeksforgeeks.org/introduction-of-classful-ip-addressing/</a></p></figcaption></figure>
 
 * 앞의 세개의 옥텟을 제외하고 총 2^8-2 = 254개의 호스트 ID 를 가질 수 있다.&#x20;
 * 네트워크 주소는 192-223 으로 시작한다. &#x20;

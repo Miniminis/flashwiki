@@ -50,7 +50,7 @@ description: 행렬의 곱셈
 
 &#x20;
 
-<figure><img src="../../../.gitbook/assets/image (42) (1).png" alt=""><figcaption><p><a href="https://www.inflearn.com/course/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EA%B0%95%EC%A2%8C/unit/4128">https://www.inflearn.com/course/알고리즘-강좌/unit/4128</a></p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (42) (1) (1).png" alt=""><figcaption><p><a href="https://www.inflearn.com/course/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EA%B0%95%EC%A2%8C/unit/4128">https://www.inflearn.com/course/알고리즘-강좌/unit/4128</a></p></figcaption></figure>
 
 * 그러면 이제 순환식을 계산하는 순서를 정해야한다. 이전 연산의 해가 다음 연산의 재료로 이용되기 위해서는 어떤 순서로 계산을 해야할까?&#x20;
 * 순환식을 분석해보면 되는데,&#x20;

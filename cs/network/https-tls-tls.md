@@ -16,7 +16,7 @@ description: Transport Layer Security
   * 비대칭암호화 이후 대칭암호화를 사용하는 이유? &#x20;
     * 비대칭암호화는 연산 처리 비용이 대칭 암호화보다 훨씬 비싸다. 때문에 통신 초기에만 비대칭암호화로 엄격하게 신원 인증을 한 뒤, 그 이후로는 대칭 암호화로 가볍게 사용하는 것이다.&#x20;
 
-<figure><img src="../../.gitbook/assets/image (67).png" alt=""><figcaption><p><a href="https://embeddedcomputing.com/technology/security/advantages-to-using-tls-1-3-faster-more-efficient-more-secure">https://embeddedcomputing.com/technology/security/advantages-to-using-tls-1-3-faster-more-efficient-more-secure</a></p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (67) (1).png" alt=""><figcaption><p><a href="https://embeddedcomputing.com/technology/security/advantages-to-using-tls-1-3-faster-more-efficient-more-secure">https://embeddedcomputing.com/technology/security/advantages-to-using-tls-1-3-faster-more-efficient-more-secure</a></p></figcaption></figure>
 
 1. Client hello
    1. TLS 버전, 사이퍼슈트, 클라이언트의 랜덤값(무작위 문자열), 임시 DH 매개변수를 서버에게 보낸다.&#x20;
@@ -125,4 +125,10 @@ description: Transport Layer Security
 
 * wireshark 로 패킷 분석해보기&#x20;
 
-<figure><img src="../../.gitbook/assets/image (69).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (69) (1).png" alt=""><figcaption></figcaption></figure>
+
+
+
+## 11. 참고&#x20;
+
+* [\[네트워크/보안\] TLS(SSL) 개념과 기본 동작 원리](https://reakwon.tistory.com/106)

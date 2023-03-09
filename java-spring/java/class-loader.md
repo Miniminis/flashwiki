@@ -4,7 +4,7 @@
 인프런 백기선님의 강의 <[더 자바, 코드를 조작하는 다양한 방법](https://www.inflearn.com/course/the-java-code-manipulation/dashboard)> 을 수강하면서 공부한 내용을 정리합니다.&#x20;
 {% endhint %}
 
-<figure><img src="../../.gitbook/assets/image (72).png" alt=""><figcaption><p><a href="https://user-images.githubusercontent.com/26548454/95957125-4432bd00-0e3a-11eb-8c45-7f81617e7f79.png">https://user-images.githubusercontent.com/26548454/95957125-4432bd00-0e3a-11eb-8c45-7f81617e7f79.png</a></p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (72) (1).png" alt=""><figcaption><p><a href="https://user-images.githubusercontent.com/26548454/95957125-4432bd00-0e3a-11eb-8c45-7f81617e7f79.png">https://user-images.githubusercontent.com/26548454/95957125-4432bd00-0e3a-11eb-8c45-7f81617e7f79.png</a></p></figcaption></figure>
 
 
 

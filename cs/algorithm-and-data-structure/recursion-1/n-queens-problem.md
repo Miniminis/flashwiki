@@ -23,7 +23,7 @@
 
 ### 풀이
 
-<figure><img src="../../../.gitbook/assets/image (36) (1).png" alt=""><figcaption><p><a href="https://www.inflearn.com/course/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EA%B0%95%EC%A2%8C/unit/4077?tab=curriculum">https://www.inflearn.com/course/알고리즘-강좌/unit/4077?tab=curriculum</a></p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (36) (1) (1).png" alt=""><figcaption><p><a href="https://www.inflearn.com/course/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EA%B0%95%EC%A2%8C/unit/4077?tab=curriculum">https://www.inflearn.com/course/알고리즘-강좌/unit/4077?tab=curriculum</a></p></figcaption></figure>
 
 * 상태공간트리를 활용한 백트래킹 기법을 사용한다. 상태공간트리 내부에 반드시 답이 존재한다.
 * 재귀함수를 호출하는 것을 이 상태공간트리의 노드에 도착한 것으로 생각을 해본다. 이때, 노드에 도착하고나서 가장 먼저 해야할 것은 해당 노드가 더 깊게 들어가볼 필요가 있는지 아닌지를 체크하는 것이다. 만약에 이미 다른 노드와의 비교에서 충돌했다면, 더 깊게 들어가볼 필요도 없는 것이므로 다음으로 넘어가면 된다.&#x20;

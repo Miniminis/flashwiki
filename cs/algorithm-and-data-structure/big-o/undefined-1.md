@@ -12,7 +12,7 @@
 
 이러한 점은 기존의 결과값이 존재하는지 검사하는 로직을 추가하여 아주 간단하게 개선할 수 있다.&#x20;
 
-<figure><img src="../../../.gitbook/assets/image (31).png" alt=""><figcaption><p><a href="https://www.youtube.com/user/damazzang/videos">[유튜브] 엔지니어 대한민국</a></p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (31) (1).png" alt=""><figcaption><p><a href="https://www.youtube.com/user/damazzang/videos">[유튜브] 엔지니어 대한민국</a></p></figcaption></figure>
 
 함수가 호출될 때, 기존 결과 배열의 값을 참조하여 이미 존재하면 그냥 그 배열의 값을 반환하도록 하면, 불필요하게 이미 했던 연산을 반복하지 않아도 된다.&#x20;
 

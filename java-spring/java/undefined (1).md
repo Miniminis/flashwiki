@@ -240,7 +240,7 @@ version '1.0-SNAPSHOT'
 * `gradle jar`
 * jar 파일은 확장자를 .zip 으로 수정하면 내부 내용을 살펴볼 수 있다.&#x20;
 
-<figure><img src="../../.gitbook/assets/image (3) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (3) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### 4-5. 기존 application 에서 VM 옵션 추가
 
@@ -275,7 +275,7 @@ public class Moja {
 
 <figure><img src="../../.gitbook/assets/image (12) (1).png" alt=""><figcaption><p>오른쪽 상단 Modify Options 선택하여 VM options 추가 </p></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (10).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (10) (1).png" alt=""><figcaption></figcaption></figure>
 
 VM Options 칸에 아래의 명령어 추가
 
@@ -285,11 +285,11 @@ VM Options 칸에 아래의 명령어 추가
 
 그리고 실행하면, 아무 코드를 적지 않았음에도, javaagent 에 의해서 Rabbit 으로 바뀐 코드가 출력된다.&#x20;
 
-<figure><img src="../../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (5) (1).png" alt=""><figcaption></figcaption></figure>
 
 물론, 원래 코드의 바이트 코드는 전혀 바뀌지 않았다.&#x20;
 
-<figure><img src="../../.gitbook/assets/image (9) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (9) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## 5. 정리&#x20;
 
@@ -341,7 +341,7 @@ type 으로부터 메타데이터를 읽어온다. 메타데이터를 읽는 rea
 
 * annotationMetadata 를 읽어온다.&#x20;
 
-<figure><img src="../../.gitbook/assets/image (8) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (8) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### 6-3. ClassReader&#x20;
 

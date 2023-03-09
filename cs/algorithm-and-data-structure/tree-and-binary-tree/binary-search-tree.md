@@ -118,7 +118,7 @@ description: 이진 검색 트리
 
 이처럼 binary search tree 에서는 노드를 삭제하지 않는 이상 노드들은 순서의 변경 없이 항상 같은 구조를 유지하기 때문에, 큰 이상이 없는 한 가장 먼저 insert 된 노드가 루트 자리를 차지하게 된다.&#x20;
 
-<figure><img src="../../../.gitbook/assets/image (33) (1).png" alt=""><figcaption><p><a href="https://www.inflearn.com/course/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EA%B0%95%EC%A2%8C">[인프런] 영리한 프로그래밍을 위한 알고리즘 강좌 by 권오흠 교수님</a></p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (33) (1) (2).png" alt=""><figcaption><p><a href="https://www.inflearn.com/course/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EA%B0%95%EC%A2%8C">[인프런] 영리한 프로그래밍을 위한 알고리즘 강좌 by 권오흠 교수님</a></p></figcaption></figure>
 
 * 위의 탐색 순서를 코드로 표현한 것이다.&#x20;
 * 한 가지 기억할 점은 while 문이 한번도 실행되지 않은 경우에 대한 예외처리이다. y = null 인 경우, 트리 자체가 원래 empty 였다는 것을 의미하므로, 삽입하고자 하는 수 x자체가 그냥 루트가 된다.&#x20;
@@ -134,7 +134,7 @@ description: 이진 검색 트리
 
 * 부모 노드 3의 오른쪽 필드를 null 로 바꿔준다.&#x20;
 
-<figure><img src="../../../.gitbook/assets/image (58) (2).png" alt=""><figcaption><p><a href="https://www.inflearn.com/course/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EA%B0%95%EC%A2%8C">[인프런] 영리한 프로그래밍을 위한 알고리즘 강좌 by 권오흠 교수님</a></p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (58) (2) (1).png" alt=""><figcaption><p><a href="https://www.inflearn.com/course/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EA%B0%95%EC%A2%8C">[인프런] 영리한 프로그래밍을 위한 알고리즘 강좌 by 권오흠 교수님</a></p></figcaption></figure>
 
 #### case 2. 자식 노드가 1개인 경우
 

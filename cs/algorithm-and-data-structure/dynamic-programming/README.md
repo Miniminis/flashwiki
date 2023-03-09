@@ -284,7 +284,7 @@ public class BinomialBottomUp {
 * 이 개념을 이용해서 아래와 같이 순환식을 세워볼 수 있다. &#x20;
   *
 
-      <figure><img src="../../../.gitbook/assets/image (38) (1).png" alt=""><figcaption></figcaption></figure>
+      <figure><img src="../../../.gitbook/assets/image (38) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### 당연한거 아닌가요
 

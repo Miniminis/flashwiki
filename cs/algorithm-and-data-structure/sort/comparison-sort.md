@@ -49,7 +49,7 @@
 
 이미 comparison sort 알고리즘이 하나 있다고 가정해보자.&#x20;
 
-<figure><img src="../../../.gitbook/assets/image (30) (1).png" alt=""><figcaption><p><a href="https://www.inflearn.com/course/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EA%B0%95%EC%A2%8C">[인프런] 영리한 프로그래밍을 위한 알고리즘 강좌 by 권오흠 교수님</a></p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (30) (1) (1).png" alt=""><figcaption><p><a href="https://www.inflearn.com/course/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EA%B0%95%EC%A2%8C">[인프런] 영리한 프로그래밍을 위한 알고리즘 강좌 by 권오흠 교수님</a></p></figcaption></figure>
 
 * 3개의 값을 정렬하는 insertion sort 알고리즘에 대해서 발생할 수 있는 모든 경우의 수를 나타내는 decision tree 이다.&#x20;
   * insertion sort 뿐만아니라 다른 정렬 알고리즘도 마찬가지로 적용된다.&#x20;

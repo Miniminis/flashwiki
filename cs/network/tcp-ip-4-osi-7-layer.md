@@ -81,7 +81,7 @@
 * sp : 송신자의 32비트 IP 주소&#x20;
 * dp : 수신자의 32비트 IP 주소 &#x20;
 
-<figure><img src="../../.gitbook/assets/image (63) (1).png" alt=""><figcaption><p>wikipedia</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (63) (1) (1).png" alt=""><figcaption><p>wikipedia</p></figcaption></figure>
 
 ### 4-2. frame&#x20;
 
@@ -92,7 +92,7 @@
 * 모든 계층에 전달되는 데이터가 쪼개져서 "패킷"으로 전달된다고 하는 것은 일반적으로는 맞는 말이지만, PDU에 따라서 계층별로 데이터를 다르게 부르는 것이 더 맞는 표현이다.&#x20;
 * FCS : Frame Check Sequence. 네트워크에서 프레임의 정확성을 체크하기위해 사용하는 기술.&#x20;
 
-<figure><img src="../../.gitbook/assets/image (61).png" alt=""><figcaption><p><a href="https://ipcisco.com/lesson/ethernet-basics/">https://ipcisco.com/lesson/ethernet-basics/</a></p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (61) (1).png" alt=""><figcaption><p><a href="https://ipcisco.com/lesson/ethernet-basics/">https://ipcisco.com/lesson/ethernet-basics/</a></p></figcaption></figure>
 
 
 

@@ -4,7 +4,7 @@ description: TCP 연결 성립 과정
 
 # TCP 3way handshake
 
-<figure><img src="../../.gitbook/assets/image (1) (2).png" alt=""><figcaption><p><a href="https://velog.io/@jjewqm/TCP-3-Way-HandShaking">https://velog.io/@jjewqm/TCP-3-Way-HandShaking</a></p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (2) (5).png" alt=""><figcaption><p><a href="https://velog.io/@jjewqm/TCP-3-Way-HandShaking">https://velog.io/@jjewqm/TCP-3-Way-HandShaking</a></p></figcaption></figure>
 
 ## 1. 연결과정&#x20;
 

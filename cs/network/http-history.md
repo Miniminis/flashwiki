@@ -66,7 +66,7 @@ RTT 지연문제를 해결하기 위한 3가지 방법
 
 <figure><img src="../../.gitbook/assets/image (1) (3).png" alt=""><figcaption><p><a href="https://virgool.io/@erfun/http2-%DA%86%DB%8C%D9%87-%D9%88-%DA%86%D8%B7%D9%88%D8%B1-%DA%A9%D8%A7%D8%B1-%D9%85%DB%8C%DA%A9%D9%86%D9%87-gnmgbedbdc4a">https://virgool.io/@erfun/http2-چیه-و-چطور-کار-میکنه-gnmgbedbdc4a</a></p></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (6) (2).png" alt=""><figcaption><p><a href="https://thebook.io/080326/ch02/05/03/">https://thebook.io/080326/ch02/05/03/</a></p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (6) (2) (3).png" alt=""><figcaption><p><a href="https://thebook.io/080326/ch02/05/03/">https://thebook.io/080326/ch02/05/03/</a></p></figcaption></figure>
 
 ### 2-2. 헤더압축&#x20;
 

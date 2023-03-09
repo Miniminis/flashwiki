@@ -28,16 +28,16 @@ description: 아래 코드들의 시간복잡도를 구한다.
 * 이진탐색트리가 아닌 경우, 최악의 경우, 특정 요소를 찾기 위해서는 모든 노드를 스캔해야할 수 있다.&#x20;
 * 따라서 시간복잡도는 O(n)이 된다. &#x20;
 
-<figure><img src="../../../.gitbook/assets/image (44).png" alt=""><figcaption><p><a href="https://www.youtube.com/user/damazzang/videos">[유튜브] 엔지니어 대한민국</a></p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (44) (2).png" alt=""><figcaption><p><a href="https://www.youtube.com/user/damazzang/videos">[유튜브] 엔지니어 대한민국</a></p></figcaption></figure>
 
-<figure><img src="../../../.gitbook/assets/image (17) (1).png" alt=""><figcaption><p><a href="https://www.youtube.com/user/damazzang/videos">[유튜브] 엔지니어 대한민국</a></p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (17) (1) (2).png" alt=""><figcaption><p><a href="https://www.youtube.com/user/damazzang/videos">[유튜브] 엔지니어 대한민국</a></p></figcaption></figure>
 
 * 배열을 복사하는 함수가 있다. 복사할 배열이 매개변수로 전달되면, 길이가 0인 배열을 초기화하고, 복사할 배열을 순회하며 매번 기준 배열에 길이를 1씩 증가한 배열을 새롭게 정의하여 요소를 추가해준다. 이 경우, 시간복잡도는 얼마이겠는가 &#x20;
 * array 길이만큼 순회를 한다 -> n&#x20;
 * 매번 길이가 n+1인 배열을 새롭게 정의하여 옮겨담는 과정을 거친다 -> n&#x20;
 * 따라서 이 알고리즘의 시간복잡도는 O(n^2)이 된다.&#x20;
 
-<figure><img src="../../../.gitbook/assets/image (30).png" alt=""><figcaption><p><a href="https://www.youtube.com/user/damazzang/videos">[유튜브] 엔지니어 대한민국</a></p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (30) (1).png" alt=""><figcaption><p><a href="https://www.youtube.com/user/damazzang/videos">[유튜브] 엔지니어 대한민국</a></p></figcaption></figure>
 
 * 매 로직의 실행마다 n의 값이 10분의 1씩 줄어든다.&#x20;
 * 따라서 이 로직의 시간복잡도는 O(logn)이 된다.&#x20;

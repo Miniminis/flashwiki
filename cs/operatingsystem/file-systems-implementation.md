@@ -178,7 +178,7 @@
 * file name 이 고정 크기의 entry 길이보다 길어지는 경우, entry 의 마지막 부분에 이름의 뒷부분이 위치한 곳의 포인터를 두는 방법
 * 이름의 나머지 부분은 동일한 directory file 의 일부에 존재한다.
 
-<figure><img src="../../.gitbook/assets/image (31) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (31) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### VFS and NFS
 
@@ -213,7 +213,7 @@
 * 모든 프로세스가 공용으로 사용된다.
 * replacement algorithm이 필요하다. LRU, LFU 등
 
-<figure><img src="../../.gitbook/assets/image (32) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (32) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 #### unified buffer cache
 

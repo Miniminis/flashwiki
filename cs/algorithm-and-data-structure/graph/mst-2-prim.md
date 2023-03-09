@@ -10,7 +10,7 @@
   * 하지만 prim 알고리즘에서는 최초의 출발노드부터 트리를 조금씩 키워나가는 형태로 진행시킨다.&#x20;
 * 매 단계에서 이미 트리에 포함된 노드와 포함되지 않은 노드를 연결하는 엣지들 중 가장 가중치가 작은 엣지를 선택한다.&#x20;
 
-<figure><img src="../../../.gitbook/assets/image (57) (1).png" alt=""><figcaption><p><a href="https://www.inflearn.com/course/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EA%B0%95%EC%A2%8C">[인프런] 영리한 프로그래밍을 위한 알고리즘 강좌 by 권오흠 교수님</a></p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (57) (1) (1).png" alt=""><figcaption><p><a href="https://www.inflearn.com/course/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EA%B0%95%EC%A2%8C">[인프런] 영리한 프로그래밍을 위한 알고리즘 강좌 by 권오흠 교수님</a></p></figcaption></figure>
 
 
 
@@ -92,7 +92,7 @@
 * V-Va에 속한 노드들을 저장한다.&#x20;
 * extract-min : key 값이 최소인 노드를 삭제하고 반환한다.&#x20;
 
-<figure><img src="../../../.gitbook/assets/image (51) (1).png" alt=""><figcaption><p><a href="https://www.inflearn.com/course/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EA%B0%95%EC%A2%8C">[인프런] 영리한 프로그래밍을 위한 알고리즘 강좌 by 권오흠 교수님</a></p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (51) (1) (1).png" alt=""><figcaption><p><a href="https://www.inflearn.com/course/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EA%B0%95%EC%A2%8C">[인프런] 영리한 프로그래밍을 위한 알고리즘 강좌 by 권오흠 교수님</a></p></figcaption></figure>
 
 * key 값을 넣어놓은 queue 에서 최소값을 찾는 과정이 logn 시간이 소요된다. &#x20;
 * 연산 과정에서 key 값이 작은 값으로 변화가 발생하게 되므로 key 값을 업데이트 시켜준 뒤, 우선순위큐를 다시 min heap 구조로 맞추는 작업이 필요하다.&#x20;

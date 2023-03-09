@@ -4,6 +4,9 @@ description: 개발하면서 도움이 되었거나 배울 점이 많다고 생�
 
 # 🔖 webmark
 
+* [https://www.youtube.com/@ByteByteGo](https://www.youtube.com/@ByteByteGo)
+  * 컴퓨터 공학 지식을 이해하기 쉬운 그래픽과 영상으로 쉽게 설명해주는 곳&#x20;
+  * proxy, reverse proxy 를 그래픽 그림 1장으로 이해할 수 있어서 좋았음 &#x20;
 * [https://prgms.tistory.com/183](https://prgms.tistory.com/183)
   * 국내 기업 50곳의 테크 블로그 모음&#x20;
 * [https://awesome-devblog.netlify.app](https://awesome-devblog.netlify.app)
@@ -17,4 +20,4 @@ description: 개발하면서 도움이 되었거나 배울 점이 많다고 생�
   * 글을 정말 잘 쓰셔서 이해하기가 쉽다.&#x20;
 * [https://gyuwon.github.io](https://gyuwon.github.io)
 * [https://blog.banksalad.com/tech/we-work-by-tech-spec/](https://blog.banksalad.com/tech/we-work-by-tech-spec/)
-  * tech spec&#x20;
+  * 개발을 시작하기 전에 tech spec 을 작성해야하는 이유&#x20;

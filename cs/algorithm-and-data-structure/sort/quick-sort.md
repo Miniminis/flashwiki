@@ -11,7 +11,7 @@ description: 퀵 소트
 * 정복 : 각 부분을 순환적으로 정렬한다. -> partition&#x20;
 * 합병 : Noting to do!&#x20;
 
-<figure><img src="../../../.gitbook/assets/image (24) (1) (1).png" alt=""><figcaption><p><a href="https://www.inflearn.com/course/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EA%B0%95%EC%A2%8C">[인프런] 영리한 프로그래밍을 위한 알고리즘 강좌 by 권오흠 교수님</a></p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (24) (1) (1) (1).png" alt=""><figcaption><p><a href="https://www.inflearn.com/course/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EA%B0%95%EC%A2%8C">[인프런] 영리한 프로그래밍을 위한 알고리즘 강좌 by 권오흠 교수님</a></p></figcaption></figure>
 
 
 
@@ -28,7 +28,7 @@ description: 퀵 소트
 * 지금 검사하려는 값 j를 기준으로 생각해보자. 만약 j가 피봇 x보다 크다면 어떻게 될까? 그냥 가만히 있으면 된다.&#x20;
 * 하지만 j가 피봇 x보다 작다면, pivot 보다 작은 값들 중 가장 마지막 값이었던 i 의 인덱스를 하나 증가시켜 위치를 이동시켜주고, 해당 위치의 값 즉 pivot 보다 큰 값들 중 제일 첫번째 값과 위치를 교환하면 된다. &#x20;
 
-<figure><img src="../../../.gitbook/assets/image (21) (1).png" alt=""><figcaption><p><a href="https://www.inflearn.com/course/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EA%B0%95%EC%A2%8C">[인프런] 영리한 프로그래밍을 위한 알고리즘 강좌 by 권오흠 교수님</a></p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (21) (1) (1).png" alt=""><figcaption><p><a href="https://www.inflearn.com/course/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EA%B0%95%EC%A2%8C">[인프런] 영리한 프로그래밍을 위한 알고리즘 강좌 by 권오흠 교수님</a></p></figcaption></figure>
 
 <figure><img src="../../../.gitbook/assets/image (3) (1) (4).png" alt=""><figcaption><p><a href="https://www.inflearn.com/course/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EA%B0%95%EC%A2%8C">[인프런] 영리한 프로그래밍을 위한 알고리즘 강좌 by 권오흠 교수님</a></p></figcaption></figure>
 
@@ -69,7 +69,7 @@ description: 퀵 소트
   * 모든 입력 i에 대하여, I가 입력으로 들어올 확률 P(I)와 I를 정렬하는데 걸리는 시간 T(I)를 곱한 값의 합이다.&#x20;
   * 문제는 P(I) 를 모른다는 것. 그래서 P(I) 에 대해서 적절한 가정을 한 후, 분석을 한다.&#x20;
 
-<figure><img src="../../../.gitbook/assets/image (12) (2).png" alt=""><figcaption><p><a href="https://www.inflearn.com/course/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EA%B0%95%EC%A2%8C">[인프런] 영리한 프로그래밍을 위한 알고리즘 강좌 by 권오흠 교수님</a></p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (12) (2) (1).png" alt=""><figcaption><p><a href="https://www.inflearn.com/course/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EA%B0%95%EC%A2%8C">[인프런] 영리한 프로그래밍을 위한 알고리즘 강좌 by 권오흠 교수님</a></p></figcaption></figure>
 
 
 

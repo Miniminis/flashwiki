@@ -40,7 +40,7 @@ description: TCP, UDP
 
 * 8바이트로 고정된 길이이다. &#x20;
 
-<figure><img src="../../.gitbook/assets/image (7) (2) (2).png" alt=""><figcaption><p><a href="https://cheapsslsecurity.com/blog/how-udp-works-a-look-at-the-user-datagram-protocol-in-computer-networks/">https://cheapsslsecurity.com/blog/how-udp-works-a-look-at-the-user-datagram-protocol-in-computer-networks/</a></p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (7) (2) (2) (1).png" alt=""><figcaption><p><a href="https://cheapsslsecurity.com/blog/how-udp-works-a-look-at-the-user-datagram-protocol-in-computer-networks/">https://cheapsslsecurity.com/blog/how-udp-works-a-look-at-the-user-datagram-protocol-in-computer-networks/</a></p></figcaption></figure>
 
 ## 3. 비교하기 : TCP vs. UDP&#x20;
 
