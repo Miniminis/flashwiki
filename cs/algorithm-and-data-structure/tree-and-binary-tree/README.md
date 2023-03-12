@@ -53,7 +53,7 @@ description: 트리와 이진트리
 * 참고
   *
 
-      <figure><img src="../../../.gitbook/assets/image (1) (1).png" alt=""><figcaption><p><a href="https://cs.stackexchange.com/questions/32397/is-there-a-difference-between-perfect-full-and-complete-tree">Complete Binary Tree vs. Full Binary Tree vs. Perfect Binary Tree</a> </p></figcaption></figure>
+      <figure><img src="../../../.gitbook/assets/image (1) (1) (11).png" alt=""><figcaption><p><a href="https://cs.stackexchange.com/questions/32397/is-there-a-difference-between-perfect-full-and-complete-tree">Complete Binary Tree vs. Full Binary Tree vs. Perfect Binary Tree</a> </p></figcaption></figure>
 
 
 

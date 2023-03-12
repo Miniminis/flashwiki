@@ -48,7 +48,7 @@ coverY: -363
   * [슬랙봇을 이용한 서비스 모니터링 시스템 구축](work-and-experience/holostanding-krg-group/undefined-1.md). 통합된 모니터링 채널을 통해 이슈 대응속도 개선 및 모니터링 업무 효율 개선&#x20;
   * [이슈리포트 작성 문화 도입 및 초기 템플릿을 구축](work-and-experience/holostanding-krg-group/undefined-2.md)하여 이슈 대응 속도 향상 및 커뮤니케이션 비용 절감&#x20;
 * 사용자 편의성 향상, 그로스 해킹
-  * [전문가 상세페이지 내부 상담하기 버튼을 추가하는 기획을 제안](work-and-experience/holostanding-krg-group/undefined-3.md)하여 목표 단계까지 전환률 향상
+  * [전문가 상세페이지 내부 상담하기 버튼을 추가하는 기획을 제안](work-and-experience/holostanding-krg-group/undefined-3.md)하여 사용자의 편의성 향상&#x20;
   * [Admin 화면 기획에 개선안을 제안](work-and-experience/holostanding-krg-group/admin.md)하여 사용성 향상 및 업무 효율성을 증진
 
 ***
