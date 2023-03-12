@@ -1,4 +1,4 @@
-# \[issue] h2 in-memory-db Table not found (this database is empty) 해결방법
+# ‼ h2 in-memory-db Table not found (this database is empty) 해결방법
 
 h2 데이터베이스를 정말 오랜만에 써본다. 한창 JPA 배울 때는 많이 썼었는데, 한동안 안쓰다보니, 업데이트 된 버전을 오랜만에 쓰는데 바뀐 부분이 좀 많았다. 물론 문서를 통해서 더 깊게 알아볼 예정이지만, 일단은 문제 해결한 부분까지만 기억하고자 글을 남긴다.&#x20;
 

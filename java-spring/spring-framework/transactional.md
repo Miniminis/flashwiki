@@ -1,6 +1,6 @@
 # 특정 매소드만 transaction 처리하기
 
-### 배경
+## 1. 배경
 
 보통 spring 에서 transaction 처리를 할 때, 1) aop 방식으로 한 클래스에서 일괄적으로 설정을 해주거나 2) `@Transactional` 어노테이션을 이용해서 각 매소드 혹은 클래스 범위로 transaction 처리를 한다.
 
@@ -19,7 +19,9 @@
 
 1번의 경우, 여러 건들을 가져와서 반복문을 통해 반복시켜 처리해주면 되었으므로 이는 문제가 없었다. 문제는 2번이었다.
 
-### 문제내용
+
+
+## 2. 문제내용
 
 #### 매소드에 적용된 `@Transactional` 동작 안함
 
@@ -30,9 +32,11 @@
 
 그런데 이게 웬걸, 위와 같이 처리를 하니 매소드 단위로 transaction 처리가 동작하지 않았다.
 
-### 원인/해결방법
 
-#### 한 클래스 내 @Transactional 이 설정되어 있지 않은 메서드에서 @Transactional 이 설정된 메서드를 호출할 경우
+
+## 3. 원인/해결방법
+
+### 3-1. 한 클래스 내 @Transactional 이 설정되어 있지 않은 메서드에서 @Transactional 이 설정된 메서드를 호출할 경우
 
 어떤 부분이 문제인지 몰라 열심히 구글링을 해봤는데, demonic\_님이 써주신 [@Transactional 작동 안할때 확인해봐야 할 것](https://lemontia.tistory.com/878) 포스팅을 통해 문제를 발견할 수 있었다. 글에서 @Transactional 어노테이션이 동작하지 않는 여러가지 케이스를 설명해주셨는데, 나의 경우 2번 케이스에 해당한다는 것을 알 수 있었다. 나는 단순히 controller 단에 있는 어노테이션을 -> 매소드 단으로 옮기기만 했을 뿐, 이 매소드를 호출하는 쪽에서는 @Transactional 이 설정되어있지 않았던 것이다.
 
@@ -43,11 +47,13 @@
 
 2번과 같이 처리하기 위해서 본래의 service 클래스에서 transaction 처리를 위한 service 를 별도로 분리했고 transaction 이 필요한 매소드들만 해당 클래스에서 관리하도록 처리하였다.
 
-### 적용결과
+###
+
+## 4. 적용결과
 
 > 정리하자면, transaction 이 필요한 부분은 별도의 class 로 분리하여 해당 클래스 내부에서 만든 매소드를 외부에서 호출하는 방식으로 처리한다.
 
-#### MainService
+### 4-1. MainService
 
 ```java
 @Slf4j
@@ -68,7 +74,7 @@ public class MainService {
 }
 ```
 
-#### TransactionalService
+### 4-2. TransactionalService
 
 ```java
 @Slf4j
@@ -86,18 +92,22 @@ public class TransactionalService {
     }
 ```
 
-### 느낀점
+
+
+## 5. 느낀점
 
 * spring transaction 에 대해서 정확히 모르고 사용했다는 것을 깨달았다. 역시 공부, 공부, 공부...!
 * 비즈니스 요구사항이 한층 더 디벨롭 될 수록 이렇게 공부하고 몰랐던 부분을 알게되는 계기가 된다. 문제를 맞닥뜨릴때에는 골치아프지만, 이렇게 새로운 내용들을 공부하게 될수록 더 성장하는 느낌이라 꽤 나쁘지 않다.
 
-### 기타 참고하면 좋은 내용
 
-#### transaction 기본 설명
+
+## 6. 기타 참고하면 좋은 내용
+
+### 6-1. transaction 기본 설명
 
 * https://velog.io/@ha0kim/Transaction
 
-#### update/delete 의 경우 transactional 없으면 오류 리턴
+### 6-2. update/delete 의 경우 transactional 없으면 오류 리턴
 
 update/delete 등 데이터를 변경하는 쿼리의 경우, @Transactional 어노테이션이 없다면 오류를 리턴한다.
 
@@ -107,7 +117,7 @@ org.springframework.dao.InvalidDataAccessApiUsageException: Executing an update/
 
 * [두드림의 잡동사니](https://m.blog.naver.com/PostView.naver?isHttpsRedirect=true\&blogId=ydkun2\&logNo=221706359126)
 
-#### Transaction 제어방법
+### 6-3. Transaction 제어방법
 
 트랜잭션을 제어하는 여러가지 방법이 있다.
 

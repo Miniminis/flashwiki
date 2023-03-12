@@ -88,7 +88,7 @@ description: 1. 화면 응답 개선하기
 
 ### [PageSpeed](https://developers.google.com/speed/pagespeed/insights/) 결과&#x20;
 
-<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption><p><a href="https://infra.subway-mhson.kro.kr/">https://infra.subway-mhson.kro.kr/</a></p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (4).png" alt=""><figcaption><p><a href="https://infra.subway-mhson.kro.kr/">https://infra.subway-mhson.kro.kr/</a></p></figcaption></figure>
 
 <figure><img src="../../.gitbook/assets/image (45).png" alt=""><figcaption><p><a href="https://m.map.kakao.com/">https://m.map.kakao.com/</a></p></figcaption></figure>
 

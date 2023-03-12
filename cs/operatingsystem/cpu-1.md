@@ -36,7 +36,7 @@
   * 추정만 가능하다.
   * 과거의 CPU burst time 을 이용해서 추정한다.
 
-<figure><img src="../../.gitbook/assets/image (2) (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (3) (1).png" alt=""><figcaption></figcaption></figure>
 
 #### Priority Scheduling
 

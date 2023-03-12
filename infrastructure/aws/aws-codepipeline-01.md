@@ -2,9 +2,10 @@
 title: AWS CodePipeline 으로 Spring Boot 프로젝트 배포 자동화 구축하기(1) - Source, CodeBuild
 category: aws
 date: 2021-12-19T08:37:52.000Z
+description: Source, CodeBuild
 ---
 
-# AWS CodePipeline - Source, CodeBuild
+# AWS CodePipeline 으로 배포 자동화하기 (1)
 
 올해 처음으로 상용 서비스를 무의 상태에서 바닥부터 구축해볼 수 있는 경험을 했다. 그 과정에서 당연히 경험과 실력이 부족하기에 여러가지 어려움도 겪었었고, 아직 눈에 밟히는 개선해야할 점도 수두룩하다. 약 6개월간 서비스를 정신없이 운영해오면서 가장 마음에 걸리고 불편하다고 생각했던 점은 바로 `배포 프로세스 자동화`이다.
 

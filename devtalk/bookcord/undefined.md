@@ -1,8 +1,12 @@
+---
+description: 읽고 싶은 책의 목록입니다. 다 읽고 나면 bookcord 를 적고 목록에서 삭제합니다.
+---
+
 # 읽고 싶은 책 목록
 
-1. [그림으로 공부하는 IT 인프라 구조](http://www.yes24.com/Product/Goods/95800974)
-2. [사이트 신뢰성 엔지니어링](http://www.yes24.com/Product/Goods/57979286)
-3. [시작하세요! 도커/쿠버네티스](http://www.yes24.com/Product/Goods/84927385)
+1. 그림으로 공부하는 IT 인프라 구조
+2. 사이트 신뢰성 엔지니어링
+3. 시작하세요! 도커/쿠버네티스
 4. 유닉스의 탄생
 5. 커리어스킬
 6. Real MySQL

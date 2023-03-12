@@ -4,7 +4,7 @@ date: 2022-01-06T07:22:13.000Z
 category: logging
 ---
 
-# log4j 보안 이슈
+# ‼ log4j 보안 이슈
 
 ## 1. 배경
 
