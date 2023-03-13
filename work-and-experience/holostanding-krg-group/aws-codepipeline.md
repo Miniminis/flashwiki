@@ -25,7 +25,7 @@
 
 ### 3-2. 진행순서&#x20;
 
-<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
 
 현재 우리팀은 소스코드 형상관리 툴로 Bitbucket을, 서버로는 AWS EC2 서비스를 쓰고 있다. AWS Pipeline 에서는 단계별로 사용하고 있는 외부/내부 서비스와 연결하여 배포까지 하나의 파이프 라인을 만들 수 있다. 우리 팀은 아래와 같이 파이프라인을 구성하였다.&#x20;
 

@@ -63,9 +63,9 @@ coverY: -363
   * Kotlin, Android Studio 를 이용해 입사 3개월만에 1만 명이 사용하는 [P2P 플랫폼 서비스 <청년5.5> 안드로이드 앱](https://play.google.com/store/apps/details?id=com.crepass.p2p\&hl=ko\&gl=US) 리뉴얼 버전을 개발. 향상된 앱 사용성 및 개선된 UI를 통해 사용자 경험을 개선
   * 누적 다운로드 2,000건 이상의 모바일 신용등급 플랫폼 [대안신용평가 서비스 CrePASS SDK](https://m.onestore.co.kr/mobilepoc/apps/appsDetail.omp?prodId=0000738635) 를 유지보수하고 <청년 5.5> 앱 내 연동작업을 진행하여 대출신청완료까지 이탈률을 개선
   * [북서울신협 <북서울신협 대안신용평가>](https://m.onestore.co.kr/mobilepoc/apps/appsDetail.omp?prodId=0000753209) 안드로이드 앱 신규 개발 및 원스토어 릴리즈 작업 진행
-  * 팀 내 유일한 안드로이드 개발자로서 사용자의 편의성과 회사의 비즈니스적 임팩트를 함께 추구할 수 있도록 꾸준히 개선안 제안. 펀딩 목록 페이지 내 정렬 기준을 최신순이 아닌 펀딩 임박한 순서로 변경할 것을 제안
+  * 팀 내 유일한 안드로이드 개발자로서 사용자의 편의성과 회사의 비즈니스적 임팩트를 함께 추구할 수 있도록 꾸준히 개선안 제안. [펀딩 목록 페이지 내 정렬 기준을 최신순이 아닌 펀딩 임박한 순서로 변경할 것을 제안](work-and-experience/crepass/undefined.md)
 * 시스템 이전&#x20;
-  * P2P 온라인투자연계법 개정에 따른 인프라 이전작업에 참여. 기존 AWS 상에서 운영되던 서버 약 6개를 [Koscom 금융 클라우드](https://www.koscom.cloud)로 이전. 기존 AWS RDS 로 사용 중이던 데이터베이스를 Koscom 의 Cloud DB for MySQL 로 교체 및 데이터 마이그레이션&#x20;
+  * P2P 온라인투자연계법 개정에 따른[ 인프라 이전작업에 참여](work-and-experience/crepass/aws-koscom-cloud.md). 기존 AWS 상에서 운영되던 서버 약 6개를 [Koscom 금융 클라우드](https://www.koscom.cloud)로 이전. 기존 AWS RDS 로 사용 중이던 데이터베이스를 Koscom 의 Cloud DB for MySQL 로 교체 및 데이터 마이그레이션&#x20;
 * 팀 문화 및 문서화&#x20;
   * 서비스의 핵심 모듈인 CrePASS SDK 내부 소스코드를 분석한 내용을 팀 내 최초로 문서화하고 팀원들과 공유하여 모듈 내 로직에 대한 전체적인 이해도 향상에 기여
   * 기존 시스템 인프라 및 서버 환경 구성정보를 문서화하고 팀원들과 공유하여 관리되고 있지 않았던 다수의 서버를 발견해 AWS 비용 절감에 기여

@@ -412,7 +412,7 @@ $ env
   * [쉘변수](https://webdir.tistory.com/105)
   * [PS1 generator](http://ezprompt.net/)
 
-<figure><img src="../../.gitbook/assets/image (3) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (3) (1) (6).png" alt=""><figcaption></figcaption></figure>
 
 ### 11-3. [logger](https://zetawiki.com/wiki/%EB%A6%AC%EB%88%85%EC%8A%A4\_logger) 를 사용하여 감사로그 남기기
 
