@@ -4,6 +4,9 @@ description: 개발하면서 도움이 되었거나 배울 점이 많다고 생�
 
 # 🔖 webmark
 
+* [https://hudi.blog](https://hudi.blog)
+  * 토스 뱅크에 재직중이신 후디님의 블로그&#x20;
+  * 설명이 쉽게 되어있어서 이해하기에 좋다. 글쓰는 법을 배울 수도 있을 것 같다.&#x20;
 * [https://www.youtube.com/@ByteByteGo](https://www.youtube.com/@ByteByteGo)
   * 컴퓨터 공학 지식을 이해하기 쉬운 그래픽과 영상으로 쉽게 설명해주는 곳&#x20;
   * proxy, reverse proxy 를 그래픽 그림 1장으로 이해할 수 있어서 좋았음 &#x20;

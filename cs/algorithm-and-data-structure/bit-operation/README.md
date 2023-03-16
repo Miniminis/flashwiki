@@ -16,7 +16,7 @@
 
 * 역시 십진수 뺄샘과 유사하다. 부족할 경우, 앞자리에서 가져온다.&#x20;
 
-<figure><img src="../../../.gitbook/assets/image (14) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (14) (1) (5).png" alt=""><figcaption></figcaption></figure>
 
 ## 3. 곱셈
 
@@ -87,7 +87,7 @@
 
 <figure><img src="../../../.gitbook/assets/image (6) (5).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../.gitbook/assets/image (13).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (13) (4).png" alt=""><figcaption></figcaption></figure>
 
 ### 8-1. Logical Right Shift : 부호 무시&#x20;
 
@@ -95,7 +95,7 @@
 
 ### 8-2. Arithmatic Right Shift&#x20;
 
-<figure><img src="../../../.gitbook/assets/image (1) (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1) (2) (6).png" alt=""><figcaption></figcaption></figure>
 
 ## 9. 실전문제&#x20;
 

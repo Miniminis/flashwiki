@@ -311,7 +311,39 @@ export default function () {
 
 실제 응답률은 40%도 안됨&#x20;
 
-중간부터 계쏙 connection peer 에러 발생&#x20;
+중간부터 계속 connection peer 에러 발생&#x20;
+
+
+
+## Grafana 대시보드 구성하기&#x20;
+
+### influx DB&#x20;
+
+* [https://datamoney.tistory.com/287](https://datamoney.tistory.com/287)
+  * docker 이용하여 설치&#x20;
+
+### grafana 설치&#x20;
+
+* [https://pbj0812.tistory.com/270](https://pbj0812.tistory.com/270)
+
+![](../../.gitbook/assets/image.png)
+
+
+
+```
+// Some code
+
+docker run -p 8086:8086 \
+-v influxdb:/var/lib/influxdb \
+-e DOCKER_INFLUXDB_INIT_MODE=upgrade \
+-e DOCKER_INFLUXDB_INIT_USERNAME=admin \ 
+-e DOCKER_INFLUXDB_INIT_PASSWORD=admin \
+-e DOCKER_INFLUXDB_INIT_ORG=subway \
+-e DOCKER_INFLUXDB_INIT_BUCKET=myk6db \
+influxdb
+```
+
+
 
 
 

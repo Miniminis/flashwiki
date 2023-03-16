@@ -1,6 +1,6 @@
 # 이슈 리포트 작성 문화 도입 및 초기 템플릿 구축
 
-<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (2).png" alt=""><figcaption></figcaption></figure>
 
 ## 1. 배경&#x20;
 

@@ -8,3 +8,7 @@
     ```
 * 참고&#x20;
   * [https://www.slipp.net/questions/577](https://www.slipp.net/questions/577)
+
+## 2. git add 취소하기, git commit 취소하기, git push 취소하기
+
+* [https://gmlwjd9405.github.io/2018/05/25/git-add-cancle.html](https://gmlwjd9405.github.io/2018/05/25/git-add-cancle.html)

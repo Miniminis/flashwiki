@@ -19,6 +19,8 @@
   * rm -rf : recursive + forcibly 하게 삭제. 디렉토리 내부의 모든 파일을 강제로 삭제한다.&#x20;
 * mkdir : 디렉토리 생성
 * file !s : 파일의 속성&#x20;
+* cp -R \<source\_folder> \<destination\_folder> : 디렉토리 복사
+* cp \<source\_file> \<destination\_file> : 파일 복사 &#x20;
 
 
 

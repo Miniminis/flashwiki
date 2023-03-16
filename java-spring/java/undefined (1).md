@@ -244,7 +244,7 @@ version '1.0-SNAPSHOT'
 
 ### 4-5. 기존 application 에서 VM 옵션 추가
 
-<figure><img src="../../.gitbook/assets/image (4) (1).png" alt=""><figcaption><p>다시 jar 로 빌드 </p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (4) (1) (9).png" alt=""><figcaption><p>다시 jar 로 빌드 </p></figcaption></figure>
 
 agent 프로젝트를 다시 jar 로 빌드한 뒤, 원래의 어플리케이션 코드로 돌아와 기존의 bytebuddy 코드를 모두 제거한다.&#x20;
 
@@ -273,9 +273,9 @@ public class Moja {
 
 ```
 
-<figure><img src="../../.gitbook/assets/image (12) (1).png" alt=""><figcaption><p>오른쪽 상단 Modify Options 선택하여 VM options 추가 </p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (12) (1) (4).png" alt=""><figcaption><p>오른쪽 상단 Modify Options 선택하여 VM options 추가 </p></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (10) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (10) (1) (4).png" alt=""><figcaption></figcaption></figure>
 
 VM Options 칸에 아래의 명령어 추가
 
@@ -347,7 +347,7 @@ type 으로부터 메타데이터를 읽어온다. 메타데이터를 읽는 rea
 
 * asm 라이브러리를 스프링에서 아예 패키지 내부로 포함시킴&#x20;
 
-<figure><img src="../../.gitbook/assets/image (11).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (11) (6).png" alt=""><figcaption></figcaption></figure>
 
 ### 6-4. 참고&#x20;
 

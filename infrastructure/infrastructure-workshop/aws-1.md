@@ -76,9 +76,9 @@ description: 1. 화면 응답 개선하기
 
 ### [WebPageTest](https://www.webpagetest.org/) 결과&#x20;
 
-<figure><img src="../../.gitbook/assets/image (12).png" alt=""><figcaption><p><a href="https://infra.subway-mhson.kro.kr/">https://infra.subway-mhson.kro.kr/</a></p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (12) (1).png" alt=""><figcaption><p><a href="https://infra.subway-mhson.kro.kr/">https://infra.subway-mhson.kro.kr/</a></p></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (8).png" alt=""><figcaption><p><a href="https://m.map.kakao.com/">https://m.map.kakao.com/</a></p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (8) (9).png" alt=""><figcaption><p><a href="https://m.map.kakao.com/">https://m.map.kakao.com/</a></p></figcaption></figure>
 
 <figure><img src="../../.gitbook/assets/image (21).png" alt=""><figcaption><p><a href="https://m.map.naver.com/subway/subwayLine.naver?region=1000">https://m.map.naver.com/subway/subwayLine.naver?region=1000</a></p></figcaption></figure>
 
@@ -92,7 +92,7 @@ description: 1. 화면 응답 개선하기
 
 <figure><img src="../../.gitbook/assets/image (45).png" alt=""><figcaption><p><a href="https://m.map.kakao.com/">https://m.map.kakao.com/</a></p></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (4).png" alt=""><figcaption><p><a href="https://m.map.naver.com/subway/subwayLine.naver?region=1000">https://m.map.naver.com/subway/subwayLine.naver?region=1000</a></p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (4) (1).png" alt=""><figcaption><p><a href="https://m.map.naver.com/subway/subwayLine.naver?region=1000">https://m.map.naver.com/subway/subwayLine.naver?region=1000</a></p></figcaption></figure>
 
 <figure><img src="../../.gitbook/assets/image (24).png" alt=""><figcaption><p><a href="http://www.seoulmetro.co.kr/kr/cyberStation.do">http://www.seoulmetro.co.kr/kr/cyberStation.do</a></p></figcaption></figure>
 
@@ -162,7 +162,7 @@ description: 1. 화면 응답 개선하기
 
 ### 적용 후 최초 로드 : Cache MISS&#x20;
 
-<figure><img src="../../.gitbook/assets/image (9).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (9) (10).png" alt=""><figcaption></figcaption></figure>
 
 ### 적용 후 2번째 이후 로드 : HIT
 
