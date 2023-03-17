@@ -187,7 +187,7 @@ Nat gateway 는 igw 와 연결되어 내부에서 외부의 인터넷망을 쓸 
 
 <figure><img src="../../.gitbook/assets/image (68).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (59).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (59) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### 7-3. IP 주소 기반이 아닌 SG 기반으로 설정하기&#x20;
 

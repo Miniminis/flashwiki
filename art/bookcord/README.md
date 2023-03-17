@@ -1,2 +1,2 @@
-# 📚 bookcord
+# bookcord
 

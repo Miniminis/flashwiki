@@ -24,7 +24,7 @@
 * [WebPageTest](https://www.webpagetest.org/) : 연결을 시도하는 위치, 환경부터 Repeat View(캐싱 등 테스트), 동일한 조건으로 여러 차례 테스트를 할 수 있다. 테스트한 결과는 영상으로도 볼 수 있다.&#x20;
   *
 
-      <figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+      <figure><img src="../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 
       * First Byte Time : 웹 서버에서 받은 컨텐츠의 첫 번째 바이트가 얼마만에 도착했는가?
       * Keep-Alive Enabled : TCP 연결을 재사용하기 위한 Keep-Alive 설정이 되어 있는가?
@@ -34,7 +34,7 @@
 * [PageSpeed](https://developers.google.com/speed/pagespeed/insights/) : 웹 성능 분석과 함께 구체적으로 어떤 전략을 취하면 좋은지도 가이드를 해준다.&#x20;
   *
 
-      <figure><img src="../../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+      <figure><img src="../../.gitbook/assets/image (4) (5).png" alt=""><figcaption></figcaption></figure>
 
 ### 1-2. 웹 성능 예산&#x20;
 

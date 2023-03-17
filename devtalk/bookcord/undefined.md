@@ -4,6 +4,12 @@ description: 읽고 싶은 책의 목록입니다. 다 읽고 나면 bookcord �
 
 # 읽고 싶은 책 목록
 
+## 1. 책 추천 글 모음&#x20;
+
+* [https://velog.io/@mooh2jj/웹개발자의-책강의-정리](https://velog.io/@mooh2jj/%EC%9B%B9%EA%B0%9C%EB%B0%9C%EC%9E%90%EC%9D%98-%EC%B1%85%EA%B0%95%EC%9D%98-%EC%A0%95%EB%A6%AC)
+
+## 2. 책 목록
+
 1. 그림으로 공부하는 IT 인프라 구조
 2. 사이트 신뢰성 엔지니어링
 3. 시작하세요! 도커/쿠버네티스

@@ -105,7 +105,7 @@
 
 #### 2단계 페이징 테이블 - two level paging table
 
-<figure><img src="../../.gitbook/assets/image (5) (4).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (5) (4) (1).png" alt=""><figcaption></figcaption></figure>
 
 * 사용하는 이유
   * 컴퓨터에서 어떤 시스템이 존재할 때, 그 존재의 이유는 보통 두 가지이다.

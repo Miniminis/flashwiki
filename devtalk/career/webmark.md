@@ -24,3 +24,5 @@ description: 개발하면서 도움이 되었거나 배울 점이 많다고 생�
 * [https://gyuwon.github.io](https://gyuwon.github.io)
 * [https://blog.banksalad.com/tech/we-work-by-tech-spec/](https://blog.banksalad.com/tech/we-work-by-tech-spec/)
   * 개발을 시작하기 전에 tech spec 을 작성해야하는 이유&#x20;
+* [https://velog.io/@dabin/개발자-유용한-사이트-모음-CS공부세미나기술인터뷰로드맵기술스펙](https://velog.io/@dabin/%EA%B0%9C%EB%B0%9C%EC%9E%90-%EC%9C%A0%EC%9A%A9%ED%95%9C-%EC%82%AC%EC%9D%B4%ED%8A%B8-%EB%AA%A8%EC%9D%8C-CS%EA%B3%B5%EB%B6%80%EC%84%B8%EB%AF%B8%EB%82%98%EA%B8%B0%EC%88%A0%EC%9D%B8%ED%84%B0%EB%B7%B0%EB%A1%9C%EB%93%9C%EB%A7%B5%EA%B8%B0%EC%88%A0%EC%8A%A4%ED%8E%99)
+  * 개발자 취준에 도움되는 사이트 모음&#x20;
