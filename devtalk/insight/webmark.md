@@ -4,6 +4,8 @@ description: 개발하면서 도움이 되었거나 배울 점이 많다고 생�
 
 # 🔖 webmark
 
+* [https://dev-coco.tistory.com/153](https://dev-coco.tistory.com/153)
+  * 개발자 면접질문이 분야별로 잘 정리되어있다.&#x20;
 * [https://hudi.blog](https://hudi.blog)
   * 토스 뱅크에 재직중이신 후디님의 블로그&#x20;
   * 설명이 쉽게 되어있어서 이해하기에 좋다. 글쓰는 법을 배울 수도 있을 것 같다.&#x20;

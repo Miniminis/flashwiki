@@ -196,7 +196,7 @@ description: 1. 화면 응답 개선하기
 
 ### 정적파일 경량화 이후 - javascript async 속성 추가
 
-<figure><img src="../../.gitbook/assets/image (15).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (15) (6).png" alt=""><figcaption></figcaption></figure>
 
 ### 성능개선결과&#x20;
 

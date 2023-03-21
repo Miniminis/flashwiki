@@ -1,7 +1,7 @@
 ---
 description: User Driven Developer, 사용자를 기반으로 성장하는 개발자
-cover: .gitbook/assets/marigold.jpg
-coverY: -363
+cover: .gitbook/assets/marigold (1).jpg
+coverY: -903
 ---
 
 # 📙 손민희 (MINHEE SON)
@@ -15,9 +15,9 @@ coverY: -363
 
 ## <mark style="color:orange;">Introduce</mark>
 
-370일동안 지구 반대편 아프리카 케냐에서 지역개발사업의 Project Manager로 일을 하다가 우연한 계기로 개발을 배웠습니다. 지금은 3년차 개발자로 핀테크, 프롭테크 등의 영역에서 두 곳의 스타트업을 거쳐 모바일 앱과 웹 서비스를 개발하고 있습니다. **초기 스타트업의 유일한 서버 개발자로 합류해 기획단계부터 참여했고 시스템 설계부터 개발까지 팀을 기술적으로 서포트한 경험이 있습니다.**&#x20;
+지구 반대편 아프리카 케냐에서 NGO 활동가로 일을 하다가 IT서비스가 케냐 사회를 변화시키는 모습을 보고 개발을 배웠습니다. 지금은 3년차 개발자로 그동안 핀테크, 프롭테크 등의 영역에서 두 곳의 스타트업을 거쳐 모바일 앱과 웹 서비스를 개발해왔습니다. **초기 스타트업의 유일한 서버 개발자로 합류해 기획단계부터 참여했고 시스템 설계부터 개발까지 팀을 기술적으로 서포트한 경험이 있습니다.**&#x20;
 
-**서비스의 사용자가 0명부터 5만명이 될 때까지 약 2년 동안 많은 기술적 문제상황과 어려움을 마주했고, 이를 효과적으로 해결한 경험이 있습니다.** 끊임없는 A/B 테스트를 통해 프로덕트를 개선했고, 이전보다 늘어난 사용자에 대응하기 위해 꾸준히 성능을 향상시켜왔습니다. 반복적인 작업은 자동화를 통해, 비효율적인 프로세스는 소통과 시스템을 통해 개선해왔습니다.&#x20;
+**서비스의 사용자가 0명부터 6만명이 될 때까지 약 2년 동안 많은 기술적 문제상황과 어려움을 마주했고, 이를 효과적으로 해결한 경험이 있습니다.** 끊임없는 A/B 테스트를 통해 프로덕트를 개선했고, 이전보다 늘어난 사용자에 대응하기 위해 꾸준히 성능을 향상시켜왔습니다. 반복적인 작업은 자동화를 통해, 비효율적인 프로세스는 소통과 시스템을 통해 개선해왔습니다.&#x20;
 
 **사용자를 기반으로 성장합니다.** "모든 소프트웨어의 의미는 사용자들로부터 사용됨"에 있다고 믿으며 모든 의사결정은 기술 중심이 아닌 사용자를 중심으로 진행합니다. 핵심 가치를 잘 전달하는 편리한 서비스를 지향하며 안정적이고 빠른 서비스를 만들기 위해 노력해왔습니다.
 
@@ -29,7 +29,7 @@ coverY: -363
 
 ### [홀로스탠딩(Holostanding)](https://holostanding.space/) / [KRG Group](https://www.mubang.co.kr/default/)
 
-누적 사용자 55,000명이 이용하고 총 92억원의 보증금을 삭제한 무보증금 원룸 중개서비스 [홀로스탠딩](https://holostanding.space/)을 만드는 프롭테크 스타트업으로 롯데벤처스, 경동인베스트 등으로부터 투자유치&#x20;
+누적 사용자 6만명이 이용하고 총 92억원의 보증금을 삭제한 무보증금 원룸 중개서비스 [홀로스탠딩](https://holostanding.space/)을 만드는 프롭테크 스타트업으로 롯데벤처스, 경동인베스트 등으로부터 투자유치&#x20;
 
 #### **Software Developer |** 2021.02-2022.10(1년 8개월)
 
@@ -38,12 +38,12 @@ coverY: -363
   * 약 10개월간 임차인용 "홀로스탠딩", 중개사용 "파트너스", 임대인용 "공실 지우개 무방", 내부직원용 관리자 페이지까지 총 4개 서비스의 API를 개발
 * 성능 향상, 속도 향상, 안정화, 문제해결
   * TDD 를 기반으로 리펙토링하여 전반적인 코드의 품질을 높이고, 장애 가능성을 낮추는데 기여
-  * 지도 기반 임대인 매물 등록 서비스 "공실 지우개 무방" 쿼리 조회 속도 400% 개선&#x20;
+  * 지도 기반 임대인 매물 등록 서비스 "공실 지우개 무방" 조회 속도 400% 개선&#x20;
   * Native query 로 구현되어있던 대시보드의 통계성 쿼리 100% JPA QueryDSL 로 변경하여 장애 사전 예방 &#x20;
   * K6 를 이용하여 부하테스트 진행하여 병목지점 파악 및 장애 예상 지점 개선&#x20;
   * 데이터 기반 의사결정을 위한 [통합 데이터 대시보드 구축 작업에 참여](work-and-experience/holostanding-krg-group/undefined.md)하여 온/오프라인으로 단절되었던 데이터들을 통합된 하나의 대시보드 상에서 분석할 수 있도록 개선. 대시보드에 사용된 모든 쿼리 작업을 진행
 * 비효율적인 프로세스 개선, 반복작업 자동화
-  * 비효율적이고 시간소요가 컸던 기존의 서버 배포 프로세스를 [AWS CodePipeline 을 이용하여 CI/CD 자동화](infrastructure/aws/aws-codepipeline-01.md). 전체 배포 시간 약 10분 단축
+  * 비효율적이고 시간소요가 컸던 기존의 서버 배포 프로세스를 [AWS CodePipeline 을 이용하여 배포 자동화](infrastructure/aws/aws-codepipeline-01.md). 전체 배포 시간 약 10분 단축
   * [AWS SES, Aligo SMS API, Spring Batch 등을 이용하여 CRM 프로세스 구축](work-and-experience/holostanding-krg-group/aws-ses-aligo-sms-api-spring-batch-crm.md). 일 평균 3,000개의 SMS 및 카카오 알림톡 전송을 자동화&#x20;
   * [슬랙봇을 이용한 서비스 모니터링 시스템 구축](work-and-experience/holostanding-krg-group/undefined-1.md). 통합된 모니터링 채널을 통해 이슈 대응속도 개선 및 모니터링 업무 효율 개선&#x20;
   * [이슈리포트 작성 문화 도입 및 초기 템플릿을 구축](work-and-experience/holostanding-krg-group/undefined-2.md)하여 이슈 대응 속도 향상 및 커뮤니케이션 비용 절감&#x20;
@@ -128,23 +128,24 @@ coverY: -363
 
 ## <mark style="color:orange;">Community</mark>
 
-### 2022.02 \~ (현재) 국제개발협력 청년 플랫폼 <[공적인 사적모임](https://www.notion.so/a498308da70c49a88046538e9cacc512)>
-
-* **조직 내 IT 팀을 신설하여 비영리분야를 위한 프로덕트 개발, 노코드 툴 교육 등 다양한 IT 프로젝트를 진행중**
-* 국제개발협력 뉴스레터 [김치앤칩스](https://page.stibee.com/archives/76249)의 필진으로 참여
-  * <[NGO는 아니지만 국제개발협력합니다](https://www.notion.so/0d9f5f4719234807a128d5bde229809b)> 인터뷰 시리즈 기획 및 제작하여 2022년 한해동안 총 13명의 인터뷰 진행
-
 ### 2022.07 \~ 2022.08 Product Maker 스터디 <[쿨피스](https://disquiet.io/product/%EC%BF%A8%ED%94%BC%EC%8A%A4)>
 
 * Building In Public 정신으로 36명의 사람들과 함께 초기멤버로 참여
 * `flash`라는 닉네임으로 [디스콰이엇](https://disquiet.io/product/%EC%BF%A8%ED%94%BC%EC%8A%A4) 플랫폼에서 [타 서비스가 겪고 있는 문제에 대해 고민하고 메이커의 관점에서 해결책을 제시하는 활동](work-and-experience/activity/undefined.md)
 * 서비스 개발 전반에 대한 내용을 공부하고 [콘텐츠로 발행](https://disquiet.io/@flash)
 
-### 2022.01 \~ 2022.08 새벽 개발자 모각공 커뮤니티 <[Early Bird Morning Club](https://discord.gg/PyJauKJRgg)>
+### 2022.02 \~ (현재) 국제개발협력 청년 플랫폼 <[공적인 사적모임](https://www.notion.so/a498308da70c49a88046538e9cacc512)>
+
+* **조직 내 IT 팀을 신설하여 비영리분야를 위한 프로덕트 개발, 노코드 툴 교육 등 다양한 IT 프로젝트를 진행중**
+* 국제개발협력 뉴스레터 [김치앤칩스](https://page.stibee.com/archives/76249)의 필진으로 참여
+  * <[NGO는 아니지만 국제개발협력합니다](https://www.notion.so/0d9f5f4719234807a128d5bde229809b)> 인터뷰 시리즈 기획 및 제작하여 2022년 한해동안 총 13명의 인터뷰 진행
+
+### 2022.01 \~ (현재) 새벽 개발자 모각공 커뮤니티 <[Early Bird Morning Club](https://discord.gg/PyJauKJRgg)>
 
 * 매일 새벽 4시부터 8시까지 모여서 각자 개발공부를 하는 온라인 개발자 모각공 커뮤니티 리딩
 * 디스코드 서버 누적 참여자 수 45명
-* 혼자서 기획, 제작, 모집까지 하여 활발히 운영했으나 2022년 8월을 기점으로 운영종료
+* 혼자서 기획, 제작, 모집까지 하여 활발히 운영중
+  * [early-bird-club-2nd-week.md](sideproject/earlybirdclub/early-bird-club-2nd-week.md "mention")
 
 
 
