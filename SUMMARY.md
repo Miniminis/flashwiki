@@ -24,18 +24,20 @@
 
 * [insight](devtalk/insight/README.md)
   * [🔖 webmark](devtalk/insight/webmark.md)
-  * [어웨이크코퍼레이션의 김민준 님](devtalk/insight/undefined.md)
-  * [\[인프런\] 주니어를 넘어서, 성장하는 개발자의 길](devtalk/insight/undefined-1.md)
-  * [AI 시대에 개발자가 살아남는 방법](devtalk/insight/ai.md)
-  * [아마추어와 프로의 차이](devtalk/insight/undefined-2.md)
+  * [프로덕트 매니저에 대해서](devtalk/insight/undefined.md)
+  * [AI 시대에서 결국 살아남는 것](devtalk/insight/ai.md)
+  * [어웨이크코퍼레이션의 김민준 님](devtalk/insight/undefined-1.md)
+  * [\[인프런\] 주니어를 넘어서, 성장하는 개발자의 길](devtalk/insight/undefined-2.md)
+  * [AI 시대에 개발자가 살아남는 방법](devtalk/insight/ai-1.md)
+  * [아마추어와 프로의 차이](devtalk/insight/undefined-3.md)
   * [IT 개발자 취업기 모음](devtalk/insight/it/README.md)
     * [개발자의 개발공부에 대하여](devtalk/insight/it/undefined.md)
-  * [라인게임즈 백엔드 개발자 경선님](devtalk/insight/undefined-3.md)
-  * [서비스에 대해 개발자가 가져야할 생각들](devtalk/insight/undefined-4.md)
+  * [라인게임즈 백엔드 개발자 경선님](devtalk/insight/undefined-4.md)
+  * [서비스에 대해 개발자가 가져야할 생각들](devtalk/insight/undefined-5.md)
   * [OKKY 미니세미나 <비전공 학원출신 SI개발자, 유명스타트업 들어간.ssul> 참석 후기](devtalk/insight/okky-less-than-si-.ssul-greater-than.md)
-  * [좋은 개발자와 인맥을 만든 노하우](devtalk/insight/undefined-5.md)
+  * [좋은 개발자와 인맥을 만든 노하우](devtalk/insight/undefined-6.md)
   * [비전공자에서 2억받는 아마존 엔지니어가 되기까지](devtalk/insight/2.md)
-  * [기획서 작성하기](devtalk/insight/undefined-6.md)
+  * [기획서 작성하기](devtalk/insight/undefined-7.md)
   * [<노코드로 PMF 찾는 방법> 웨비나 후기](devtalk/insight/how-to-find-pmf-with-no-code.md)
   * [토스 리더가 말하는 PO가 꼭 알아야할 개념 (1)](devtalk/insight/20220508-toss-po-session-01.md)
   * [토스 리더가 말하는 PO가 꼭 알아야할 개념 (2)](devtalk/insight/20220518-toss-po-session-02.md)
@@ -61,6 +63,9 @@
   * [INFCON 2022](devtalk/event/infcon-2022.md)
 * [open source](devtalk/opensource/README.md)
   * [나의 첫 opensource contribution 경험기](devtalk/opensource/opensource-hexo.md)
+* [TIL](devtalk/til/README.md)
+  * [2023.03.23](devtalk/til/2023.03.23.md)
+  * [2023.03.22](devtalk/til/2023.03.22.md)
 
 ## 🏗 computer science <a href="#cs" id="cs"></a>
 
@@ -290,8 +295,11 @@
 ## ☕ Java/Spring
 
 * [java](java-spring/java/README.md)
-  * [🔖 webmarks for java](java-spring/java/webmarks-for-java.md)
-  * [java Math 함수 정리](java-spring/java/java-math.md)
+  * [Java Code Convention](java-spring/java/java-code-convention.md)
+  * [Java 버전별 특징 (v1-v19)](java-spring/java/java-v1-v19.md)
+  * [java.lang.Math](java-spring/java/java.lang.math.md)
+  * [List 4가지의 초기화 방법](java-spring/java/list-4.md)
+  * [HashMap 4가지의 정렬 방법](java-spring/java/hashmap-4.md)
   * [어노테이션 프로세서 정리하기](java-spring/java/undefined.md)
   * [Annotation Processor 로 없는 소스코드 생성하기](java-spring/java/annotation-processor.md)
   * [lombok 은 어떻게 동작하는 것일까?](java-spring/java/lombok.md)
@@ -310,8 +318,6 @@
   * [JVM 의 구조](java-spring/java/jvm.md)
   * [java, jvm, jdk and jre](java-spring/java/java-jvm-jdk-and-jre.md)
   * [synchronized](java/synchronized.md)
-  * [HashMap 4가지의 정렬 방법](java-spring/java/hashmap-4.md)
-  * [List 4가지의 초기화 방법](java-spring/java/list-4.md)
   * [java string.split(".") 오류](java-spring/java/java-string.split-..md)
 * [java 8](java/java-8/README.md)
   * [이 위키를 만드는데 참고한 자료들](java-spring/java-8/undefined.md)
@@ -431,6 +437,12 @@
 * [logging](others/logging/README.md)
   * [‼ log4j 보안 이슈](others/logging/log4j-security-issue.md)
 
+## 🧑🌾 product making
+
+* [service-review](product-making/service/README.md)
+  * [밑미(Meetme)](product-making/service/service-meetme.md)
+* [what if i make it](product-making/what-if-i-make-it.md)
+
 ## ✍ WRITINGS
 
 * [annual-review](writings/annual-review/README.md)
@@ -491,8 +503,6 @@
     * [경제정책](finance/page-5/undefined-5.md)
     * [규제](finance/page-5/undefined-6.md)
     * [경제위기](finance/page-5/undefined-7.md)
-* [service-review](writings/service/README.md)
-  * [밑미(Meetme)](writings/service/service-meetme.md)
 
 ## 💼 SIDEPROJECT
 

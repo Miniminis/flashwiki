@@ -1,3 +1,6 @@
-# \[인프런] 주니어를 넘어서, 성장하는 개발자의 길
+# 어웨이크코퍼레이션의 김민준 님
 
-{% embed url="https://www.inflearn.com/pages/weekly-inflearn-38-20211228" %}
+{% embed url="https://youtube.com/watch?v=QkGXTUmc5is&feature=shares" %}
+
+초등학교때부터 사업을 했다는 엄청난 사람.&#x20;
+

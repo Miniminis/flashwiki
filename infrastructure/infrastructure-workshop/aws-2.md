@@ -326,7 +326,7 @@ export default function () {
 
 * [https://pbj0812.tistory.com/270](https://pbj0812.tistory.com/270)
 
-![](<../../.gitbook/assets/image (1).png>)
+![](<../../.gitbook/assets/image (1) (5).png>)
 
 
 

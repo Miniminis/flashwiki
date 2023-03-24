@@ -335,7 +335,7 @@ public class LambdaTest {
 }
 ```
 
-<figure><img src="../../.gitbook/assets/image (10).png" alt=""><figcaption><p>람다는 별도의 스콥으로 설정되지 않는다. 따라서 부모 스콥의 범위와 같기 때문에 같은 이름의 변수를 사용할 수 없다. </p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (10) (5).png" alt=""><figcaption><p>람다는 별도의 스콥으로 설정되지 않는다. 따라서 부모 스콥의 범위와 같기 때문에 같은 이름의 변수를 사용할 수 없다. </p></figcaption></figure>
 
 ### 3-5. 참고&#x20;
 

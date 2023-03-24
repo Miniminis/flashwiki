@@ -1,6 +1,4 @@
-# 어웨이크코퍼레이션의 김민준 님
+# 프로덕트 매니저에 대해서
 
-{% embed url="https://youtube.com/watch?v=QkGXTUmc5is&feature=shares" %}
-
-초등학교때부터 사업을 했다는 엄청난 사람.&#x20;
-
+* [https://sungmooncho.com/2012/01/16/product-manager/](https://sungmooncho.com/2012/01/16/product-manager/)
+* [https://brunch.co.kr/@junyoung/37](https://brunch.co.kr/@junyoung/37)
