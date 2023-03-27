@@ -1,5 +1,7 @@
 ---
 description: 프로덕트 메이커 플래시의 위키
+cover: .gitbook/assets/marigold (1).jpg
+coverY: -255
 ---
 
 # 🧙 Welcome to Flash Wiki
