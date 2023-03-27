@@ -8,9 +8,7 @@ description: 프로덕트 메이커 플래시의 위키
 
 * [minhee4735@gmail.com](mailto:minhee4735@gmail.com)
 * [Blog](https://wiki.mhson.world/) | [Github](https://github.com/miniminis) | [LinkedIn](https://www.linkedin.com/in/minhee-son-3b2a1016a) | [Youtube](https://www.youtube.com/@devgrandma) | [Brunch](https://brunch.co.kr/@nomadflash)&#x20;
-* [Portfolio](https://portfolio.mhson.world/)
-
-
+* [Portfolio](https://product.portfolio.mhson.world/)
 
 ## <mark style="color:orange;">안녕하세요👋  플래시 위키의 주인장, 플래시입니다.</mark>&#x20;
 
