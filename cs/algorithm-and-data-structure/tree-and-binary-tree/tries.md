@@ -11,6 +11,6 @@ description: 트라이
 
 <figure><img src="../../../.gitbook/assets/image (4) (5) (2).png" alt=""><figcaption><p><a href="https://www.youtube.com/user/damazzang/videos">[유튜브] 엔지니어 대한민국</a></p></figcaption></figure>
 
-<figure><img src="../../../.gitbook/assets/image (8) (2).png" alt=""><figcaption><p><a href="https://www.youtube.com/user/damazzang/videos">[유튜브] 엔지니어 대한민국</a></p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (8) (2) (2).png" alt=""><figcaption><p><a href="https://www.youtube.com/user/damazzang/videos">[유튜브] 엔지니어 대한민국</a></p></figcaption></figure>
 
 * 트라이에서 문자열 검색을 하게 되면, 최대 문자열의 길이 M정도의 시간복잡도밖에 걸리지 않는다. -> O(M)&#x20;

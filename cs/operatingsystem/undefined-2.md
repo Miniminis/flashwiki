@@ -14,7 +14,7 @@
 
 ### I/O 의 여러가지 방법
 
-<figure><img src="../../.gitbook/assets/image (11) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (11) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 | 구분 | special instruction                                       | memory mapped I/O                                |
 | -- | --------------------------------------------------------- | ------------------------------------------------ |

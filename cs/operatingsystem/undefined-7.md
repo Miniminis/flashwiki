@@ -72,7 +72,7 @@
   * 만약 virtual memory 범위 이내의 주소값일 경우에는 physical memory에서 해당 logical address 가 차지하는 공간의 시작점인 14000을 `relocation register` 로 두고, 그 값을 더해준다.
   * 그렇게하면, logical address 346가 실제 메모리 공간에서 위치하는 주소값인 14346 을 얻게 된다.
 
-<figure><img src="../../.gitbook/assets/image (2) (4).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (4) (1).png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../../.gitbook/assets/image (4) (1) (1) (2).png" alt=""><figcaption></figcaption></figure>
 

@@ -25,7 +25,7 @@ description: IP 주소는 IPv4, IPv6 로 나뉘어진다.
 * 앞의 연속되는 0은 생략가능
 * IPSec 이라는 데이터 패킷을 암호화하는 보안 네트워크 프로토콜 제품군이 내장되어있어서 보안성이 뛰어나다.&#x20;
 
-<figure><img src="../../.gitbook/assets/image (1) (1) (3) (4).png" alt=""><figcaption><p><a href="https://www.orbit-computer-solutions.com/ipv6-address-expression-and-examples/">https://www.orbit-computer-solutions.com/ipv6-address-expression-and-examples/</a></p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (3) (4) (1).png" alt=""><figcaption><p><a href="https://www.orbit-computer-solutions.com/ipv6-address-expression-and-examples/">https://www.orbit-computer-solutions.com/ipv6-address-expression-and-examples/</a></p></figcaption></figure>
 
 
 

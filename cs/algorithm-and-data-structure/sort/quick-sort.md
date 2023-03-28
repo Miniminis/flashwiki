@@ -22,7 +22,7 @@ description: 퀵 소트
 * partition() 에 의해 분할이 되고, pivot 인 q가 반환된다.&#x20;
 * quickSort()를 재귀 호출하여 각각 정렬되면 끝!&#x20;
 
-<figure><img src="../../../.gitbook/assets/image (11) (1).png" alt=""><figcaption><p><a href="https://www.inflearn.com/course/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EA%B0%95%EC%A2%8C">[인프런] 영리한 프로그래밍을 위한 알고리즘 강좌 by 권오흠 교수님</a></p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (11) (1) (1).png" alt=""><figcaption><p><a href="https://www.inflearn.com/course/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EA%B0%95%EC%A2%8C">[인프런] 영리한 프로그래밍을 위한 알고리즘 강좌 by 권오흠 교수님</a></p></figcaption></figure>
 
 * 피봇은 맨 마지막 값으로 고정시켜두고, 나머지 데이터들을 피봇보다 작은 파트와, 큰 파트로 나누어 정렬시킨 뒤, 제일 마지막에 그 가운데 값과 피봇을 바꿈으로써 정렬하면 된다.&#x20;
 * 지금 검사하려는 값 j를 기준으로 생각해보자. 만약 j가 피봇 x보다 크다면 어떻게 될까? 그냥 가만히 있으면 된다.&#x20;
