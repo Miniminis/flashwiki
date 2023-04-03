@@ -90,7 +90,7 @@
 * disk1 은 root file system 이므로 모든 파일에 접근이 가능하다. 하지만 이 곳에서 disk2와 disk3는 어떻게 접근할까?
 * 이 때 사용되는 것이 mounting 이다. root file system 내부에 있는 하나의 디렉토리에 다른 disk 의 file 를 mounting 하면 그것으로 다른 disk 의 root directory 를 탐색할 수 있으므로, 접근이 가능해진다.
 
-<figure><img src="../../.gitbook/assets/image (7) (1) (2) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (7) (1) (2).png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../../.gitbook/assets/image (20) (1) (1).png" alt=""><figcaption></figcaption></figure>
 

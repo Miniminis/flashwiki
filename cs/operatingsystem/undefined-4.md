@@ -16,7 +16,7 @@
   * 하나의 프로세스에 쓰레드만 여러개 두면, 이 낭비되는 공간을 최소화할 수 있다.
 * 쓰레드를 사용하면 병렬성을 높일 수 있다.
 
-<figure><img src="../../.gitbook/assets/image (8) (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (8) (3) (1).png" alt=""><figcaption></figcaption></figure>
 
 * 프로세스가 시작되면, 그 프로세스만을 위한 주소공간이 생성되고 운영체제 내에는 PCB를 통해 그 프로세스가 관리된다.
   * 프로그램 카운터에 의해 현재 해당 프로세스에서 어느 부분을 실행하고 있는지를 알 수 있다.

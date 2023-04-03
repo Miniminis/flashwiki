@@ -222,7 +222,7 @@
     * segment 길이가 동일하지 않으므로, 가변 분할 방식에서와 동일한 문제점들이 발생하게 된다. → hole
     * allocation 문제가 발생할 수 있다.
 
-<figure><img src="../../.gitbook/assets/image (1) (1) (5).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (5) (1).png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../../.gitbook/assets/image (10) (4).png" alt=""><figcaption></figcaption></figure>
 

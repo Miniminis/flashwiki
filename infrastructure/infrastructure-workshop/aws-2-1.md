@@ -401,7 +401,7 @@ $ java -jar -Dspring.profiles.active=prod [jar파일명]
 2. 그런데, 나는 서브도메인인 infra.subway-mhson.kro.kr 을 이용해서 서비스를 하고 있었다. 서브도메인까지 인증서가 적용될 것으로 기대했으나, 그렇지 않았다.&#x20;
 3. 결국 서브 도메인인 infra.subway-mhson.kro.kr 로 인증서를 다시 받아서 TLS 암호화를 적용했다.&#x20;
 
-<figure><img src="../../.gitbook/assets/image (70).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (70) (2).png" alt=""><figcaption></figcaption></figure>
 
 ### 7-2. nginx에 TLS 관련 설정을 추가한 후, docker 컨테이너가 제대로 실행되지 않는다.&#x20;
 

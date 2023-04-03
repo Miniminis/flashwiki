@@ -10,7 +10,7 @@ description: 이진 검색 트리
 * 가장 기본적으로는 배열이나 연결리스트를 사용하여 표현할 수 있다.&#x20;
   * 하지만 아래의 표에서 볼 수 있듯, 배열이나 연결리스트가 정렬되거나 정렬되지 않은 경우를 모두 통틀어서 보더라도, O(n)의 시간복잡도를 피할 수는 없다.&#x20;
 
-<figure><img src="../../../.gitbook/assets/image (18) (1) (2) (1).png" alt=""><figcaption><p><a href="https://www.inflearn.com/course/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EA%B0%95%EC%A2%8C">[인프런] 영리한 프로그래밍을 위한 알고리즘 강좌 by 권오흠 교수님</a></p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (18) (1) (2).png" alt=""><figcaption><p><a href="https://www.inflearn.com/course/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EA%B0%95%EC%A2%8C">[인프런] 영리한 프로그래밍을 위한 알고리즘 강좌 by 권오흠 교수님</a></p></figcaption></figure>
 
 
 

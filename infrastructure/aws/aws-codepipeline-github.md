@@ -4,11 +4,11 @@
 
 ### 권한오류&#x20;
 
-<figure><img src="../../.gitbook/assets/image (30).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (26).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (12).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (9).png" alt=""><figcaption></figcaption></figure>
 
 [https://docs.aws.amazon.com/codepipeline/latest/userguide/troubleshooting.html#troubleshooting-S3-access-denied-list](https://docs.aws.amazon.com/codepipeline/latest/userguide/troubleshooting.html#troubleshooting-S3-access-denied-list)
 
@@ -56,7 +56,7 @@
 }
 ```
 
-<figure><img src="../../.gitbook/assets/image (16).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
 
 ## 2. Build Stage
 
@@ -64,19 +64,19 @@
 
 buildspec.yml 파일을 추가해준다.&#x20;
 
-<figure><img src="../../.gitbook/assets/image (22).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (60).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (25).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (68).png" alt=""><figcaption></figcaption></figure>
 
 ## 3. Deploy Stage
 
-<figure><img src="../../.gitbook/assets/image (10).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (14).png" alt=""><figcaption></figcaption></figure>
 
 ### aws codedeploy agent 실행 중 access denied error&#x20;
 
-<figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (69).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (24).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (57).png" alt=""><figcaption></figcaption></figure>
 
 * [https://stackoverflow.com/questions/49945703/aws-codedeploy-access-denied-error](https://stackoverflow.com/questions/49945703/aws-codedeploy-access-denied-error)
 * [https://github.com/aws/aws-codedeploy-agent/issues/301](https://github.com/aws/aws-codedeploy-agent/issues/301)
@@ -94,13 +94,13 @@ code-agent version check&#x20;
 
 
 
-<figure><img src="../../.gitbook/assets/image (28).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (11).png" alt=""><figcaption></figcaption></figure>
 
 1. 배포 그룹에서 SSM 자동설치 해제한 설정으로 codedeploy group 재생성해보기&#x20;
    1. 결과 : 여전히 실패&#x20;
    2.
 
-       <figure><img src="../../.gitbook/assets/image (29).png" alt=""><figcaption></figcaption></figure>
+       <figure><img src="../../.gitbook/assets/image (77).png" alt=""><figcaption></figcaption></figure>
 
 
 
@@ -115,4 +115,4 @@ EC2 재설치&#x20;
 * GONGSAMO-DEV-PUBLIC-2a : vi /var/log/aws/codedeploy-agent/codedeploy-agent.log
 * codedeploy 설치하지도 않았는데 깔려있음...?&#x20;
 
-<figure><img src="../../.gitbook/assets/image (27).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (55).png" alt=""><figcaption></figcaption></figure>

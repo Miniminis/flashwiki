@@ -120,7 +120,7 @@
 
 ### PFF, Page Fault Frequency scheme
 
-<figure><img src="../../.gitbook/assets/image (7) (4).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (7) (4) (1).png" alt=""><figcaption></figcaption></figure>
 
 * page-fault rate 의 상한값과 하한값을 둔다.
   * page fault rate 이 상한값을 넘으면 frame 을 더 할당한다.

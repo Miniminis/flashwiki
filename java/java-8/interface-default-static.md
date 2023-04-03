@@ -115,9 +115,9 @@ void reversedSort() {
 * 이처럼 상속을 강제하지 않는 구조를 비침투적 설계라고 하며, 자바와 스프링에서 매우 좋아하는 방법이다.&#x20;
   * 실제로 Spring 의 WebMvcConfigurerAdapter 라는 추상클래스는 스프링 5버전부터는 Deprecated 되었는데, 그 이유는 원래 인터페이스인 WebMvcConfigurer 에서 default 메소드로 이미 원하는 메소드만 구현하여 사용할 수 있도록 모든 것을 지원해주고 있기 때문이다.&#x20;
 
-<figure><img src="../../.gitbook/assets/image (6) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (6) (4).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (4).png" alt=""><figcaption></figcaption></figure>
 
 ## 5. 참고&#x20;
 

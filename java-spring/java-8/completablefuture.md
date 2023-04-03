@@ -137,7 +137,7 @@ public class MultiThreadJava {
   * 여러 Callable 을 동시에 실행하는 등의 기능을 제공한다.&#x20;
 * ScheduledExecutorService : ExecutorService 를 상속받은 인터페이스로 특정 시간 이후에 혹은 주기적으로 작업을 실행할 수 있다.&#x20;
 
-<figure><img src="../../.gitbook/assets/image (14).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (14) (3).png" alt=""><figcaption></figcaption></figure>
 
 * ExecutorService 내부를 보면, 쓰레드 풀이 있고, Blocking Queue가 존재한다.&#x20;
   * 따라서 여러개의 쓰레드 풀로 빠르게 처리할 수 없을 때에는 blocking queue에 테스크를 쌓아두고 순차적으로 처리하게 된다.&#x20;
@@ -391,7 +391,7 @@ public class CallableAndFutureTest {
 }
 ```
 
-<figure><img src="../../.gitbook/assets/image (12) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (12) (8).png" alt=""><figcaption></figcaption></figure>
 
 * invokeAll : 가장 수행시간이 긴 작업이 끝날때까지 기다렸다가 한꺼번에 출력한다.&#x20;
 * invokeAny : 가장 수행시간이 짧은 작업만 출력한다.&#x20;

@@ -1,6 +1,6 @@
 # 나는 왜 살아가는가
 
-<figure><img src="../../.gitbook/assets/image (9).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (9) (2).png" alt=""><figcaption></figcaption></figure>
 
 요즘 무엇에 집중하려고 하면, 그것이 나에게 어떤 의미를 갖는지 생각하느라 좀처럼 집중을 하지 못한다. 이게 다 무슨 소용일까-하는 허무주의에 빠져버린 것 같고, 좀처럼 의욕도 나질 않는다.&#x20;
 

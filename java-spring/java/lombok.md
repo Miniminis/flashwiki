@@ -31,7 +31,7 @@ dependencies {
 
 ### 2-2. annotation-processor 체크 (in IntelliJ)&#x20;
 
-<figure><img src="../../.gitbook/assets/image (18) (1) (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (18) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### 2-3. 코드 작성
 

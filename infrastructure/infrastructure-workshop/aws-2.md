@@ -299,7 +299,7 @@ export default function () {
 
 테스트 중 체크한 cpu 사용량&#x20;
 
-<figure><img src="../../.gitbook/assets/image (55).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (55) (2).png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../../.gitbook/assets/image (67).png" alt=""><figcaption></figcaption></figure>
 

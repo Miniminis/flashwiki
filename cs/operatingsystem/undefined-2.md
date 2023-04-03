@@ -2,7 +2,7 @@
 
 ### 동기식 입출력(synchronous I/O)과 비동기식 입출력(asynchronous I/O)
 
-<figure><img src="../../.gitbook/assets/image (5) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (5) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 | 구분     | 동기식 입출력(synchronous I/O)                                                           | 비동기식 입출력(asynchronous I/O)                               |
 | ------ | ---------------------------------------------------------------------------------- | -------------------------------------------------------- |
@@ -22,7 +22,7 @@
 
 ### 저장장치의 계층구조
 
-<figure><img src="../../.gitbook/assets/image (6) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (6) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 | 구분     | Primary(Executable)        | Secondary              |
 | ------ | -------------------------- | ---------------------- |
@@ -48,7 +48,7 @@
 
 ### 사용자 프로그램이 사용하는 함수
 
-<figure><img src="../../.gitbook/assets/image (8) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (8) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 * 사용자 정의 함수
   * 자신의 프로그램에서 정의한 함수
@@ -61,4 +61,4 @@
 
 ### 프로그램이 실행되는 과정
 
-<figure><img src="../../.gitbook/assets/image (10) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (10) (1) (1).png" alt=""><figcaption></figcaption></figure>

@@ -67,7 +67,7 @@ description: 1. 망 구성하기
 
 ### 2-2. 구성에 맞춰 설계도 작성&#x20;
 
-<figure><img src="../../.gitbook/assets/image (69).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (69) (2).png" alt=""><figcaption></figcaption></figure>
 
 위의 그림은 툴을 이용하여 AWS 네트워크 망을 어떻게 구성할 것인지 간단히 설계도를 작성한 것이다. 오른쪽에는 전체적으로 기본적으로 인터넷망부터 VPC, Availability Zone, Subnet, Server, IGW, NAT gateway 까지 필요한 요소들을 적절하게 배치하여 전체적으로 우리 서비스가 어떤 흐름을 통해 사용자들과 소통할 수 있는지를 그려본다.&#x20;
 
@@ -123,7 +123,7 @@ VPC가 내 집을 만들기 위한 토지를 확보하는 과정이라면, Subne
 
 <figure><img src="../../.gitbook/assets/image (72).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (58).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (58) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## 5. Internet Gateway 와 Nat Gateway 생성 및 연결
 
@@ -141,13 +141,13 @@ Nat gateway 는 igw 와 연결되어 내부에서 외부의 인터넷망을 쓸 
 
 <figure><img src="../../.gitbook/assets/image (99).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (57).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (57) (2).png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../../.gitbook/assets/image (85).png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../../.gitbook/assets/image (97).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (62).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (62) (1).png" alt=""><figcaption></figcaption></figure>
 
 
 
@@ -167,7 +167,7 @@ Nat gateway 는 igw 와 연결되어 내부에서 외부의 인터넷망을 쓸 
 
 <figure><img src="../../.gitbook/assets/image (71).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (74).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (74) (1).png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../../.gitbook/assets/image (90).png" alt=""><figcaption></figcaption></figure>
 
@@ -183,9 +183,9 @@ Nat gateway 는 igw 와 연결되어 내부에서 외부의 인터넷망을 쓸 
 
 설계도에 맞게 구성한다.&#x20;
 
-<figure><img src="../../.gitbook/assets/image (60).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (60) (2).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (68).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (68) (2).png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../../.gitbook/assets/image (59) (1).png" alt=""><figcaption></figcaption></figure>
 

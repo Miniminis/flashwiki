@@ -50,6 +50,6 @@
 * 하드웨어적으로 test & modify 를 atomic 하게 수행할 수 있도록 지원하는 경우, 앞의 문제는 간단히 해결될 수 있다.
 * test and set a : a의 값을 읽고 쓰는 것을 동시에 수행하는 명령
 
-<figure><img src="../../.gitbook/assets/image (6) (4).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (6) (4) (1).png" alt=""><figcaption></figcaption></figure>
 
 > 하지만 프로그래머가 이런 일을 계속 프로그램 내에서 하는 것은 굉장히 불편한 일이다. 이때 우리는 semaphore 를 이용할 수 있다.

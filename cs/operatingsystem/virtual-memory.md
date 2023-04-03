@@ -58,7 +58,7 @@
     * 주어진 page reference string 에 대해 page fault 를 얼마나 내는지 조사를 한다.
     * reference string의 예시 : 1, 2, 3, 4, 1, 2, 5, 1, 2, 3, 4, 5
 
-<figure><img src="../../.gitbook/assets/image (5) (5).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (5) (5) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### optimal algorithm
 
@@ -85,7 +85,7 @@
   * FIFO anomaly (belady’s anomaly)
   * more frames ≠ less page faults
 
-<figure><img src="../../.gitbook/assets/image (19) (1) (2) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (19) (1) (2).png" alt=""><figcaption></figcaption></figure>
 
 ### LRU, Least Recently Used algorithm
 
