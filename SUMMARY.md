@@ -89,6 +89,7 @@
 
 ## 🗣 devtalk
 
+* [dev env](devtalk/dev-env.md)
 * [webmark](writings/insight/webmark.md)
 * [insight](writings/insight/README.md)
   * [AI 시대에서 결국 살아남는 것](writings/insight/ai.md)
