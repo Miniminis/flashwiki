@@ -1,4 +1,4 @@
-# \[developer] 라인게임즈 백엔드 개발자 경선님
+# 라인게임즈 백엔드 개발자 경선님
 
 {% embed url="https://prgms.tistory.com/184?category=865131" %}
 

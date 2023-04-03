@@ -63,7 +63,7 @@ default String getUpperCaseName() {
 
 * 구현체가 재정의해야한다.&#x20;
 
-<figure><img src="../../.gitbook/assets/image (11) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (11).png" alt=""><figcaption></figcaption></figure>
 
 ### 2-4. 본인이 수정할 수 있는 인터페이스에만 기본 메소드를 제공할 수 있다.&#x20;
 

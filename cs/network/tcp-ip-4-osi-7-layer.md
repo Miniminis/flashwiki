@@ -63,7 +63,7 @@
   * bit sequence&#x20;
 * 비캡슐화는 메시지를 수신하는 쪽에서 위의 과정을 거꾸로 거쳐가며 application 계층까지 도달하는 것을 말한다.&#x20;
 
-<figure><img src="../../.gitbook/assets/image (4) (3) (2).png" alt=""><figcaption><p><a href="https://velog.io/@seonja/%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC-%EA%B5%AC%EC%A1%B0-OSI7-Layer-TCPIP-%EC%BA%A1%EC%8A%90%ED%99%94">https://velog.io/@seonja/네트워크-구조-OSI7-Layer-TCPIP-캡슐화</a></p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (4) (3).png" alt=""><figcaption><p><a href="https://velog.io/@seonja/%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC-%EA%B5%AC%EC%A1%B0-OSI7-Layer-TCPIP-%EC%BA%A1%EC%8A%90%ED%99%94">https://velog.io/@seonja/네트워크-구조-OSI7-Layer-TCPIP-캡슐화</a></p></figcaption></figure>
 
 ## 4. PDU&#x20;
 

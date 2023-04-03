@@ -15,7 +15,7 @@
 * [joda-time API](https://www.joda.org/joda-time/)&#x20;
   * 그래서 자바8 이전까지는 대부분의 날짜 시간 처리가 복잡한 어플리케이션에서 보통 joda-time API 를 사용해왔다.&#x20;
 
-<figure><img src="../../.gitbook/assets/image (3).png" alt=""><figcaption><p>멀티 쓰레드 환경에서 Date 객체에 동시에 접근하여 변경하는 경우를 보여준다. </p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (3) (2).png" alt=""><figcaption><p>멀티 쓰레드 환경에서 Date 객체에 동시에 접근하여 변경하는 경우를 보여준다. </p></figcaption></figure>
 
 ```xml
 <dependency>

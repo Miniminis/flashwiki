@@ -202,10 +202,18 @@ IAM 에서는 1) 그룹을 만들고 2) 그 그룹에 정책을 연결한 뒤 3)
 AWS CodeDeploy 로부터 이벤트를 수신받기 위해서 EC2 서버 내에 CodeDeploy Agent 를 설치해야합니다. 먼저 AWS Cli 를 설치해보죠.
 
 1. 사용자 홈으로 이동 : `cd ~`
-2. aws 버전 확인 : `aws --version` `bash Command 'aws' not found, but can be installed with: sudo apt install awscli`
-3.  awscli 설치 : `sudo apt install awscli`
+2. aws 버전 확인
+   1. ```sh
+      $ aws
+      Command 'aws' not found, but can be installed with:
+      sudo snap install aws-cli  # version 1.15.58, or
+      sudo apt  install awscli   # version 1.22.34-1
+      See 'snap info aws-cli' for additional versions.
+      ```
+3.  awscli 설치
 
     ```bash
+    sudo apt install awscli
     Reading package lists... Done
     Building dependency tree
     Reading state information... Done
@@ -235,7 +243,57 @@ aws cli 를 설치한 뒤, 이어서 CodeDeploy agent 를 설치합니다.
 6. 권한 추가되었는지 확인하기 : `ls -al`
 7. 설치 시작 : `sudo ./install auto`
    1. 이슈 발생시 하단 참고!
-8. 설치 완료되면, agent가 실행중인지 확인 : `sudo service codedeploy-agent status` `bash ● codedeploy-agent.service - LSB: AWS CodeDeploy Host Agent Loaded: loaded (/etc/init.d/codedeploy-agent; generated) Active: active (running) since Fri 2021-12-17 09:02:49 UTC; 15s ago Docs: man:systemd-sysv-generator(8) Tasks: 2 (limit: 1147) Memory: 60.4M CGroup: /system.slice/codedeploy-agent.service ├─25961 codedeploy-agent: master 25961 └─25963 codedeploy-agent: InstanceAgent::Plugins::CodeDeployPlugin::CommandPoller of master 25961`
+8.  설치 완료되면, agent가 실행중인지 확인
+
+    ```sh
+    $ sudo service codedeploy-agent status
+    ```
+
+    ```
+    ● codedeploy-agent.service - LSB: AWS CodeDeploy Host Agent
+    ```
+
+    ```
+         Loaded: loaded (/etc/init.d/codedeploy-agent; generated)
+    ```
+
+    ```
+         Active: active (running) since Sat 2023-04-01 07:30:23 UTC; 27s ago
+    ```
+
+    ```
+           Docs: man:systemd-sysv-generator(8)
+    ```
+
+    ```
+        Process: 50281 ExecStart=/etc/init.d/codedeploy-agent start (code=exited, status=0/SUCCESS)
+    ```
+
+    ```
+          Tasks: 2 (limit: 4620)
+    ```
+
+    ```
+         Memory: 59.7M
+    ```
+
+    ```
+            CPU: 1.054s
+    ```
+
+    ```
+         CGroup: /system.slice/codedeploy-agent.service
+    ```
+
+    ```
+                 ├─50319 "codedeploy-agent: master 50319" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" >
+    ```
+
+    ```
+                 └─50321 "codedeploy-agent: InstanceAgent::Plugins::CodeDeployPlugin::CommandPoller of master 50319"
+    ```
+
+
 9. EC2 인스턴스가 부팅되면 자동으로 AWS CodeDeploy Agent 가 실행될 수 있도록 스크립트 파일 생성
    1. `sudo vim /etc/init.d/codedeploy-startup.sh`
    2.  스크립트 파일내용

@@ -32,7 +32,7 @@
 
 <figure><img src="../../.gitbook/assets/image (5) (1) (2).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (13) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (13) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### Process Control Block, PCB
 
@@ -101,4 +101,4 @@
 * Blocked : 자신이 요청한 이벤트가 만족되면 ready 상태로 변한다.
 * Suspended : 외부에서 resume 해주어야 active 된다.
 
-<figure><img src="../../.gitbook/assets/image (12) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (12) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>

@@ -6,7 +6,7 @@
 
 ## 1. 개념&#x20;
 
-<figure><img src="../../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption><p><a href="https://velog.velcdn.com/images%2Fnewtownboy%2Fpost%2F7eb43ce0-64a3-426c-a6c0-0fb82a4e7f2f%2Fimage.png">https://velog.velcdn.com/images%2Fnewtownboy%2Fpost%2F7eb43ce0-64a3-426c-a6c0-0fb82a4e7f2f%2Fimage.png</a></p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1).png" alt=""><figcaption><p><a href="https://velog.velcdn.com/images%2Fnewtownboy%2Fpost%2F7eb43ce0-64a3-426c-a6c0-0fb82a4e7f2f%2Fimage.png">https://velog.velcdn.com/images%2Fnewtownboy%2Fpost%2F7eb43ce0-64a3-426c-a6c0-0fb82a4e7f2f%2Fimage.png</a></p></figcaption></figure>
 
 * 프록시 패턴은 위와 같이 구성된다.&#x20;
   * Proxy 클래스와 RealSubject 클래스가 공통의 부모로 인터페이스를 가지고 있다.&#x20;
@@ -17,7 +17,7 @@
   * RealSubject 에서는 그가 맡은 단일 책임에만 집중하면 된다. (SRP)&#x20;
   * Proxy 에서는 RealSubject 에 필요한 접근제한, 로깅, 트랜잭션 등 부가적인 기능을 제공한다. &#x20;
 
-<figure><img src="../../.gitbook/assets/image (16) (1).png" alt=""><figcaption><p><a href="https://docs.firstdecode.com/wp-content/uploads/2019/10/Pattern_MSAProxy.png">https://docs.firstdecode.com/wp-content/uploads/2019/10/Pattern_MSAProxy.png</a></p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (16) (1) (2).png" alt=""><figcaption><p><a href="https://docs.firstdecode.com/wp-content/uploads/2019/10/Pattern_MSAProxy.png">https://docs.firstdecode.com/wp-content/uploads/2019/10/Pattern_MSAProxy.png</a></p></figcaption></figure>
 
 
 

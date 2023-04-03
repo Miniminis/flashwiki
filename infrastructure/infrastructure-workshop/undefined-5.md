@@ -2,7 +2,7 @@
 
 > [nextstep 의 인프라 공방 과정](https://edu.nextstep.camp/c/VI4PhjPA)에 참여하면서 배운 것들을 정리합니다.&#x20;
 
-<figure><img src="../../.gitbook/assets/image (8) (2).png" alt=""><figcaption><p><a href="https://edu.nextstep.camp/c/VI4PhjPA">nextstep 의 인프라 공방</a></p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (8) (1).png" alt=""><figcaption><p><a href="https://edu.nextstep.camp/c/VI4PhjPA">nextstep 의 인프라 공방</a></p></figcaption></figure>
 
 브라우저로 하나의 페이지를 요청하여 응답을 받기까지 시간이 오래 걸릴 수 있는 요소는 크게 두 가지이다.&#x20;
 
@@ -24,7 +24,7 @@
 * [WebPageTest](https://www.webpagetest.org/) : 연결을 시도하는 위치, 환경부터 Repeat View(캐싱 등 테스트), 동일한 조건으로 여러 차례 테스트를 할 수 있다. 테스트한 결과는 영상으로도 볼 수 있다.&#x20;
   *
 
-      <figure><img src="../../.gitbook/assets/image (1) (1) (3).png" alt=""><figcaption></figcaption></figure>
+      <figure><img src="../../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
       * First Byte Time : 웹 서버에서 받은 컨텐츠의 첫 번째 바이트가 얼마만에 도착했는가?
       * Keep-Alive Enabled : TCP 연결을 재사용하기 위한 Keep-Alive 설정이 되어 있는가?

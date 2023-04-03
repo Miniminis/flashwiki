@@ -83,7 +83,7 @@
 * 우선순위대로 나열하자면 다음과 같다.
   * system → interactive → interactive editing → batch → student
 
-<figure><img src="../../.gitbook/assets/image (17) (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (17) (2) (1).png" alt=""><figcaption></figcaption></figure>
 
 #### Multilevel Feedback Queue
 

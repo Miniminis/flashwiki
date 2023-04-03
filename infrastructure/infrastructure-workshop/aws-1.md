@@ -76,11 +76,11 @@ description: 1. 화면 응답 개선하기
 
 ### [WebPageTest](https://www.webpagetest.org/) 결과&#x20;
 
-<figure><img src="../../.gitbook/assets/image (12) (1).png" alt=""><figcaption><p><a href="https://infra.subway-mhson.kro.kr/">https://infra.subway-mhson.kro.kr/</a></p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (12) (1) (1).png" alt=""><figcaption><p><a href="https://infra.subway-mhson.kro.kr/">https://infra.subway-mhson.kro.kr/</a></p></figcaption></figure>
 
 <figure><img src="../../.gitbook/assets/image (8) (9).png" alt=""><figcaption><p><a href="https://m.map.kakao.com/">https://m.map.kakao.com/</a></p></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (21).png" alt=""><figcaption><p><a href="https://m.map.naver.com/subway/subwayLine.naver?region=1000">https://m.map.naver.com/subway/subwayLine.naver?region=1000</a></p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (21) (4).png" alt=""><figcaption><p><a href="https://m.map.naver.com/subway/subwayLine.naver?region=1000">https://m.map.naver.com/subway/subwayLine.naver?region=1000</a></p></figcaption></figure>
 
 <figure><img src="../../.gitbook/assets/image (46).png" alt=""><figcaption><p><a href="http://www.seoulmetro.co.kr/kr/cyberStation.do">http://www.seoulmetro.co.kr/kr/cyberStation.do</a></p></figcaption></figure>
 
@@ -94,7 +94,7 @@ description: 1. 화면 응답 개선하기
 
 <figure><img src="../../.gitbook/assets/image (4) (1).png" alt=""><figcaption><p><a href="https://m.map.naver.com/subway/subwayLine.naver?region=1000">https://m.map.naver.com/subway/subwayLine.naver?region=1000</a></p></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (24).png" alt=""><figcaption><p><a href="http://www.seoulmetro.co.kr/kr/cyberStation.do">http://www.seoulmetro.co.kr/kr/cyberStation.do</a></p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (24) (1).png" alt=""><figcaption><p><a href="http://www.seoulmetro.co.kr/kr/cyberStation.do">http://www.seoulmetro.co.kr/kr/cyberStation.do</a></p></figcaption></figure>
 
 
 
@@ -129,7 +129,7 @@ description: 1. 화면 응답 개선하기
 
 ### 적용 전&#x20;
 
-<figure><img src="../../.gitbook/assets/image (16).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (16) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### 적용 후&#x20;
 
@@ -141,7 +141,7 @@ description: 1. 화면 응답 개선하기
 * 성능 종합지수가 34 -> 46으로 크게 향상되었다.&#x20;
 * FCP, TTI, Speed Index, TBT, LCP, CLS 등 모든 지표가 눈에 띄게 향상되었다.  &#x20;
 
-<figure><img src="../../.gitbook/assets/image (22).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (22) (1).png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../../.gitbook/assets/image (41).png" alt=""><figcaption></figcaption></figure>
 
@@ -174,7 +174,7 @@ description: 1. 화면 응답 개선하기
 
 ### 적용 전&#x20;
 
-<figure><img src="../../.gitbook/assets/image (17).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (17) (2).png" alt=""><figcaption></figcaption></figure>
 
 ### 적용 후&#x20;
 

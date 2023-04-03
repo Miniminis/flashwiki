@@ -1,5 +1,5 @@
 ---
-description: 관심있는 서비스를 분석합니다.
+description: 내가 사랑하는 서비스들을 리뷰합니다.
 ---
 
 # service-review

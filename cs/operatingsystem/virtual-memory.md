@@ -85,7 +85,7 @@
   * FIFO anomaly (belady’s anomaly)
   * more frames ≠ less page faults
 
-<figure><img src="../../.gitbook/assets/image (19) (1) (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (19) (1) (2) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### LRU, Least Recently Used algorithm
 

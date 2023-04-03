@@ -78,7 +78,7 @@ description: MST 모든 노드들을 잇는 최소비용의 경로를 구하는 
 * 이때 시간복잡도는 트리의 높이인 h만큼 소요될 수 있으니, o(h)가 되고, h는 다시 최악의 경우, 각 트리가 일렬로 나열되어 하나의 자식이 하나의 부모와 연결된 구조로 쌓여있을 경우, n이 될 수 있다.&#x20;
   * O(h) -> O(n)
 
-<figure><img src="../../../.gitbook/assets/image (55) (1) (1) (1).png" alt=""><figcaption><p><a href="https://www.inflearn.com/course/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EA%B0%95%EC%A2%8C">[인프런] 영리한 프로그래밍을 위한 알고리즘 강좌 by 권오흠 교수님</a></p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (55) (1) (1).png" alt=""><figcaption><p><a href="https://www.inflearn.com/course/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EA%B0%95%EC%A2%8C">[인프런] 영리한 프로그래밍을 위한 알고리즘 강좌 by 권오흠 교수님</a></p></figcaption></figure>
 
 ### union(u, v)
 

@@ -4,7 +4,7 @@ description: 빅오표기법
 
 # Big-O
 
-<figure><img src="../../../.gitbook/assets/image (28).png" alt=""><figcaption><p><a href="https://velog.velcdn.com/images/zion9948/post/ba201b6c-9da8-43c2-a624-e8f1eee9bded/image.jpeg">https://velog.velcdn.com/images/zion9948/post/ba201b6c-9da8-43c2-a624-e8f1eee9bded/image.jpeg</a></p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (28) (3).png" alt=""><figcaption><p><a href="https://velog.velcdn.com/images/zion9948/post/ba201b6c-9da8-43c2-a624-e8f1eee9bded/image.jpeg">https://velog.velcdn.com/images/zion9948/post/ba201b6c-9da8-43c2-a624-e8f1eee9bded/image.jpeg</a></p></figcaption></figure>
 
 ## 1. 표기법
 
@@ -69,7 +69,7 @@ description: 빅오표기법
   * 대표적인 예) binary search
 * 시간이 지날수록, 데이터가 늘어날수록 속도에 큰 변화가 없다.&#x20;
 
-<figure><img src="../../../.gitbook/assets/image (13) (1) (1).png" alt=""><figcaption><p><a href="https://www.youtube.com/user/damazzang/videos">[유튜브] 엔지니어 대한민국</a></p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (13) (1).png" alt=""><figcaption><p><a href="https://www.youtube.com/user/damazzang/videos">[유튜브] 엔지니어 대한민국</a></p></figcaption></figure>
 
 <figure><img src="../../../.gitbook/assets/image (47) (1).png" alt=""><figcaption><p><a href="https://www.youtube.com/user/damazzang/videos">[유튜브] 엔지니어 대한민국</a></p></figcaption></figure>
 
