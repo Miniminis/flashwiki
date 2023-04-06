@@ -4,11 +4,8 @@
 
 ## 🧑🌾 product making
 
-* [service-review](product-making/service/README.md)
+* [service review](product-making/service/README.md)
   * [밑미(Meetme)](product-making/service/service-meetme.md)
-* [today i learned](devtalk/til/README.md)
-  * [2023.03.23](devtalk/til/2023.03.23.md)
-  * [2023.03.22](devtalk/til/2023.03.22.md)
 * [insight](product-making/insight/README.md)
   * [도그냥의 역기획 스터디법](product-making/insight/undefined.md)
   * [프로덕트 매니저는 뭐하는 사람인가](product-making/insight/undefined-1.md)
@@ -72,7 +69,8 @@
     * [규제](finance/page-5/undefined-6.md)
     * [경제위기](finance/page-5/undefined-7.md)
 * [philosophy](writings/philosophy/README.md)
-  * [나는 왜 살아가는가](writings/philosophy/undefined.md)
+  * [장항준 감독으로부터 배우는 "삶을 대하는 자세"](writings/philosophy/undefined.md)
+  * [나는 왜 살아가는가](writings/philosophy/undefined-1.md)
   * [<삶의 문제> 지도 다시 꺼내보기, 개발자로서의 커리어, 꿈꾸는 삶과 꿈꾸는 일](writings/philosophy/probleminlife-01.md)
   * [<삶의 문제> 삶에서 내가 해결하고 싶은 문제 (1)](writings/philosophy/probleminlife-02.md)
   * [<삶의 문제> 삶에서 내가 해결하고 싶은 문제 (2)](writings/philosophy/probleminlife-03.md)
@@ -89,7 +87,9 @@
 
 ## 🗣 devtalk
 
-* [dev env](devtalk/dev-env.md)
+* [dev-env](devtalk/dev-env/README.md)
+  * [2023.03.23](devtalk/dev-env/2023.03.23.md)
+  * [2023.03.22](devtalk/dev-env/2023.03.22.md)
 * [webmark](writings/insight/webmark.md)
 * [insight](writings/insight/README.md)
   * [AI 시대에서 결국 살아남는 것](writings/insight/ai.md)
