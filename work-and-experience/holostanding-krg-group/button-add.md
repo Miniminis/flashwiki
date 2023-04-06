@@ -1,4 +1,4 @@
-# 전문가 상세페이지 내부 상담하기 버튼 추가 의견 제안
+# 전문가 상세페이지 내부 상담하기 버튼 추가 아이디어 제안 
 
 <figure><img src="https://files.gitbook.com/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FVma2fZdYpzVKe3WRZJd1%2Fuploads%2FX7zoyJ13Fq0OnBUZENvq%2Fimage.png?alt=media&#x26;token=8a06ded6-a666-407b-b527-e28da6c6ed03" alt=""><figcaption></figcaption></figure>
 

@@ -1,4 +1,4 @@
-# Holostanding v1.0 런칭
+# Holostanding 웹 서비스 신규 개발기
 
 ## 1. 팀 합류 &#x20;
 

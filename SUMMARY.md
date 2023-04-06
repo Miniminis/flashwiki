@@ -2,7 +2,26 @@
 
 * [🧙 Welcome to FlashWiki](README.md)
 
-## 🧑🌾 product making
+## 💼 work and experience
+
+* [Holostanding / KRG Group](work-and-experience/holostanding-krg-group/README.md)
+  * [Holostanding 웹 서비스 신규 개발기](work-and-experience/holostanding-krg-group/holostanding-v1.0.md)
+  * [On/Offline 통합 Data Dashboard 구축](work-and-experience/holostanding-krg-group/onoffline-dashboard.md)
+  * [사용자 기반 Admin 서비스 UI/UX 개선기](work-and-experience/holostanding-krg-group/admin.md)
+  * [CRM 프로세스 자동화를 통한 상담 신청률 개선기](work-and-experience/holostanding-krg-group/crm.md)
+  * [전문가 상세페이지 내부 상담하기 버튼 추가 아이디어 제안](work-and-experience/holostanding-krg-group/button-add.md)
+  * [슬랙봇을 이용한 서비스 모니터링 자동화 시스템 구축](work-and-experience/holostanding-krg-group/slack-bot-automation.md)
+  * [이슈 리포트 작성 문화 도입 및 초기 템플릿 구축](work-and-experience/holostanding-krg-group/issue-report.md)
+* [CrePASS](work-and-experience/crepass/README.md)
+  * [왜 목록은 항상 최신순이어야 할까?](work-and-experience/crepass/sorting-fundingrate.md)
+  * [AWS 에서 Koscom Cloud 로 인프라 이전하기](work-and-experience/crepass/aws-koscom-cloud.md)
+* [Activity](work-and-experience/activity/README.md)
+  * [디스콰이엇 PM/PO 스터디, 쿨피스](work-and-experience/activity/culpis.md)
+* [Interview / Writing](work-and-experience/interview-and-writing/README.md)
+  * [Interview](work-and-experience/interview-and-writing/interview.md)
+  * [Public Writing](work-and-experience/interview-and-writing/public-writing.md)
+
+## product making
 
 * [service review](product-making/service/README.md)
   * [밑미(Meetme)](product-making/service/service-meetme.md)
@@ -20,7 +39,7 @@
   * [소카 PM의 차량 예약 퍼널 단계 개선기(feat.AB TEST)](product-making/insight/pm-feat.ab-test.md)
   * [드로우 마이 브랜드](product-making/insight/drawmybrand.md)
 
-## 💼 SIDEPROJECT
+## 🐣 SIDEPROJECT
 
 * [공적인사적모임 플랫폼 프로젝트](sideproject/gongsamo/README.md)
   * [2. 내 생에 첫 기획서 만들기 (feat. QA Driven Development)](sideproject/gongsamo/1.-feat.-qdd.md)

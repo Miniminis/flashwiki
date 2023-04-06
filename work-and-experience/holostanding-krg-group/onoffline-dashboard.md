@@ -1,4 +1,4 @@
-# 온오프라인 데이터 대시보드 구축
+# On/Offline 통합 Data Dashboard 구축
 
 ## ​​​​1. 배경&#x20;
 
