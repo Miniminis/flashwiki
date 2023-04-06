@@ -21,7 +21,7 @@
   * [Interview](work-and-experience/interview-and-writing/interview.md)
   * [Public Writing](work-and-experience/interview-and-writing/public-writing.md)
 
-## product making
+## 🧑🌾 product making
 
 * [service review](product-making/service/README.md)
   * [밑미(Meetme)](product-making/service/service-meetme.md)
@@ -39,7 +39,7 @@
   * [소카 PM의 차량 예약 퍼널 단계 개선기(feat.AB TEST)](product-making/insight/pm-feat.ab-test.md)
   * [드로우 마이 브랜드](product-making/insight/drawmybrand.md)
 
-## 🐣 SIDEPROJECT
+## 💼 SIDEPROJECT
 
 * [공적인사적모임 플랫폼 프로젝트](sideproject/gongsamo/README.md)
   * [2. 내 생에 첫 기획서 만들기 (feat. QA Driven Development)](sideproject/gongsamo/1.-feat.-qdd.md)
@@ -54,7 +54,7 @@
 
 * [bookcord](art/bookcord/README.md)
   * [🔖 book list](writings/bookcord/book-list.md)
-  * [👩💻 읽고 싶은 개발책 목록](writings/bookcord/undefined.md)
+  * [👩💻 👩💻 읽고 싶은 개발책 목록](writings/bookcord/undefined.md)
   * [누워서 읽는 알고리즘 by 임백준](writings/bookcord/by.md)
   * [어떻게 살아야 하는가](writings/bookcord/undefined-1.md)
   * [모든것이 되는법](writings/bookcord/undefined-2.md)
@@ -436,7 +436,7 @@
 * [mysql](database/mysql/README.md)
   * [helpful commands](database/mysql/helpful-commands.md)
   * [문자열 자르기 SUBSTR(column, startIdx, length)](database/mysql/substr-column-startidx-length.md)
-  * [특정 값을  ORDER BY 특정 값 우선 정렬 하기 (ORDER BY FIELD)](database/mysql/order-by-order-by-field.md)
+  * [특정 값을 ORDER BY 특정 값 우선 정렬 하기 (ORDER BY FIELD)](database/mysql/order-by-order-by-field.md)
   * [이것이 MySQL이다](database/mysql/thisismysql-sqls.md)
 * [h2](database/h2/README.md)
   * [‼ h2 in-memory-db Table not found (this database is empty) 해결방법](database/h2/h2-in-memory-db-table-not-found-this-database-is-empty.md)

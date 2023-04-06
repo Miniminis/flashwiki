@@ -182,7 +182,7 @@
 
 ### VFS and NFS
 
-<figure><img src="../../.gitbook/assets/image (21) (1) (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (10) (2) (1).png" alt=""><figcaption></figcaption></figure>
 
 #### VFS, virtual file system
 

@@ -32,7 +32,7 @@
 * 해결방법
   * 생산자와 소비자는 각각 5가지 정도의 작업을 순차적으로 수행하여 문제를 예방한다.
 
-<figure><img src="../../.gitbook/assets/image (9) (4) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (79) (1).png" alt=""><figcaption></figcaption></figure>
 
 #### sudo code
 
@@ -127,7 +127,7 @@
 
 ### 비교 1. bounded-buffer problem : semaphore vs. monitor
 
-<figure><img src="../../.gitbook/assets/image (13) (2) (1) (1).png" alt=""><figcaption><p>bounded-buffer problem in semaphore version</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (11) (1) (1).png" alt=""><figcaption><p>bounded-buffer problem in semaphore version</p></figcaption></figure>
 
 <figure><img src="../../.gitbook/assets/image (2) (2) (1) (1).png" alt=""><figcaption><p>bounded-buffer problem in monitor version</p></figcaption></figure>
 

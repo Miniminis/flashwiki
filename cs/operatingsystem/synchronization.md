@@ -24,7 +24,7 @@
 * 해결방법
   * kernel 모드에서 연산 수행할 때, 인터럽트를 막는 방법이 있다.
 
-<figure><img src="../../.gitbook/assets/image (10) (2) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (10) (2) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 #### 2. process 가 system call 을 하여 kernal mode 로 수행중인데 context switch 가 발생하는 경우
 
@@ -49,7 +49,7 @@
 
 * 프로세스간 context switch 자체가 문제가 아니라 shared data 를 접근하는 경우가 문제가 되는 것이다.
 
-<figure><img src="../../.gitbook/assets/image (21) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (1) (2).png" alt=""><figcaption></figcaption></figure>
 
 ### The Critical-Section Problem
 
