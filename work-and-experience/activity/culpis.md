@@ -27,13 +27,13 @@
 * 문제게시자로부터 해결에 큰 도움이 되었다는 피드백 받음
 * [디스콰이엇 뉴스레터](https://stibee.com/api/v1.0/emails/share/hBRs2GUbFdW7yxIHvJCGFPlVS2Vk0Mk=)에 지난주 인기 메이커로그로 소개됨
 
-![](<../.gitbook/assets/image (14).png>)![](<../.gitbook/assets/image (31).png>)
+![](<../../.gitbook/assets/culpis-01.png>)![](<../../.gitbook/assets/culpis-04.png>)
 
-![](<../.gitbook/assets/image (4).png>)![](<../.gitbook/assets/image (7).png>)
+![](<../../.gitbook/assets/culpis-02.png>)![](<../../.gitbook/assets/culpis-05.png>)
 
 
 
-![](<../.gitbook/assets/image (17).png>)
+![](<../../.gitbook/assets/culpis-03.png>)
 
 
 
@@ -42,7 +42,7 @@
 * 총 28회 조회수, 5개의 upvote를 기록
 * 문제게시자로부터 해결에 큰 도움이 되었다는 피드백 받음
 
-![](<../.gitbook/assets/image (6).png>)
+![](<../../.gitbook/assets/culpis-06.png>)
 
 ## 6. 느낀 점/배운 점
 

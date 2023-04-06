@@ -25,15 +25,14 @@
 
 위와 같이 진행되는 오프라인 프로세스 중, 상담가나 중개사가 데이터 수집을 위해 별도의 액션을 취할 필요 없이 자동으로 데이터가 수집될 수 있도록 서버 데이터 기준으로 지표를 재정의했다.
 
-<figure><img src="https://files.gitbook.com/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FVma2fZdYpzVKe3WRZJd1%2Fuploads%2F6HIrqkIEZnIgkLYj3WiN%2Fimage.png?alt=media&#x26;token=b17772e7-f301-4034-b677-7bb98a4b3eee" alt=""><figcaption></figcaption></figure>
+![](<../../.gitbook/assets/dashboard-01.png>)
 
 기존에는 오프라인 데이터 수집을 위해 일일히 현장 전문가들에게 전화를 걸어 데이터를 수집해야했지만, 위의 지표 정의 이후에는 서버 및 데이터베이스 상에서 수집된 데이터를 통해 대시보드를 구축함으로서 데이터 수집과정을 일정 부분 자동화 시킬 수 있었다.
 
 ### 3-2. 각 담당자별 / 지역별 KPI 측정을 위한 개별 대시보드 구축 <a href="#2-kpi" id="2-kpi"></a>
 
-<figure><img src="../../.gitbook/assets/image (16).png" alt=""><figcaption></figcaption></figure>
-
-<figure><img src="https://files.gitbook.com/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FVma2fZdYpzVKe3WRZJd1%2Fuploads%2FK5gqnTfsZvCH2bzxI3pT%2Fimage.png?alt=media&#x26;token=f60c67a2-c7e2-4611-a49f-2c2970e8d786" alt=""><figcaption></figcaption></figure>
+![](<../../.gitbook/assets/dashboard-02.png>)
+![](<../../.gitbook/assets/dashboard-03.png>)
 
 기존에는 각 파트별, 실무자별 개인 업무결과가 수치로 관리되지 않거나 관리되더라도 모두 수동으로 데이터 수집이 이루어져 정확성이 많이 낮았다.
 
@@ -41,7 +40,7 @@
 
 ### 3-3. 상담 이전과 이후 대시보드 상에서 쓰이는 쿼리문 통일 <a href="#3" id="3"></a>
 
-<figure><img src="https://files.gitbook.com/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FVma2fZdYpzVKe3WRZJd1%2Fuploads%2FHPXM4cdAjnwUx6ieZZ5T%2Fimage.png?alt=media&#x26;token=fdd1944b-643b-4e8c-a5da-4d8087532d84" alt=""><figcaption></figcaption></figure>
+![](<../../.gitbook/assets/dashboard-04.png>)
 
 기존에는 데이터가 필요한 사람이 각각 쿼리문을 작성하다보니, 같은 데이터임에도 불구하고 데이터가 맞지 않거나 동시에 업데이트가 되지 않는 등 문제가 있었다.
 

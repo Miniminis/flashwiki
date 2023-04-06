@@ -1,12 +1,12 @@
 # 이슈 리포트 작성 문화 도입 및 초기 템플릿 구축
 
-<figure><img src="../../.gitbook/assets/image (11).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/issue-01.png" alt=""><figcaption></figcaption></figure>
 
 ## 1. 배경&#x20;
 
-<figure><img src="../../.gitbook/assets/image (24).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/issue-02.png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/issue-03.png" alt=""><figcaption></figcaption></figure>
 
 슬랙으로 이렇게 서비스 관련 시스템 오류에 관한 문의가 올 때가 있다. 물론 서비스에 이슈가 발생했다면, 그 이슈를 해결하는 것이 가장 큰 우선순위임은 틀림없다. 하지만, 그 이후는 어떠한가. 우리는 이슈가 발생한 원인과 결과, 그리고 그를 해결하기 위해 우리 팀이 했던 노력과 최종적으로 행한 조치들을 상세하게 분석하고 있는지 의심이 되었다. &#x20;
 
@@ -19,7 +19,7 @@
 
 ## 3. 해결방법
 
-<figure><img src="../../.gitbook/assets/image (13).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/issue-04.png" alt=""><figcaption></figcaption></figure>
 
 * 모든 팀원 전체가 이슈를 발견하면 리포트할 수 있는 프로세스를 구축했다.
   * 이슈 발견시 스크린샷 촬영

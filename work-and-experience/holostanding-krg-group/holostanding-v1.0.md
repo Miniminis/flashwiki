@@ -16,7 +16,7 @@
 
 세상에 존재하지 않는 서비스를 0부터 1까지 만드는 과정이라, 마케터, 개발자, 디자이너 등 직군에 상관없이 우리는 서비스에 대해 함께 이해하고 고민하고 기획에 적극적으로 참여했다. 매번 기획서가 업데이트 될때마다 함께 리뷰하며 우리는 궁금증이 들거나 헷갈리는 부분들, 확인이 필요한 부분들에 대해 이야기를 나눴고, (당시에는 외부에서 일하던) 기획자 분 역시 우리와 적극적으로 소통해주셨다.&#x20;
 
-<figure><img src="../../.gitbook/assets/image (36).png" alt=""><figcaption><p>매번 기획서가 업데이트 될때마다 사용자의 입장에서, 개발자의 입장에서 필요한 부분들을 이야기하며 기획에 적극적으로 참여했다. </p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/hs-01.png" alt=""><figcaption><p>매번 기획서가 업데이트 될때마다 사용자의 입장에서, 개발자의 입장에서 필요한 부분들을 이야기하며 기획에 적극적으로 참여했다. </p></figcaption></figure>
 
 지금 생각해보면, 열정적이었던 우리를 잘 정리해주신 기획자분이 얼마나 대단했는지, 세삼 감사함을 느낀다. 덕분에 기획은 성공적으로 잘 마무리될 수 있었다.&#x20;
 
@@ -154,7 +154,7 @@ Email 전송의 경우는 AWS SES 서비스를 이용하기로 했다. 하루에
   * 이 페이지의 URL 에는 해당 사용자 임을 확인할 수 있는 인증 코드가 있다.&#x20;
 * 올바른 사용자임이 입증된다면 비밀번호 재설정한 뒤, 재로그인하도록 유도
 
-<figure><img src="../../.gitbook/assets/image (28).png" alt=""><figcaption><p>지그재그 서비스의 비밀번호 재설정</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/hs-02.png" alt=""><figcaption><p>지그재그 서비스의 비밀번호 재설정</p></figcaption></figure>
 
 * 쿠팡 : [https://login.coupang.com/login/resetPasswordByEmail.pang?authToken=h5LfGsHJV%2Bwn4goA7vO2s7GBDiMK5YkQAM0pfBhcp6w%3D\&SERVICE\_NAME=MEMBER\_WEB\&src=800\&spec=208](https://login.coupang.com/login/resetPasswordByEmail.pang?authToken=h5LfGsHJV%2Bwn4goA7vO2s7GBDiMK5YkQAM0pfBhcp6w%3D\&SERVICE\_NAME=MEMBER\_WEB\&src=800\&spec=208)
 

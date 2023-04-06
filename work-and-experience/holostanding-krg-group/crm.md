@@ -20,9 +20,8 @@
 * 배치 프로세스는 매일 새벽 1시부터 6시까지 자동으로 돌며, 각 조건에 맞는 사용자들의 정보와 휴대폰 번호를 조회하여 카카오 알림톡 전송 대기열에 넣어둔다.
 * 하루 중 정해진 전송 시각이 되면 유형별 알림톡이 사용자들에게 전송된다. 알림톡 메시지 내부의 버튼에는 유형별 UTM 코드가 심어져있어서 어떤 알림톡 유형을 통해 유입이 되었는지 확인할 수 있도록 했다.
 
-<figure><img src="../../.gitbook/assets/image (10).png" alt=""><figcaption><p>알림톡 전송 유형별 조건과 발송시간</p></figcaption></figure>
-
-![](<../../.gitbook/assets/image (32).png>)![](<../../.gitbook/assets/image (1).png>)
+![](<../../.gitbook/assets/crm-01.png>)
+![](<../../.gitbook/assets/crm-02.png>)![](<../../.gitbook/assets/crm-03.png>)
 
 ## 4. 나의 역할
 

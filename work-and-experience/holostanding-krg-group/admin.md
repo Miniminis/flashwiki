@@ -22,7 +22,7 @@
 
 빠르게 진행해야 했던 개발 건이지만, 아무래도 사용성이 안좋다면, 실제 사용자인 상담가 분들도 적극적으로 이용하지 않을 것 같다고 생각되었다. 고민하던 중, 채널톡 화면의 UI를 보고 아이디어를 얻어 팀원들에게 개선안을 제안했다.
 
-<figure><img src="https://files.gitbook.com/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FVma2fZdYpzVKe3WRZJd1%2Fuploads%2F1Z6dEVzNh3kh12T6JYx5%2Fimage.png?alt=media&#x26;token=517c4081-2cb6-4f71-9536-967b96ae16f1" alt=""><figcaption></figcaption></figure>
+![](<../../.gitbook/assets/channeltalk.png>)
 
 * 채널톡의 경우, 상담해야할 건들이 왼쪽 사이드바 형태로 나와있고 클릭시에 상세페이지가 바로 오른쪽에 떠서 빠른 속도로 상담을 진행하기가 쉽다.
 * 또한 현재 상담 상태에 따라, `진행`, `보류`, `종료` 등으로 상담 건들을 분류해서 볼 수 있어서, 상담 업무를 보다 집중도 높게 수행할 수 있을 것 같았다.
@@ -30,9 +30,13 @@
 
 #### **Before**
 
+![](<../../.gitbook/assets/admin-before-01.png>)![](<../../.gitbook/assets/admin-before-02.png>)
+
 ​![](https://files.gitbook.com/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FVma2fZdYpzVKe3WRZJd1%2Fuploads%2FT40McOW5SNuiVgrQf4ie%2Fimage.png?alt=media\&token=9ceb83cb-f357-415e-8b6b-6e486b05ee9a)![](https://files.gitbook.com/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FVma2fZdYpzVKe3WRZJd1%2Fuploads%2Fh0zSXONBbT3uzjyiormf%2Fimage.png?alt=media\&token=9859ed27-ea5d-4cfb-8a2d-126fc9768f10)​
 
 **After**
+
+![](<../../.gitbook/assets/admin-after-01.png>)![](<../../.gitbook/assets/admin-after-02.png>)
 
 ​![](https://files.gitbook.com/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FVma2fZdYpzVKe3WRZJd1%2Fuploads%2FYYJyXdmPcCIoNBSiIxyv%2Fimage.png?alt=media\&token=a16d139c-0e29-4323-a532-cd6b9f6c21ba)![](https://files.gitbook.com/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FVma2fZdYpzVKe3WRZJd1%2Fuploads%2FeoLqTbhTZnFCvZTAXXnd%2Fimage.png?alt=media\&token=be24afbf-c53e-4e0b-9e81-e5cab23a199f)​​
 
