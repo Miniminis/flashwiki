@@ -101,7 +101,7 @@ round-trip min/avg/max/stddev = 36.357/36.357/36.357/0.000 ms
 ## 4. Port Check&#x20;
 
 * 서비스의 정상적인 구동 여부를 확인할 수 있다.&#x20;
-* **`telnet [target server ip] [target service port]` **&#x20;
+* **`telnet [target server ip] [target service port]`**&#x20;
 * 서버는 서비스에 하나의 포트번호를 오픈해두고 많은 사용자와 연결을 맺을 수 있다.&#x20;
   * 이유는 [소켓이 이용하는 정보를 확인](http://jkkang.net/unix/netprg/chap2/net2\_1.html)
 * 그렇다면, 현재 서버에서 프로세스별로 몇 개의 연결이 가능한지 확인해볼 수 있을까?&#x20;
