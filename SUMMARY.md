@@ -25,9 +25,9 @@
 
 ## 💼 SIDEPROJECT
 
-* [공적인사적모임 플랫폼 프로젝트](sideproject/undefined/README.md)
-  * [2. 내 생에 첫 기획서 만들기 (feat. QA Driven Development)](sideproject/undefined/1.-feat.-qdd.md)
-  * [1. 우리 조직의 얼굴을 만들자](sideproject/undefined/1..md)
+* [공적인사적모임 플랫폼 프로젝트](sideproject/gongsamo/README.md)
+  * [2. 내 생에 첫 기획서 만들기 (feat. QA Driven Development)](sideproject/gongsamo/1.-feat.-qdd.md)
+  * [1. 우리 조직의 얼굴을 만들자](sideproject/gongsamo/1..md)
 * [마인드 트리 프로젝트](sideproject/mindtree/README.md)
   * [<마인드트리> 셀프 마음챙김 프로젝트 (1) problem map 작성하기](sideproject/mindtree/mindtreeproject-01.md)
   * [<마인드트리> 개발자가 말하는 감정에도 분석이 필요한 이유](sideproject/mindtree/mindtreeproject-02.md)
