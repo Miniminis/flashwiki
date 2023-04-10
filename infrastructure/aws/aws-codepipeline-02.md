@@ -2,14 +2,17 @@
 title: AWS CodePipeline 으로 Spring Boot 프로젝트 배포 자동화 구축하기(2) - CodeDeploy
 category: aws
 date: 2021-12-19T09:34:52.000Z
-description: CodeDeploy
+description: Pipeline 실행하기
 ---
 
 # AWS CodePipeline 으로 배포 자동화하기 (2)
 
 > [동욱님의 AWS로 배포하기 시리즈 포스팅](https://jojoldu.tistory.com/281?category=777282)을 하나씩 따라하며 마주했던 이슈 및 해결방법들을 덧붙여서 AWS CodePipeline 으로 Spring Boot 프로젝트의 배포를 자동화하는 과정을 진행중이다.
 
-지난번 포스팅을 통해서 1) 전체 AWS Pipeline 의 큰 프로세스를 훑어보고 2) 소스, 빌드, 배포의 파이프라인을 설정하는 부분까지 살펴보았다.
+지난번 포스팅을 통해서
+
+1. 전체 AWS Pipeline 의 큰 프로세스를 훑어보고
+2. 소스, 빌드, 배포의 파이프라인을 설정하는 부분까지 살펴보았다.
 
 이번 포스팅을 통해서는 추가적으로 필요한 설정들을 살펴보고 각 단계별로 진행이 잘 되는지 직접 파이프라인을 실행하면서 확인해보도록 하자.
 
@@ -17,13 +20,13 @@ description: CodeDeploy
 
 ![Untitled](../../.gitbook/assets/aws-pipeline-02-0.png)
 
-### 소스 스테이지 실행하기
+## 1. 소스 스테이지 실행하기
 
-1. 테스트를 위해 파이프라인과 연결된 브랜치에 커밋을 푸시하게 되면, 2) 파이프라인은 변경사항을 감지하고 최신소스로 업데이트를 할 것이다. 3) 소스가 제대로 가져와 졌다면 S3 에 아티팩트로 저장된다. S3 로 이동하여 제대로 아티팩트가 만들어졌는지 확인한다.
+테스트를 위해 파이프라인과 연결된 브랜치에 커밋을 푸시하게 되면, 2) 파이프라인은 변경사항을 감지하고 최신소스로 업데이트를 할 것이다. 3) 소스가 제대로 가져와 졌다면 S3 에 아티팩트로 저장된다. S3 로 이동하여 제대로 아티팩트가 만들어졌는지 확인한다.
 
 ![Untitled](../../.gitbook/assets/aws-pipeline-02-1.png)
 
-* 파이프라인에 의해서 자동으로 S3 버킷이 생성되었고,
+파이프라인에 의해서 자동으로 S3 버킷이 생성되었고,
 
 ![Untitled](../../.gitbook/assets/aws-pipeline-02-2.png)
 
@@ -31,21 +34,25 @@ description: CodeDeploy
 
 ![Untitled](../../.gitbook/assets/aws-pipeline-02-4.png)
 
-* 파이프라인 이름으로 디렉토리가 생성되었다. SourceArti 디렉토리 내부를 들어가보면
-* SourceArtifact 가 정상적으로 생성되었음을 알 수 있다.
+파이프라인 이름으로 디렉토리가 생성되었다. SourceArti 디렉토리 내부를 들어가보면 SourceArtifact 가 정상적으로 생성되었음을 알 수 있다.
 
-#### 이슈) 403 권한오류가 발생할 때
+
+
+### 1-1. 이슈) 403 Access Denied 권한오류가 발생할 때
 
 ![Untitled](../../.gitbook/assets/aws-pipeline-02-5.png)
 
-* 파이프라인 생성 당시에 직접 만든 S3 에 소스 아티팩트를 보관하도록 처리하는 경우, S3 리소스에서 정책과 접근권한이 제대로 설정되어있지 않다면 다음과 같이 소스 다운로드 과정에서 권한오류가 발생할 수 있다.
-* 하지만 파이프라인 쪽에서 S3 아티팩트 보관용 버킷을 자동 생성하도록 두어져있다면, 해당 이슈는 우려하지 않아도 된다.
+파이프라인 생성 당시에 직접 만든 S3 에 소스 아티팩트를 보관하도록 처리하는 경우, S3 리소스에서 정책과 접근권한이 제대로 설정되어있지 않다면 다음과 같이 소스 다운로드 과정에서 권한오류가 발생할 수 있다.
 
-### 빌드 스테이지 실행하기
+하지만 파이프라인 쪽에서 S3 아티팩트 보관용 버킷을 자동 생성하도록 두어져있다면, 해당 이슈는 우려하지 않아도 된다.
+
+
+
+## 2. 빌드 스테이지 실행하기
 
 소스 스테이지에서 정상적으로 통과가 되면, 자동으로 빌드 스테이지로 넘어오게 된다. 현재 상태로는 빌드에 필요한 추가 설정들을 하지 않았기에, 아마 실패할 것이다. 아래를 따라서 빌드에 필요한 추가 설정들을 해보자.
 
-#### 프로젝트 내부 > buildspec.yml 생성하기
+### 2-1. 프로젝트 내부 > buildspec.yml 생성하기
 
 > [AWS CodeBuild 공식문서를](https://docs.aws.amazon.com/ko\_kr/codebuild/latest/userguide/build-spec-ref.html) 통해 기타 다른 설정들을 참고할 수 있다.
 
@@ -96,7 +103,7 @@ cache:
 * post\_build : 빌드가 끝난 시점. 빌드 결과물을 출력해서 빌드가 성공적으로 되었는지 확인한다.
 * cache : 해당 위치에 있는 파일들을 S3 캐시 파일로 등록한다.
 
-#### 빌드 성공
+### 2-2. 빌드 성공
 
 위의 설정을 마치면 다시 소스코드를 커밋&푸시하여 파이프라인 프로세스를 시작한다. 소스 단계가 통과되고 빌드가 성공적으로 마무리 되면, 아래와 같이 콘솔 창에서 SUCCEEDED 를 확인 가능하다. 콘솔창을 통해서 우리가 buildspec.yml 에 설정한 각 빌드 단계별 명령어가 성공적으로 수행되었음을 알 수 있다.
 
@@ -110,23 +117,29 @@ cache:
 
 디렉토리 내부에 빌드된 파일이 제대로 생성되었다면 성공적으로 마무리 된 것이다.
 
-#### 이슈) buildspec.yml 파일을 찾을 수 없을 때
+
+
+### 2-3. 이슈) buildspec.yml 파일을 찾을 수 없을 때
 
 ![Untitled](../../.gitbook/assets/aws-pipeline-02-9.png)
 
 빌드 프로세스가 일단 시작되면, 파이프라인은 buildspec.yml 파일을 찾는다. 1편에서 다뤘던 빌드 프로세스 설정시 buildspec.yml 경로를 잘못 입력했을 경우, buildspec.yml 파일을 찾지 못하여 빌드에 실패하게 된다. 따라서 경로 설정이 정말 중요하다. 빌드 시 콘솔 창에서 그 과정들이 메시지로 출력되므로 오류시에는 오류 메시지를 천천히 읽고 그에 맞게 대응하는 것이 중요하다.
 
-#### 이슈) buildspec.yml 내부의 경로 설정이 잘못되었을 때
+
+
+### 2-4. 이슈) buildspec.yml 내부의 경로 설정이 잘못되었을 때
 
 ![Untitled](../../.gitbook/assets/aws-pipeline-02-10.png)
 
 빌드 프로세스를 생성할때 경로설정을 잘 했다고 하더라도, buildspec.yml 파일 내부에서 명령어를 잘 못 입력할 경우, `gradlew` 파일을 찾을 수 없다는 오류가 발생해서 빌드에 실패하게 된다. 앞서 말한대로 build 단계에서 본인의 `gradlew` 파일이 있는 곳까지 가서 빌드 명령어를 잘 수행할 수 있도록 디렉토리 위치를 이동하는 명령어를잘 설정해주어야 한다. 위에서는 `cd test-project` 명령어를 추가하여 `gradlew` 가 있는 위치까지 디렉토리를 이동해주었다.
 
-### 배포 스테이지 실행하기
+
+
+## 3. 배포 스테이지 실행하기
 
 빌드가 성공적이라면 역시 자동으로 배포 스테이지로 이동하게 된다. 배포 스테이지 역시 추가적인 설정들이 더 필요하기에 배포에 실패할 것이다. 아래를 통해 추가 설정 후 다시 배포 스테이지를 진행해보자.
 
-#### IAM > EC2 서버를 위한 역할 생성하기
+### 3-1. IAM > EC2 서버를 위한 역할 생성하기
 
 우선 운영중인 EC2 서버가 있다고 가정하고 (없다면 하나 만들고) EC2 서버의 역할을 수정해주어야 한다.
 
@@ -150,7 +163,9 @@ cache:
 * 연결된 IAM 역할 없는지 확인 : EC2 > 인스턴스 클릭 > 작업 > 세부정보보기
 * IAM 역할 연결하기 : 작업 > 보안 > 위에서 만들어준 IAM 역할로 수정
 
-#### IAM > EC2 에서 CodeDeploy Agent 용 사용자 추가하기
+
+
+### 3-2. IAM > EC2 에서 CodeDeploy Agent 용 사용자 추가하기
 
 CodeDeploy 에서 배포가 시작되면 EC2 서버에서는 그 이벤트를 수신할 수 있어야 한다. 그를 위해서 이 이벤트를 수신하기 위한 CodeDeploy Agent 용 사용자를 추가해주어야 한다.
 
@@ -189,146 +204,128 @@ IAM 에서는 1) 그룹을 만들고 2) 그 그룹에 정책을 연결한 뒤 3)
 
 ![Untitled](../../.gitbook/assets/aws-pipeline-02-15.png)
 
-* 아까 만든 그룹을 선택한다.
-
-필요할 경우 태그를 추가한 뒤, 내용을 검토 후 사용자 생성을 마무리한다.
+아까 만든 그룹을 선택한다. 필요할 경우 태그를 추가한 뒤, 내용을 검토 후 사용자 생성을 마무리한다.
 
 ![Untitled](../../.gitbook/assets/aws-pipeline-02-16.png)
 
-* csv 파일은 이 페이지에서만 다운로드 가능하니, 다운로드후 잘 관리하도록 한다. 파일 내부의 엑세스키와 시크릿키를 이용하여 aws-cli 에 접속할 것이다.
+csv 파일은 이 페이지에서만 다운로드 가능하니, 다운로드후 잘 관리하도록 한다. 파일 내부의 엑세스키와 시크릿키를 이용하여 aws-cli 에 접속할 것이다.
 
-#### EC2 > AWS Cli 설치하기
 
-AWS CodeDeploy 로부터 이벤트를 수신받기 위해서 EC2 서버 내에 CodeDeploy Agent 를 설치해야합니다. 먼저 AWS Cli 를 설치해보죠.
 
-1. 사용자 홈으로 이동 : `cd ~`
-2. aws 버전 확인
-   1. ```sh
-      $ aws
-      Command 'aws' not found, but can be installed with:
-      sudo snap install aws-cli  # version 1.15.58, or
-      sudo apt  install awscli   # version 1.22.34-1
-      See 'snap info aws-cli' for additional versions.
-      ```
-3.  awscli 설치
+### 3-3. EC2 > AWS Cli 설치하기
 
-    ```bash
-    sudo apt install awscli
-    Reading package lists... Done
-    Building dependency tree
-    Reading state information... Done
-    ```
-4.  설치확인 : `aws --version`
+AWS CodeDeploy 로부터 이벤트를 수신받기 위해서 EC2 서버 내에 CodeDeploy Agent 를 설치해야한다. 먼저 AWS Cli 를 설치해보자.
 
-    ```bash
-    aws-cli/1.18.69 Python/3.8.10 Linux/5.11.0-1022-aws botocore/1.16.19
-    ```
+```sh
+# EC2 > AWS Cli 설치하기
 
-#### EC2 > AWS CodeDeploy Agent 설치하기
+# 1. 사용자 홈으로 이동
+cd ~ 
+
+# 2. aws 버전 확인
+aws
+Command 'aws' not found, but can be installed with:
+sudo snap install aws-cli  # version 1.15.58, or
+sudo apt  install awscli   # version 1.22.34-1
+See 'snap info aws-cli' for additional versions.
+
+# 3. awscli 설치
+sudo apt install awscli
+Reading package lists... Done
+Building dependency tree
+Reading state information... Done
+
+# 4. 설치확인
+aws --version
+aws-cli/1.18.69 Python/3.8.10 Linux/5.11.0-1022-aws botocore/1.16.19
+```
+
+
+
+### 3-4. EC2 > AWS CodeDeploy Agent 설치하기
 
 aws cli 를 설치한 뒤, 이어서 CodeDeploy agent 를 설치합니다.
 
-1. 우선 사용자 홈으로 이동 : `cd ~`
-2. aws configure 시작 : `sudo aws configure`
-3.  정보입력
+```sh
+# EC2 > AWS CodeDeploy Agent 설치하기
 
-    ```bash
-    AWS Access Key ID [None]: # 아까 생성한 CodeDeploy Agent 사용자의 .csv 파일 참고
-    AWS Secret Access Key [None]: # 아까 생성한 CodeDeploy Agent 사용자의 .csv 파일 참고
-    Default region name [None]: ap-northeast-2
-    Default output format [None]: json
-    ```
-4. agent 설치파일 다운받기 : `wget https://aws-codedeploy-ap-northeast-2.s3.amazonaws.com/latest/install`
-5. 실행파일에 권한 추가하기 : `chmod +x ./install`
-6. 권한 추가되었는지 확인하기 : `ls -al`
-7. 설치 시작 : `sudo ./install auto`
-   1. 이슈 발생시 하단 참고!
-8.  설치 완료되면, agent가 실행중인지 확인
+# 1. 우선 사용자 홈으로 이동
+cd ~
 
-    ```sh
-    $ sudo service codedeploy-agent status
-    ```
+# 2. aws configure 시작
+sudo aws configure
 
-    ```
-    ● codedeploy-agent.service - LSB: AWS CodeDeploy Host Agent
-    ```
+# 3. 정보입력
+AWS Access Key ID [None]: # 아까 생성한 CodeDeploy Agent 사용자의 .csv 파일 참고
+AWS Secret Access Key [None]: # 아까 생성한 CodeDeploy Agent 사용자의 .csv 파일 참고
+Default region name [None]: ap-northeast-2
+Default output format [None]: json
 
-    ```
-         Loaded: loaded (/etc/init.d/codedeploy-agent; generated)
-    ```
+# 4. agent 설치파일 다운받기
+wget https://aws-codedeploy-ap-northeast-2.s3.amazonaws.com/latest/install
 
-    ```
-         Active: active (running) since Sat 2023-04-01 07:30:23 UTC; 27s ago
-    ```
+# 5. 실행파일에 권한 추가하기
+chmod +x ./install
 
-    ```
-           Docs: man:systemd-sysv-generator(8)
-    ```
+# 6. 권한 추가되었는지 확인하기
+ls -al
 
-    ```
-        Process: 50281 ExecStart=/etc/init.d/codedeploy-agent start (code=exited, status=0/SUCCESS)
-    ```
+# 7. 설치 시작
+sudo ./install auto    # 이슈 발생시 하단 참고!
 
-    ```
-          Tasks: 2 (limit: 4620)
-    ```
+# 8. 설치 완료되면, agent가 실행중인지 확인
+sudo service codedeploy-agent status
+● codedeploy-agent.service - LSB: AWS CodeDeploy Host Agent
+     Loaded: loaded (/etc/init.d/codedeploy-agent; generated)
+     Active: active (running) since Sat 2023-04-01 07:30:23 UTC; 27s ago
+     Docs: man:systemd-sysv-generator(8)
+     Process: 50281 ExecStart=/etc/init.d/codedeploy-agent start (code=exited, status=0/SUCCESS)
+     Tasks: 2 (limit: 4620)
+     Memory: 59.7M
+     CPU: 1.054s
+     CGroup: /system.slice/codedeploy-agent.service
+          ├─50319 "codedeploy-agent: master 50319" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" >
+          └─50321 "codedeploy-agent: InstanceAgent::Plugins::CodeDeployPlugin::CommandPoller of master 50319"
 
-    ```
-         Memory: 59.7M
-    ```
+# 9. EC2 인스턴스가 부팅되면 자동으로 AWS CodeDeploy Agent 가 실행될 수 있도록 스크립트 파일 생성
+sudo vim /etc/init.d/codedeploy-startup.sh
 
-    ```
-            CPU: 1.054s
-    ```
+# 9-1. 스크립트 파일내용
+#!/bin/bash 
+echo 'Starting codedeploy-agent' 
+sudo service codedeploy-agent restart 
 
-    ```
-         CGroup: /system.slice/codedeploy-agent.service
-    ```
+# 10. 파일 내용 확인
+cat /etc/init.d/codedeploy-startup.sh
 
-    ```
-                 ├─50319 "codedeploy-agent: master 50319" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" >
-    ```
-
-    ```
-                 └─50321 "codedeploy-agent: InstanceAgent::Plugins::CodeDeployPlugin::CommandPoller of master 50319"
-    ```
+# 11. 스트립트 파일 저장 후, 실행권한 추가
+sudo chmod +x /etc/init.d/codedeploy-startup.sh
+```
 
 
-9. EC2 인스턴스가 부팅되면 자동으로 AWS CodeDeploy Agent 가 실행될 수 있도록 스크립트 파일 생성
-   1. `sudo vim /etc/init.d/codedeploy-startup.sh`
-   2.  스크립트 파일내용
 
-       ```bash
-       #!/bin/bash 
-       echo 'Starting codedeploy-agent' 
-       sudo service codedeploy-agent restart 
-       ```
-   3. 파일 내용 확인 : `cat /etc/init.d/codedeploy-startup.sh`
-   4. 스트립트 파일 저장 후, 실행권한 추가 : `sudo chmod +x /etc/init.d/codedeploy-startup.sh`
-
-#### 이슈) `sudo ./install auto` 실행시 `/usr/bin/env: ‘ruby’: No such file or directory`오류 발생할때
+### 3-5. 이슈) `sudo ./install auto` 실행시 `/usr/bin/env: ‘ruby’: No such file or directory`오류 발생할때
 
 * 동욱님 포스팅을 따라하던 중, 서버 환경이 달라서인지 나는 `sudo ./install auto` 이 명령어를 입력하니 루비가 없다는 오류메시지가 떴었다.
-* 루비가 없다고 하니, 루비를 설치해주기로 했다.
-  * 참고
-    * [09 1. AWS CodeDeploy 활용](https://github.com/sftth/cicd/wiki/09-1.-AWS-CodeDeploy-%ED%99%9C%EC%9A%A9)
-    * [(공식문서) 우분투에 루비 설치하기](https://linuxize.com/post/how-to-install-ruby-on-ubuntu-18-04/)
+* 일단은 루비가 없다고 하니, 루비를 설치해주기로 했다.
+  * [09 1. AWS CodeDeploy 활용](https://github.com/sftth/cicd/wiki/09-1.-AWS-CodeDeploy-%ED%99%9C%EC%9A%A9)
+  * [(공식문서) 우분투에 루비 설치하기](https://linuxize.com/post/how-to-install-ruby-on-ubuntu-18-04/)
   *   실행 스크립트
 
       ```bash
-      //우선 apt package update
+      # 우선 apt package update
       $ sudo apt update
 
-      //ruby 설치
+      # ruby 설치
       $ sudo apt install ruby-full
 
-      //설치 확인을 위한 ruby 버전 확인
+      # 설치 확인을 위한 ruby 버전 확인
       $ ruby --version
       ruby 2.7.0p0 (2019-12-25 revision 647ee6f091) [x86_64-linux-gnu]
       ```
 * 루비 설치 후 다시 명령어 실행하니까 정상적으로 설치 완료되었다.
 
-#### 프로젝트 내부 > buildspec.yml 수정하기
+### 3-6. 프로젝트 내부 > buildspec.yml 수정하기
 
 > 추가적인 설정은 [AWS 공식문서](https://docs.aws.amazon.com/ko\_kr/codebuild/latest/userguide/build-spec-ref.html#build-spec-ref-name-storage)를 참고하자.
 
@@ -362,7 +359,7 @@ artifacts:
     - build/libs/*.jar
     - scripts/**
   discard-paths: yes
-  base-directory: arirang-first
+  base-directory: arirang-first  # 기본 루트 디렉토리를 설정해준다. 없으면 그냥 해당 설정 자체를 없엔다.
 ###################################################
 
 cache:
@@ -378,7 +375,9 @@ cache:
   * `discard-paths` : 절대경로를 버리고 루트/파일명으로 설정한다.
   * `base-directory` : 기본 루트 디렉토리를 설정해준다. 없으면 그냥 해당 설정 자체를 없엔다.
 
-#### 프로젝트 내부 > appspec.yml 생성하기
+
+
+### 3-7. 프로젝트 내부 > appspec.yml 생성하기
 
 앞서 말한대로 AWS CodeDeploy 가 어떤 파일들을 어느 위치에 배포하는지, 배포 후에는 어떤 스크립트를 실행하는지 관리하는 곳이 바로 이 `appspec.yml` 파일이다. buildspec.yml 이 있는 같은 디렉토리 상에서 파일을 생성해준다.
 
@@ -437,7 +436,9 @@ hooks:
   * ValidateService : 배포된 앱이 제대로 실행되었는지 확인하는 이벤트이다. 역시 이때 실행할 스크립트를 미리 지정해둔다.
   * [기타 다른 훅 및 상세한 설명은 AWS 공식문서 참고](https://docs.aws.amazon.com/ko\_kr/codedeploy/latest/userguide/reference-appspec-file-structure-hooks.html#reference-appspec-file-structure-hooks-list)
 
-#### 프로젝트 내부 > 배포용 쉘 스크립트 생성하기
+
+
+### 3-8. 프로젝트 내부 > 배포용 쉘 스크립트 생성하기
 
 appspec.yml 을 통해서 배포 후 어떤 쉘 스크립트를 실행할지 설정을 해주었다. 그를 위해 루트 디렉토리에 `scripts` 폴더를 만들고 아래의 스크립트 2개를 추가해주자.
 
@@ -537,7 +538,7 @@ exit 0
 * healthCheck 에 실패하게 되면 다시 시도하게 된다.
 * 10번까지 재시도를 하게 되면 healthCheck 에 실패하여 스크립트가 비정상종료를 하도록 하였다.
 
-#### 배포 스테이지 실행하기
+### 3-9. 배포 스테이지 실행하기
 
 위의 설정들을 추가한 뒤, 다시 프로젝트 내 변경사항을 커밋 & 푸시하여 소스 → 빌드 → 배포 스테이지를 실행한다. 배포가 성공적으로 완료된다면, 아까 buildspec.yml 내에 설정했던 것처럼 정해둔 아티팩트들이 EC2 서버 내로 이동한 것을 확인 가능하다.
 
@@ -547,7 +548,7 @@ exit 0
 
 ![Untitled](../../.gitbook/assets/aws-pipeline-02-18.png)
 
-#### 이슈) S3 접근 권한 오류 : The provided role does not have sufficient permissions.
+### 3-10. 이슈) S3 접근 권한 오류 : The provided role does not have sufficient permissions.
 
 ```bash
 Unable to access the artifact with Amazon S3 object key 'arirang-pipeline/BuildArtif/mDNbhDK' located in the Amazon S3 artifact bucket 'arirang-deploy'. The provided role does not have sufficient permissions.
@@ -560,7 +561,7 @@ Unable to access the artifact with Amazon S3 object key 'arirang-pipeline/BuildA
     * 내부에서 artifacts 관련 YAML 파일 내 문법이 오류가 있었을 때
   * appspec.yml 파일 내에서 permission 세팅에 오류가 있었을 때
 
-#### 이슈) 배포 스테이지 설정시 로드밸런서 설정을 했을 경우
+### 3-11. 이슈) 배포 스테이지 설정시 로드밸런서 설정을 했을 경우
 
 배포 스테이지를 생성할 때 실수로 로드밸런싱 활성화를 체크한 적이 있었다. 트래픽 관련 이벤트 때문에 일반적으로 구성한 배포 스테이지보다 실행 이벤트가 굉장히 많아진 것을 볼 수 있다. 실수로 체크하지 않도록 주의하자.
 
@@ -570,7 +571,7 @@ Unable to access the artifact with Amazon S3 object key 'arirang-pipeline/BuildA
 
 ![Untitled](../../.gitbook/assets/aws-pipeline-02-21.png)
 
-### (보너스) EC2 서버 내 CodeDeploy 로그 확인하기위한 소프트링크 연결하기
+### 3-12. (보너스) EC2 서버 내 CodeDeploy 로그 확인하기위한 소프트링크 연결하기
 
 EC2 서버 내부에는 배포 이후 되도록 지정한 스크립트가 실행된 내용이 로그로 남겨지고 있다. 그 위치가 너무 멀리 있기 때문에 홈 디렉토리에서 소프트링크로 연결해보도록 하자.
 

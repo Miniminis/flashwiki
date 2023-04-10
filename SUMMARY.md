@@ -106,9 +106,7 @@
 
 ## 🗣 devtalk
 
-* [dev-env](devtalk/dev-env/README.md)
-  * [2023.03.23](devtalk/dev-env/2023.03.23.md)
-  * [2023.03.22](devtalk/dev-env/2023.03.22.md)
+* [artificial intelligence](devtalk/artificial-intelligence.md)
 * [webmark](writings/insight/webmark.md)
 * [insight](writings/insight/README.md)
   * [AI 시대에서 결국 살아남는 것](writings/insight/ai.md)
@@ -124,6 +122,8 @@
     * [비전공자에서 2억받는 아마존 엔지니어가 되기까지](writings/insight/2.md)
     * [IT 대기업 100% 합격하는 방법](writings/insight/it-100.md)
 * [devtalk](devtalk/techtalk/README.md)
+  * [2023.03.23](devtalk/techtalk/2023.03.23.md)
+  * [2023.03.22](devtalk/techtalk/2023.03.22.md)
 * [event](devtalk/event/README.md)
   * [NAVER DEVIEW 2023](devtalk/event/naver-deview-2023.md)
   * [SEF 2022](devtalk/event/sef-2022.md)
@@ -484,19 +484,7 @@
   * [이 위키를 만드는데 참고한 자료들](test/assertj/undefined.md)
 * [junit](test/junit/README.md)
   * [이 위키를 만드는데 참고한 자료들](test/junit/undefined.md)
-  * [Page 7](test/junit/page-7.md)
-  * [Copy of Page 7](test/junit/copy-of-page-7.md)
   * [Junit 기본 개념](test/junit/junit.md)
-* [Mockito](test/mockito/README.md)
-  * [Page 2](test/mockito/page-2.md)
-* [Docker and Test](test/docker-and-test/README.md)
-  * [Page 3](test/docker-and-test/page-3.md)
-* [성능 테스트](test/undefined/README.md)
-  * [Page 4](test/undefined/page-4.md)
-* [운영 이슈 테스트](test/undefined-1/README.md)
-  * [Page 5](test/undefined-1/page-5.md)
-* [아키텍처 테스트](test/undefined-2/README.md)
-  * [Page 6](test/undefined-2/page-6.md)
 
 ## 😎 OTHERS
 
