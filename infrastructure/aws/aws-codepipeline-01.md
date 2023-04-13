@@ -130,11 +130,11 @@ github 를 소스 공급자로 연결하려면 소스공급자 드롭다운에�
 
 버전1도 있긴 한데, 선택할 경우, 버전2로 진행할 것을 권장하는 메시지를 마주하게 된다.&#x20;
 
-<figure><img src="../../.gitbook/assets/image (86).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
 Github(버전2)를 선택하게 되면, 아래와 같은 화면을 마주한다. "Github 연결" 버튼을 클릭하여 연결을 진행해주면 된다. &#x20;
 
-<figure><img src="../../.gitbook/assets/image (30).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
 작은 팝업이 뜨고, Github 연결 내용이 나온다.&#x20;
 

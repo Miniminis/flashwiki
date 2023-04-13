@@ -34,7 +34,7 @@
 * [PageSpeed](https://developers.google.com/speed/pagespeed/insights/) : 웹 성능 분석과 함께 구체적으로 어떤 전략을 취하면 좋은지도 가이드를 해준다.&#x20;
   *
 
-      <figure><img src="../../.gitbook/assets/image (4) (5).png" alt=""><figcaption></figcaption></figure>
+      <figure><img src="../../.gitbook/assets/image (4) (5) (3).png" alt=""><figcaption></figcaption></figure>
 
 ### 1-2. 웹 성능 예산&#x20;
 
