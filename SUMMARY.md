@@ -4,7 +4,7 @@
 
 ## 💼 work and experience
 
-* [Holostanding / KRG Group](work-and-experience/holostanding-krg-group/README.md)
+* [Work](work-and-experience/holostanding-krg-group/README.md)
   * [Holostanding 웹 서비스 신규 개발기](work-and-experience/holostanding-krg-group/holostanding-v1.0.md)
   * [On/Offline 통합 Data Dashboard 구축](work-and-experience/holostanding-krg-group/onoffline-dashboard.md)
   * [사용자 기반 Admin 서비스 UI/UX 개선기](work-and-experience/holostanding-krg-group/admin.md)
@@ -12,20 +12,16 @@
   * [전문가 상세페이지 내부 상담하기 버튼 추가 아이디어 제안](work-and-experience/holostanding-krg-group/button-add.md)
   * [슬랙봇을 이용한 서비스 모니터링 자동화 시스템 구축](work-and-experience/holostanding-krg-group/slack-bot-automation.md)
   * [이슈 리포트 작성 문화 도입 및 초기 템플릿 구축](work-and-experience/holostanding-krg-group/issue-report.md)
-* [CrePASS](work-and-experience/crepass/README.md)
-  * [왜 목록은 항상 최신순이어야 할까?](work-and-experience/crepass/sorting-fundingrate.md)
-  * [AWS 에서 Koscom Cloud 로 인프라 이전하기](work-and-experience/crepass/aws-koscom-cloud.md)
-* [Activity](work-and-experience/activity/README.md)
+  * [AWS 에서 Koscom Cloud 로 인프라 이전하기](work-and-experience/holostanding-krg-group/aws-koscom-cloud.md)
+* [Experience](work-and-experience/activity/README.md)
+  * [Interview](work-and-experience/activity/interview.md)
+  * [Public Writing](work-and-experience/activity/public-writing.md)
   * [디스콰이엇 PM/PO 스터디, 쿨피스](work-and-experience/activity/culpis.md)
-* [Interview / Writing](work-and-experience/interview-and-writing/README.md)
-  * [Interview](work-and-experience/interview-and-writing/interview.md)
-  * [Public Writing](work-and-experience/interview-and-writing/public-writing.md)
 
 ## 🧑🌾 product making
 
 * [service review](product-making/service/README.md)
   * [밑미(Meetme)](product-making/service/service-meetme.md)
-* [reverse planning](product-making/reverse-planning.md)
 * [insight](product-making/insight/README.md)
   * [\[리뷰\] 개발자가 생각하는 좋은 PM 나쁜 PM](product-making/insight/pm-pm.md)
   * [도그냥의 역기획 스터디법](product-making/insight/undefined.md)
@@ -110,7 +106,6 @@
 
 ## 🗣 devtalk
 
-* [artificial intelligence](devtalk/artificial-intelligence.md)
 * [webmark](writings/insight/webmark.md)
 * [insight](writings/insight/README.md)
   * [AI 시대에서 결국 살아남는 것](writings/insight/ai.md)
