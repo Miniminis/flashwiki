@@ -23,9 +23,10 @@
 * [service review](product-making/service/README.md)
   * [밑미(Meetme)](product-making/service/service-meetme.md)
 * [insight](product-making/insight/README.md)
+  * [도그냥 님이 말하는 진짜 역기획](product-making/insight/undefined.md)
   * [\[리뷰\] 개발자가 생각하는 좋은 PM 나쁜 PM](product-making/insight/pm-pm.md)
-  * [도그냥의 역기획 스터디법](product-making/insight/undefined.md)
-  * [프로덕트 매니저는 뭐하는 사람인가](product-making/insight/undefined-1.md)
+  * [도그냥의 역기획 스터디법](product-making/insight/undefined-1.md)
+  * [프로덕트 매니저는 뭐하는 사람인가](product-making/insight/undefined-1-1.md)
   * [AI 시대에서 결국 살아남는 것](product-making/insight/ai.md)
   * [어웨이크코퍼레이션의 김민준 님](product-making/insight/undefined-2.md)
   * [아마추어와 프로의 차이](product-making/insight/undefined-3.md)
@@ -51,8 +52,8 @@
 ## ✍ WRITINGS
 
 * [bookcord](art/bookcord/README.md)
-  * [🔖 book list](writings/bookcord/book-list.md)
-  * [📚 읽고 싶은 개발책 목록](writings/bookcord/undefined.md)
+  * [🔖 읽고 싶은 책 목록](writings/bookcord/book-list.md)
+  * [📚 읽고 싶은 책 목록 (개발)](writings/bookcord/undefined.md)
   * [누워서 읽는 알고리즘 by 임백준](writings/bookcord/by.md)
   * [어떻게 살아야 하는가](writings/bookcord/undefined-1.md)
   * [모든것이 되는법](writings/bookcord/undefined-2.md)
@@ -485,7 +486,7 @@
 ## 😎 OTHERS
 
 * [helpful commands](others/helpful-commands.md)
-* [Libraries](others/libraries.md)
+* [libraries](others/libraries.md)
 * [intelliJ](others/intellij.md)
 * [git](others/git/README.md)
   * [github organization private repository push 안될 때 (not found issue)](others/git/github-organization-private-repository-push-not-found-issue.md)
