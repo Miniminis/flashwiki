@@ -1,4 +1,8 @@
-# 🔖 book list
+# 🔖 읽고 싶은 책 목록
+
+## 0. 책 추천사&#x20;
+
+* [퍼블리 프로덕트 팀이 추천하는 PM 필독서](https://blog.careerly.co.kr/pm-books-and-articles/)
 
 ## 1. 읽고 싶은 책 목록
 

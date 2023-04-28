@@ -19,7 +19,7 @@
    1. Organization - Owner, Repository - Admin 권한이 있는지 확인&#x20;
    2. 권한이 없다면 추가&#x20;
 
-<figure><img src="../../.gitbook/assets/Group 5.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Group 5 (1).png" alt=""><figcaption></figcaption></figure>
 
 하지만 나의 경우, 두 개의 권한이 모두 있음에도 계속 같은 오류가 반복되는 현상을 겪었다.&#x20;
 

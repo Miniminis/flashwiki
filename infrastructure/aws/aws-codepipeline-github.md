@@ -4,11 +4,11 @@
 
 ### 권한오류&#x20;
 
-<figure><img src="../../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (5) (4).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (6) (8).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (9).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (9) (1).png" alt=""><figcaption></figcaption></figure>
 
 [https://docs.aws.amazon.com/codepipeline/latest/userguide/troubleshooting.html#troubleshooting-S3-access-denied-list](https://docs.aws.amazon.com/codepipeline/latest/userguide/troubleshooting.html#troubleshooting-S3-access-denied-list)
 
@@ -56,11 +56,11 @@
 }
 ```
 
-<figure><img src="../../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (7) (7).png" alt=""><figcaption></figcaption></figure>
 
 ## 2. Build Stage
 
-<figure><img src="../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (4).png" alt=""><figcaption></figcaption></figure>
 
 buildspec.yml 파일을 추가해준다.&#x20;
 
@@ -94,7 +94,7 @@ code-agent version check&#x20;
 
 
 
-<figure><img src="../../.gitbook/assets/image (11).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (11) (7).png" alt=""><figcaption></figcaption></figure>
 
 1. 배포 그룹에서 SSM 자동설치 해제한 설정으로 codedeploy group 재생성해보기&#x20;
    1. 결과 : 여전히 실패&#x20;

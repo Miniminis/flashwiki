@@ -391,7 +391,7 @@ public class CallableAndFutureTest {
 }
 ```
 
-<figure><img src="../../.gitbook/assets/image (12) (8).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (12) (8) (1).png" alt=""><figcaption></figcaption></figure>
 
 * invokeAll : 가장 수행시간이 긴 작업이 끝날때까지 기다렸다가 한꺼번에 출력한다.&#x20;
 * invokeAny : 가장 수행시간이 짧은 작업만 출력한다.&#x20;

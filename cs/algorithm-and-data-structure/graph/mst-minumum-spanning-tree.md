@@ -9,7 +9,7 @@ description: 최소신장트리
 * 입력 : n개의 도시가 있고, 도시와 도시를 연결하는 도로 비용이 주어진다. &#x20;
 * 출력 : 최소 비용으로 모든 도시들이 서로 연결되도록 하려고 한다.&#x20;
 
-<figure><img src="../../../.gitbook/assets/image (7) (7).png" alt=""><figcaption><p><a href="https://www.inflearn.com/course/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EA%B0%95%EC%A2%8C">[인프런] 영리한 프로그래밍을 위한 알고리즘 강좌 by 권오흠 교수님</a></p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (7) (7) (1).png" alt=""><figcaption><p><a href="https://www.inflearn.com/course/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EA%B0%95%EC%A2%8C">[인프런] 영리한 프로그래밍을 위한 알고리즘 강좌 by 권오흠 교수님</a></p></figcaption></figure>
 
 
 

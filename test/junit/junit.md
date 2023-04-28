@@ -2,7 +2,7 @@
 
 > 인프런 백기선님 <[더 자바, 애플리케이션을 테스트하는 다양한 방법](https://www.inflearn.com/course/the-java-application-test)> 강의를 듣고 공부한 내용을 정리합니다.&#x20;
 
-<figure><img src="../../.gitbook/assets/image (10).png" alt=""><figcaption><p><a href="https://1.bp.blogspot.com/-GZA-TeXd_Ts/YMb-n4EhCTI/AAAAAAAAlGo/BHZxxOXNt0UkpNhaXlevpdhDZFKnAzyJgCLcBGAsYHQ/s902/junit5.png">https://1.bp.blogspot.com/-GZA-TeXd_Ts/YMb-n4EhCTI/AAAAAAAAlGo/BHZxxOXNt0UkpNhaXlevpdhDZFKnAzyJgCLcBGAsYHQ/s902/junit5.png</a></p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (10) (7).png" alt=""><figcaption><p><a href="https://1.bp.blogspot.com/-GZA-TeXd_Ts/YMb-n4EhCTI/AAAAAAAAlGo/BHZxxOXNt0UkpNhaXlevpdhDZFKnAzyJgCLcBGAsYHQ/s902/junit5.png">https://1.bp.blogspot.com/-GZA-TeXd_Ts/YMb-n4EhCTI/AAAAAAAAlGo/BHZxxOXNt0UkpNhaXlevpdhDZFKnAzyJgCLcBGAsYHQ/s902/junit5.png</a></p></figcaption></figure>
 
 ## 1. Junit
 
