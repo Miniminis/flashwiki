@@ -35,7 +35,7 @@ description: MST 모든 노드들을 잇는 최소비용의 경로를 구하는 
 * kruskal 알고리즘의 임의의 한 단계를 생각해본다.&#x20;
 * A를 현재까지 알고리즘이 선택한 엣지의 집합이라고 하고, A를 포함하는 MST 가 존재한다고 가정해보자.&#x20;
 
-<figure><img src="../../../.gitbook/assets/image (9) (1) (2).png" alt=""><figcaption><p><a href="https://www.inflearn.com/course/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EA%B0%95%EC%A2%8C">[인프런] 영리한 프로그래밍을 위한 알고리즘 강좌 by 권오흠 교수님</a></p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (9) (1) (2) (1).png" alt=""><figcaption><p><a href="https://www.inflearn.com/course/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EA%B0%95%EC%A2%8C">[인프런] 영리한 프로그래밍을 위한 알고리즘 강좌 by 권오흠 교수님</a></p></figcaption></figure>
 
 
 

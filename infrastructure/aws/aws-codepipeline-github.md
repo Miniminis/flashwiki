@@ -8,7 +8,7 @@
 
 <figure><img src="../../.gitbook/assets/image (6) (8).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (9) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (9) (1) (2).png" alt=""><figcaption></figcaption></figure>
 
 [https://docs.aws.amazon.com/codepipeline/latest/userguide/troubleshooting.html#troubleshooting-S3-access-denied-list](https://docs.aws.amazon.com/codepipeline/latest/userguide/troubleshooting.html#troubleshooting-S3-access-denied-list)
 
