@@ -20,7 +20,7 @@
 
 ## 🧑🌾 product making
 
-* [감놔라 배놔라 시리즈](product-making/service/README.md)
+* [서비스 역기획 시리즈](product-making/service/README.md)
   * [baemin mart](product-making/service/baemin-mart/README.md)
     * [1. 시작](product-making/service/baemin-mart/1..md)
     * [2. 우아한형제들 & 배민상회](product-making/service/baemin-mart/2.-and.md)
