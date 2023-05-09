@@ -1,6 +1,6 @@
 # Table of contents
 
-* [🧙 Welcome to FlashWiki](README.md)
+* [🧙 Welcome to Flash Wiki](README.md)
 
 ## 💼 work and experience
 

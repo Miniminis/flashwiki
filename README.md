@@ -1,10 +1,8 @@
 ---
-description: 프로덕트 메이커 플래시의 위키
-cover: .gitbook/assets/marigold (1).jpg
-coverY: -255
+description: "\bProduct Maker Flash's Wiki"
 ---
 
-# 🧙 Welcome to FlashWiki
+# 🧙 Welcome to Flash Wiki
 
 ## <mark style="color:orange;">Contact</mark>
 
