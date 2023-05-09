@@ -8,7 +8,7 @@ description: Product Maker, Flash
 
 * [minhee4735@gmail.com](mailto:minhee4735@gmail.com)
 * [Blog](https://wiki.mhson.world/) | [Github](https://github.com/miniminis) | [LinkedIn](https://www.linkedin.com/in/minhee-son-3b2a1016a) | [Youtube](https://www.youtube.com/@devgrandma) | [Brunch](https://brunch.co.kr/@nomadflash)&#x20;
-* [Portfolio](https://bit.ly/profile-mhson)
+* [Portfolio](https://bit.ly/3ppntzW)
 
 ## <mark style="color:orange;">안녕하세요👋 주인장, 플래시입니다.</mark>&#x20;
 
