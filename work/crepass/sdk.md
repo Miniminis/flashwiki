@@ -13,7 +13,7 @@
 
 ## 문제정의
 
-<figure><img src="../../.gitbook/assets/image (125).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
 
 * CrePASS의 모바일 대안신용평가 서비스를 통해서 대출 신청자에게 등급을 매기려면 대출신청 프로세스 중간에 모바일 신용평가 어플리케이션으로 이동했다가 다시 돌아오는 과정이 필요하다.
 *   모바일 신용평가 앱은 데이터를 추출 및 분석하는데 최대 1분정도가 소요될 수 있으며 사용자는 중간에 화면을 이탈하지 못한다.
@@ -22,7 +22,7 @@
 
 ## 가설
 
-<figure><img src="../../.gitbook/assets/image (115).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
 * 모바일 신용평가 프로세스를 별도의 앱으로 만들지 말고 아예 청년 5.5 내재화하여 외부 앱으로의 전환을 막으면 이탈률이 줄어들 것이다.
 * 대출정보를 입력하는 시간동안 백그라운드에서 모바일 신용평가 프로세스가 진행된다면, 사용자의 원래 흐름을 막지 않고 신용평가등급을 매길 수 있을 것이다.

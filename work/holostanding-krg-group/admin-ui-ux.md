@@ -43,7 +43,7 @@ CS 담당자 분이 말씀해주신 업무의 흐름으로 보았을 때, 가장
 * 위의 가설에 따라 초기 목록 → 상세 페이지 형태의 UI 를 아래와 같이 개선해보기로 했다.
   * 왼쪽에는 상담 신청 목록이 노출되고 목록 중 한 개를 클릭하면 바로 오른쪽에 상담 상세 내용이 노출되도록 하였다.
 
-<figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
 

@@ -154,4 +154,4 @@
 * simulation
   * 알고리즘을 모의 프로그램으로 작성 후, trace(시뮬레이션 프로그램에 input으로 들어갈 데이터)를 입력으로 하여 결과를 비교한다.
 
-<figure><img src="../../.gitbook/assets/image (3) (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (3) (3) (1).png" alt=""><figcaption></figcaption></figure>
