@@ -7,7 +7,7 @@
 * [Holostanding](work/holostanding-krg-group/README.md)
   * [Holostanding 웹 서비스 신규 런칭](work/holostanding-krg-group/holostanding/README.md)
     * [Holostanding 웹 서비스 신규 개발기](work/holostanding-krg-group/holostanding/holostanding-v1.0.md)
-  * [온/오프라인 데이터 대시보드 구축 및 지표 설정](work/holostanding-krg-group/undefined.md)
+  * [On/Offline Data Dashboard 구축 및 지표 설정](work/holostanding-krg-group/on-offline-data-dashboard.md)
   * [사용자 중심으로 Admin 서비스 UI/UX 개선](work/holostanding-krg-group/admin-ui-ux.md)
   * [상담 전화 미수신율 감소를 위한 서비스 개선, 15% 감소](work/holostanding-krg-group/15.md)
   * [CRM 프로세스 자동화를 통한 상담 신청률 개선기](work/holostanding-krg-group/crm.md)
@@ -24,7 +24,7 @@
 * [공적인사적모임 플랫폼 프로젝트](sideproject/gongsamo/README.md)
   * [2. 내 생에 첫 기획서 만들기 (feat. QA Driven Development)](sideproject/gongsamo/1.-feat.-qdd.md)
   * [1. 우리 조직의 얼굴을 만들자](sideproject/gongsamo/1..md)
-* [서울 빵 맛집 잘알 테스트](sideproject/undefined.md)
+* [서울 빵 맛집 잘알 인증 테스트](sideproject/undefined.md)
 
 ## 👯 experience
 
