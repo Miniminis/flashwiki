@@ -13,7 +13,7 @@ description: IP 주소는 IPv4, IPv6 로 나뉘어진다.
 
 &#x20;
 
-<figure><img src="../../.gitbook/assets/image (2) (1) (2).png" alt=""><figcaption><p><a href="https://www.c-sharpcorner.com/article/getting-started-with-vpc-virtual-private-cloud-part2/">https://www.c-sharpcorner.com/article/getting-started-with-vpc-virtual-private-cloud-part2/</a></p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (1) (2) (2).png" alt=""><figcaption><p><a href="https://www.c-sharpcorner.com/article/getting-started-with-vpc-virtual-private-cloud-part2/">https://www.c-sharpcorner.com/article/getting-started-with-vpc-virtual-private-cloud-part2/</a></p></figcaption></figure>
 
 
 

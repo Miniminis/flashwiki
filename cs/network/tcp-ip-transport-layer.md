@@ -24,7 +24,7 @@ description: TCP, UDP
 
 * 20-60 byte 로 길이는 가변적이다.&#x20;
 
-<figure><img src="../../.gitbook/assets/image (12) (3).png" alt=""><figcaption><p><a href="https://www.lifewire.com/tcp-headers-and-udp-headers-explained-817970">https://www.lifewire.com/tcp-headers-and-udp-headers-explained-817970</a></p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (12) (3) (2).png" alt=""><figcaption><p><a href="https://www.lifewire.com/tcp-headers-and-udp-headers-explained-817970">https://www.lifewire.com/tcp-headers-and-udp-headers-explained-817970</a></p></figcaption></figure>
 
 ## 2. UDP
 

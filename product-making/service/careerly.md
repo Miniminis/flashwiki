@@ -135,7 +135,7 @@ publy는 박소령 대표가 2015년에 만든 회사이다. 그는 서울대 �
 * 커리어 기회를 탐색하는 것이 주 목적이라면 채용 공고를 통해 지원할 회사를 찾거나 오픈 프로필을 통해 커리어 제안 가능성을 열어둔다. 사이드 프로젝트를 통해 포트폴리오를 만들거나 수익창출을 도모할 동료들을 찾거나 아니면 비개발 직군에서 직무전환을 위해 부트캠프를 탐색할 수도 있다.&#x20;
 * 커리어리를 통해 퍼스널 브랜딩을 하고 싶은 사용자라면 일단 프로필을 정성껏 채워 그동안의 경력과 프로젝트, 활동 등을 기반으로 자신을 어필할 것이다.&#x20;
 
-<figure><img src="../../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (8) (2).png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="warning" %}
 **그렇다면 현재 커리어리의 서비스의 구조는 미션과 목표를 달성하기 위한 가장 좋은 구조일까?**&#x20;
@@ -200,11 +200,11 @@ publy는 박소령 대표가 2015년에 만든 회사이다. 그는 서울대 �
 
 여러 인터뷰를 통해 커리어리는 2023년 국내 대표 개발자 커뮤니티로 자리매김하겠다는 목표를 드러냈다. 하지만 [OKKY](https://okky.kr/), [프로그래머스](https://programmers.co.kr/), [인프런](https://www.inflearn.com/) 등 전통적으로 존재해왔던 개발자 커뮤니티들과 비교해보았을 때, 아직 개발 직군에 특화된 지식과 정보가 많이 부족하다는 생각이 든다.&#x20;
 
-<figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
 
 OKKY의 경우 QnA 게시판에는 하루에서 수십개의 글이 올라오지만 거의 대부분 1시간 이내에 (퀄리티에 상관없이) 반드시 답글이 달린다. 한번 이를 경험한 유저는 다시 OKKY에 글을 남기게 된다. 누군가 답해줄 것이라는 믿음이 생기기 때문이다. 커리어리의 QnA 글들이 조회수에 비해 답변 수가 적은 것을 고려한다면 그 차이는 두드러진다.&#x20;
 
-<figure><img src="../../.gitbook/assets/image (10) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (10) (1) (2).png" alt=""><figcaption></figcaption></figure>
 
 프로그래머스의 경우는 코딩테스트를 중심으로 성장하였으나 지금은 코딩테스트 연습은 물론이고 소규모 그룹 강의, 커리어 관리, 커뮤니티까지 개발자들에게 필요한 다양한 기능들을 선보이고 있다. 무엇보다 프로그래머스는 매년 실시하는 데브매칭으로 인해 취업이나 이직을 준비하는 많은 개발자들이 이왕이면 이곳에서 모든 것을 한번에 관리하게 된다. 코딩테스트부터 커리어 관리 및 부족한 지식 학습까지 모든 것을 한번에 해결할 수 있기 때문이다.&#x20;
 
@@ -226,7 +226,7 @@ OKKY의 경우 QnA 게시판에는 하루에서 수십개의 글이 올라오지
 
 이런 와중에 지난 2년간 [개발자 정원희 님의 이력서 글](https://wonny.space/writing/work/engineer-resume)이 엄청난 바이럴을 타면서 많은 개발자들 사이에서 비슷한 형식의 노션 포트폴리오가 유행이 되었다. 그녀의 글이 바이럴이 된 것에는 다양한 이유가 있겠지만, 가장 큰 이유는 승률이라고 생각한다. 그는 노션 포트폴리오로 8개의 회사에 지원을 하여 7.5개의 회사로부터 합격 통보를 받았다는 구절로 글을 시작한다. 이력서와 포트폴리오의 용도가 원하는 회사로부터의 합격임을 고려해본다면 큰 신뢰가 갈 수 밖에 없다.&#x20;
 
-<figure><img src="../../.gitbook/assets/image (1) (1).png" alt=""><figcaption><p><a href="https://wonny.space/writing/work/engineer-resume">https://wonny.space/writing/work/engineer-resume</a></p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (3).png" alt=""><figcaption><p><a href="https://wonny.space/writing/work/engineer-resume">https://wonny.space/writing/work/engineer-resume</a></p></figcaption></figure>
 
 하지만 커리어리는 어떨까. 커리어리의 포트폴리오(프로필 혹은 마이 브랜딩 페이지)는 이러한 성공 사례가 존재하는가? 존재한다면 많이 바이럴 되지 않아 알려지지 않은 것이 문제이고 존재하지 않는다면 기능의 효과성에 대해 재점검해보는 시간이 필요할 것 같다.&#x20;
 
@@ -262,9 +262,9 @@ OKKY의 경우 QnA 게시판에는 하루에서 수십개의 글이 올라오지
 
 내가 알고 있는 서비스 중에서 이런 종류의 커뮤니티 운영을 가장 잘 하고 있는 서비스는 [디스콰이엇(Disquiet)](https://disquiet.io/)이다. 디스콰이엇은 프로덕트를 만드는 모든 메이커들이 한 곳에 모여 선순환 구조를 만들어내는 것을 볼 수 있다.&#x20;
 
-<figure><img src="../../.gitbook/assets/image (10).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (10) (1).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (2) (1).png" alt=""><figcaption><p>클럽 모집을 위한 글이 다시 게시글로 등록되어 클럽활동 - 콘텐츠 생성 간의 선순환 구조를 볼 수 있다. </p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (1) (2).png" alt=""><figcaption><p>클럽 모집을 위한 글이 다시 게시글로 등록되어 클럽활동 - 콘텐츠 생성 간의 선순환 구조를 볼 수 있다. </p></figcaption></figure>
 
 
 

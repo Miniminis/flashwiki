@@ -1,11 +1,4 @@
----
-title: <얼리버드 모닝클럽> 홍보를 곁들인 2주일 운영후기
-date: 2022-03-12T15:41:27.000Z
-category: sideproject
-description: 홍보를 곁들인 2주일 운영후기
----
-
-# Early Bird Morning Club
+# 홍보를 곁들인 2주일 운영후기
 
 ### 넌 누구냐 🙋‍♀️
 

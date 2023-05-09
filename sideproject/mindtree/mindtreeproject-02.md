@@ -1,9 +1,4 @@
 ---
-title: <마인드트리> 개발자가 말하는 감정에도 분석이 필요한 이유
-categories:
-  - sideproject
-  - mindtree
-date: 2022-07-29T21:36:03.000Z
 description: 마인드트리
 ---
 
