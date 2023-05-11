@@ -7,13 +7,11 @@
 * [Holostanding](work/holostanding-krg-group/README.md)
   * [Holostanding 웹 서비스 신규 런칭](work/holostanding-krg-group/holostanding/README.md)
     * [Holostanding 웹 서비스 신규 개발기](work/holostanding-krg-group/holostanding/holostanding-v1.0.md)
-  * [On/Offline Data Dashboard 구축 및 지표 설정](work/holostanding-krg-group/on-offline-data-dashboard.md)
   * [사용자 중심으로 Admin 서비스 UI/UX 개선](work/holostanding-krg-group/admin-ui-ux.md)
+  * [On/Offline Data Dashboard 구축 및 지표 설정](work/holostanding-krg-group/on-offline-data-dashboard.md)
   * [상담 전화 미수신율 감소를 위한 서비스 개선, 15% 감소](work/holostanding-krg-group/15.md)
-  * [CRM 프로세스 자동화를 통한 상담 신청률 개선기](work/holostanding-krg-group/crm.md)
-  * [전문가 상세페이지 내부 상담하기 버튼 추가 아이디어 제안](work/holostanding-krg-group/button-add.md)
+  * [CRM 프로세스 자동화를 통한 상담 신청률 개선](work/holostanding-krg-group/crm.md)
   * [슬랙봇을 이용한 서비스 모니터링 자동화 시스템 구축](work/holostanding-krg-group/slack-bot-automation.md)
-  * [이슈 리포트 작성 문화 도입 및 초기 템플릿 구축](work/holostanding-krg-group/issue-report.md)
 * [CrePASS](work/crepass/README.md)
   * [외부 SDK를 앱 내 포함시켜 중도 이탈률 개선](work/crepass/sdk.md)
   * [사용자 데이터를 분석하여 펀딩임박한 상품 상단노출 기능 추가, 최종 KPI  30% 상승](work/crepass/kpi-30.md)
@@ -30,11 +28,11 @@
 
 * [Interview](experience/interview.md)
 * [Public Writing](experience/public-writing.md)
-* [Youtube 이상한 나라의 개발자 할무니](experience/youtube.md)
+* [공적인사적모임 IT 팀](experience/it.md)
 * [Disquiet PM/PO 스터디, 쿨피스](experience/culpis.md)
-* [새벽 개발자 모각공 커뮤니티 Early Bird Morning Club](experience/early-bird-morning-club/README.md)
+* [Youtube 이상한 나라의 개발자 할무니](experience/youtube.md)
+* [Early Bird Morning Club](experience/early-bird-morning-club/README.md)
   * [홍보를 곁들인 2주일 운영후기](experience/early-bird-morning-club/early-bird-club-2nd-week.md)
-* [국제개발협력 플랫폼 공적인사적모임 IT 팀](experience/it.md)
 
 ## 🧑🌾 product making
 

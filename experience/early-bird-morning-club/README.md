@@ -1,14 +1,14 @@
-# 새벽 개발자 모각공 커뮤니티 Early Bird Morning Club
+---
+description: 매일 새벽 4시부터 8시까지 모여서 각자 개발공부를 하는 온라인 개발자 모각공 커뮤니티 리딩
+---
 
-<figure><img src="../../.gitbook/assets/image (121).png" alt="" width="563"><figcaption></figcaption></figure>
+# Early Bird Morning Club
+
+<figure><img src="../../.gitbook/assets/image (121).png" alt="" width="375"><figcaption></figcaption></figure>
 
 ## 기간
 
 * 2022.01 - (현재)
-
-## **요약**
-
-* 매일 새벽 4시부터 8시까지 모여서 각자 개발공부를 하는 온라인 개발자 모각공 커뮤니티
 
 ## **역할**
 

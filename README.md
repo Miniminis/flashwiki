@@ -10,7 +10,7 @@ description: Product Maker, Flash
 * [Blog](https://wiki.mhson.world/) | [Github](https://github.com/miniminis) | [LinkedIn](https://www.linkedin.com/in/minhee-son-3b2a1016a) | [Youtube](https://www.youtube.com/@devgrandma) | [Brunch](https://brunch.co.kr/@nomadflash)&#x20;
 * [Portfolio](https://bit.ly/3ppntzW)
 
-## <mark style="color:orange;">안녕하세요👋 주인장, 플래시입니다.</mark>&#x20;
+## <mark style="color:orange;">안녕하세요👋 플래시입니다.</mark>&#x20;
 
 * 이곳은 저의 두번째 뇌(Second Brain)입니다. 제가 보고 듣고 경험하고 깨달은 것을 모두 기록하고 있어요.&#x20;
 * 현재 스타트업에서 백엔드 개발자로 활동하고 있어요. CrePASS, Holostanding 과 같은 회사에서 좋은 동료들과 함께 재미있는 서비스를 만들어왔어요.&#x20;

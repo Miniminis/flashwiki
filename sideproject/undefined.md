@@ -1,10 +1,14 @@
-# 서울 빵 맛집 잘알 테스트
+---
+description: 기획부터 개발까지 전과정을 주도적으로 리드. 2개월간 2,200명이 참여
+---
 
-<figure><img src="../.gitbook/assets/image (129).png" alt="" width="375"><figcaption></figcaption></figure>
+# 서울 빵 맛집 잘알 인증 테스트
+
+<figure><img src="../.gitbook/assets/image (129).png" alt="" width="375"><figcaption><p>서울 빵 맛집잘알 인증테스트 메인</p></figcaption></figure>
 
 ## 기간
 
-* 2021.08 - 2021.09
+* 2021.08 - 2021.09&#x20;
 
 ## 배경
 
@@ -24,16 +28,16 @@
 
 ### **1) 테스트를 위한 질문 선별**
 
-* 서울의 빵 맛집들을 선별하여 테스트 질문지 및 답변을 만든다. 총 12개의 질문을 준비한다.
+* 서울의 빵 맛집들을 선별하여 테스트 질문지 및 답변을 만든다. 총 12개의 질문을 준비한다.&#x20;
 * 테스트 질문지에 신뢰를 더하기 위해 식품의약품안전처 식품통계 ‘[빵이야기](https://www.mfds.go.kr/brd/m\_629/view.do?seq=13\&srchFr=\&srchTo=\&srchWord=\&srchTp=\&itm\_seq\_1=0\&itm\_seq\_2=0\&multi\_itm\_seq=0\&company\_cd=\&company\_nm=\&page=1)’ 데이터를 참고했다.
 
-<figure><img src="../.gitbook/assets/image (139).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (139).png" alt=""><figcaption><p>준비된 12개의 질문 중 일부</p></figcaption></figure>
 
 ### **2) 사용자에게 익숙한 MBTI 테스트 형식으로 웹 페이지를 제작**
 
-* 귀여운 일러스트와 쉬운 UI로 사용자가 적극적으로 참여할 수 있도록 유도한다.
+* 귀여운 일러스트와 쉬운 UI로 사용자가 적극적으로 참여할 수 있도록 유도한다.&#x20;
 
-<figure><img src="../.gitbook/assets/image (120).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (120).png" alt=""><figcaption><p>한 개의 질문당 하나의 화면에 노출될 수 있도록 구성</p></figcaption></figure>
 
 ### **3) 전문가 입증을 위한 ‘빵 전문가’ 인증서 발급**
 

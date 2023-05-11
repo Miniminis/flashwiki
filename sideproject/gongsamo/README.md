@@ -1,10 +1,14 @@
+---
+description: PM으로서 누적 구독자 2,500명을 보유한 <공적인사적모임>의 공식 홈페이지 및 플랫폼 제작
+---
+
 # 공적인사적모임 플랫폼 프로젝트
 
-<figure><img src="../../.gitbook/assets/image (128).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (128).png" alt=""><figcaption><p>공적인사적모임 플랫폼 메인 화면</p></figcaption></figure>
 
 ## 기간
 
-* 2023.03 - (진행중)
+* 2023.03 - (진행중)&#x20;
 
 ## 배경
 
@@ -16,7 +20,7 @@
 
 * 활동 5년차인 조직임에도 노션 페이지 이외에 아직 공식적인 웹사이트가 존재하지 않아서 공식적인 자리에서 조직의 정체성을 드러내는 것에 어려움을 겪고 있음
 * 뉴스레터 채널로는 공적인사적모임이 하고 있는 다양한 활동을 담아내기가 어려움
-* 구독자가 2,200 명을 넘어선 만큼 구독자와의 활발한 교류를 하고자 하는 필요성이 있음
+* 구독자가 2,500 명을 넘어선 만큼 구독자와의 활발한 교류를 하고자 하는 필요성이 있음
 
 ## 가설
 
@@ -31,7 +35,7 @@
 * 현재 기획 80%, 디자인 80%, 개발 10% 완료
 * 아직 웹 사이트 개발 진행 단계
 
-<figure><img src="../../.gitbook/assets/image (116).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (116).png" alt=""><figcaption><p>피그마로 작성한 기획 &#x26; 디자인</p></figcaption></figure>
 
 ### **2) 향후 검증 플랜**
 

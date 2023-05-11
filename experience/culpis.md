@@ -1,3 +1,7 @@
+---
+description: 프로덕트 메이커들의 커뮤니티 디스콰이엇에서 시작된 ‘쿨한 PM/PO 스터디’라는 뜻의 스터디 모임에서 프로덕트 개선에 대한 글을 작성
+---
+
 # Disquiet PM/PO 스터디, 쿨피스
 
 <figure><img src="../.gitbook/assets/image (132).png" alt=""><figcaption></figcaption></figure>
@@ -5,10 +9,6 @@
 ## 기간
 
 * 2022.07 - 2022.08
-
-## **요약**
-
-* 프로덕트 메이커들의 커뮤니티 [디스콰이엇](https://disquiet.io/product/%EC%BF%A8%ED%94%BC%EC%8A%A4)에서 시작된 ‘쿨한 PM/PO 스터디’라는 뜻의 스터디 모임
 
 ## **역할**
 
