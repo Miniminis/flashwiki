@@ -155,7 +155,7 @@ Github(버전2)를 선택하게 되면, 아래와 같은 화면을 마주한다.
 
 #### 3-1-3. 이슈) Github Organization 계정에서 Private Repository 를 연결하고자 하는 경우&#x20;
 
-*
+\-
 
 
 

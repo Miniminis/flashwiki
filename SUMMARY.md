@@ -477,7 +477,6 @@
   * [AWS IAM](infrastructure/aws/aws-iam.md)
   * [AWS CodePipeline 으로 배포 자동화하기 (1)](infrastructure/aws/aws-codepipeline-01.md)
   * [AWS CodePipeline 으로 배포 자동화하기 (2)](infrastructure/aws/aws-codepipeline-02.md)
-  * [AWS CodePipeline 으로 배포 자동화하기 (github)](infrastructure/aws/aws-codepipeline-github.md)
 
 ## 🪄 Test
 
