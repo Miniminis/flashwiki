@@ -98,7 +98,7 @@ publy는 박소령 대표가 2015년에 만든 회사이다. 그는 서울대 �
 
 최초의 커리어리는 직군에 상관없는 IT 직장인들을 위한 커뮤니티였던 것으로 기억한다. 하지만 2022년 10월부터 핵심 타깃을 개발직군으로 좁혔고, 개발자들을 위한 커뮤니티로 그 모습을 변화했다. 그 결과, [2022년 하반기부터 신규 가입자 수나 MAU 면에서 눈에 띄는 성장을 경험했다](https://platum.kr/archives/202474).&#x20;
 
-<figure><img src="../../.gitbook/assets/Group 1 (1).png" alt=""><figcaption><p>최근 개발자 관련 구성이 돋보이는 커리어리의 메뉴구조</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Group 1 (1) (1).png" alt=""><figcaption><p>최근 개발자 관련 구성이 돋보이는 커리어리의 메뉴구조</p></figcaption></figure>
 
 이러한 변화는 현재 서비스의 모습에서도 잘 드러난다. 기존의 QnA 메뉴에서 기술 관련 QnA 메뉴가 추가되었고, 개발자들 중심으로 오픈 프로필을 걸어 커리어 제안을 자유롭게 받을 수 있도록 하였다. 또한 요즘은 거의 안하는 사람들이 없다는 사이드 프로젝트 메뉴를 통해 팀원을 쉽게 모집할 수 있도록 하였고 최근에는 부트캠프 비교 메뉴도 추가되어 아직 개발자는 아니지만 곧 개발자로 직무 전환을 꿈꾸는 '예비' 개발자들의 니즈까지 잘 충족하고 있다.
 
@@ -226,7 +226,7 @@ OKKY의 경우 QnA 게시판에는 하루에서 수십개의 글이 올라오지
 
 이런 와중에 지난 2년간 [개발자 정원희 님의 이력서 글](https://wonny.space/writing/work/engineer-resume)이 엄청난 바이럴을 타면서 많은 개발자들 사이에서 비슷한 형식의 노션 포트폴리오가 유행이 되었다. 그녀의 글이 바이럴이 된 것에는 다양한 이유가 있겠지만, 가장 큰 이유는 승률이라고 생각한다. 그는 노션 포트폴리오로 8개의 회사에 지원을 하여 7.5개의 회사로부터 합격 통보를 받았다는 구절로 글을 시작한다. 이력서와 포트폴리오의 용도가 원하는 회사로부터의 합격임을 고려해본다면 큰 신뢰가 갈 수 밖에 없다.&#x20;
 
-<figure><img src="../../.gitbook/assets/image (1) (1) (3) (1).png" alt=""><figcaption><p><a href="https://wonny.space/writing/work/engineer-resume">https://wonny.space/writing/work/engineer-resume</a></p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (3) (1) (2).png" alt=""><figcaption><p><a href="https://wonny.space/writing/work/engineer-resume">https://wonny.space/writing/work/engineer-resume</a></p></figcaption></figure>
 
 하지만 커리어리는 어떨까. 커리어리의 포트폴리오(프로필 혹은 마이 브랜딩 페이지)는 이러한 성공 사례가 존재하는가? 존재한다면 많이 바이럴 되지 않아 알려지지 않은 것이 문제이고 존재하지 않는다면 기능의 효과성에 대해 재점검해보는 시간이 필요할 것 같다.&#x20;
 

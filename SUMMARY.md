@@ -28,7 +28,7 @@
 
 * [Interview](experience/interview.md)
 * [Public Writing](experience/public-writing.md)
-* [공적인사적모임 IT 팀](experience/it.md)
+* [국개협 청년 플랫폼 공적인사적모임](experience/undefined.md)
 * [Disquiet PM/PO 스터디, 쿨피스](experience/culpis.md)
 * [Youtube 이상한 나라의 개발자 할무니](experience/youtube.md)
 * [Early Bird Morning Club](experience/early-bird-morning-club/README.md)

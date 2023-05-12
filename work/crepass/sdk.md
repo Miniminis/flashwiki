@@ -28,7 +28,7 @@ description: 최종 페이지 도달률 40% 향상, 전체 프로세스 소요�
 
 ## 가설
 
-<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 * 모바일 신용평가 프로세스를 별도의 앱으로 만들지 말고 아예 청년 5.5 내재화하여 외부 앱으로의 전환을 막으면 이탈률이 줄어들 것이다.&#x20;
 * 대출정보를 입력하는 시간동안 백그라운드에서 모바일 신용평가 프로세스가 진행된다면, 사용자의 원래 흐름을 막지 않고 신용평가등급을 매길 수 있을 것이다.
