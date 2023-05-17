@@ -1,9 +1,10 @@
-# 🔖 읽고 싶은 책 목록
+# 🔖 booklist
 
 ## 0. 책 추천사&#x20;
 
 * [퍼블리 프로덕트 팀이 추천하는 PM 필독서](https://blog.careerly.co.kr/pm-books-and-articles/)
 * [백앤드 웹개발자의 책&강의 정리](https://velog.io/@mooh2jj/%EC%9B%B9%EA%B0%9C%EB%B0%9C%EC%9E%90%EC%9D%98-%EC%B1%85%EA%B0%95%EC%9D%98-%EC%A0%95%EB%A6%AC)
+* [PM이 읽으면 좋을 책 8가지](https://brunch.co.kr/@ny0303/96)
 
 ## 1. 읽고 싶은 책 목록
 

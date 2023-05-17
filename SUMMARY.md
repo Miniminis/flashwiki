@@ -6,14 +6,14 @@
 
 * [Holostanding](work/holostanding-krg-group/README.md)
   * [Holostanding 웹 서비스 신규 런칭](work/holostanding-krg-group/holostanding/README.md)
-    * [Holostanding 웹 서비스 신규 개발기](work/holostanding-krg-group/holostanding/holostanding-v1.0.md)
+    * [Holostanding 신규 개발기](work/holostanding-krg-group/holostanding/holostanding-v1.0.md)
   * [사용자 중심으로 Admin 서비스 UI/UX 개선](work/holostanding-krg-group/admin-ui-ux.md)
   * [On/Offline Data Dashboard 구축 및 지표 설정](work/holostanding-krg-group/on-offline-data-dashboard.md)
   * [상담 전화 미수신율 감소를 위한 서비스 개선, 15% 감소](work/holostanding-krg-group/15.md)
   * [CRM 프로세스 자동화를 통한 상담 신청률 개선](work/holostanding-krg-group/crm.md)
   * [슬랙봇을 이용한 서비스 모니터링 자동화 시스템 구축](work/holostanding-krg-group/slack-bot-automation.md)
 * [CrePASS](work/crepass/README.md)
-  * [외부 SDK를 앱 내 포함시켜 중도 이탈률 개선](work/crepass/sdk.md)
+  * [외부 SDK를 앱 내 포함시켜 중도 이탈률 40% 개선](work/crepass/sdk-40.md)
   * [사용자 데이터를 분석하여 펀딩임박한 상품 상단노출 기능 추가, 최종 KPI  30% 상승](work/crepass/kpi-30.md)
   * [AWS 에서 Koscom Cloud 로 인프라 이전](work/crepass/aws-koscom-cloud.md)
 
