@@ -49,6 +49,7 @@
   * [meetme](product-making/service/service-meetme.md)
 * [Insight](product-making/insight/README.md)
   * [🔖 webmark](product-making/insight/webmark.md)
+  * [\[조던 피터슨 강의\] 인생의 목표는 행복이 아니다.](product-making/insight/untitled.md)
   * [미국 생활 20년, 오랫동안 내 성장을 만든 원동력 | 미국변호사 존청](product-making/insight/20-or.md)
   * [배달의 민족 역기획 사례](product-making/insight/undefined.md)
   * [당근마켓 역기획 사례](product-making/insight/undefined-1.md)
