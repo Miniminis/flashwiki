@@ -4,7 +4,7 @@ description: 프로덕트 메이커들의 커뮤니티 디스콰이엇에서 시
 
 # Disquiet PM/PO 스터디, 쿨피스
 
-<figure><img src="../.gitbook/assets/image (132).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (132).png" alt=""><figcaption></figcaption></figure>
 
 ## 기간
 
@@ -24,16 +24,16 @@ description: 프로덕트 메이커들의 커뮤니티 디스콰이엇에서 시
 * **문제게시자인 링코 서비스의 대표님으로부터 문제 해결에 큰 도움이 되었다는 피드백**
 * [디스콰이엇 뉴스레터](https://stibee.com/api/v1.0/emails/share/hBRs2GUbFdW7yxIHvJCGFPlVS2Vk0Mk=)에 지난주 인기 메이커로그로 소개됨
 
-<figure><img src="../.gitbook/assets/image (1).png" alt="" width="375"><figcaption><p>대화 없이 링크만 주고 받는 카카오 오픈 단톡방에서 링코 서비스로 요약된 컬렉션을 공유하여 사용자들을 유입시키는 방법을 제안</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1).png" alt="" width="375"><figcaption><p>대화 없이 링크만 주고 받는 카카오 오픈 단톡방에서 링코 서비스로 요약된 컬렉션을 공유하여 사용자들을 유입시키는 방법을 제안</p></figcaption></figure>
 
-![디스콰이엇 뉴스레터에 지난주 인기 메이커로그로 소개됨](../.gitbook/assets/culpis-03.png)
+![디스콰이엇 뉴스레터에 지난주 인기 메이커로그로 소개됨](../../.gitbook/assets/culpis-03.png)
 
 ### 2) [<혼족의제왕> 서비스 고민에 대한 개인적인 의견](https://disquiet.io/@flash/makerlog/1245)
 
 * 총 72회의 조회수, 7개의 upvote 를 기록
 * 문제 개시자인 ‘혼족의제왕’ 대표님으로부터 문제 해결에 도움이 되었다는 피드백
 
-![문제 개시자인 ‘혼족의제왕’ 대표님으로부터 문제 해결에 도움이 되었다는 피드백](../.gitbook/assets/culpis-06.png)
+![문제 개시자인 ‘혼족의제왕’ 대표님으로부터 문제 해결에 도움이 되었다는 피드백](../../.gitbook/assets/culpis-06.png)
 
 ## 관련링크
 

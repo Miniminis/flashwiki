@@ -6,7 +6,7 @@ description: >-
 
 # Youtube 이상한 나라의 개발자 할무니
 
-<figure><img src="../.gitbook/assets/image (133).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (133).png" alt=""><figcaption></figcaption></figure>
 
 ## 기간
 

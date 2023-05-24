@@ -36,9 +36,9 @@
 
 모집은 보통 모각코나 스터디를 모집하는 플랫폼 두 곳을 이용해서 디스코드 서버 참여링크를 담은 홍보글 하나씩을 작성해 공유했습니다.
 
-![okky-writings](../../.gitbook/assets/early-bird-club-2nd-week-1647067518500.png)
+![okky-writings](../../../.gitbook/assets/early-bird-club-2nd-week-1647067518500.png)
 
-![inflearn-writings](../../.gitbook/assets/early-bird-club-2nd-week-1647067549858.png)
+![inflearn-writings](../../../.gitbook/assets/early-bird-club-2nd-week-1647067549858.png)
 
 * [OKKY](https://okky.kr/article/1168906)
 * [Inflern](https://www.inflearn.com/studies/460788)
@@ -69,9 +69,9 @@
 
 그 이외에도 다같이 아침을 시작할 때 음성채팅으로 인사를 나눠보기도 했고요, 잠이 올때면 서로 잠깨는 방법을 공유하거나 이야기들을 나누며 다같이 응원하기도 했어요.
 
-![discord-screenshot-01](../../.gitbook/assets/early-bird-club-2nd-week-1647067591036.png)
+![discord-screenshot-01](../../../.gitbook/assets/early-bird-club-2nd-week-1647067591036.png)
 
-![discord-screenshot-02](../../.gitbook/assets/early-bird-club-2nd-week-1647067610490.png)
+![discord-screenshot-02](../../../.gitbook/assets/early-bird-club-2nd-week-1647067610490.png)
 
 ### 앞으로의 계획 / 홍보
 

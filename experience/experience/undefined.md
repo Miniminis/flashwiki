@@ -2,7 +2,7 @@
 description: 사회적 가치를 만드는 다양한 활동을 진행하는 청년 플랫폼 <공적인사적모임>에서 IT 팀에 소속되어 기술을 통해 의미있는 사회 변화를 만듬
 ---
 
-# 공적인사적모임 IT 팀
+# 국개협 청년 플랫폼 공적인사적모임
 
 ## 기간
 
@@ -20,7 +20,7 @@ description: 사회적 가치를 만드는 다양한 활동을 진행하는 청�
 * 2022년 한해 동안 다양한 분야에 종사하는 13명의 사람들을 인터뷰
 * 독자들로부터 많은 사랑을 받으며 성공리에 시즌 1 마무리
 
-<figure><img src="../.gitbook/assets/image (117).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (117).png" alt=""><figcaption></figcaption></figure>
 
 ### **2) 기존 뉴스레터 기반 조직에서 공식 홈페이지 및 플랫폼 개발을 진행중**
 
@@ -29,7 +29,7 @@ description: 사회적 가치를 만드는 다양한 활동을 진행하는 청�
 * [프로젝트 진행상황별 메이커로그 작성중](https://wiki.mhson.world/sideproject/gongsamo)
 * 2023년 6월 오픈 예정
 
-![](<../.gitbook/assets/image (122).png>) ![](<../.gitbook/assets/image (141).png>)
+![](<../../.gitbook/assets/image (122).png>) ![](<../../.gitbook/assets/image (141).png>)
 
 ## 관련링크
 
