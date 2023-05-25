@@ -52,25 +52,7 @@ description: 1. 화면 응답 개선하기
 
 ## 경쟁사와 비교하기 - 모바일 기준
 
-| 항목                     | 런닝맵   | 카카오   | 네이버  | 서울교통공사 |
-| ---------------------- | ----- | ----- | ---- | ------ |
-| 리소스 크기(MB)             | 3.1   | 4.5   | 2.5  | 1.4    |
-| Dom Content Loaded(ms) | 878   | 138   | 200  | 1270   |
-| 페이지 로드(ms)             | 890   | 172   | 237  | 1400   |
-| 성능 종합 점수               | 34    | 70    | 54   | 47     |
-| FCP(초)                 | 14.8  | 1.7   | 2.2  | 6.7    |
-| TTI(초)                 | 15.3  | 4.8   | 6.2  | 8.3    |
-| Speed Index            | 14.8  | 6.6   | 6.4  | 9.4    |
-| TBT(밀리초)               | 480   | 90    | 410  | 240    |
-| LCP(초)                 | 15.3  | 5.5   | 7.6  | 7.3    |
-| CLS                    | 0.042 | 0.005 | 0.03 | 0      |
-| Security Score         | E     | F     | F    | F      |
-| First Byte             | A     | A     | A    | F      |
-| Keep-alive             | A     | B     | A    | A      |
-| Compress Transfer      | F     | A     | A    | F      |
-| Compress Images        | A     | A     | A    | A      |
-| Cache static content   | D     | F     | F    | F      |
-| CDN                    | X     | X     | X    | X      |
+<table><thead><tr><th width="180">항목</th><th>런닝맵</th><th>카카오</th><th>네이버</th><th>서울교통공사</th></tr></thead><tbody><tr><td>리소스 크기(MB)</td><td>3.1</td><td>4.5</td><td>2.5</td><td>1.4</td></tr><tr><td>Dom Content Loaded(ms)</td><td>878</td><td>138</td><td>200</td><td>1270</td></tr><tr><td>페이지 로드(ms)</td><td>890</td><td>172</td><td>237</td><td>1400</td></tr><tr><td>성능 종합 점수</td><td>34</td><td>70</td><td>54</td><td>47</td></tr><tr><td>FCP(초)</td><td>14.8</td><td>1.7</td><td>2.2</td><td>6.7</td></tr><tr><td>TTI(초)</td><td>15.3</td><td>4.8</td><td>6.2</td><td>8.3</td></tr><tr><td>Speed Index</td><td>14.8</td><td>6.6</td><td>6.4</td><td>9.4</td></tr><tr><td>TBT(밀리초)</td><td>480</td><td>90</td><td>410</td><td>240</td></tr><tr><td>LCP(초)</td><td>15.3</td><td>5.5</td><td>7.6</td><td>7.3</td></tr><tr><td>CLS</td><td>0.042</td><td>0.005</td><td>0.03</td><td>0</td></tr><tr><td>Security Score</td><td>E</td><td>F</td><td>F</td><td>F</td></tr><tr><td>First Byte</td><td>A</td><td>A</td><td>A</td><td>F</td></tr><tr><td>Keep-alive</td><td>A</td><td>B</td><td>A</td><td>A</td></tr><tr><td>Compress Transfer</td><td>F</td><td>A</td><td>A</td><td>F</td></tr><tr><td>Compress Images</td><td>A</td><td>A</td><td>A</td><td>A</td></tr><tr><td>Cache static content</td><td>D</td><td>F</td><td>F</td><td>F</td></tr><tr><td>CDN</td><td>X</td><td>X</td><td>X</td><td>X</td></tr></tbody></table>
 
 
 

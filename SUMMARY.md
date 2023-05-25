@@ -51,7 +51,7 @@
   * [비전공자, 문과생, NGO 활동가의 개발자 전직기](writings/philosophy/essay-become-developer-01.md)
 * [Bookcord](art/bookcord/README.md)
   * [🔖 booklist](writings/bookcord/book-list.md)
-  * [인스파이어드(ing)](writings/bookcord/ing.md)
+  * [인스파이어드](writings/bookcord/undefined.md)
   * [누워서 읽는 알고리즘](writings/bookcord/by.md)
   * [어떻게 살아야 하는가](writings/bookcord/undefined-1.md)
   * [모든것이 되는법](writings/bookcord/undefined-2.md)
