@@ -22,6 +22,7 @@
   * [도그냥의 역기획 스터디법](product-management/service-planning/undefined-3.md)
   * [기획서 작성하기](product-management/service-planning/undefined-5.md)
 * [Business/Growth](product-management/business-growth/README.md)
+  * [Disquiet 2023.05.27](product-management/business-growth/disquiet-2023.05.27.md)
   * [소카 PM의 차량 예약 퍼널 단계 개선기(feat.AB TEST)](product-management/business-growth/pm-feat.ab-test.md)
   * [어웨이크코퍼레이션의 김민준 님](product-management/business-growth/undefined-2.md)
   * [드로우 마이 브랜드](product-management/business-growth/drawmybrand.md)
