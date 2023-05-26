@@ -48,7 +48,7 @@
   * [지도 위의 29살](writings/philosophy/essay-flashmap-2022.md)
   * [매번 시간계획을 망치는 MBTI 'P형 인간'을 위한 5단계 인생관리법](writings/philosophy/insight-entp-timemanagement.md)
   * [당신은 왜 프로그래밍을 공부하는가?](writings/philosophy/essay-whylearnprogramming.md)
-  * [비전공자, 문과생, NGO 활동가의 개발자 전직기](writings/philosophy/essay-become-developer-01.md)
+  * [아무 것도 아닌 내가 글을 쓰는 이유](writings/philosophy/essay-become-developer-01.md)
 * [Bookcord](art/bookcord/README.md)
   * [🔖 booklist](writings/bookcord/book-list.md)
   * [인스파이어드](writings/bookcord/undefined.md)
