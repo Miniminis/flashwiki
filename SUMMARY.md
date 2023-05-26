@@ -25,7 +25,7 @@
   * [소카 PM의 차량 예약 퍼널 단계 개선기(feat.AB TEST)](product-management/business-growth/pm-feat.ab-test.md)
   * [어웨이크코퍼레이션의 김민준 님](product-management/business-growth/undefined-2.md)
   * [드로우 마이 브랜드](product-management/business-growth/drawmybrand.md)
-  * [<노코드로 PMF 찾는 방법> 웨비나 후기](product-management/business-growth/how-to-find-pmf-with-no-code.md)
+  * [노코드로 PMF 찾는 방법](product-management/business-growth/how-to-find-pmf-with-no-code.md)
 * [UI/UX](product-management/ui-ux.md)
 * [PM/PO](product-management/pm-po/README.md)
   * [개발자가 생각하는 좋은 PM 나쁜 PM](product-management/pm-po/pm-pm.md)
@@ -93,7 +93,7 @@
 * [공적인사적모임 플랫폼 프로젝트](sideproject/gongsamo/README.md)
   * [2. 내 생에 첫 기획서 만들기 (feat. QA Driven Development)](sideproject/gongsamo/1.-feat.-qdd.md)
   * [1. 우리 조직의 얼굴을 만들자](sideproject/gongsamo/1..md)
-* [서울 빵 맛집 잘알 인증 테스트](sideproject/undefined.md)
+* [서울 빵 맛집 잘알 테스트](sideproject/undefined.md)
 
 ## 👯 experience
 
