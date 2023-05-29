@@ -63,7 +63,7 @@ description: 누적 구독자 2,500명을 보유한 국제개발협력 청년 �
 
 <figure><img src="../../.gitbook/assets/Group 22.png" alt=""><figcaption><p>기획설명회 전 리마인드 슬랙 메시지</p></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption><p>기획 설명을 위한 PPT</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (10).png" alt=""><figcaption><p>기획 설명을 위한 PPT</p></figcaption></figure>
 
 ### **2) 신규 팀원 모집 & 아웃바운드 모집**&#x20;
 

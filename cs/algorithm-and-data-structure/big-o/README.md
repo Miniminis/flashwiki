@@ -77,7 +77,7 @@ description: 빅오표기법
 
 ## 9. O(sqrt(n))
 
-<figure><img src="../../../.gitbook/assets/image (2) (10).png" alt=""><figcaption><p><a href="https://www.youtube.com/user/damazzang/videos">[유튜브] 엔지니어 대한민국</a></p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (2) (10) (1).png" alt=""><figcaption><p><a href="https://www.youtube.com/user/damazzang/videos">[유튜브] 엔지니어 대한민국</a></p></figcaption></figure>
 
 ## 10. 기억할 것! 상수는 과감히 버린다
 
