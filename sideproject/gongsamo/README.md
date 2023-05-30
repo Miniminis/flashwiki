@@ -77,7 +77,7 @@ description: 누적 구독자 2,500명을 보유한 국제개발협력 청년 �
 
 프로젝트 기획 단계에서 [카카오 프론트엔드 챕터 리드인 테오님이 추천하는 스프린트 방식](https://velog.io/@teo/%EC%B9%B4%EC%B9%B4%EC%98%A4%EC%9B%8C%ED%81%AC-%EC%BA%98%EB%A6%B0%EB%8D%94%ED%8C%80%EC%97%90%EC%84%9C-%EC%82%AC%EC%9A%A9%ED%95%9C-figma%EB%A5%BC-%EC%9D%B4%EC%9A%A9%ED%95%9C-%EA%B8%B0%ED%9A%8D-%EB%94%94%EC%9E%90%EC%9D%B4%EB%84%88-QA-%EA%B0%9C%EB%B0%9C-%EB%B0%A9%EB%B2%95)을 알게 되었습니다. 짧은 시간안에 빠르게 기획부터 QA까지 진행할 수 있는 방법인데, 저희 팀에서 진행하면 좋겠다는 생각이 들어 팀 내에 공유했더니 다행히 좋은 반응을 얻어 이번 프로젝트에는 기획-디자인-개발-테스트까지 함께 TDD 방식으로 스프린트를 진행하게 되었습니다.&#x20;
 
-<figure><img src="../../.gitbook/assets/image (3).png" alt=""><figcaption><p>기획서 상 디스크립션을 TDD 방식으로 적어서 QA를 통과하듯 바로바로 개발 및 테스트 현황을 알 수 있도록 구성  </p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (3) (13).png" alt=""><figcaption><p>기획서 상 디스크립션을 TDD 방식으로 적어서 QA를 통과하듯 바로바로 개발 및 테스트 현황을 알 수 있도록 구성  </p></figcaption></figure>
 
 ### **4) 홈페이지 기획**
 

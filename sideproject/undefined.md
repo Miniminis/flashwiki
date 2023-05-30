@@ -51,7 +51,7 @@ description: 회사 내 빵 전문가 동료의 억울함을 풀어주기 위해
 
 빵 모양 일러스트를 주로 사용하여 전체적으로 빵에 대한 컨셉과 귀여움을 살렸고 많은 사람들이 익숙한 MBTI 테스트 형식처럼 화면을 구성하여 속도감 있게 테스트를 진행할 수 있도록 하였습니다.&#x20;
 
-<figure><img src="../.gitbook/assets/image (120).png" alt=""><figcaption><p>한 개의 질문당 하나의 화면에 노출될 수 있도록 구성</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (120) (1).png" alt=""><figcaption><p>한 개의 질문당 하나의 화면에 노출될 수 있도록 구성</p></figcaption></figure>
 
 ### **3) 전문가 입증을 위한 ‘빵 맛집 전문가’ 인증서 발급**
 
