@@ -103,7 +103,8 @@
   * [2022년 회고](writings/review/annual-review/2022.md)
   * [2021년 회고](writings/review/annual-review/year-review-2021.md)
 * [Insight](writings/insight/README.md)
-  * [세컨드 브레인이 필요한 이유](writings/insight/undefined.md)
+  * [시각장애인을 위한 소프트웨어 교육 사이트](writings/insight/undefined.md)
+  * [세컨드 브레인이 필요한 이유](writings/insight/undefined-1.md)
 
 ## 🏀 sideproject
 
