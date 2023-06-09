@@ -22,7 +22,8 @@
   * [도그냥의 역기획 스터디법](product-management/service-planning/undefined-3.md)
   * [기획서 작성하기](product-management/service-planning/undefined-5.md)
 * [Business/Growth](product-management/business-growth/README.md)
-  * [고이장례연구소](product-management/business-growth/undefined.md)
+  * [이제는 피칭도 유튜브로](product-management/business-growth/undefined.md)
+  * [고이장례연구소](product-management/business-growth/undefined-1.md)
   * [글쓰기로 PMF 검증하기](product-management/business-growth/pmf.md)
   * [연대 송도 캠퍼스의 40%가 사용한 서비스](product-management/business-growth/40.md)
   * [소카 PM의 차량 예약 퍼널 단계 개선기(feat.AB TEST)](product-management/business-growth/pm-feat.ab-test.md)
@@ -44,7 +45,6 @@
 * [NoCode](nocode/nocode/README.md)
   * [노코드란](nocode/nocode/undefined.md)
   * [노코드 서비스 관련 링크 & 서비스 목록](nocode/nocode/and.md)
-  * [Page 3](nocode/nocode/page-3.md)
 * [SyncTree](nocode/synctree.md)
 
 ## ✍ WRITINGS
@@ -103,8 +103,8 @@
   * [2022년 회고](writings/review/annual-review/2022.md)
   * [2021년 회고](writings/review/annual-review/year-review-2021.md)
 * [Insight](writings/insight/README.md)
-  * [시각장애인을 위한 소프트웨어 교육 사이트](writings/insight/undefined.md)
-  * [세컨드 브레인이 필요한 이유](writings/insight/undefined-1.md)
+  * [시각장애인을 위한 소프트웨어 교육 사이트](<writings/insight/undefined (1).md>)
+  * [세컨드 브레인이 필요한 이유](writings/insight/undefined.md)
 
 ## 🏀 sideproject
 
