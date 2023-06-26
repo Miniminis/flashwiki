@@ -433,6 +433,7 @@
   * [오브젝트와 의존관계](java-spring/spring-framework/undefined-6.md)
   * [스프링이란](java-spring/spring-framework/undefined-7.md)
 * [Spring Boot](java-spring/spring-boot/README.md)
+  * [\[Gradle\]UncheckedIOException](java-spring/spring-boot/gradle-uncheckedioexception.md)
   * [java19 + spring 3.0.5 + gradle 7.4.1 에서 프로젝트 gradle 설정하기](java-spring/spring-boot/java19-+-spring-3.0.5-+-gradle-7.4.1-gradle.md)
   * [\[리뷰\] Gradle 멀티 프로젝트 관리](java-spring/spring-boot/gradle.md)
   * [\[리뷰\] 멀티모듈 설계 이야기 with Spring, Gradle](java-spring/spring-boot/with-spring-gradle.md)
@@ -504,7 +505,8 @@
 
 * [Helpful Command](others/helpful-commands.md)
 * [Llibrary](others/libraries.md)
-* [IntelliJ](others/intellij.md)
+* [IntelliJ](others/intellij/README.md)
+  * [내가 좋아하는 커스텀 세팅](others/intellij/undefined.md)
 * [GIT](others/git/README.md)
   * [github organization private repository push 안될 때 (not found issue)](others/git/github-organization-private-repository-push-not-found-issue.md)
   * [commands](others/git/commands.md)
