@@ -503,11 +503,14 @@
 
 ## 😎 OTHERS
 
-* [Helpful Command](others/helpful-commands.md)
+* [Helpful Command](others/helpful-commands/README.md)
+  * [crontab](others/helpful-commands/crontab.md)
 * [Llibrary](others/libraries.md)
 * [IntelliJ](others/intellij/README.md)
   * [내가 좋아하는 커스텀 세팅](others/intellij/undefined.md)
 * [GIT](others/git/README.md)
+  * [Github ID/Token 한번 입력 후 저장하기](others/git/github-id-token.md)
+  * [Github Actions](others/git/github-actions.md)
   * [github organization private repository push 안될 때 (not found issue)](others/git/github-organization-private-repository-push-not-found-issue.md)
   * [commands](others/git/commands.md)
   * [git commit convention](others/git/git-commit-convention.md)
