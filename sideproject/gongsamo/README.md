@@ -93,7 +93,7 @@ description: 누적 구독자 2,500명을 보유한 국제개발협력 청년 �
 
 팀 온보딩, 프로젝트에 대한 관리, 회의록, 이슈관리까지 모두 노션을 이용하여 진행했습니다.&#x20;
 
-<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
 ## 결과&#x20;
 

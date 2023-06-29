@@ -57,7 +57,7 @@ description: 2022.08.04 우아한 PM의 밤
 * PM은 권한도 없고 현실에 쩔어있는 느낌인데 PO는 슈퍼맨같고 엄청난 권한을 가지고 주도적으로 일하는 사람 같은 느낌&#x20;
 * PO 는 사실 특정 상황에서 주어지는 역할이지 직군은 아니다. 스크럼을 돌 때, 조직 내부에서 가장 사용자의 입장을 대변하여 프로덕트에 대한 의견을 제시하거나 왜 그것이 유효한지 설득하는 역할&#x20;
 
-<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption><p>PM 과 PO의 비교 </p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1).png" alt=""><figcaption><p>PM 과 PO의 비교 </p></figcaption></figure>
 
 * 우리나라에서는 훨씬 큰 의미로 PO가 해석되고 있다. 오히려 PM이 PO보다 더 높고 큰 포지션으로 인식되고 있다.&#x20;
 * 실리콘밸리 제품개발 방식을 따르고자 하는 우리나라 스타트업들이 PO를 앞세워 마케팅을 했고 제품의 성공과 맞아떨어지면서 그 방법이 먹히기 시작함&#x20;
