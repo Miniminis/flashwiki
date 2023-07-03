@@ -61,6 +61,6 @@ description: 드로우앤드류 영상 리뷰
 * 메모 시작하기 전에 당신이 원하는 기능을 모두 갖춘 완벽한 앱을 찾아야 한다는 덫에 걸려들지 않아야 한다.&#x20;
 * 완벽한 도구를 여러개 마련하는 것이 아니라 의지하고 믿을만한 도구 세트를 갖추는 것이 중요하며 언제든지 바뀔 수 있다는 것을 명심하는 것이 좋다.&#x20;
 
-<figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (2).png" alt=""><figcaption></figcaption></figure>
 
 > 결과물로 만들어내지 않는다면, 아이디어만으로는 정말 아무 쓸모가 없다.&#x20;
