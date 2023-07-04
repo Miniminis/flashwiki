@@ -4,7 +4,7 @@
 
 ## 🧑🌾 product management
 
-* [이거어때 시리즈](product-management/service/README.md)
+* [Service Analysis](product-management/service/README.md)
   * [baemin mart](product-management/service/baemin-mart/README.md)
     * [1. 시작](product-management/service/baemin-mart/1..md)
     * [2. 우아한형제들 & 배민상회](product-management/service/baemin-mart/2.-and.md)
@@ -24,13 +24,15 @@
 * [Business/Growth](product-management/business-growth/README.md)
   * [세컨드 브레인이 필요한 이유](product-management/business-growth/undefined.md)
   * [이제는 피칭도 유튜브로](product-management/business-growth/undefined-1.md)
-  * [고이장례연구소](product-management/business-growth/undefined-2.md)
-  * [글쓰기로 PMF 검증하기](product-management/business-growth/pmf.md)
-  * [연대 송도 캠퍼스의 40%가 사용한 서비스](product-management/business-growth/40.md)
-  * [소카 PM의 차량 예약 퍼널 단계 개선기(feat.AB TEST)](product-management/business-growth/pm-feat.ab-test.md)
-  * [어웨이크코퍼레이션의 김민준 님](product-management/business-growth/undefined-2-1.md)
-  * [드로우 마이 브랜드](product-management/business-growth/drawmybrand.md)
-  * [노코드로 PMF 찾는 방법](product-management/business-growth/how-to-find-pmf-with-no-code.md)
+* [Problem-Solving](product-management/problem-solving/README.md)
+  * [소카 PM의 차량 예약 퍼널 단계 개선기(feat.AB TEST)](product-management/problem-solving/pm-feat.ab-test.md)
+* [Product-Market Fit](product-management/product-market-fit/README.md)
+  * [고이장례연구소](product-management/product-market-fit/undefined.md)
+  * [글쓰기로 PMF 검증하기](product-management/product-market-fit/pmf.md)
+  * [연대 송도 캠퍼스의 40%가 사용한 서비스](product-management/product-market-fit/40.md)
+  * [어웨이크코퍼레이션의 김민준 님](product-management/product-market-fit/undefined-2.md)
+  * [드로우 마이 브랜드](product-management/product-market-fit/drawmybrand.md)
+  * [노코드로 PMF 찾는 방법](product-management/product-market-fit/how-to-find-pmf-with-no-code.md)
 * [UI/UX](product-management/ui-ux.md)
 * [PM/PO](product-management/pm-po/README.md)
   * [PM Wiki](product-management/pm-po/pm-wiki.md)
@@ -40,16 +42,13 @@
   * [프로덕트 매니저는 뭐하는 사람인가](product-management/pm-po/undefined-1.md)
   * [토스 리더가 말하는 PO가 꼭 알아야할 개념 (2)](product-management/pm-po/20220518-toss-po-session-02.md)
   * [토스 리더가 말하는 PO가 꼭 알아야할 개념 (1)](product-management/pm-po/20220508-toss-po-session-01.md)
-
-## 👋 NoCode
-
-* [NoCode](nocode/nocode/README.md)
-  * [노코드란](nocode/nocode/undefined.md)
-  * [노코드 서비스 관련 링크 & 서비스 목록](nocode/nocode/and.md)
-* [SyncTree](nocode/synctree.md)
+* [NoCode](product-management/nocode/README.md)
+  * [노코드란](product-management/nocode/undefined.md)
+  * [노코드 서비스 관련 링크 & 서비스 목록](product-management/nocode/and.md)
 
 ## ✍ WRITINGS
 
+* [Insight](writings/insight.md)
 * [Philosophy](writings/philosophy/README.md)
   * [글로 신뢰를 얻었던 경험들](writings/philosophy/undefined.md)
   * [기획은 나를 찾아가는 과정](writings/philosophy/undefined-1.md)

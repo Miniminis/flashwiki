@@ -1,6 +1,6 @@
 # 토스 리더가 말하는 PO가 꼭 알아야할 개념 (2)
 
-***
+
 
 ### title: 토스 리더가 말하는 PO가 꼭 알아야할 개념 (2) date: 2022-05-18 20:53 category: - insight - productowner
 
