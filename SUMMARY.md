@@ -1,6 +1,6 @@
 # Table of contents
 
-* [🦥 README](README.md)
+* [👵 README](README.md)
 
 ## 🧑🌾 product management
 
@@ -24,8 +24,6 @@
 * [Business/Growth](product-management/business-growth/README.md)
   * [세컨드 브레인이 필요한 이유](product-management/business-growth/undefined.md)
   * [이제는 피칭도 유튜브로](product-management/business-growth/undefined-1.md)
-* [Problem-Solving](product-management/problem-solving/README.md)
-  * [소카 PM의 차량 예약 퍼널 단계 개선기(feat.AB TEST)](product-management/problem-solving/pm-feat.ab-test.md)
 * [Product-Market Fit](product-management/product-market-fit/README.md)
   * [고이장례연구소](product-management/product-market-fit/undefined.md)
   * [글쓰기로 PMF 검증하기](product-management/product-market-fit/pmf.md)
@@ -48,7 +46,6 @@
 
 ## ✍ WRITINGS
 
-* [Insight](writings/insight.md)
 * [Philosophy](writings/philosophy/README.md)
   * [글로 신뢰를 얻었던 경험들](writings/philosophy/undefined.md)
   * [기획은 나를 찾아가는 과정](writings/philosophy/undefined-1.md)
