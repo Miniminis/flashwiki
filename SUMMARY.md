@@ -31,7 +31,8 @@
   * [어웨이크코퍼레이션의 김민준 님](product-management/product-market-fit/undefined-2.md)
   * [드로우 마이 브랜드](product-management/product-market-fit/drawmybrand.md)
   * [노코드로 PMF 찾는 방법](product-management/product-market-fit/how-to-find-pmf-with-no-code.md)
-* [UI/UX](product-management/ui-ux.md)
+* [UI/UX](product-management/ui-ux/README.md)
+  * [UX/UI 관련 유용한 사이트 모음](product-management/ui-ux/ux-ui.md)
 * [PM/PO](product-management/pm-po/README.md)
   * [PM Wiki](product-management/pm-po/pm-wiki.md)
   * [당신과 팀을 성장시킬 PM 직무가이드](product-management/pm-po/pm.md)
@@ -47,9 +48,10 @@
 ## ✍ WRITINGS
 
 * [Philosophy](writings/philosophy/README.md)
-  * [글로 신뢰를 얻었던 경험들](writings/philosophy/undefined.md)
-  * [기획은 나를 찾아가는 과정](writings/philosophy/undefined-1.md)
-  * [장항준 감독으로부터 배우는 "삶을 대하는 자세"](writings/philosophy/undefined-2.md)
+  * [복잡계를 살아가는 단순한 사람](writings/philosophy/undefined.md)
+  * [글로 신뢰를 얻었던 경험들](writings/philosophy/undefined-1.md)
+  * [기획은 나를 찾아가는 과정](writings/philosophy/undefined-2.md)
+  * [장항준 감독으로부터 배우는 "삶을 대하는 자세"](writings/philosophy/undefined-3.md)
   * [나는 왜 살아가는가](writings/philosophy/undefined-1-1.md)
   * [개발자가 말하는 감정에도 분석이 필요한 이유](sideproject/mindtree/mindtreeproject-02.md)
   * [problem map 작성하기](sideproject/mindtree/mindtreeproject-01.md)

@@ -1,5 +1,5 @@
 ---
-description: 큰손할매의 두번째 뇌에 오신 것을 환영합니다.
+description: 큰손할매의 두번째 뇌
 ---
 
 # 👵 README
