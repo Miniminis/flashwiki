@@ -74,7 +74,7 @@ description: 1. 화면 응답 개선하기
 
 <figure><img src="../../.gitbook/assets/image (45).png" alt=""><figcaption><p><a href="https://m.map.kakao.com/">https://m.map.kakao.com/</a></p></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (4) (1).png" alt=""><figcaption><p><a href="https://m.map.naver.com/subway/subwayLine.naver?region=1000">https://m.map.naver.com/subway/subwayLine.naver?region=1000</a></p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (4) (1) (10).png" alt=""><figcaption><p><a href="https://m.map.naver.com/subway/subwayLine.naver?region=1000">https://m.map.naver.com/subway/subwayLine.naver?region=1000</a></p></figcaption></figure>
 
 <figure><img src="../../.gitbook/assets/image (24).png" alt=""><figcaption><p><a href="http://www.seoulmetro.co.kr/kr/cyberStation.do">http://www.seoulmetro.co.kr/kr/cyberStation.do</a></p></figcaption></figure>
 

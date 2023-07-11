@@ -13,5 +13,5 @@
 * 이런 저런 블로그글 찾아보는데 딱히 도움되는 글을 못찾다가 clean 했다는 사람의 말에서 힌트를 얻음&#x20;
 * Gradle Setting 열어보니까 Gradle 기본 JVM 버전이 프로젝트 세팅의 SDK 버전하고 안맞았었다. 프로젝트 SDK 버전하고 똑같이 맞춰주니까 해결! &#x20;
 
-<figure><img src="../../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (4) (1).png" alt=""><figcaption></figcaption></figure>
 

@@ -45,6 +45,14 @@
   * [노코드란](product-management/nocode/undefined.md)
   * [노코드 서비스 관련 링크 & 서비스 목록](product-management/nocode/and.md)
 
+## 💾 Data
+
+* [Database](data/database/README.md)
+  * [Page 2](data/database/page-2.md)
+  * [데이터베이스의 종류](data/database/undefined.md)
+  * [데이터 기반 의사결정](data/database/undefined-1.md)
+* [SQL](data/sql.md)
+
 ## ✍ WRITINGS
 
 * [Philosophy](writings/philosophy/README.md)

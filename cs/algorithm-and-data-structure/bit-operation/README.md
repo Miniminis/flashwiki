@@ -61,7 +61,7 @@
 * 각 자리 수의 반대 수를 표현한다.&#x20;
 * \~ 0101 = 1010&#x20;
 
-<figure><img src="../../../.gitbook/assets/image (8) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (8) (1) (4).png" alt=""><figcaption></figcaption></figure>
 
 ## 7. XOR 연산&#x20;
 
