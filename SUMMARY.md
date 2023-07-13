@@ -48,10 +48,12 @@
 ## 💾 Data
 
 * [Database](data/database/README.md)
-  * [Page 2](data/database/page-2.md)
   * [데이터베이스의 종류](data/database/undefined.md)
   * [데이터 기반 의사결정](data/database/undefined-1.md)
-* [SQL](data/sql.md)
+* [SQL](data/sql/README.md)
+  * [DDL, DML](data/sql/ddl-dml.md)
+  * [SELECT](data/sql/select.md)
+  * [SQL](data/sql/sql.md)
 
 ## ✍ WRITINGS
 
@@ -462,6 +464,8 @@
   * [기본 2 - 필드, 레코드, 타입](database/general/2.md)
   * [기본 1 - 엔티티, 릴레이션, 속성, 도메인](database/general/1.md)
 * [MySQL](database/mysql/README.md)
+  * [MSQL to MySQL Data Migration](database/mysql/msql-to-mysql-data-migration.md)
+  * [MySQL Server 다운로드, 로그인](database/mysql/mysql-server.md)
   * [helpful commands](database/mysql/helpful-commands.md)
   * [문자열 자르기 SUBSTR(column, startIdx, length)](database/mysql/substr-column-startidx-length.md)
   * [특정 값을 ORDER BY 특정 값 우선 정렬 하기 (ORDER BY FIELD)](database/mysql/order-by-order-by-field.md)
