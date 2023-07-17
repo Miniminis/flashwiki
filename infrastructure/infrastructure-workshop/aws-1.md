@@ -148,7 +148,7 @@ description: 1. 화면 응답 개선하기
 
 ### 적용 후 2번째 이후 로드 : HIT
 
-<figure><img src="../../.gitbook/assets/image (35).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (35) (2).png" alt=""><figcaption></figcaption></figure>
 
 
 
@@ -156,7 +156,7 @@ description: 1. 화면 응답 개선하기
 
 ### 적용 전&#x20;
 
-<figure><img src="../../.gitbook/assets/image (17).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (17) (6).png" alt=""><figcaption></figcaption></figure>
 
 ### 적용 후&#x20;
 

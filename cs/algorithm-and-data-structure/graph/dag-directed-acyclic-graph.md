@@ -22,7 +22,7 @@ description: 방향그래프
 
 * DAG의 노드들을 순서화하여 정렬하는 것을 말한다. 이때 모든 에지들은 왼쪽 -> 오른쪽 순서대로 나열해야한다. 먼저 작업하는 것의 순서대로 나열하는 것!&#x20;
 
-<figure><img src="../../../.gitbook/assets/image (35) (2).png" alt=""><figcaption><p><a href="https://www.inflearn.com/course/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EA%B0%95%EC%A2%8C">[인프런] 영리한 프로그래밍을 위한 알고리즘 강좌 by 권오흠 교수님</a></p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (35) (2) (1).png" alt=""><figcaption><p><a href="https://www.inflearn.com/course/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EA%B0%95%EC%A2%8C">[인프런] 영리한 프로그래밍을 위한 알고리즘 강좌 by 권오흠 교수님</a></p></figcaption></figure>
 
 ### 구현하기
 

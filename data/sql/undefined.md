@@ -11,7 +11,7 @@
 
 ## 유니코드&#x20;
 
-<figure><img src="../../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (7) (1).png" alt=""><figcaption></figcaption></figure>
 
 * \_100 : 데이터 정렬 버전&#x20;
 * ci : 대/소문자 구분하지 않음&#x20;

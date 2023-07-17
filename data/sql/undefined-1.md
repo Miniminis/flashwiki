@@ -20,7 +20,7 @@ description: SQL Server 기준
 * 날짜 > 소수 > 정수 > 문자 순서로 우선순위를 갖는다.&#x20;
 * 암시적, 명시적 형변환 여부를 확인하려면 실행계획을 먼저 확인하면 된다.&#x20;
 
-<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
 
 ## 문자형
 
