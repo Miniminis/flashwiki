@@ -4,7 +4,7 @@ description: 빅오표기법
 
 # Big-O
 
-<figure><img src="../../../.gitbook/assets/image (28).png" alt=""><figcaption><p><a href="https://velog.velcdn.com/images/zion9948/post/ba201b6c-9da8-43c2-a624-e8f1eee9bded/image.jpeg">https://velog.velcdn.com/images/zion9948/post/ba201b6c-9da8-43c2-a624-e8f1eee9bded/image.jpeg</a></p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (28) (3).png" alt=""><figcaption><p><a href="https://velog.velcdn.com/images/zion9948/post/ba201b6c-9da8-43c2-a624-e8f1eee9bded/image.jpeg">https://velog.velcdn.com/images/zion9948/post/ba201b6c-9da8-43c2-a624-e8f1eee9bded/image.jpeg</a></p></figcaption></figure>
 
 ## 1. 표기법
 

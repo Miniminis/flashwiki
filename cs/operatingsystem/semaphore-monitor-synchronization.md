@@ -70,7 +70,7 @@
   * reader queue 에 우선순위를 두어, 어느정도 선까지 도착한 reader 만 허용하고, db 자원을 반납해 writer 가 들어올 수 있도록 해준다.
   * 마치 신호등이 있어서 끊임없이 오는 차들을 잠시 막고 사람들이 틈틈히 건너갈 수 있도록!
 
-<figure><img src="../../.gitbook/assets/image (19) (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (19) (3) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### 문제 3. 식사하는 철학자 문제, dining-phillosophers problem
 

@@ -4,7 +4,7 @@
 
 ## Microsoft 공식문서에서 확인하는 SELECT 문법&#x20;
 
-<figure><img src="../../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (7) (2).png" alt=""><figcaption></figcaption></figure>
 
 ## 주의&#x20;
 
@@ -35,7 +35,7 @@ select * from nasdaq_company where ipo_year != 2021;	-- 이렇게 써도 된다!
 
 > 우선순위에 따라서 연산이 적용된다.&#x20;
 
-<figure><img src="../../.gitbook/assets/image (14).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (14) (6).png" alt=""><figcaption></figcaption></figure>
 
 ### 괄호를 사용하여 우선순위를 부여한다.&#x20;
 

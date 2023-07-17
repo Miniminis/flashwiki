@@ -121,7 +121,7 @@ VPC가 내 집을 만들기 위한 토지를 확보하는 과정이라면, Subne
 * 서브넷을 생성하면서 가용영역(availability zone) 역시 같이 설정하는데, 보통 시스템의 안정을 위해 다양한 가용영역에 서브넷을 분산하여 만들어둔다. 보통은 A-C, B-D를 페어링하여 구성하는 것 같다.&#x20;
 * 우리는 A와 C 영역에 public subnet 1개씩을 만들고, A영역에 Bastion 서버가 위치할 public 서브넷, 데이터베이스가 위치할 private 서브넷을 하나씩 만들었다. 역시 위의 설계도에 따른 것이다. &#x20;
 
-<figure><img src="../../.gitbook/assets/image (72).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (72) (2).png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../../.gitbook/assets/image (58) (1).png" alt=""><figcaption></figcaption></figure>
 

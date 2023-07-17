@@ -26,7 +26,7 @@ description: Structured Query Language
 
 ANSI SQL은 1986년 SQL-86이후 SQL:2019까지 발표되었다. (2019년 기준)&#x20;
 
-<figure><img src="../../.gitbook/assets/image (10).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (10) (3).png" alt=""><figcaption></figcaption></figure>
 
 ## 문법 종류&#x20;
 

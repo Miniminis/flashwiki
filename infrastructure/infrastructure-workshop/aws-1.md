@@ -64,7 +64,7 @@ description: 1. 화면 응답 개선하기
 
 <figure><img src="../../.gitbook/assets/image (21).png" alt=""><figcaption><p><a href="https://m.map.naver.com/subway/subwayLine.naver?region=1000">https://m.map.naver.com/subway/subwayLine.naver?region=1000</a></p></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (46).png" alt=""><figcaption><p><a href="http://www.seoulmetro.co.kr/kr/cyberStation.do">http://www.seoulmetro.co.kr/kr/cyberStation.do</a></p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (46) (3).png" alt=""><figcaption><p><a href="http://www.seoulmetro.co.kr/kr/cyberStation.do">http://www.seoulmetro.co.kr/kr/cyberStation.do</a></p></figcaption></figure>
 
 
 
@@ -170,7 +170,7 @@ description: 1. 화면 응답 개선하기
 
 ### 최초 상태&#x20;
 
-<figure><img src="../../.gitbook/assets/image (43).png" alt=""><figcaption><p>최초 상태 </p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (43) (2).png" alt=""><figcaption><p>최초 상태 </p></figcaption></figure>
 
 ### gzip + cache + HTTP2.0 까지 적용한 뒤&#x20;
 

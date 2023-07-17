@@ -48,12 +48,32 @@
 ## 💾 Data
 
 * [Database](data/database/README.md)
-  * [데이터베이스의 종류](data/database/undefined.md)
+  * [이 위키를 만드는데 참고한 자료들](data/database/undefined.md)
   * [데이터 기반 의사결정](data/database/undefined-1.md)
+  * [데이터베이스의 종류](data/database/undefined-2.md)
+  * [트랜잭션과 무결성](data/database/undefined-1-1.md)
+  * [트랜잭션, 커밋, 롤백, 트랜잭션 전파](data/database/undefined-2-1.md)
+  * [ERD, entity relationship diagram](data/database/erd-entity-relationship-diagram.md)
+  * [기본 3 - 관계, 키](data/database/3.md)
+  * [기본 2 - 필드, 레코드, 타입](data/database/2.md)
+  * [기본 1 - 엔티티, 릴레이션, 속성, 도메인](data/database/1.md)
 * [SQL](data/sql/README.md)
+  * [Sub Query](data/sql/sub-query.md)
+  * [JOIN](data/sql/join.md)
+  * [데이터 정렬셋과 유니코드](data/sql/undefined.md)
+  * [자료형](data/sql/undefined-1.md)
   * [DDL, DML](data/sql/ddl-dml.md)
   * [SELECT](data/sql/select.md)
   * [SQL](data/sql/sql.md)
+* [MySQL](data/mysql/README.md)
+  * [MSQL to MySQL Data Migration](data/mysql/msql-to-mysql-data-migration.md)
+  * [MySQL Server 다운로드, 로그인](data/mysql/mysql-server.md)
+  * [helpful commands](data/mysql/helpful-commands.md)
+  * [문자열 자르기 SUBSTR(column, startIdx, length)](data/mysql/substr-column-startidx-length.md)
+  * [특정 값을 ORDER BY 특정 값 우선 정렬 하기 (ORDER BY FIELD)](data/mysql/order-by-order-by-field.md)
+  * [이것이 MySQL이다](data/mysql/thisismysql-sqls.md)
+* [H2](data/h2/README.md)
+  * [‼ h2 in-memory-db Table not found (this database is empty) 해결방법](data/h2/h2-in-memory-db-table-not-found-this-database-is-empty.md)
 
 ## ✍ WRITINGS
 
@@ -455,26 +475,6 @@
   * [querydsl 을 쓰는 이유](spring/querydsl/querydsl-good-01.md)
   * [JPA querydsl에서 json array 로 된 컬럼에 조건 적용하기](spring/querydsl/querydsl-json-column.md)
   * [querydsl 에서 mysql order by field() 사용하기](spring/querydsl/querydsl-orderybyfield.md)
-
-## 📀 Database
-
-* [General](database/general/README.md)
-  * [이 위키를 만드는데 참고한 자료들](database/general/undefined.md)
-  * [트랜잭션과 무결성](database/general/undefined-1.md)
-  * [트랜잭션, 커밋, 롤백, 트랜잭션 전파](database/general/undefined-2.md)
-  * [ERD, entity relationship diagram](database/general/erd-entity-relationship-diagram.md)
-  * [기본 3 - 관계, 키](database/general/3.md)
-  * [기본 2 - 필드, 레코드, 타입](database/general/2.md)
-  * [기본 1 - 엔티티, 릴레이션, 속성, 도메인](database/general/1.md)
-* [MySQL](database/mysql/README.md)
-  * [MSQL to MySQL Data Migration](database/mysql/msql-to-mysql-data-migration.md)
-  * [MySQL Server 다운로드, 로그인](database/mysql/mysql-server.md)
-  * [helpful commands](database/mysql/helpful-commands.md)
-  * [문자열 자르기 SUBSTR(column, startIdx, length)](database/mysql/substr-column-startidx-length.md)
-  * [특정 값을 ORDER BY 특정 값 우선 정렬 하기 (ORDER BY FIELD)](database/mysql/order-by-order-by-field.md)
-  * [이것이 MySQL이다](database/mysql/thisismysql-sqls.md)
-* [H2](database/h2/README.md)
-  * [‼ h2 in-memory-db Table not found (this database is empty) 해결방법](database/h2/h2-in-memory-db-table-not-found-this-database-is-empty.md)
 
 ## 🏰 Infrastructure
 

@@ -164,7 +164,7 @@ export default function () {
 
 
 
-<figure><img src="../../.gitbook/assets/image (83).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (83) (1).png" alt=""><figcaption></figcaption></figure>
 
 
 
@@ -301,7 +301,7 @@ export default function () {
 
 <figure><img src="../../.gitbook/assets/image (55) (2).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (67).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (67) (2).png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../../.gitbook/assets/image (82).png" alt=""><figcaption></figcaption></figure>
 
