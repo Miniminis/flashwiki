@@ -379,7 +379,7 @@
   * [프록시 패턴](cs/design-pattern/undefined-2.md)
   * [옵저버 패턴](cs/design-pattern/undefined-3.md)
   * [전략패턴](cs/design-pattern/undefined-4.md)
-  * [의존성주입과 의존관계역전원칙](cs/design-pattern/undefined-5.md)
+  * [의존성 주입과 의존 관계 역전 원칙](cs/design-pattern/undefined-5.md)
   * [이터레이션 패턴](cs/design-pattern/undefined-6.md)
   * [추상 팩토리 매소드 패턴](cs/design-pattern/undefined-7.md)
   * [팩토리 메소드 패턴](cs/design-pattern/undefined-8.md)

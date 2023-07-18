@@ -63,7 +63,7 @@
 * 테이블간의 관계를 표현한 그림이다.&#x20;
 * 논리모델과 물리모델이 있다.&#x20;
 
-<figure><img src="../../.gitbook/assets/image (1).png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1).png" alt="" width="375"><figcaption></figcaption></figure>
 
 ### 관계형 데이터베이스는 왜 필요한가?&#x20;
 
