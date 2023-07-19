@@ -6,6 +6,6 @@ description: by 최용경
 
 {% embed url="https://www.grownbetter.com/article/105" %}
 
-<figure><img src="../../.gitbook/assets/image (3) (8).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (3) (8) (2).png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../../.gitbook/assets/image (115).png" alt=""><figcaption></figcaption></figure>

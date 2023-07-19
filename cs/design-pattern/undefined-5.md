@@ -1,7 +1,9 @@
-# 의존성주입과 의존관계역전원칙
+# 의존성 주입과 의존 관계 역전 원칙
 
 * Dependency Injection 이란 메인 모듈이 직접 다른 하위 모듈에 대한 의존성을 가지고 있기 보다는, 중간에 의존성 주입자 (dependency injector) 가 이 부분을 가로채 메인 모듈이 간접적으로 의존성을 주입하는 방식을 말한다.&#x20;
 * 이를 통해서 메인 모듈과 하위 모듈간의 의존성을 조금 더 느슨하게 만들 수 있으며 모듈을 쉽게 교체 가능한 구조로 만든다.&#x20;
+
+<figure><img src="../../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
 
 ## 의존한다는 의미&#x20;
 
@@ -34,7 +36,9 @@ class Hi {
 
 ## Dependency Injection 예시
 
-아래는 큰돌님의 <[CS 지식의 정석](https://www.inflearn.com/course/%EA%B0%9C%EB%B0%9C%EC%9E%90-%EB%A9%B4%EC%A0%91-cs-%ED%8A%B9%EA%B0%95)> 강의를 보면서 참고한 코드입니다. &#x20;
+![](<../../.gitbook/assets/image (2).png>) --->  ![](<../../.gitbook/assets/image (5).png>)
+
+* 아래는 큰돌님의 <[CS 지식의 정석](https://www.inflearn.com/course/%EA%B0%9C%EB%B0%9C%EC%9E%90-%EB%A9%B4%EC%A0%91-cs-%ED%8A%B9%EA%B0%95)> 강의를 보면서 참고한 코드입니다. &#x20;
 
 ### DI 적용하지 않고 바로 구현했을 때&#x20;
 

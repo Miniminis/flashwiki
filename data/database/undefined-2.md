@@ -27,7 +27,7 @@
 * 노드는 네트워크 상에 있으며 서로 대등한 관계를 맺는다. &#x20;
 * 계층형의 단점이었던 중복, 상하 종속 관계를 해결했다.&#x20;
 
-<figure><img src="../../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (6) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### 특징&#x20;
 
@@ -63,7 +63,7 @@
 * 테이블간의 관계를 표현한 그림이다.&#x20;
 * 논리모델과 물리모델이 있다.&#x20;
 
-<figure><img src="../../.gitbook/assets/image (1) (1).png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (3).png" alt="" width="375"><figcaption></figcaption></figure>
 
 ### 관계형 데이터베이스는 왜 필요한가?&#x20;
 
@@ -71,7 +71,7 @@
 
 ### 관계형 데이터베이스의 종류&#x20;
 
-<figure><img src="../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (3) (8).png" alt=""><figcaption></figcaption></figure>
 
 ## 5. NoSQL - RDB
 
@@ -84,5 +84,5 @@
   * 관계형 데이터에서는 트랜잭션 중요한 데이터 위주&#x20;
   * NoSQL에서는 로그성 데이터, 형태가 정의되어있지는 않지만 빠르게 사용이 가능한 데이터 위주&#x20;
 
-<figure><img src="../../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (4) (10).png" alt=""><figcaption></figcaption></figure>
 

@@ -12,7 +12,7 @@ description: 유클리드 호제법
 
 {% embed url="https://youtube.com/watch?v=Obs-HC5j5bI&feature=shares" %}
 
-<figure><img src="../../../../.gitbook/assets/image (5) (1) (3).png" alt=""><figcaption><p>수학채널 쑤튜브 </p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (5) (1) (3) (1).png" alt=""><figcaption><p>수학채널 쑤튜브 </p></figcaption></figure>
 
 * 결국, 최대공약수는 두 수의 약수들 중 공통적으로 가지고 있는 약수 중 최대값을 의미한다.&#x20;
   * 다른 방식으로 말하자면, 두 수가 각각 나눗셈을 했을 때, 공통으로 나누어 떨어지는 수 중에 가장 큰 수
