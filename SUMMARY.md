@@ -522,6 +522,7 @@
 ## 😎 OTHERS
 
 * [Helpful Command](others/helpful-commands/README.md)
+  * [Mac 에서 특정 포트 검색, 종료](others/helpful-commands/mac.md)
   * [crontab](others/helpful-commands/crontab.md)
 * [Llibrary](others/libraries.md)
 * [IntelliJ](others/intellij/README.md)
