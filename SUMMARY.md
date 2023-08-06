@@ -132,6 +132,7 @@
     * [경제위기](finance/page-5/undefined-7.md)
 * [Review](writings/review/README.md)
   * [2023](writings/review/2023/README.md)
+    * [2023년 8월 1주차](writings/review/2023/2023-8-1.md)
     * [2023년 7월 4주차](writings/review/2023/2023-7-4.md)
     * [2023년 7월 3주차](writings/review/2023/2023-7-3.md)
     * [2023년 7월 2주차](writings/review/2023/2023-7-2.md)
