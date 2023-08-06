@@ -4,7 +4,7 @@ description: 누적 구독자 2,500명을 보유한 국제개발협력 청년 �
 
 # 공적인사적모임 플랫폼 프로젝트
 
-<figure><img src="../../.gitbook/assets/image (128).png" alt=""><figcaption><p>공적인사적모임 플랫폼 메인 화면</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (128).png" alt=""><figcaption><p>공적인사적모임 플랫폼 메인 화면</p></figcaption></figure>
 
 ## 기간
 
@@ -61,9 +61,9 @@ description: 누적 구독자 2,500명을 보유한 국제개발협력 청년 �
 
 그 결과, 다행히도 기획 설명회에 참여한 팀원들은 프로젝트의 취지와 의도에 공감해주었고, 홈페이지가 필요한 이유에 대해서도 이해하게 되었고 프로젝트는 계속 진행될 수 있었습니다.&#x20;
 
-<figure><img src="../../.gitbook/assets/Group 22.png" alt=""><figcaption><p>기획설명회 전 리마인드 슬랙 메시지</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Group 22.png" alt=""><figcaption><p>기획설명회 전 리마인드 슬랙 메시지</p></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (2) (10).png" alt=""><figcaption><p>기획 설명을 위한 PPT</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (2) (10).png" alt=""><figcaption><p>기획 설명을 위한 PPT</p></figcaption></figure>
 
 ### **2) 신규 팀원 모집 & 아웃바운드 모집**&#x20;
 
@@ -71,13 +71,13 @@ description: 누적 구독자 2,500명을 보유한 국제개발협력 청년 �
 
 커리어리, 인프런, OKKY 등 다양한 채널을 통해 디자이너, 개발자 팀원들을 추가적으로 모집했습니다. 디자이너 포지션의 경우, 좀처럼 지원자가 없었기에, 직접 아웃바운드로 메시지를 걸어 접근해보는 시도도 했습니다.&#x20;
 
-![](<../../.gitbook/assets/Group 23.png>) ![](<../../.gitbook/assets/Group 25.png>)
+![](<../../../.gitbook/assets/Group 23.png>) ![](<../../../.gitbook/assets/Group 25.png>)
 
 ### **3) QA Driven Development 방식으로 스프린트 진행**&#x20;
 
 프로젝트 기획 단계에서 [카카오 프론트엔드 챕터 리드인 테오님이 추천하는 스프린트 방식](https://velog.io/@teo/%EC%B9%B4%EC%B9%B4%EC%98%A4%EC%9B%8C%ED%81%AC-%EC%BA%98%EB%A6%B0%EB%8D%94%ED%8C%80%EC%97%90%EC%84%9C-%EC%82%AC%EC%9A%A9%ED%95%9C-figma%EB%A5%BC-%EC%9D%B4%EC%9A%A9%ED%95%9C-%EA%B8%B0%ED%9A%8D-%EB%94%94%EC%9E%90%EC%9D%B4%EB%84%88-QA-%EA%B0%9C%EB%B0%9C-%EB%B0%A9%EB%B2%95)을 알게 되었습니다. 짧은 시간안에 빠르게 기획부터 QA까지 진행할 수 있는 방법인데, 저희 팀에서 진행하면 좋겠다는 생각이 들어 팀 내에 공유했더니 다행히 좋은 반응을 얻어 이번 프로젝트에는 기획-디자인-개발-테스트까지 함께 TDD 방식으로 스프린트를 진행하게 되었습니다.&#x20;
 
-<figure><img src="../../.gitbook/assets/image (3) (13).png" alt=""><figcaption><p>기획서 상 디스크립션을 TDD 방식으로 적어서 QA를 통과하듯 바로바로 개발 및 테스트 현황을 알 수 있도록 구성  </p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (3) (13).png" alt=""><figcaption><p>기획서 상 디스크립션을 TDD 방식으로 적어서 QA를 통과하듯 바로바로 개발 및 테스트 현황을 알 수 있도록 구성  </p></figcaption></figure>
 
 ### **4) 홈페이지 기획**
 
@@ -85,7 +85,7 @@ description: 누적 구독자 2,500명을 보유한 국제개발협력 청년 �
 
 기획 중, 지난 뉴스레터 목록을 홈페이지 내부에서 볼 수 있도록 하는 부분에서는 스티비 API 상에서 제공되는 것이 없어서 개발자 분들과 상의 후 주기적 크롤링을 통해 자체 DB를 구축하여 API 로 조회하는 방식으로 진행하기로 했습니다. &#x20;
 
-<figure><img src="../../.gitbook/assets/image (127).png" alt=""><figcaption><p>피그마로 작성한 화면기획서</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (127).png" alt=""><figcaption><p>피그마로 작성한 화면기획서</p></figcaption></figure>
 
 ### **5) 프로젝트 및 이슈 관리**&#x20;
 
@@ -93,7 +93,7 @@ description: 누적 구독자 2,500명을 보유한 국제개발협력 청년 �
 
 팀 온보딩, 프로젝트에 대한 관리, 회의록, 이슈관리까지 모두 노션을 이용하여 진행했습니다.&#x20;
 
-<figure><img src="../../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## 결과&#x20;
 

@@ -4,7 +4,7 @@ description: 회사 내 빵 전문가 동료의 억울함을 풀어주기 위해
 
 # 서울 빵 맛집 잘알 테스트
 
-<figure><img src="../.gitbook/assets/Frame 23.png" alt=""><figcaption><p>2,200명이 참여했던 서울 빵 맛집잘알 인증 테스트</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Frame 23.png" alt=""><figcaption><p>2,200명이 참여했던 서울 빵 맛집잘알 인증 테스트</p></figcaption></figure>
 
 ## 기간
 
@@ -45,13 +45,13 @@ description: 회사 내 빵 전문가 동료의 억울함을 풀어주기 위해
 
 테스트를 만들기 위해서는 질문지가 필요합니다. 신뢰성을 더하기 위해 식품의약품안전처 식품통계 '[빵이야기](https://www.mfds.go.kr/brd/m\_629/view.do?seq=13\&srchFr=\&srchTo=\&srchWord=\&srchTp=\&itm\_seq\_1=0\&itm\_seq\_2=0\&multi\_itm\_seq=0\&company\_cd=\&company\_nm=\&page=1)' 데이터를 참고했고, 동시에 트렌디함도 놓치지 않기 위해 인스타그램의 인기 빵 맛집 계정들을 참고하여 테스트 질문지 12개를 만들었습니다.&#x20;
 
-<figure><img src="../.gitbook/assets/Frame 24.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Frame 24.png" alt=""><figcaption></figcaption></figure>
 
 ### **2) 사용자에게 익숙한 MBTI 테스트 형식으로 웹 페이지를 제작**
 
 빵 모양 일러스트를 주로 사용하여 전체적으로 빵에 대한 컨셉과 귀여움을 살렸고 많은 사람들이 익숙한 MBTI 테스트 형식처럼 화면을 구성하여 속도감 있게 테스트를 진행할 수 있도록 하였습니다.&#x20;
 
-<figure><img src="../.gitbook/assets/image (120) (1).png" alt=""><figcaption><p>한 개의 질문당 하나의 화면에 노출될 수 있도록 구성</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (120) (1).png" alt=""><figcaption><p>한 개의 질문당 하나의 화면에 노출될 수 있도록 구성</p></figcaption></figure>
 
 ### **3) 전문가 입증을 위한 ‘빵 맛집 전문가’ 인증서 발급**
 
@@ -61,7 +61,7 @@ description: 회사 내 빵 전문가 동료의 억울함을 풀어주기 위해
 
 총 12개의 질문 중, 9개 이상 정답을 맞추었다면, '빵지순례좌' 인증서를, 5개 이상의 정답을 맞췄다면, '빵린이' 인증서를, 그리고 그 이외의 사람들에게는 인증서 발급 실패 화면을 노출하도록 구성하였습니다.&#x20;
 
-<figure><img src="../.gitbook/assets/image (137).png" alt=""><figcaption><p>맞춘 답의 개수별로 차등 발급하는 빵 맛집 전문가 인증서. 휴대폰으로 다운로드도 가능하고, 링크를 복사하여 친구에게 자랑할수도 있다. </p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (137).png" alt=""><figcaption><p>맞춘 답의 개수별로 차등 발급하는 빵 맛집 전문가 인증서. 휴대폰으로 다운로드도 가능하고, 링크를 복사하여 친구에게 자랑할수도 있다. </p></figcaption></figure>
 
 ### **4) 다이렉트 마케팅 진행**
 
@@ -76,7 +76,7 @@ description: 회사 내 빵 전문가 동료의 억울함을 풀어주기 위해
 
 > 총 2,200명의 방문자, 2,069 건의 참여 기록&#x20;
 
-<figure><img src="../.gitbook/assets/image (114).png" alt=""><figcaption><p>총 2,200명의 방문자, 2,069 건의 참여 기록 </p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (114).png" alt=""><figcaption><p>총 2,200명의 방문자, 2,069 건의 참여 기록 </p></figcaption></figure>
 
 테스트를 만들어 배포한 뒤, 약 2개월간의 데이터를 모아봤습니다. 결과적으로는 **총 방문자 수 2,200명, 총 테스트 참여건수 2,069건을 기록하며** 기대 이상의 참여도를 확인할 수 있었습니다.&#x20;
 

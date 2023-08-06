@@ -1,12 +1,29 @@
-# 🔖 booklist
+# Bookcord
 
-## 0. 책 추천사&#x20;
+## 책 추천사 모음 &#x20;
 
 * [퍼블리 프로덕트 팀이 추천하는 PM 필독서](https://blog.careerly.co.kr/pm-books-and-articles/)
 * [백앤드 웹개발자의 책&강의 정리](https://velog.io/@mooh2jj/%EC%9B%B9%EA%B0%9C%EB%B0%9C%EC%9E%90%EC%9D%98-%EC%B1%85%EA%B0%95%EC%9D%98-%EC%A0%95%EB%A6%AC)
 * [PM이 읽으면 좋을 책 8가지](https://brunch.co.kr/@ny0303/96)
 
-## 1. 읽고 싶은 책 목록
+## 2023년
+
+1. [less-than-greater-than.md](../product-management/pm-po/less-than-greater-than.md "mention")
+2. [less-than-greater-than.md](../product-management/product-market-fit/less-than-greater-than.md "mention")
+3. [less-than-greater-than-1.md](../product-management/business-growth/less-than-greater-than-1.md "mention")
+4. [less-than-greater-than.md](../product-management/business-growth/less-than-greater-than.md "mention")
+5. [less-than-greater-than-1.md](../product-management/pm-po/less-than-greater-than-1.md "mention")
+6. [less-than-greater-than-2.md](../product-management/business-growth/less-than-greater-than-2.md "mention")
+7. [less-than-greater-than.md](philosophy/less-than-greater-than.md "mention")
+8. [undefined-12.md](../product-management/business-growth/undefined-12.md "mention")
+9. [undefined-11.md](../product-management/business-growth/undefined-11.md "mention")
+10. [undefined-8.md](../product-management/business-growth/undefined-8.md "mention")
+11. [undefined-9.md](../product-management/business-growth/undefined-9.md "mention")
+12. [undefined-1.md](philosophy/undefined-1.md "mention")
+13. [by-1.md](../product-management/business-growth/by-1.md "mention")
+14. [by.md](../devtalk/insight/by.md "mention")
+
+## 읽고 싶은 책 목록&#x20;
 
 * [ ] 순서파괴, Working Backwards by 콜린 브라이어, 빌카&#x20;
 * [ ] 주식시장을 이기는 작은 책
@@ -21,7 +38,6 @@
 * [ ] 에이트
 * [ ] 운과 실력의 성공방정식
 * [ ] 울트라 러닝
-* [x] 원씽
 * [ ] 정리하는 뇌
 * [ ] 지능의 사생활
 * [ ] 클루지
@@ -120,14 +136,12 @@
 * [ ] 창업의 과학&#x20;
 * [ ] 제로 투 원&#x20;
 * [ ] 전략의 적은 전략이다 - Rechard Rumelt&#x20;
-* [x] 임파워드&#x20;
-* [ ] 일의 언어&#x20;
-* [ ] 인스파이어드&#x20;
-* [ ] 아이디어 불패의 법칙&#x20;
+* [ ] 임파워드&#x20;
+* [ ] 일의 언어 &#x20;
 * [ ] 스프린트&#x20;
 * [ ] 사용자를 사로잡는 UX/UI 실전 가이드&#x20;
 * [ ] 블리츠 스케일링&#x20;
-* [ ] 브런치 북 <공대생,기획자로 살아남기> 리뷰
+* [ ] 브런치 북 <공대생,기획자로 살아남기>
 * [ ] 변화는 어떻게 일어나는가&#x20;
 * [ ] 마스터 오브 스케일&#x20;
 * [ ] 실전 UX&#x20;
