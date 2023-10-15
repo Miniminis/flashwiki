@@ -1,6 +1,6 @@
 # Table of contents
 
-* [👵 README](README.md)
+* [⚡ README](README.md)
 
 ## 😃 ME
 
@@ -74,6 +74,7 @@
   * [책 <현업 기획자 도그냥의 서비스 기획 스쿨>](product-management/service-planning-analysis/undefined-5.md)
   * [기획서 작성하기](product-management/service-planning-analysis/undefined-5-1.md)
 * [Business/Growth](product-management/business-growth/README.md)
+  * [Unsexy Business 뉴스레터에서 얻는 인사이트](product-management/business-growth/unsexy-business.md)
   * [책 <원씽>](product-management/business-growth/less-than-greater-than.md)
   * [책 <아프리카 스타트업>](product-management/business-growth/less-than-greater-than-1.md)
   * [책 <유난한 도전>](product-management/business-growth/less-than-greater-than-2.md)
