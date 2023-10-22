@@ -1,5 +1,5 @@
 ---
-description: 큰손할매의 두번째 뇌
+description: 플래시의 세컨브레인
 ---
 
 # ⚡ README
