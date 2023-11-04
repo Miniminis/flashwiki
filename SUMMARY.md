@@ -27,6 +27,7 @@
 * [Bookcord](me/bookcord.md)
 * [Review](me/review/README.md)
   * [2023](me/review/2023/README.md)
+    * [장애, 동료, 새로운 프로젝트](me/review/2023/undefined.md)
     * [2차 수습리뷰, 동료피드백, 환갑](me/review/2023/2.md)
     * [2023년 9월 4주차](me/review/2023/2023-9-4.md)
     * [2023년 9월 3주차](me/review/2023/2023-9-3.md)
