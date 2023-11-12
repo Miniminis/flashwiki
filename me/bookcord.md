@@ -21,7 +21,7 @@
 9. [undefined-11.md](../product-management/business-growth/undefined-11.md "mention")
 10. [undefined-8.md](../product-management/business-growth/undefined-8.md "mention")
 11. [undefined-9.md](../product-management/business-growth/undefined-9.md "mention")
-12. [undefined-1.md](philosophy/undefined-1.md "mention")
+12. [undefined-1-1.md](philosophy/undefined-1-1.md "mention")
 13. [by-1.md](../product-management/business-growth/by-1.md "mention")
 14. [by.md](../devtalk/insight/by.md "mention")
 
