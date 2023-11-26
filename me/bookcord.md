@@ -11,7 +11,7 @@
 ## 2023년
 
 1. [less-than-greater-than.md](../product-management/pm-po/less-than-greater-than.md "mention")
-2. [less-than-greater-than.md](../product-management/product-market-fit/less-than-greater-than.md "mention")
+2. [less-than-greater-than-1.md](../product-management/product-market-fit/less-than-greater-than-1.md "mention")
 3. [less-than-greater-than-1.md](../product-management/business-growth/less-than-greater-than-1.md "mention")
 4. [less-than-greater-than.md](../product-management/business-growth/less-than-greater-than.md "mention")
 5. [less-than-greater-than-1.md](../product-management/pm-po/less-than-greater-than-1.md "mention")
