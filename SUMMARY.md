@@ -147,13 +147,14 @@
     * [<프로덕트 오너> PO의 시간관리법](product-management/pm-po/undefined-7/bookcord-po-01.md)
     * [<프로덕트 오너> PO가 데이터 기반으로 일할 수 밖에 없는 이유](product-management/pm-po/undefined-7/bookcord-po-02.md)
 
-## 🛠 NoCode
+## 🛠 skill
 
-* [크롤링](nocode/undefined/README.md)
-  * [Automatio](nocode/undefined/automatio.md)
-  * [Octoparse](nocode/undefined/octoparse.md)
-* [북마크 & 노코드 서비스 목록](nocode/and.md)
-* [노코드란](nocode/undefined-1.md)
+* [ChatGPT 활용하기](skill/chatgpt.md)
+* [크롤링](skill/undefined/README.md)
+  * [Automatio](skill/undefined/automatio.md)
+  * [Octoparse](skill/undefined/octoparse.md)
+* [북마크 & 노코드 서비스 목록](skill/and.md)
+* [노코드란](skill/undefined-1.md)
 
 ## 💾 Data
 
