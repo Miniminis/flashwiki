@@ -29,6 +29,7 @@
 * [Bookcord](me/bookcord.md)
 * [Review](me/review/README.md)
   * [2023](me/review/2023/README.md)
+    * [2023년 12월 4주차](me/review/2023/2023-12-4.md)
     * [2023년 12월 3주차](me/review/2023/2023-12-3.md)
     * [2023년 12월 2주차](me/review/2023/2023-12-2.md)
     * [2023년 12월 3일](me/review/2023/2023-12-3-1.md)

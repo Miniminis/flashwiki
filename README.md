@@ -6,7 +6,7 @@ description: 큰손할매의 서재에 오신 것을 환영합니다
 
 > [**minhee4735@gmail.com**](mailto:minhee4735@gmail.com)
 >
-> [**Profile**](https://my.surfit.io/w/1272653123) **|** [**LinkedIn**](https://www.linkedin.com/in/minhee-son-3b2a1016a) **|** [**Brunch**](https://brunch.co.kr/@nomadflash) **|** [**Github**](https://github.com/miniminis) **|** [**Youtube**](https://www.youtube.com/@devgrandma) &#x20;
+> [**Profile**](https://my.surfit.io/w/1272653123) **|** [**LinkedIn**](https://www.linkedin.com/in/minhee-son-3b2a1016a) **|** [**Brunch**](https://brunch.co.kr/@nomadflash)&#x20;
 
 ## <mark style="color:orange;">안녕하세요, 큰손할매입니다.</mark>&#x20;
 
