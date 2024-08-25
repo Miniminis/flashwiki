@@ -28,6 +28,8 @@
   * [책 <붕대감기>](me/philosophy/undefined-3-1.md)
 * [Bookcord](me/bookcord.md)
 * [Review](me/review/README.md)
+  * [2024](me/review/2024/README.md)
+    * [잃어버린 보물창고를 발견하다](me/review/2024/undefined.md)
   * [2023](me/review/2023/README.md)
     * [2023년 12월 4주차](me/review/2023/2023-12-4.md)
     * [2023년 12월 3주차](me/review/2023/2023-12-3.md)
@@ -70,7 +72,7 @@
   * [Early Bird Morning Club](me/others/early-bird-morning-club/README.md)
     * [홍보를 곁들인 2주일 운영후기](me/others/early-bird-morning-club/early-bird-club-2nd-week.md)
 
-## 🧑🌾 product management
+## 🧑‍🌾 product management
 
 * [Service Planning/Analysis](product-management/service-planning-analysis/README.md)
   * [baemin mart](product-management/service-planning-analysis/baemin-mart/README.md)
@@ -150,7 +152,7 @@
     * [<프로덕트 오너> PO의 시간관리법](product-management/pm-po/undefined-7/bookcord-po-01.md)
     * [<프로덕트 오너> PO가 데이터 기반으로 일할 수 밖에 없는 이유](product-management/pm-po/undefined-7/bookcord-po-02.md)
 
-## 🛠 skill
+## 🛠️ skill
 
 * [ChatGPT 활용하기](skill/chatgpt.md)
 * [크롤링](skill/undefined/README.md)
@@ -191,9 +193,9 @@
   * [특정 값을 ORDER BY 특정 값 우선 정렬 하기 (ORDER BY FIELD)](data/mysql/order-by-order-by-field.md)
   * [이것이 MySQL이다](data/mysql/thisismysql-sqls.md)
 * [H2](data/h2/README.md)
-  * [‼ h2 in-memory-db Table not found (this database is empty) 해결방법](data/h2/h2-in-memory-db-table-not-found-this-database-is-empty.md)
+  * [‼️ h2 in-memory-db Table not found (this database is empty) 해결방법](data/h2/h2-in-memory-db-table-not-found-this-database-is-empty.md)
 
-## 🗣 devtalk
+## 🗣️ devtalk
 
 * [Webmark](writings/insight/webmark.md)
 * [Insight](devtalk/insight/README.md)
@@ -218,7 +220,7 @@
 * [Open Source](devtalk/opensource/README.md)
   * [나의 첫 opensource contribution 경험기](devtalk/opensource/opensource-hexo.md)
 
-## 🏗 computer science <a href="#cs" id="cs"></a>
+## 🏗️ computer science <a href="#cs" id="cs"></a>
 
 * [Algorithm & Data Structure](cs/algorithm-and-data-structure/README.md)
   * [About this page](cs/algorithm-and-data-structure/about-this-page.md)
@@ -570,6 +572,6 @@
   * [git commit convention](others/git/git-commit-convention.md)
 * [Logging](others/logging/README.md)
   * [logback + webfilter 로 로그설정](others/logging/logback-+-webfilter.md)
-  * [‼ log4j 보안 이슈](others/logging/log4j-security-issue.md)
+  * [‼️ log4j 보안 이슈](others/logging/log4j-security-issue.md)
 * [Postman](others/postman/README.md)
   * [postman 의 header에서 언더바(\_) 변수 인식 안되는 현상](others/postman/postman-header-\_.md)

@@ -6,28 +6,9 @@
 * [백앤드 웹개발자의 책&강의 정리](https://velog.io/@mooh2jj/%EC%9B%B9%EA%B0%9C%EB%B0%9C%EC%9E%90%EC%9D%98-%EC%B1%85%EA%B0%95%EC%9D%98-%EC%A0%95%EB%A6%AC)
 * [PM이 읽으면 좋을 책 8가지](https://brunch.co.kr/@ny0303/96)
 {% endtab %}
-{% endtabs %}
 
-## 2023년
-
-1. [less-than-greater-than.md](../product-management/pm-po/less-than-greater-than.md "mention")
-2. [less-than-greater-than-1.md](../product-management/product-market-fit/less-than-greater-than-1.md "mention")
-3. [less-than-greater-than-1.md](../product-management/business-growth/less-than-greater-than-1.md "mention")
-4. [less-than-greater-than.md](../product-management/business-growth/less-than-greater-than.md "mention")
-5. [less-than-greater-than-1.md](../product-management/pm-po/less-than-greater-than-1.md "mention")
-6. [less-than-greater-than-2.md](../product-management/business-growth/less-than-greater-than-2.md "mention")
-7. [less-than-greater-than.md](philosophy/less-than-greater-than.md "mention")
-8. [undefined-12.md](../product-management/business-growth/undefined-12.md "mention")
-9. [undefined-11.md](../product-management/business-growth/undefined-11.md "mention")
-10. [undefined-8.md](../product-management/business-growth/undefined-8.md "mention")
-11. [undefined-9.md](../product-management/business-growth/undefined-9.md "mention")
-12. [undefined-1-1.md](philosophy/undefined-1-1.md "mention")
-13. [by-1.md](../product-management/business-growth/by-1.md "mention")
-14. [by.md](../devtalk/insight/by.md "mention")
-
-## 읽고 싶은 책 목록&#x20;
-
-* [ ] 순서파괴, Working Backwards by 콜린 브라이어, 빌카&#x20;
+{% tab title="WISHLIST" %}
+* [ ] 순서파괴, Working Backwards by 콜린 브라이어, 빌카
 * [ ] 주식시장을 이기는 작은 책
 * [ ] 그릿
 * [ ] 끌어당김의 법칙
@@ -148,7 +129,6 @@
 * [ ] 마스터 오브 스케일&#x20;
 * [ ] 실전 UX&#x20;
 * [ ] 린 스타트업&#x20;
-* [ ] 린 스타트업&#x20;
 * [ ] 린 분석&#x20;
 * [ ] 린 고객 개발&#x20;
 * [ ] 린 UX&#x20;
@@ -164,5 +144,29 @@
 * [ ] start with why 나는 왜 이일을 하는가&#x20;
 * [ ] Shape up by Ryan Singer&#x20;
 * [ ] Sam Altman의 스타트업 플레이북&#x20;
-* [ ] Sam Altman의 스타트업 플레이북
 * [ ] How to Speack Machine - 제품의 언어 by John Maeda
+{% endtab %}
+{% endtabs %}
+
+## 2024년&#x20;
+
+1.
+
+
+
+## 2023년
+
+1. [less-than-greater-than.md](../product-management/pm-po/less-than-greater-than.md "mention")
+2. [less-than-greater-than-1.md](../product-management/product-market-fit/less-than-greater-than-1.md "mention")
+3. [less-than-greater-than-1.md](../product-management/business-growth/less-than-greater-than-1.md "mention")
+4. [less-than-greater-than.md](../product-management/business-growth/less-than-greater-than.md "mention")
+5. [less-than-greater-than-1.md](../product-management/pm-po/less-than-greater-than-1.md "mention")
+6. [less-than-greater-than-2.md](../product-management/business-growth/less-than-greater-than-2.md "mention")
+7. [less-than-greater-than.md](philosophy/less-than-greater-than.md "mention")
+8. [undefined-12.md](../product-management/business-growth/undefined-12.md "mention")
+9. [undefined-11.md](../product-management/business-growth/undefined-11.md "mention")
+10. [undefined-8.md](../product-management/business-growth/undefined-8.md "mention")
+11. [undefined-9.md](../product-management/business-growth/undefined-9.md "mention")
+12. [undefined-1-1.md](philosophy/undefined-1-1.md "mention")
+13. [by-1.md](../product-management/business-growth/by-1.md "mention")
+14. [by.md](../devtalk/insight/by.md "mention")

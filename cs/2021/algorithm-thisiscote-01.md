@@ -72,7 +72,7 @@ category: algorithm
 \
 
 
-
+***
 
 ## 알고리즘의 성능 평가
 
@@ -163,7 +163,7 @@ print("time:", end_time - start_time) # 수행 시간 출력
 \
 
 
-
+***
 
 ## 자료형
 
@@ -621,7 +621,7 @@ print(data)   # {1, 2, 3, 4, 5, 34, 9}
 \
 
 
-
+***
 
 ## 기본 입출력
 
@@ -699,7 +699,7 @@ print(f"the answer is {answer} !")
 \
 
 
-
+***
 
 ## 조건문
 
@@ -785,7 +785,7 @@ for i in range(len(scores)):
 \
 
 
-
+***
 
 ## 함수
 
@@ -878,7 +878,7 @@ print(list(result))
 \
 
 
-
+***
 
 ## 유용한 표준 라이브러리
 
