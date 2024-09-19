@@ -30,6 +30,7 @@
 * [Bookcord](me/bookcord.md)
 * [Review](me/review/README.md)
   * [2024](me/review/2024/README.md)
+    * [2024년 9월 3주차 (38/52)](me/review/2024/2024-9-3-38-52.md)
     * [2024년 9월 2주차 (37/52)](me/review/2024/2024-9-2-37-52.md)
     * [2024년 9월 1주차 (36/52)](me/review/2024/2024-9-1-36-52.md)
     * [2024년 8월 4주차 (35/52)](me/review/2024/2024-8-4-35-52.md)
