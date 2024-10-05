@@ -1,10 +1,8 @@
 ---
-description: 미니위키에 오신 것을 환영합니다
+description: 큰손할매의 서재에 오신 것을 환영합니다
 ---
 
 # ⚡ README
-
-
 
 > [**minhee4735@gmail.com**](mailto:minhee4735@gmail.com)
 >

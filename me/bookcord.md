@@ -1,4 +1,4 @@
-# Bookcord
+# Bookcord
 
 {% tabs %}
 {% tab title="RECOMMENDATIONS" %}
@@ -164,17 +164,25 @@
 
 ## 2023년
 
-1. [less-than-greater-than.md](../product-management/pm-po/less-than-greater-than.md "mention")
-2. [less-than-greater-than-1.md](../product-management/product-market-fit/less-than-greater-than-1.md "mention")
-3. [less-than-greater-than-1.md](../product-management/business-growth/less-than-greater-than-1.md "mention")
-4. [less-than-greater-than.md](../product-management/business-growth/less-than-greater-than.md "mention")
-5. [less-than-greater-than-1.md](../product-management/pm-po/less-than-greater-than-1.md "mention")
-6. [less-than-greater-than-2.md](../product-management/business-growth/less-than-greater-than-2.md "mention")
-7. [less-than-greater-than.md](philosophy/less-than-greater-than.md "mention")
-8. [undefined-12.md](../product-management/business-growth/undefined-12.md "mention")
-9. [undefined-11.md](../product-management/business-growth/undefined-11.md "mention")
-10. [undefined-8.md](../product-management/business-growth/undefined-8.md "mention")
-11. [undefined-9.md](../product-management/business-growth/undefined-9.md "mention")
-12. [undefined-1-1.md](philosophy/undefined-1-1.md "mention")
-13. [by-1.md](../product-management/business-growth/by-1.md "mention")
-14. [by.md](../devtalk/insight/by.md "mention")
+
+
+## 2023년
+
+1. 책 <쇼펜하우어 아포리즘 - 왜 당신의 인생이 힘들지 않아야 한다고 생각하십니까>
+2. 책 <비전공자도 이해할 수 있는 AI 지식>&#x20;
+3. 책 <금메달리스트의 메모의 이유>
+4. 책 <언제까지 이따위로 살 텐가?>&#x20;
+5. [less-than-greater-than.md](../product-management/pm-po/less-than-greater-than.md "mention")
+6. [less-than-greater-than-1.md](../product-management/product-market-fit/less-than-greater-than-1.md "mention")
+7. [less-than-greater-than-1.md](../product-management/business-growth/less-than-greater-than-1.md "mention")
+8. [less-than-greater-than.md](../product-management/business-growth/less-than-greater-than.md "mention")
+9. [less-than-greater-than-1.md](../product-management/pm-po/less-than-greater-than-1.md "mention")
+10. [less-than-greater-than-2.md](../product-management/business-growth/less-than-greater-than-2.md "mention")
+11. [less-than-greater-than.md](philosophy/less-than-greater-than.md "mention")
+12. [undefined-12.md](../product-management/business-growth/undefined-12.md "mention")
+13. [undefined-11.md](../product-management/business-growth/undefined-11.md "mention")
+14. [undefined-8.md](../product-management/business-growth/undefined-8.md "mention")
+15. [undefined-9.md](../product-management/business-growth/undefined-9.md "mention")
+16. [undefined-1-1.md](philosophy/undefined-1-1.md "mention")
+17. [by-1.md](../product-management/business-growth/by-1.md "mention")
+18. [by.md](../devtalk/insight/by.md "mention")
