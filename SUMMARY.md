@@ -4,7 +4,7 @@
 
 ## 😃 ME
 
-* [Philosophy](me/philosophy/README.md)
+* [Thought](me/philosophy/README.md)
   * [글쓰기](me/philosophy/undefined.md)
   * [이상적인 하루](me/philosophy/undefined-1.md)
   * [나와 아프리카](me/philosophy/undefined-2.md)
@@ -30,10 +30,9 @@
   * [책 <여행의 이유>](me/philosophy/book-whyitravel.md)
   * [책 <붕대감기>](me/philosophy/undefined-3-1.md)
 * [Bookcord](me/bookcord.md)
-* [Day6](me/day6/README.md)
-  * [Happy](me/day6/happy.md)
 * [Review](me/review/README.md)
   * [2024](me/review/2024/README.md)
+    * [Page](me/review/2024/page.md)
     * [2024년 10월 1주차 (40/52)](me/review/2024/2024-10-1-40-52.md)
     * [2024년 9월 4주차 (39/52)](me/review/2024/2024-9-4-39-52.md)
     * [2024년 9월 3주차 (38/52)](me/review/2024/2024-9-3-38-52.md)
@@ -85,6 +84,10 @@
   * [서울 빵 맛집 잘알 테스트](me/mini-project/undefined-2.md)
   * [Early Bird Morning Club](me/mini-project/early-bird-morning-club/README.md)
     * [홍보를 곁들인 2주일 운영후기](me/mini-project/early-bird-morning-club/early-bird-club-2nd-week.md)
+* [What I Love](me/what-i-love/README.md)
+  * [Day6](me/what-i-love/day6/README.md)
+    * [Sweet Chaos](me/what-i-love/day6/sweet-chaos.md)
+    * [Happy](me/what-i-love/day6/happy.md)
 
 ## 🧑‍🌾 product management
 

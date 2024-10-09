@@ -1,8 +1,6 @@
----
-description: 이른 새벽 출근길 그 삭막한 2호선 지하철에서 이 노래를 듣고 울뻔했다.
----
-
 # Happy
+
+{% embed url="https://youtu.be/gqh2oXaCHMA?si=HXqMI9D1cAV1dTmx" %}
 
 그런 날이 있을까요. 마냥 좋은 그런 날이요. 내일 걱정 하나없이 웃게 되는 그런 날이요.&#x20;
 
